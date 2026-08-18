@@ -3,22 +3,81 @@
     {
       "label": "Fed",
       "query": "Federal Reserve faiz kararı",
-      "items": [],
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Federal+Reserve+faiz+karar%C4%B1&hl=en-US&gl=US&ceid=US%3Aen"
+      "items": []
     },
     {
       "label": "Kripto",
       "query": "Bitcoin ETF",
-      "items": [],
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Bitcoin+ETF&hl=en-US&gl=US&ceid=US%3Aen"
+      "items": [
+        {
+          "title": "Strategy (NASDAQ: MSTR) Lags Bitcoin ETF By Nine Points As Dollar Reserve Climbs To $4.8 Billion - foreignpolicyjournal.com",
+          "source": "foreignpolicyjournal.com",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSG9VQVdHT2djZlBudWR4Y3pSYWhGa0FxbEVNaURBVjRUM1BRWjVPUm94OUdPX2UwT0F3dUpRX1I4cnNFUnVwMVJobWJYbGF1cmJuVWp2TUY4SXdtMUQyTUw3UzltMC1DM1BuODRneG9MVnFETnBUeEdubVhVNnhSTERKSzRwTXBMcHUwRENTZmd3MktkQXg0NEwwcmlOb19hUVluZHc2U3hFLVRncGVYYXdhRnJjRkVnbExfdDMwekpvWlFHMGxPbjJqb0FBY21YT01QSTBPaWg?oc=5",
+          "published_at": "2026-08-18T22:55:00+00:00"
+        },
+        {
+          "title": "Bitcoin volatility falls below Nasdaq as market activity hits multi-year low - FXStreet",
+          "source": "FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZjRET0xvQV94Q3FFVE5CLU5hMWtjb1JYckF3OGJtcFdfb2tzak5rQjhWa2JUOWE2dlFBaEk2S3h4a2xtSjJUQWRJM2VYeUU2ejBKcDNmb045bGFtSlhYTzV2Snd1aHJVZ0I1SW1OY29oVUpaalZQaHI3bmdXZHR0Z0RkVVJ1SzV6bXZkTmZPRWtMODFvb1JGTW1nbzk3OTBrWXBVRE9SMlppOG4tdVFlRXdKa0dsWGgweHZDXy10dURqWDZKb3I4Zkl3ZTU3dG91cVE?oc=5",
+          "published_at": "2026-08-18T20:59:40+00:00"
+        },
+        {
+          "title": "Bitcoin ETF flows jumped by $137 million, but it only recouped a third of recent losses - CryptoSlate",
+          "source": "CryptoSlate",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83TWJHaU91c1d4WVJGUFF0dzV1TFFaaE5USl9nd0lHR080V1JsWGdqb1hndXVFc05GbzBqMmJzR1kwS2ptV1RFWg?oc=5",
+          "published_at": "2026-08-18T19:05:54+00:00"
+        },
+        {
+          "title": "Bitcoin correction may be nearing an end with 8 of 12 capitulation signals flashing, VanEck says - The Block",
+          "source": "The Block",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcnZVNThEVnNnanlpZldVZzR0MTZIQXR0ZzVRZFZQTTNZRTNiXzRzWVZxeGdGeTZrek9vVTBCV09EMjdPVnBXeElOWEl6WUZacDd5em5FdkFjX1RDSldib0lWQ3pLVGc1cFRCbGRnOTMyNUUzSWNUR3FCdkhIYjRwSTRhaEVLRjl0Yi1SYk1RWE9HNmpXeTBNVHpCMGtnSm01YkZYMEI3VFg1dFNxWlhIWjhtNklvMEpaNlFNSzRqSjJnSDAtWkFJ?oc=5",
+          "published_at": "2026-08-18T18:49:15+00:00"
+        },
+        {
+          "title": "Intesa Sanpaolo Puts $966M Into SpaceX After 94% Bitcoin ETF Cut - Yellow.com",
+          "source": "Yellow.com",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MdTB0RVVmb3RwakJlQl9kRC1haG1KRzhNcWtuN1pscjhULUY2QldnN29FWURJQ3dkOG43YmNmS1JMazRLSW5PQ2dDWUJkV3FaTFNQeVdvc1BpYXVqRXhVdk9nYw?oc=5",
+          "published_at": "2026-08-18T18:23:10+00:00"
+        }
+      ]
     },
     {
       "label": "Piyasalar",
       "query": "stock market today",
-      "items": [],
-      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=stock+market+today&hl=en-US&gl=US&ceid=US%3Aen"
+      "items": [
+        {
+          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test - Investor's Business Daily",
+          "source": "Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
+          "published_at": "2026-08-18T22:38:00+00:00"
+        },
+        {
+          "title": "Up another 16% TODAY, see why this AI-picked medtech stock is now up +92% - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjVGQTlTd25mUWYzQ2xMZVZ0R1VyMEliWVpHa2JYMGF0NU9YREhaTzJiR0I2R1FxSW1DVk1PQWhPN2k0czYtNmVuVDA5SVRxQmlSOGFoQWJfMVJ3YWdlejgzREZOaHcxZlo3TU10MXpEOFNVNE5vdXhVa2I4dWNldUdSQVR3VGNaUzc1LTJPUHc4ZURxU0lCMExIZ1ZDV2Z4dWJLbHJpSEs0a3RReFZYSXNVQ0p5WXNYRFRtZHNnVUNfQXc?oc=5",
+          "published_at": "2026-08-18T22:30:45+00:00"
+        },
+        {
+          "title": "Asian Stocks Set for Losses as Bond Jitters Linger: Markets Wrap - Bloomberg.com",
+          "source": "Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYk94Z1FDZFo0amZJN1M1WGFVc1ZYTklnSS1ObnpQXy1vS3hWeTRob3pWcmFKV3E5X19jQXhMZzJyYWthZWV4NXZFNlJnZTVpRmVrcmk3YXFNYTJzWDZ3cXBRclBWSGJxVU1IRC1LMWN4czA3OUxkOVZJSFVzRmIzbjR0Z1UzWnltVnlhQ2xmc2txbDNy?oc=5",
+          "published_at": "2026-08-18T22:11:07+00:00"
+        },
+        {
+          "title": "AI, Electronics Firms Lead Stock Market Sell-Off; Is It Time To Deploy Cash Into Energy Firms? - Investor's Business Daily",
+          "source": "Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR3o5enA5Y21mUkdWY3ZLaTRxbVVac291d29RNVFlSkxIZjN1Mm81b0VheE5rUm9NSUlwUDhyd0RmRjBzd2pLMHVkck9DcHBnMktiOEZLWktNdmF0SmZILXRFWVg3YjNudXhuOTNVMnlUckpFZXFtQmp5Vl9vYzhVMDRHZVh3S2tuVTljemVIR2JxR3g2YkpTT3EwZzREYzRXTko1c0RZVVhidXVFSFRaUU12RGdVMHBkenc3QkpPSjcybDBqaFlia25kbmNIY3p1R1dVc2ltN0RVWl9YaEpTaw?oc=5",
+          "published_at": "2026-08-18T22:11:00+00:00"
+        },
+        {
+          "title": "Why Signet (SIG) Dipped More Than Broader Market Today - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa1RmQVhMb2RhM3BJemRrdVp3bF9FLUk3NmdyblVpRkNXMkVwTzVqWEpUbldrWFpLZm9KSGItYjB5VDZ1MGV1LUNiLVdNd2laN0w3b1RBdnQ0YWQxSFZESnJkT2REWFJkTE5hZmNhdTN1SUJnbWFuei1kcmxKRHlPOG83bHNYamN4RFZGYjFqZnBQZGVGb1E?oc=5",
+          "published_at": "2026-08-18T22:00:02+00:00"
+        }
+      ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-18T23:14:58.180331+00:00"
+  "generated_at": "2026-08-18T23:35:36.182519+00:00"
 }
