@@ -5,6 +5,24 @@ from common.report import safe_line, price_change_line, val_line, unavailable_no
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
 BINANCE_FAPI = "https://fapi.binance.com/fapi/v1"
 OKX_BASE = "https://www.okx.com/api/v5"
+BINANCE_HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+
+
+def _binance_probe():
+    try:
+        r = requests.get(
+            f"{BINANCE_FAPI}/ping",
+            timeout=6,
+            headers=BINANCE_HEADERS,
+        )
+        r.raise_for_status()
+        return {"ok": True, "status": r.status_code, "message": "Binance Futures erişimi başarılı"}
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else None
+        message = "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi" if status == 451 else str(e)
+        return {"ok": False, "status": status, "message": message}
+    except Exception as e:
+        return {"ok": False, "status": None, "message": str(e)[:180]}
 
 
 def _okx(path, params):
@@ -69,6 +87,7 @@ def _funding_value():
             f"{BINANCE_FAPI}/premiumIndex",
             params={"symbol": "BTCUSDT"},
             timeout=6,
+            headers=BINANCE_HEADERS,
         )
         r.raise_for_status()
         return float(r.json()["lastFundingRate"]) * 100, "Binance"
@@ -88,6 +107,7 @@ def _open_interest_value():
             f"{BINANCE_FAPI}/openInterest",
             params={"symbol": "BTCUSDT"},
             timeout=6,
+            headers=BINANCE_HEADERS,
         )
         r.raise_for_status()
         return float(r.json()["openInterest"]), "Binance"
@@ -135,6 +155,7 @@ def get_analysis_data():
         "funding_source": None,
         "open_interest_btc": None,
         "open_interest_source": None,
+        "binance_status": _binance_probe(),
     }
     try:
         r = requests.get(
