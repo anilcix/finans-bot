@@ -1,50 +1,160 @@
-"""AJAN 8: Top 200 coin hacim/OI tarayıcı."""
-import requests,time
-COINGECKO_BASE="https://api.coingecko.com/api/v3"; BINANCE_FAPI="https://fapi.binance.com"; BINANCE_DATA="https://fapi.binance.com/futures/data"
+"""AJAN 8: Top 200 coin hacim/OI tarayıcı — CoinGecko + Bybit."""
+import requests
+import time
+
+COINGECKO_BASE = "https://api.coingecko.com/api/v3"
+BYBIT_BASE = "https://api.bybit.com"
+
 
 def _top_200():
-    r=requests.get(f"{COINGECKO_BASE}/coins/markets",params={"vs_currency":"usd","order":"market_cap_desc","per_page":200,"page":1,"price_change_percentage":"24h"},timeout=20); r.raise_for_status(); return r.json()
+    r = requests.get(
+        f"{COINGECKO_BASE}/coins/markets",
+        params={
+            "vs_currency": "usd",
+            "order": "market_cap_desc",
+            "per_page": 200,
+            "page": 1,
+            "price_change_percentage": "24h",
+        },
+        timeout=20,
+    )
+    r.raise_for_status()
+    return r.json()
 
-def _symbols():
-    r=requests.get(f"{BINANCE_FAPI}/fapi/v1/exchangeInfo",timeout=20); r.raise_for_status(); return {s["symbol"] for s in r.json()["symbols"] if s.get("contractType")=="PERPETUAL" and s.get("quoteAsset")=="USDT"}
 
-def _oi_change(symbol):
-    r=requests.get(f"{BINANCE_DATA}/openInterestHist",params={"symbol":symbol,"period":"1h","limit":24},timeout=15); r.raise_for_status(); d=r.json()
-    if len(d)<2:return None
-    a=float(d[0]["sumOpenInterest"]); b=float(d[-1]["sumOpenInterest"]); return None if a==0 else (b-a)/a*100
+def _bybit_symbols():
+    r = requests.get(
+        f"{BYBIT_BASE}/v5/market/tickers",
+        params={"category": "linear"},
+        timeout=20,
+    )
+    r.raise_for_status()
+    payload = r.json()
+    if payload.get("retCode") != 0:
+        raise RuntimeError(payload.get("retMsg") or "Bybit ticker verisi alınamadı")
+    return {x.get("symbol") for x in payload.get("result", {}).get("list", []) if x.get("symbol")}
 
-def scan_top_movers(min_volume_mcap_ratio=.15,min_oi_change=10,max_results=10,max_oi_checks=60):
-    syms=_symbols(); candidates=[]
+
+def _bybit_oi_change(symbol):
+    r = requests.get(
+        f"{BYBIT_BASE}/v5/market/open-interest",
+        params={
+            "category": "linear",
+            "symbol": symbol,
+            "intervalTime": "1h",
+            "limit": 25,
+        },
+        timeout=15,
+    )
+    r.raise_for_status()
+    payload = r.json()
+    if payload.get("retCode") != 0:
+        raise RuntimeError(payload.get("retMsg") or f"{symbol} OI verisi alınamadı")
+
+    points = payload.get("result", {}).get("list", [])
+    points = sorted(points, key=lambda x: int(x.get("timestamp", 0)))
+    if len(points) < 2:
+        return None
+
+    old = float(points[0].get("openInterest") or 0)
+    new = float(points[-1].get("openInterest") or 0)
+    if old == 0:
+        return None
+    return (new - old) / old * 100
+
+
+def scan_top_movers(
+    min_volume_mcap_ratio=0.15,
+    min_oi_change=10,
+    max_results=10,
+    max_oi_checks=35,
+):
+    bybit_symbols = _bybit_symbols()
+    candidates = []
+
     for c in _top_200():
-        m=c.get("market_cap") or 0; v=c.get("total_volume") or 0
-        if not m: continue
-        ratio=v/m
-        if ratio>=min_volume_mcap_ratio: candidates.append({"symbol":c["symbol"].upper(),"name":c["name"],"price":c["current_price"],"change_24h":c.get("price_change_percentage_24h") or 0,"volume_mcap_ratio":ratio,"binance_symbol":c["symbol"].upper()+"USDT"})
-    candidates=sorted(candidates,key=lambda x:x["volume_mcap_ratio"],reverse=True)[:max_oi_checks]; out=[]
+        market_cap = c.get("market_cap") or 0
+        volume = c.get("total_volume") or 0
+        if not market_cap:
+            continue
+
+        ratio = volume / market_cap
+        if ratio < min_volume_mcap_ratio:
+            continue
+
+        symbol = c["symbol"].upper()
+        bybit_symbol = symbol + "USDT"
+        candidates.append(
+            {
+                "symbol": symbol,
+                "name": c["name"],
+                "price": c["current_price"],
+                "change_24h": c.get("price_change_percentage_24h") or 0,
+                "volume_mcap_ratio": ratio,
+                "derivatives_symbol": bybit_symbol,
+            }
+        )
+
+    candidates = sorted(
+        candidates, key=lambda x: x["volume_mcap_ratio"], reverse=True
+    )[:max_oi_checks]
+
+    out = []
+    checked = 0
     for c in candidates:
-        if c["binance_symbol"] not in syms: continue
-        try: ch=_oi_change(c["binance_symbol"])
-        except Exception: ch=None
-        if ch is not None and ch>=min_oi_change: c["oi_change_24h"]=ch; out.append(c)
-        time.sleep(.05)
-    return sorted(out,key=lambda x:x["oi_change_24h"],reverse=True)[:max_results]
+        if c["derivatives_symbol"] not in bybit_symbols:
+            continue
+        checked += 1
+        try:
+            oi_change = _bybit_oi_change(c["derivatives_symbol"])
+        except Exception:
+            oi_change = None
+
+        if oi_change is not None and oi_change >= min_oi_change:
+            c["oi_change_24h"] = oi_change
+            c["oi_source"] = "Bybit"
+            out.append(c)
+        time.sleep(0.08)
+
+    return (
+        sorted(out, key=lambda x: x["oi_change_24h"], reverse=True)[:max_results],
+        checked,
+    )
+
 
 def build_report():
     try:
-        movers=scan_top_movers()
+        movers, checked = scan_top_movers()
     except Exception as e:
         return f"🔍 *TARAYICI*\n⚠️ {e}"
 
-    lines=["🔍 *TARAYICI — Top 200 Coin*"]
+    lines = ["🔍 *TARAYICI — Top 200 Coin*"]
     if movers:
         lines.extend(
             f"• {x['symbol']}: OI {x['oi_change_24h']:+.1f}% · Hacim/MCap {x['volume_mcap_ratio']:.2f}"
             for x in movers
         )
     else:
-        lines.append("Şu an kriterlere uyan coin yok.")
+        lines.append(f"Kriterleri geçen coin yok. OI kontrol edilen kontrat: {checked}")
     return "\n".join(lines)
 
+
 def get_analysis_data():
-    try:return {"movers":scan_top_movers(),"window":"24h","rule":"Hacim/MCap >= 0.15 ve OI artışı >= %10"}
-    except Exception as e:return {"movers":[],"window":"24h","rule":"Hacim/MCap >= 0.15 ve OI artışı >= %10","error":str(e)}
+    try:
+        movers, checked = scan_top_movers()
+        return {
+            "movers": movers,
+            "window": "24h",
+            "rule": "Hacim/MCap >= 0.15 ve OI artışı >= %10",
+            "oi_source": "Bybit",
+            "oi_contracts_checked": checked,
+        }
+    except Exception as e:
+        return {
+            "movers": [],
+            "window": "24h",
+            "rule": "Hacim/MCap >= 0.15 ve OI artışı >= %10",
+            "oi_source": "Bybit",
+            "oi_contracts_checked": 0,
+            "error": str(e),
+        }
