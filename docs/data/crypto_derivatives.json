@@ -5,17 +5,17 @@
   },
   "max_pain": {
     "strike": 64000.0,
-    "spot": 64561.65,
+    "spot": 64606.49,
     "expiry": "2026-08-19T08:00:00+00:00",
     "days_left": 0,
-    "put_call_ratio": 1.8477651327725548
+    "put_call_ratio": 1.8476504534212694
   },
-  "gex_musd": 100.4846364907751,
+  "gex_musd": 103.80635940363761,
   "iv_rank_pct": 1.3020833333333335,
   "current_iv": 19.755112284481008,
   "funding": null,
   "positioning": null,
   "oi_zscore": null,
   "spot_perp_basis_pct": null,
-  "generated_at": "2026-08-18T21:04:48.543431+00:00"
+  "generated_at": "2026-08-18T21:12:32.350219+00:00"
 }

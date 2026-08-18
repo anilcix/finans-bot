@@ -3,5 +3,5 @@
   "window": "24h",
   "rule": "Hacim/MCap >= 0.15 ve OI artışı >= %10",
   "error": "451 Client Error:  for url: https://fapi.binance.com/fapi/v1/exchangeInfo",
-  "generated_at": "2026-08-18T21:04:48.543431+00:00"
+  "generated_at": "2026-08-18T21:12:32.350219+00:00"
 }
