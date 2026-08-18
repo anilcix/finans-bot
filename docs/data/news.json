@@ -10,6 +10,12 @@
       "query": "Bitcoin ETF",
       "items": [
         {
+          "title": "Bitcoin volatility falls below Nasdaq as market activity hits multi-year low - Mitrade",
+          "source": "Mitrade",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaS1LbVVaU2tmaUVZR3ljaHZuNGtZS1JabHJMU0o2bDNXcFJvdE41UVBGazVaV3FRTXpFLWpnNE5yek1tZUJiaXhBbWR1YjNMRjB0RkxGRENKb082LUgya0FSTVN1UGEyWFdzWWt3YWFfR3phRnhkZG9LWmFsek1yS2drUQ?oc=5",
+          "published_at": "2026-08-18T21:19:07+00:00"
+        },
+        {
           "title": "Bitcoin Is Under Pressure, But This Strategy ETF Is the Fund to Watch - Strategy (NASDAQ:MSTR) - Benzinga",
           "source": "Benzinga",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbU80STNoSWxlaW5GVDQxdEdvdFJScVNyZERwZGNfOWxqUTN1RmduQVF0QmEyOGdQa2JMUVNKc09GTWl2SlBCRWtXcjJMaGRteE02VWp1OXBQYWRQc1VVY2VMTElleG1mLV9WaEk5cTZRcTYyRDNTVTJQY1hNS25lT200MlVoREczTV9xX2puanluMTNBYUdZTURKVXl0VWtCM2huQWY4cVVFd0lzeEt2czR2Y0czVmdDam42c1R5aERSSkpNMm1STXhia2hpbDk4T01R?oc=5",
@@ -32,12 +38,6 @@
           "source": "Yellow.com",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MdTB0RVVmb3RwakJlQl9kRC1haG1KRzhNcWtuN1pscjhULUY2QldnN29FWURJQ3dkOG43YmNmS1JMazRLSW5PQ2dDWUJkV3FaTFNQeVdvc1BpYXVqRXhVdk9nYw?oc=5",
           "published_at": "2026-08-18T18:23:10+00:00"
-        },
-        {
-          "title": "World's second-largest bank boosts XRP holdings - thestreet.com",
-          "source": "thestreet.com",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNUhPYVk1WXE1cV93NGhiQl9xYzFHVmMwYXJEZ1dRcFd2Nmd4a0dRRGVtaTJNVHdrSjR0STZrRDhfUEFoVDJIaTU5bnV6S3VlbDljREQyS0FodTFWN2paS041OUkxTS1PRTEzeU5pMUJiY1MzOVZ5ampMVHNmc09TMGtlLVZsWjM5R1RKX3BaMEI?oc=5",
-          "published_at": "2026-08-18T17:35:00+00:00"
         }
       ]
     },
@@ -46,7 +46,19 @@
       "query": "stock market today",
       "items": [
         {
-          "title": "Futures: Sandisk, Micro, Credo Lead Ugly AI Rug Pull - Investor's Business Daily",
+          "title": "Stock Market Today, Aug. 18: CoreWeave Falls as Debt-Financing Concerns and Capital Spending Pressures Rise With Interest Rates - The Motley Fool",
+          "source": "The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOdEFpa3NLZnRzdzJfUTktZFU1MTJsTG1Wb2dKUGpOSXY5UWRzMklZSm1TYnkwTk44NEs1S2ZSTWpya3NJdlE2UzQyRW5GYWFvc2NQeFNFRVhPZWpkNC11WTJGcWNQTTJHSWxLSGNHaUJJaTVBY1BiNFZ6b1dFMUFfdUQ5V2VMaGpBUXlGMHZWT0x3V3owa0plMTZmWEFrRG5IbXJDc0s4U3JvamN3N3Vqb3d6cjV3MTNadzJ3OE43eGR0MER1cWI1UFdadG00MnRhRWk4YzZESW9jc194WjZTREhDQndRWFk1NXVuU3ZsNXljaVl2ZDBWTmpac2ltOUZwQjY2Sk8zX2pmM3VUOGlVaFdBYw?oc=5",
+          "published_at": "2026-08-18T21:17:31+00:00"
+        },
+        {
+          "title": "Why is WhiteFiber stock plunging today? - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZmwxUjFSWTdka0tLdmtaU3AyMXd0eGtObVNBaUw4MXJ2SWlIdE5GaFRxdktNWFMwQmVFNUE2QVJIbEs1Rkd5ZEx0LS1sTGlKWVhDTW9jUXlMa2tuZUNUaWwyMXBsUjJOZ2xEQ29aaUhSUHJMenhVakRtZ2t2Z1luWEREZVhtOEtyaTBnUTdibEtOZlJTOVRqd29GYm9jZGo3VFE?oc=5",
+          "published_at": "2026-08-18T20:52:14+00:00"
+        },
+        {
+          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead AI Rug Pull; Target Earnings Due - Investor's Business Daily",
           "source": "Investor's Business Daily",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
           "published_at": "2026-08-18T20:51:00+00:00"
@@ -62,22 +74,10 @@
           "source": "Investor's Business Daily",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQkpIa2tNaU8zaVV4Rm1XbjZYZ1RBWXNWbmhrcXQ0aDFObTdkb3RQdFNoTU1pb1FJajZWY3NBaTZqaWZYblBLenNaei1xY0tURVlSYVFfUzQ2cC15Y0NWS1J1ZGpEZ0doLXFxSGtiUHJSLVpyZXZZbUdRVXJ2SjBDNUVsWV82TVA2OG5tT0hPYmVscnBJV1pN?oc=5",
           "published_at": "2026-08-18T20:44:00+00:00"
-        },
-        {
-          "title": "Stock Market Today: Global Bond Selloff Pushes Yields to Multiyear Highs — Live Updates - WSJ",
-          "source": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdFM0dVhmTXVxX3VFRjlPeW5RSUJRa3NNbUVzNTl0LWtHeTd1TW9ZLXNOM0lPVS01aU9wZVl3RHhZWFJmVlpaSVZMR1J4WTF0ckVZU0lQaXoyZXpLMmF6alNsN01FNUpzbGNoeHZyNVBjLVJSUHR6SzdlcWo4UHBRNnV3VVUyZmc?oc=5",
-          "published_at": "2026-08-18T20:34:00+00:00"
-        },
-        {
-          "title": "Micron, Coherent, SpaceX, Home Depot, Klarna, Amylyx, and More Stocks That Explain Today’s Market - Barron's",
-          "source": "Barron's",
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBJYXc4Qzd4QkhOUW5XWXZVVTlZT1BFNEVLWFg5cVFfalJ5Q0NkWVBNT2w0MEpKQjJrY01zWGx3cS1Rc0RGMTVtOGtERTAydmdXSVhpRjNtUlRFOXl5MmpLSmVEZlA?oc=5",
-          "published_at": "2026-08-18T20:27:00+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-18T21:17:46.901535+00:00"
+  "generated_at": "2026-08-18T21:31:36.198950+00:00"
 }
