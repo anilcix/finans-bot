@@ -46,8 +46,8 @@
       "query": "stock market today",
       "items": [
         {
-          "title": "Stock futures are little changed after S&P 500 posts third straight losing day: Live updates - cnbc.com",
-          "source": "cnbc.com",
+          "title": "Stock futures are little changed after S&P 500 posts third straight losing day: Live updates - CNBC",
+          "source": "CNBC",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52WVUwei1VUlFvc0FwU3lkWlBjY2lHYlNOei1RSnktZVRxQmpYWlFRN25yNS12NE96QlpuM2ZOUWpseURQV0JIcFVHZDRiYjJSb2tTSkJ3Vk5UNEpuNTJLRkFfcEZaZUluNVRXWXFFVHBvUDhSallz?oc=5",
           "published_at": "2026-08-18T22:02:00+00:00"
         },
@@ -79,5 +79,5 @@
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-18T22:06:48.517415+00:00"
+  "generated_at": "2026-08-18T22:08:19.551783+00:00"
 }
