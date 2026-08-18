@@ -1,0 +1,1 @@
+function tip(text){const s=String(text??'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');return `<span class="help-tip" tabindex="0" aria-label="${s}" data-tip="${s}">?</span>`}
