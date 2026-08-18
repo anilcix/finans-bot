@@ -10,10 +10,10 @@
       "query": "Bitcoin ETF",
       "items": [
         {
-          "title": "Bitcoin volatility falls below Nasdaq as market activity hits multi-year low - Mitrade",
-          "source": "Mitrade",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaS1LbVVaU2tmaUVZR3ljaHZuNGtZS1JabHJMU0o2bDNXcFJvdE41UVBGazVaV3FRTXpFLWpnNE5yek1tZUJiaXhBbWR1YjNMRjB0RkxGRENKb082LUgya0FSTVN1UGEyWFdzWWt3YWFfR3phRnhkZG9LWmFsek1yS2drUQ?oc=5",
-          "published_at": "2026-08-18T21:19:07+00:00"
+          "title": "Bitcoin volatility falls below Nasdaq as market activity hits multi-year low - FXStreet",
+          "source": "FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZjRET0xvQV94Q3FFVE5CLU5hMWtjb1JYckF3OGJtcFdfb2tzak5rQjhWa2JUOWE2dlFBaEk2S3h4a2xtSjJUQWRJM2VYeUU2ejBKcDNmb045bGFtSlhYTzV2Snd1aHJVZ0I1SW1OY29oVUpaalZQaHI3bmdXZHR0Z0RkVVJ1SzV6bXZkTmZPRWtMODFvb1JGTW1nbzk3OTBrWXBVRE9SMlppOG4tdVFlRXdKa0dsWGgweHZDXy10dURqWDZKb3I4Zkl3ZTU3dG91cVE?oc=5",
+          "published_at": "2026-08-18T20:59:40+00:00"
         },
         {
           "title": "Bitcoin Is Under Pressure, But This Strategy ETF Is Suddenly the Fund to Watch - Benzinga",
@@ -46,6 +46,12 @@
       "query": "stock market today",
       "items": [
         {
+          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test - Investor's Business Daily",
+          "source": "Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
+          "published_at": "2026-08-18T22:38:00+00:00"
+        },
+        {
           "title": "Up another 16% TODAY, see why this AI-picked medtech stock is now up +92% - Investing.com",
           "source": "Investing.com",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRjVGQTlTd25mUWYzQ2xMZVZ0R1VyMEliWVpHa2JYMGF0NU9YREhaTzJiR0I2R1FxSW1DVk1PQWhPN2k0czYtNmVuVDA5SVRxQmlSOGFoQWJfMVJ3YWdlejgzREZOaHcxZlo3TU10MXpEOFNVNE5vdXhVa2I4dWNldUdSQVR3VGNaUzc1LTJPUHc4ZURxU0lCMExIZ1ZDV2Z4dWJLbHJpSEs0a3RReFZYSXNVQ0p5WXNYRFRtZHNnVUNfQXc?oc=5",
@@ -56,12 +62,6 @@
           "source": "Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYk94Z1FDZFo0amZJN1M1WGFVc1ZYTklnSS1ObnpQXy1vS3hWeTRob3pWcmFKV3E5X19jQXhMZzJyYWthZWV4NXZFNlJnZTVpRmVrcmk3YXFNYTJzWDZ3cXBRclBWSGJxVU1IRC1LMWN4czA3OUxkOVZJSFVzRmIzbjR0Z1UzWnltVnlhQ2xmc2txbDNy?oc=5",
           "published_at": "2026-08-18T22:11:07+00:00"
-        },
-        {
-          "title": "Dow Jones Futures: Sandisk, Micron, Credo Lead Painful AI Losses; Market Rally Near Key Test - Investor's Business Daily",
-          "source": "Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
-          "published_at": "2026-08-18T22:00:00+00:00"
         },
         {
           "title": "Stock Market Today, Aug. 18: CoreWeave Falls as Debt-Financing Concerns and Capital Spending Pressures Rise With Interest Rates - The Motley Fool",
@@ -79,5 +79,5 @@
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-18T22:37:51.817068+00:00"
+  "generated_at": "2026-08-18T22:57:26.147516+00:00"
 }
