@@ -14,7 +14,7 @@ GitHub Actions ile 7/24 veri toplayan ve GitHub Pages üzerinde gösteren ücret
 8. Top 200 Coin Tarayıcı
 9. Haberler
 
-Tüm site verisi `generate_site_data.py` tarafından `docs/data/*.json` dosyalarına yazılır. `.github/workflows/site.yml` her 6 saatte bir çalışır.
+Tüm site verisi `generate_site_data.py` tarafından `docs/data/*.json` dosyalarına yazılır. `.github/workflows/site.yml` her 6 saatte bir ve kod güncellemelerinde çalışır.
 
 ## GitHub kurulumu
 
