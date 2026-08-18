@@ -30,9 +30,20 @@ def scan_top_movers(min_volume_mcap_ratio=.15,min_oi_change=10,max_results=10,ma
     return sorted(out,key=lambda x:x["oi_change_24h"],reverse=True)[:max_results]
 
 def build_report():
-    try: m=scan_top_movers()
-    except Exception as e:return f"🔍 *TARAYICI*\n⚠️ {e}"
-    return "\n".join(["🔍 *TARAYICI — Top 200 Coin*",f"• {x['symbol']}: OI {x['oi_change_24h']:+.1f}% · Hacim/MCap {x['volume_mcap_ratio']:.2f}" for x in m] if m else ["🔍 *TARAYICI — Top 200 Coin*","Şu an kriterlere uyan coin yok."])
+    try:
+        movers=scan_top_movers()
+    except Exception as e:
+        return f"🔍 *TARAYICI*\n⚠️ {e}"
+
+    lines=["🔍 *TARAYICI — Top 200 Coin*"]
+    if movers:
+        lines.extend(
+            f"• {x['symbol']}: OI {x['oi_change_24h']:+.1f}% · Hacim/MCap {x['volume_mcap_ratio']:.2f}"
+            for x in movers
+        )
+    else:
+        lines.append("Şu an kriterlere uyan coin yok.")
+    return "\n".join(lines)
 
 def get_analysis_data():
     try:return {"movers":scan_top_movers(),"window":"24h","rule":"Hacim/MCap >= 0.15 ve OI artışı >= %10"}
