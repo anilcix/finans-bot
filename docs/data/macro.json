@@ -1,0 +1,105 @@
+{
+  "barometer": [
+    {
+      "label": "HY Kredi Spreadi",
+      "value": 2.7,
+      "percentile": 9.171974522292993,
+      "weight": 2.0,
+      "invert": true
+    },
+    {
+      "label": "Fed Politika Faizi",
+      "value": 3.63,
+      "percentile": 76.66666666666667,
+      "weight": 1.0,
+      "invert": true
+    },
+    {
+      "label": "Enflasyon (CPI YoY)",
+      "value": 3.30386,
+      "percentile": 78.77094972067039,
+      "weight": 1.0,
+      "invert": true
+    },
+    {
+      "label": "Banka Kredi Sıkılığı (SLOOS)",
+      "value": 6.7,
+      "percentile": 63.33333333333333,
+      "weight": 1.0,
+      "invert": true
+    },
+    {
+      "label": "IG Kredi Spreadi",
+      "value": 0.81,
+      "percentile": 35.45918367346938,
+      "weight": 0.5,
+      "invert": true
+    },
+    {
+      "label": "İşsizlik Oranı",
+      "value": 4.1,
+      "percentile": 36.312849162011176,
+      "weight": 0.5,
+      "invert": true
+    },
+    {
+      "label": "Reel Faiz (10Y TIPS)",
+      "value": 2.44,
+      "percentile": 99.75916510569975,
+      "weight": 0.5,
+      "invert": true
+    },
+    {
+      "label": "GDP Büyümesi (QoQ SAAR)",
+      "value": 1.5,
+      "percentile": 26.666666666666668,
+      "weight": 0.5,
+      "invert": false
+    },
+    {
+      "label": "Eğri Seviyesi (10Y-2Y)",
+      "value": 0.5299999999999994,
+      "percentile": 41.12924805994113,
+      "weight": 1.5,
+      "invert": false
+    }
+  ],
+  "composite_score": 47.311377374988055,
+  "composite_label": "Nötr / Karışık",
+  "composite_emoji": "🟡",
+  "credit_cycle": {
+    "phase": "Expansion (Boğa)",
+    "emoji": "🟢",
+    "desc": "Spreadler düşük ve düşmeye devam ediyor - hisseler için en olumlu evre"
+  },
+  "yield_curve": {
+    "regime": "Normal - Dikleşiyor",
+    "emoji": "🟢",
+    "desc": "Sağlıklı büyüme beklentisi",
+    "spread": 0.5299999999999994
+  },
+  "early_warnings": [
+    {
+      "name": "HY Kredi Spreadi",
+      "value": "270 bps",
+      "warn": "400+ bps",
+      "crisis": "600+ bps",
+      "status": "🟢 Güvenli"
+    },
+    {
+      "name": "SLOOS",
+      "value": "%+6.7",
+      "warn": "+%10",
+      "crisis": "+%20",
+      "status": "🟢 Güvenli"
+    },
+    {
+      "name": "CCC-HY Ayrışması",
+      "value": "fark +87 puan",
+      "warn": "30+",
+      "crisis": "50+",
+      "status": "🔴 KRİZ"
+    }
+  ],
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "vix": {
+    "price": 15.84,
+    "change_pct": 8.865979381443292
+  },
+  "vix9d": {
+    "price": 13.59,
+    "change_pct": 9.68523002421307
+  },
+  "vix3m": {
+    "price": 19.27,
+    "change_pct": 1.2079831932773133
+  },
+  "term_structure": "CONTANGO / normal",
+  "unavailable": [
+    "SPX GEX",
+    "Zero Gamma",
+    "Call Wall",
+    "Put Wall",
+    "Dealer Gamma/Charm/Vanna",
+    "Put/Call Ratio"
+  ],
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}

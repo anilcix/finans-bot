@@ -1,0 +1,30 @@
+{
+  "hy_oas": {
+    "date": "2026-08-17",
+    "value": 2.7
+  },
+  "ig_oas": {
+    "date": "2026-08-17",
+    "value": 0.81
+  },
+  "ccc_oas": {
+    "date": "2026-08-17",
+    "value": 10.18
+  },
+  "sloos": {
+    "date": "2026-07-01",
+    "value": 6.7
+  },
+  "delinquency": {
+    "date": "2026-01-01",
+    "value": 2.92
+  },
+  "charge_off": {
+    "date": "2026-01-01",
+    "value": 2.64
+  },
+  "unavailable": [
+    "CDS spreadleri (Bloomberg/Markit ücretli)"
+  ],
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}

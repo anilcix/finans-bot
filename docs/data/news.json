@@ -1,0 +1,68 @@
+{
+  "topics": [
+    {
+      "label": "Fed",
+      "query": "Federal Reserve faiz kararı",
+      "items": [
+        {
+          "title": "The Federal Reserve lowers interest rates again — but hints at fewer cuts next year - NPR",
+          "source": "NPR",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaTZ3RnlmVTVJVmpGNERDb056bmRRTjlKd3ZKVmRUMnMyTjlJNm9GQjd4ZzNjNjRjblpVTWEtVmtUQzhQeTVLMGxKY2dZcXJTUE9ZdmZLQVJKRFNoSHQzbFlYTTIzUFNNRnZDa0w2UUNKMlc2SHJoS1BVR1pIaHBIenlpYTFYZXhXTS02TU4zRmxvaGh0dnAzWA?oc=5"
+        },
+        {
+          "title": "Divided Fed approves third rate cut this year, sees slower pace ahead - cnbc.com",
+          "source": "cnbc.com",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObW5ENnZkR09Db01DcjMxS012LTBCYWhnZ2VGUlo2ejd0SjR1LXNIRzMxVU1yXzRQZHBpVzdNMzV5WUJDUXZoa0pLdU1ITjEwX3NCX1RmMS1KWk5BakdlV3BJdDR3LXpucmp4Z0tyQWtyRElLNlZoeWNQUWZESnA4MGNjV0fSAYoBQVVfeXFMT2V3MzNIOVJBSmdNNlY4Nl9FeWsxUGJSX1ZtV3Q4WE5MNi10Mm5lUXh4bm43Tm84M3JKVVlZOXpyTE55bGd6YjdZWVFZa29ZdW4yV3g2Y0JsaExfT1VmaWpTYVFZTDJhZjNWVFhma2V1R1dFMm1vdmJGNHBZajRGblRNbkhQOS1yZkhR?oc=5"
+        },
+        {
+          "title": "Federal Reserve cuts rates to zero and launches massive $700 billion quantitative easing program - cnbc.com",
+          "source": "cnbc.com",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOY0hFd0FFNGR2dDRic1lSaGJrRnN4M3hRQUxZSTJxdW1iNG94LWhfSEJWckt0ZmdDRldJUFhBNmpMNXpyLUs4QUNFOTdFZHB1dDFyQl9LTTlLd1o3WC1CV1FQQ2lEM0RqNVVIMDhzLWRXaWRpNzNBMGtRZVdHRDFwUUNlUW5SNWZ1WHFSQnBTbldaM2ZUQmhUSlpvU1R6ZURESE80V2FjcXhRVTZtdjFLaTRPTW9pbHBYcUFlMTdqVGRJcVg5d0xyOU0wc23SAdIBQVVfeXFMTV95eThJZDVzdGYzbWxGYXEtZEhCdEVWNXRFNnZDSzJrMkpWbUIxcXphNjQ2X1Y3RGVibTFFajNHaHkxbkJSaHl5b0p4M0IzcXd6d3EtajdnLXQwNElwMXJ3b2ZPVFA5RXU4TFdNWXVMdGhGRUdwZHh5NVFJZjdwaFZZX0JVV2RGUWhVTWZtbFgyUndkZXVhY1kyVFRmU1JRN3d5M0lmLW9zUHJWTXJOVGJGMk5hcGoyQ3pqRzU5QVdCdjRLYndfdWUyc0NCR2g1R293?oc=5"
+        }
+      ]
+    },
+    {
+      "label": "Kripto",
+      "query": "Bitcoin ETF",
+      "items": [
+        {
+          "title": "Italy’s Largest Bank Switched From Bitcoin to SpaceX Stock - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaE5YRFVSX2FudGJYUnlLR2RHV1BIM2h6cWFDeVJpZHJiVl9oN2Z4OFMyM3d3Q0dtaVQ5X1d4OGNoLWVjZzJEXzdrOEowS0k0YnNhaUZmeWJmMlNoSzVDcU1Ja2dxX0hGdjFkTDFScjRPTEZHVkJjY0JWMWtvdGdDcFdETGowTTBDYUVGY0JSN3Y3VHFtOHdyaEZHVjVkWnE0Nnc?oc=5"
+        },
+        {
+          "title": "Bitcoin correction may be nearing an end with 8 of 12 capitulation signals flashing, VanEck says - The Block",
+          "source": "The Block",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcnZVNThEVnNnanlpZldVZzR0MTZIQXR0ZzVRZFZQTTNZRTNiXzRzWVZxeGdGeTZrek9vVTBCV09EMjdPVnBXeElOWEl6WUZacDd5em5FdkFjX1RDSldib0lWQ3pLVGc1cFRCbGRnOTMyNUUzSWNUR3FCdkhIYjRwSTRhaEVLRjl0Yi1SYk1RWE9HNmpXeTBNVHpCMGtnSm01YkZYMEI3VFg1dFNxWlhIWjhtNklvMEpaNlFNSzRqSjJnSDAtWkFJ?oc=5"
+        },
+        {
+          "title": "Bitcoin ETFs See Largest Outflow in Six Weeks as Token Stagnates - Bloomberg",
+          "source": "Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2NpdDk2TUdlREt6cFBTRlBCWTFEai14QVdsWmdtMmt4WFFwVFBIbTVLNHp0dzBKdl9wWS1GWEFILTdhcmczWlVKSktRTGpINi04U3hPWXYzcG5NVmQ2S0UyZnEtdmtnUExLNVVEVGg0LXNPcFkyNEdRWVpBQ3N2MkJGSjcxLTdvRlNhVU5KQ0VuNzJlcFI5RHBWQU5MeVJSWTVya1F2RGNybDRPZ2RlUHpVVy1Idw?oc=5"
+        }
+      ]
+    },
+    {
+      "label": "Piyasalar",
+      "query": "stock market today",
+      "items": [
+        {
+          "title": "S&P 500 falls for a third day, as elevated global bond yields and oil prices weigh on market - cnbc.com",
+          "source": "cnbc.com",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5"
+        },
+        {
+          "title": "Stock market today: Dow, S&P 500, Nasdaq fall as chip stocks sell off, bond yields rattle markets - Yahoo Finance",
+          "source": "Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb05YTlhtdm5CWWFjelNPMWFrWWtzUk9Vb05PZVRJT2FiSHc0em50elRIQ0lQX3Y1R0xlbVNKZjNPMDFKdHA1VWVjWnllN0ZqYUN4SWhWb01GWC16WTBCRXFGUUtBem54QVNrUE9SZnVZV19NRU1jQ245bEE5eHpzYWx4RTVWQXUwZjVZVG9LTlhKVGx6SXFsUjhORDY1dUhCYW1GNUMwdUdTQnJf?oc=5"
+        },
+        {
+          "title": "Stock Market Today: Global Bond Selloff Pushes Yields to Multiyear Highs — Live Updates - WSJ",
+          "source": "WSJ",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdFM0dVhmTXVxX3VFRjlPeW5RSUJRa3NNbUVzNTl0LWtHeTd1TW9ZLXNOM0lPVS01aU9wZVl3RHhZWFJmVlpaSVZMR1J4WTF0ckVZU0lQaXoyZXpLMmF6alNsN01FNUpzbGNoeHZyNVBjLVJSUHR6SzdlcWo4UHBRNnV3VVUyZmc?oc=5"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}

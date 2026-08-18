@@ -1,0 +1,108 @@
+{
+  "tech": [
+    {
+      "symbol": "QQQ",
+      "label": "QQQ",
+      "price": 717.51,
+      "change_pct": -0.1308372190131609
+    },
+    {
+      "symbol": "SPY",
+      "label": "SPY",
+      "price": 767.45,
+      "change_pct": -0.4036025747508176
+    },
+    {
+      "symbol": "NVDA",
+      "label": "NVIDIA",
+      "price": 219.74,
+      "change_pct": 1.0298850574712686
+    },
+    {
+      "symbol": "MSFT",
+      "label": "Microsoft",
+      "price": 481.63,
+      "change_pct": -4.402453305809731
+    },
+    {
+      "symbol": "AMZN",
+      "label": "Amazon",
+      "price": 259.45,
+      "change_pct": -4.708561354537773
+    },
+    {
+      "symbol": "META",
+      "label": "Meta",
+      "price": 543.67,
+      "change_pct": -9.255241020162913
+    },
+    {
+      "symbol": "GOOGL",
+      "label": "Alphabet",
+      "price": 344.2,
+      "change_pct": 0.11634671320534533
+    },
+    {
+      "symbol": "AAPL",
+      "label": "Apple",
+      "price": 310.03,
+      "change_pct": 1.679184021514528
+    },
+    {
+      "symbol": "AMD",
+      "label": "AMD",
+      "price": 484.39,
+      "change_pct": 2.123039298363972
+    },
+    {
+      "symbol": "AVGO",
+      "label": "Broadcom",
+      "price": 380.0,
+      "change_pct": -8.671409344356851
+    },
+    {
+      "symbol": "ORCL",
+      "label": "Oracle",
+      "price": 142.79,
+      "change_pct": -1.8490514160021982
+    },
+    {
+      "symbol": "PLTR",
+      "label": "Palantir",
+      "price": 171.54,
+      "change_pct": -1.9435234937692958
+    }
+  ],
+  "commodities": [
+    {
+      "symbol": "GC=F",
+      "label": "Altın",
+      "price": 4386.8,
+      "change_pct": 0.5316710972591396
+    },
+    {
+      "symbol": "SI=F",
+      "label": "Gümüş",
+      "price": 63.325,
+      "change_pct": -2.386200730658366
+    },
+    {
+      "symbol": "BZ=F",
+      "label": "Brent Petrol",
+      "price": 91.36,
+      "change_pct": 4.927070173423689
+    },
+    {
+      "symbol": "CL=F",
+      "label": "WTI Petrol",
+      "price": 84.47,
+      "change_pct": 3.963076923076922
+    }
+  ],
+  "unavailable": [
+    "AI ETF Flows",
+    "Hyperscaler CAPEX",
+    "Central Bank Gold Buying"
+  ],
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}

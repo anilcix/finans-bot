@@ -1,0 +1,21 @@
+{
+  "fear_greed": {
+    "value": 41,
+    "label": "Fear"
+  },
+  "max_pain": {
+    "strike": 64000.0,
+    "spot": 64557.57,
+    "expiry": "2026-08-19T08:00:00+00:00",
+    "days_left": 0,
+    "put_call_ratio": 1.846940458518885
+  },
+  "gex_musd": 100.1715972035455,
+  "iv_rank_pct": 1.0416666666666665,
+  "current_iv": 19.748606290104483,
+  "funding": null,
+  "positioning": null,
+  "oi_zscore": null,
+  "spot_perp_basis_pct": null,
+  "generated_at": "2026-08-18T21:01:19.923094+00:00"
+}
