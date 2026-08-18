@@ -2,6 +2,10 @@ name: Site Verisini Güncelle
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/data/**"
   schedule:
     - cron: "0 */6 * * *"
 
