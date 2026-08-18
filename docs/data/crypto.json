@@ -1,11 +1,11 @@
 {
   "btc": {
-    "price": 64588,
-    "change_24h": 0.36007719456703874
+    "price": 64600,
+    "change_24h": 0.4188063736538174
   },
   "eth": {
-    "price": 1912.92,
-    "change_24h": 0.3489664535038815
+    "price": 1913.24,
+    "change_24h": 0.37199037080199004
   },
   "global": {
     "total_usd": 2288891482666.949,
@@ -14,10 +14,10 @@
     "btc_dominance": 56.61881573625771,
     "eth_dominance": 10.083923086608628
   },
-  "stablecoin_supply_usd": 299899872576,
+  "stablecoin_supply_usd": 299906771430,
   "funding_pct": 0.00196881311933,
   "funding_source": "OKX",
-  "open_interest_btc": 32565.07790000021,
+  "open_interest_btc": 32559.485200000214,
   "open_interest_source": "OKX",
-  "generated_at": "2026-08-18T21:12:32.350219+00:00"
+  "generated_at": "2026-08-18T21:13:54.353131+00:00"
 }

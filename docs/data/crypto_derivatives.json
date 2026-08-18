@@ -5,17 +5,26 @@
   },
   "max_pain": {
     "strike": 64000.0,
-    "spot": 64606.49,
+    "spot": 64601.67,
     "expiry": "2026-08-19T08:00:00+00:00",
     "days_left": 0,
-    "put_call_ratio": 1.8476504534212694
+    "put_call_ratio": 1.8478153338829348
   },
-  "gex_musd": 103.80635940363761,
+  "gex_musd": 103.30062530618214,
   "iv_rank_pct": 1.3020833333333335,
   "current_iv": 19.755112284481008,
-  "funding": null,
+  "funding": {
+    "avg_pct": 0.006263622941582381,
+    "annualized_pct": 6.858667121032706,
+    "positive_pct": 95.23809523809523,
+    "source": "OKX",
+    "samples": 21
+  },
   "positioning": null,
   "oi_zscore": null,
-  "spot_perp_basis_pct": null,
-  "generated_at": "2026-08-18T21:12:32.350219+00:00"
+  "open_interest_btc": 32559.485200000214,
+  "open_interest_source": "OKX",
+  "spot_perp_basis_pct": -0.04099064330560922,
+  "basis_source": "OKX",
+  "generated_at": "2026-08-18T21:13:54.353131+00:00"
 }
