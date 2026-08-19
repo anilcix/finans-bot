@@ -44,6 +44,21 @@ def _pick(row, words):
     return None
 
 
+def _operation_date(row):
+    """Maturity/settlement date yerine operasyon tarihini seç."""
+    exact=_pick(row,['operation','date']) or _pick(row,['buyback','date'])
+    if exact: return exact
+    # XML şeması değişirse güncel yıla ait date alanını tercih et.
+    year=str(datetime.now(timezone.utc).year)
+    dated=[]
+    for k,v in row.items():
+        if 'date' not in k.lower(): continue
+        if str(v).startswith(year): dated.append((k,v))
+    for k,v in dated:
+        if 'settle' not in k.lower() and 'maturity' not in k.lower(): return v
+    return dated[0][1] if dated else None
+
+
 def _money_number(x):
     if not x: return None
     s=str(x).replace('$','').replace(',','').strip()
@@ -65,7 +80,7 @@ def _parse_schedule(xml_text):
         joined=' '.join(row.keys()).lower()
         if 'date' not in joined: continue
         if not any(x in joined for x in ('maturity','bucket','maximum','max','amount','operation')): continue
-        date=_pick(row,['date'])
+        date=_operation_date(row)
         bucket=_pick(row,['maturity','bucket']) or _pick(row,['bucket'])
         max_raw=_pick(row,['max','amount']) or _pick(row,['maximum']) or _pick(row,['amount'])
         op_type=_pick(row,['operation','type']) or _pick(row,['type'])
@@ -79,7 +94,6 @@ def _parse_schedule(xml_text):
             "max_amount_raw":max_raw,
             "max_amount":_money_number(max_raw),
         })
-    # Nested XML elemanlarından gelen tekrarları kaldır.
     seen=set(); out=[]
     for r in candidates:
         key=(r.get('operation_date'),r.get('maturity_bucket'),r.get('max_amount_raw'),r.get('operation_type'))
@@ -103,7 +117,7 @@ def _result_summary(xml_text, url):
     try: root=ET.fromstring(xml_text)
     except Exception: return None
     flat=_flatten(root)
-    date=_pick(flat,['operation','date']) or _pick(flat,['date'])
+    date=_operation_date(flat)
     accepted=_pick(flat,['total','par','accepted']) or _pick(flat,['par','accepted'])
     offered=_pick(flat,['total','par','offered']) or _pick(flat,['par','offered'])
     max_amt=_pick(flat,['max','par']) or _pick(flat,['max','amount'])
@@ -127,7 +141,6 @@ def fetch_treasury_buybacks():
         "schedule":[],"recent_results":[],"special_announcements":[],"errors":[],
         "note":"Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     }
-    # Tentative quarterly schedule.
     try:
         r=requests.get(out["tentative_schedule_url"],headers=UA,timeout=20); r.raise_for_status()
         out["schedule"]=_parse_schedule(r.text)
@@ -135,11 +148,9 @@ def fetch_treasury_buybacks():
     except Exception as e:
         out["errors"].append(f"Tentative schedule alınamadı: {e}")
 
-    # TreasuryDirect sayfasında sunucu tarafında görünür XML linkleri varsa en yeni operasyonları yakala.
     try:
         p=requests.get(BUYBACK_PAGE,headers=UA,timeout=20); p.raise_for_status()
         links=_extract_xml_links(p.text)
-        # schedule/schema linklerini dışarıda tut; sonuç/announcement XML'lerine odaklan.
         links=[u for u in links if 'schedule' not in u.lower() and 'schema' not in u.lower()]
         for u in links[-24:]:
             try:
