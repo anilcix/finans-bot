@@ -19,10 +19,7 @@
     "date": "2026-07-01",
     "value": 6.7
   },
-  "sloos_business_large": {
-    "date": "2026-07-01",
-    "value": 0.0
-  },
+  "sloos_business_large": null,
   "sloos_business_small": {
     "date": "2026-07-01",
     "value": 1.8
@@ -21547,10 +21544,6 @@
     ],
     "sp500": [
       {
-        "date": "2023-08-14",
-        "value": 4369.7099609375
-      },
-      {
         "date": "2023-08-21",
         "value": 4405.7099609375
       },
@@ -22179,8 +22172,8 @@
         "value": 7691.759765625
       },
       {
-        "date": "2026-08-18",
-        "value": 7691.759765625
+        "date": "2026-08-19",
+        "value": 7724.43017578125
       }
     ]
   },
@@ -22188,5 +22181,5 @@
   "unavailable": [
     "CDS spreadleri (Bloomberg/Markit ücretli)"
   ],
-  "generated_at": "2026-08-19T12:32:09.787451+00:00"
+  "generated_at": "2026-08-19T13:28:19.311118+00:00"
 }
