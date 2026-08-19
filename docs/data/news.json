@@ -10,8 +10,20 @@
       "query": "Bitcoin ETF",
       "items": [
         {
-          "title": "Bitcoin ETF Inflows Signal Renewed Institutional Interest in 2026 - en.cryptonomist.ch",
-          "source": "en.cryptonomist.ch",
+          "title": "Bitcoin ETF Outflows Hit $390M as Miner Selling Blocks BTC Breakout, Wintermute Warns - techtimes.com",
+          "source": "techtimes.com",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbGxtbm9RaGw4RGZZZF8zU1M4MlNmSWo2QVFGOFA0U0VuWmU2a2hKZlN3ejRjM2RYUmRBVmRnVFRDVXJYck5MQU02YW5vQ0tab3RsT25RcDlteUJJcEdKMmZMRHdRQXU4aHVDbUU3U1lCbE5zZFE3UDJPVmNmdnd5cHVpUUdPUW11SzZackdJNm95MG5pYkVBWUVITVNCT1pid09YZUVLT1NMdlpqamE3TXdBLWp6V0VQN25ram5zbFBRSTdJYmc1RFZ0Tm0zRHhi?oc=5",
+          "published_at": "2026-08-19T10:00:21+00:00"
+        },
+        {
+          "title": "Bitcoin ETF assets rise to $2.38B as Bitwise se... - Pluang",
+          "source": "Pluang",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHZfU0w0eWpkU2tIUjRMTDl4T25pRGdlS0E0Tjhpc3o0TldLTkFLUUEySGVmMTVfS3VEZ1RNZk5BWXc1LXpTM2Uxb2xET1ctRURoUW5IVkZyRl9nQlZQSG9CbG5UeDRLbjJBSllaNHB2TjZ1WGNlT2pCOGZaRUI3ZGt4dWlGc1lMQUFjNURfbjhDZVI2?oc=5",
+          "published_at": "2026-08-19T09:52:32+00:00"
+        },
+        {
+          "title": "Bitcoin ETF Inflows Signal Renewed Institutional Interest in 2026 - The Cryptonomist",
+          "source": "The Cryptonomist",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xSHNTMlJsMVRPRHc4Ykl6ZG80T0N0N2d0aHZfUzFhODlVMDZuZmQ2NGFtR1RMeElSaURVdW9lSUxjQXd6RW5jSmJ5N1FNd2FPYXZUa2h4bGswVEI3cmJMMGFXdXNLeUhnUlNIcXlmMlo?oc=5",
           "published_at": "2026-08-19T08:30:48+00:00"
         },
@@ -26,18 +38,6 @@
           "source": "Bitcoin Foundation",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaS0xbTBRV0tyMW1OSjJKTGJuQnFPaWcwaDN0NExVSlVJb3BZWGowR3NtWnB6RDdhZmNhOVdHdTliT3RnQ3BoSjJDazhaeG96Zl9JWVd2ZnpkbWJtM3p5QkVtcjM2MXBDS1NPLUc0UGhCRE56YnBYOGkyWW9faW1IMjBMcFdpYXlxV3BHSkRmT0ZsY0p0Y3FVUlpCT19DaEgwLWkxUVpTSzFvU2JvbmhYOEpmNl9zZWswWDZmenNR?oc=5",
           "published_at": "2026-08-19T07:46:34+00:00"
-        },
-        {
-          "title": "Bitcoin Selling Pressure May Be Nearing Its End, VanEck Says - Investing.com",
-          "source": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLTVJNzZQQlNaNVItQmRzSnN6Um5ONzJrX3B0QWZGcC1iNEZVeWJjZUV2RHNVcWVDTTFDbDRMUjBvX3kxR0N3dXJMLVh4eWxBakg1M3RIb000dVlTU1p0MWN2QkRNeVJvT3JBcm9tZW14V1Bhd1l5dGhZeFBGQmhBZnRqVnplU0s2aEtaQ2JkaHNfcS1LUmp2OFF1RmVfbGRYQmxXRDNYTQ?oc=5",
-          "published_at": "2026-08-19T07:04:22+00:00"
-        },
-        {
-          "title": "BlackRock's Bitcoin ETF sees $143.57M inflows, ... - Pluang",
-          "source": "Pluang",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTdNdjEwQ3Z2N1hpazRFczRQenZ2MUZFRmE0V2hFODRTU3pfa015YnRtcWRuMk5tN3k5WDMzUXJ6MUdJWkx4NWlsZ1ZvQVA4Y3Nfa1B5NlluT3ZkV3FuRWdMN1V2TFkxa2xQLTFSaVVpSlVZRHd2eFZLeC1MelJxZEk3UWNrM002VW1Wc2ZQeTFkbVZQ?oc=5",
-          "published_at": "2026-08-19T05:13:53+00:00"
         }
       ]
     },
@@ -46,10 +46,10 @@
       "query": "stock market today",
       "items": [
         {
-          "title": "Why is H Lundbeck B stock sliding today? - Investing.com",
+          "title": "Why is Corsair Gaming stock sliding today? - Investing.com",
           "source": "Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOWQ2TmR5NnhNTUM3akhjeVhiY1p2Rk9jNklNZGNsRzhfY0dDMkdrSk9RUlRobHRfN1VTVThCWFJYQWZhZFhVZkFBZS13ek1tZkg5eENveVlHWWh0X1ZvM0RhNmdGbWMyeEwxMnR3RGJjSVJKc0hvUERMdnVCUGgtYU5GLURHZXU3QXYwNEgyRV96eGd0TWxhbWtLenJEeVlCa0dn?oc=5",
-          "published_at": "2026-08-19T09:21:50+00:00"
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQzE2QVVPbVJLM0x5WHN4MWt2YVJ1bGNGSXhkT1FOclhRdklORDY0TVlBYWpWWG05Rml3WTZpVkJTUlEwUUJCcVNKYUJWakV1cnptNUhUS2xxUzMzUm5JS1BxOUZGOEpIVWVuSjI4T2JNVmlNaUlJVVczcTU5RUR6UzFETXRiR0RmaWJoT0dLN0NOd1B3eWFWaWpVdVc1VWV2VGM0cGVB?oc=5",
+          "published_at": "2026-08-19T09:56:15+00:00"
         },
         {
           "title": "Stock market today: Dow, S&P 500, Nasdaq futures stall after Trump pauses tariffs on Canada - Yahoo Finance",
@@ -61,7 +61,7 @@
           "title": "Why is Nordic Mining stock sliding today? - Investing.com",
           "source": "Investing.com",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSjZZa3B2Mi1COWV2bi1lZjZNUU95RnNjU3lFZXRhb00wd1FKSkFiZnc5aFREX1dlSEFhbU41a0FseWg3dGNxVlQ4RUdDdzlqYnVORGlKei1feDk2cmhhR0dLWVFLOHkzRWhVS251aUV6ZUlRaTRjeHUtbkFkckF3amxjeWJCQ0JRQUhuWnRBTjlLa2Nxd0tUVjlMYXh6Znpwbmtjbw?oc=5",
-          "published_at": "2026-08-19T09:00:00+00:00"
+          "published_at": "2026-08-19T09:00:47+00:00"
         },
         {
           "title": "Why is Shurgard Self Storage stock sliding today? - Investing.com",
@@ -79,5 +79,5 @@
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T09:46:14.992857+00:00"
+  "generated_at": "2026-08-19T10:14:35.523886+00:00"
 }

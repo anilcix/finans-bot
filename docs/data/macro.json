@@ -175,11 +175,25 @@
   },
   "early_warnings": [
     {
+      "name": "HY Kredi Spreadi",
+      "value": "270 bps",
+      "warn": "400+ bps",
+      "crisis": "600+ bps",
+      "status": "🟢 Güvenli"
+    },
+    {
       "name": "SLOOS — Kredi Kartı",
       "value": "%+6.7",
       "warn": "+%10",
       "crisis": "+%20",
       "status": "🟢 Güvenli"
+    },
+    {
+      "name": "CCC-HY Ayrışması",
+      "value": "fark +87 puan",
+      "warn": "30+",
+      "crisis": "50+",
+      "status": "🔴 KRİZ"
     }
   ],
   "macro_market_history": {
@@ -10170,8 +10184,8 @@
       },
       {
         "date": "2026-08-19",
-        "value": 146.86831567885338,
-        "raw": 64314.94921875
+        "value": 146.8942557175797,
+        "raw": 64326.30859375
       }
     ]
   },
@@ -10422,5 +10436,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-19T09:46:14.992857+00:00"
+  "generated_at": "2026-08-19T10:14:35.523886+00:00"
 }
