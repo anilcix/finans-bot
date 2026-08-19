@@ -1,28 +1,78 @@
 {
   "btc": {
-    "price": 69290,
-    "change_24h": 7.340631761863388
+    "price": 69315,
+    "change_24h": 7.306601134523196
   },
   "eth": {
-    "price": 2269.64,
-    "change_24h": 18.617306581992903
+    "price": 2258.19,
+    "change_24h": 18.08131742284216
   },
   "global": {
-    "total_usd": 2463523144300.4414,
-    "total2_usd": 1071895164291.4603,
-    "total3_usd": 797932863663.4523,
-    "btc_dominance": 56.489340610768124,
-    "eth_dominance": 11.120752052272852
+    "total_usd": 2457194762482.28,
+    "total2_usd": 1068925868904.0851,
+    "total3_usd": 796619971772.0969,
+    "btc_dominance": 56.49812195496271,
+    "eth_dominance": 11.081982644994016
   },
-  "stablecoin_supply_usd": 300934317822,
+  "stablecoin_supply_usd": 300921013225,
+  "stablecoin_market_cap_usd": 307762553126.8602,
+  "stablecoin_source": "DefiLlama",
+  "stablecoin_7d_change_pct": 0.3215167537066632,
+  "defi": {
+    "source": "DefiLlama",
+    "ok": true,
+    "total_tvl_usd": 81647556476.1362,
+    "chains": {
+      "Base": 5020105636.121314,
+      "BSC": 5186521129.426164,
+      "Ethereum": 45411769512.71013,
+      "Arbitrum": 1332831487.1651566,
+      "Solana": 5168207471.801275,
+      "Bitcoin": 3749035660.4814067
+    },
+    "stablecoin_market_cap_usd": 307762553126.8602,
+    "stablecoin_7d_change_pct": 0.3215167537066632,
+    "errors": []
+  },
+  "network": {
+    "source": "Coin Metrics Community",
+    "ok": true,
+    "btc": {
+      "date": "2026-08-18",
+      "active_addresses": 642144.0,
+      "active_addresses_7d_change_pct": 5.43561249772182,
+      "transactions": 709130.0,
+      "transactions_7d_change_pct": 16.795738807617177
+    },
+    "eth": {
+      "date": "2026-08-18",
+      "active_addresses": 814843.0,
+      "active_addresses_7d_change_pct": -6.134351655060799,
+      "transactions": 2856958.0,
+      "transactions_7d_change_pct": 19.012444627365177
+    },
+    "error": null
+  },
   "funding_pct": 0.00467644705158,
   "funding_source": "OKX",
-  "open_interest_btc": 30665.8194000001,
+  "open_interest_btc": 30705.72690000011,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
     "status": 451,
     "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
-  "generated_at": "2026-08-19T22:21:37.462307+00:00"
+  "data_quality": {
+    "sources": {
+      "coingecko": true,
+      "defillama": true,
+      "coinmetrics": true,
+      "derivatives_fallback": true
+    },
+    "ok_count": 4,
+    "source_count": 4,
+    "grade": "A"
+  },
+  "stablecoin_top50_market_cap_usd": 300921013225,
+  "generated_at": "2026-08-19T22:46:33.868996+00:00"
 }
