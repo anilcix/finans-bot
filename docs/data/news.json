@@ -10,6 +10,12 @@
       "query": "Bitcoin ETF",
       "items": [
         {
+          "title": "The real cost of a bitcoin ETF: expense ratios, tracking error, and what holders actually keep - Cryptonews.net",
+          "source": "Cryptonews.net",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mZ21pUDJtSEhtaGVIUlI5QTBKY0E0cWFJbmRJN2NDVkxyWGtkYUJmMjJkZWtuTnI1elRLcmQ3NUctR3pNOGh0ZzdOLTZIQ1U0ZTlvZTdoVWI?oc=5",
+          "published_at": "2026-08-19T23:06:03+00:00"
+        },
+        {
           "title": "Hashdex liquidates $14.7 million Bitcoin ETF as IBIT draws $143.6 million - CryptoSlate",
           "source": "CryptoSlate",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMjk4VHhKODhfMmtIQ0ZpVWpsMU9PUEZsVmlYOTZPOTJPSUZaS1Q2VmNLQ1BtcHd5WVdfMXhxRVUycElZOGhEUXM5NlhLR3VJbS1BOVVuWVY3Z3VRWnVDOEFQMG1uTjk0aFpPOE11Qm9oZXJRRUM2U1RScGNRU2hNelFrSmwzMS1iTFZKN001XzJ0dDFwc0J6dnZyX2I?oc=5",
@@ -32,12 +38,6 @@
           "source": "eciks.org",
           "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vWlpTeE9pLTVPaDBiYkRDUTRVMmJKTnRST0tXTVFPZ2RVeEdXLUpid0dBUEpVX0Z2TkpvMTJWSzBmNzZZODJ5UnNkaTdMQVZfRTdoYk1oNHgyNDA?oc=5",
           "published_at": "2026-08-19T16:46:55+00:00"
-        },
-        {
-          "title": "Bitcoin ETFs: $204M Daily Net Inflow - blockchain.news",
-          "source": "blockchain.news",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwdkF4Rk5EdkVOUjZCQTExYUE5Zlc4YXFxVkNfZmJJYlBERGFNd19PckNJSHhMRjdjMkw2REljX094dERkWVpVTFVjdFNWUzNFazlreWhQbTd6S1FvWjFPeC1DRldjT1A4RnZNS1FQeFVJdTg0M3kw?oc=5",
-          "published_at": "2026-08-19T15:45:28+00:00"
         }
       ]
     },
@@ -79,5 +79,5 @@
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T22:55:58.679379+00:00"
+  "generated_at": "2026-08-19T23:11:59.501267+00:00"
 }
