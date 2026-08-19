@@ -46,6 +46,12 @@
       "query": "stock market today",
       "items": [
         {
+          "title": "S&P 500 falls for a third day, as elevated global bond yields and oil prices weigh on market - CNBC",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5",
+          "published_at": "2026-08-19T19:26:44+00:00"
+        },
+        {
           "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market - Barron's",
           "source": "Barron's",
           "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YbTRhdFZJUVFkMEVzd05yNFA5NndDQ01NYmhVR2VJdWpiRWNkc3p3anpId2VTUl82WXF4NkJFdm1BOC1rNW5yZXM1NGhXREduUnNYYjV5NGw3SDYtUXFQenNlR0c?oc=5",
@@ -68,16 +74,10 @@
           "source": "thestreet.com",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTTluLURVU25uSElvRnpWakVRLUZCMkFQTnU1bFV1S2I5blpiTEpqSkJsdUhFZkZPSnZBLWx6eDhGMHdlWk13UXQtdHRIbHRleTBiVVdSQ2VDNm9CenRSdVdkcUM0ZnZIcWs0Z1U0cnhVdXp2cmVxanJUTl9SNFZyN1h1LVVqaDFVQWNPVDZlaHQyMWU3R25iUFJYaGYxc2hXQldBSDI2QlVaVGM?oc=5",
           "published_at": "2026-08-19T18:12:41+00:00"
-        },
-        {
-          "title": "Stock Market Today: Indexes Gain, Bond Yields Drop as Treasury Dept. Increases Buyback of Longer-Term Notes - Investopedia",
-          "source": "Investopedia",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEU3STJOZDRNeWFKWHJDcENLWE1HaG5hREMwT0tlTG5nTjA0THgyWFhrUXQ0eDVyT2o5Sk15RlZkMVJNdnM2ZE9BajU0enZsNVR0dUtzNFFlRGxiTEl1SkM0a2RHNk94R2tBYmNKSFJmeDNRYm5RQ2xOUjd4RllfSFdEYW9oa3ZfZ2FkdHNhN2Y?oc=5",
-          "published_at": "2026-08-19T17:34:06+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T19:20:47.302221+00:00"
+  "generated_at": "2026-08-19T19:45:51.930517+00:00"
 }
