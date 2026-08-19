@@ -77,14 +77,14 @@
     {
       "symbol": "GC=F",
       "label": "Altın",
-      "price": 4392.8,
-      "change_pct": 0.28307917085198947
+      "price": 4393.5,
+      "change_pct": 0.29905944662588724
     },
     {
       "symbol": "SI=F",
       "label": "Gümüş",
-      "price": 62.89,
-      "change_pct": -3.228288299378345
+      "price": 62.885,
+      "change_pct": -3.2359820274512243
     },
     {
       "symbol": "BZ=F",
@@ -104,5 +104,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-19T06:44:34.324093+00:00"
+  "generated_at": "2026-08-19T06:45:55.782371+00:00"
 }
