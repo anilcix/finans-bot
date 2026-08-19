@@ -1,0 +1,264 @@
+{
+  "market_score": 55.7,
+  "stance": "Temkinli Risk-On",
+  "confidence": 63.0,
+  "component_scores": {
+    "macro": 53.0,
+    "credit": 61,
+    "options": 78,
+    "crypto": 70.6,
+    "crypto_derivatives": 52,
+    "equities": 43.2
+  },
+  "plain_summary": [
+    "Kısa vadede kredi spreadlerinin düşük olması, düşük VIX/contango ve likidite rahatlaması riskli varlıkları destekliyor.",
+    "Orta vadede yüksek reel faiz, düşük kaliteli kredide CCC bozulması ve uzun-vade Hazine arz/faiz baskısı nedeniyle risk-on sinyali kırılgan.",
+    "Tek bir veriyi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite ve çapraz-varlık davranışı birlikte okunuyor."
+  ],
+  "supportive_factors": [
+    "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
+    "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
+    "VIX 14.89 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir."
+  ],
+  "risk_factors": [
+    "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
+    "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
+    "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
+    "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
+    "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
+    "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
+    "CCC spreadi %10.27 ve son 3 ayda +0.88 puan genişledi; düşük kaliteli kredide gizli stres var.",
+    "Kripto opsiyon IV Rank %96; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli."
+  ],
+  "cross_asset_read": [
+    "Kriptoda momentum güçlü: BTC 24s %+7.4, ETH %+18.6.",
+    "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
+    "Altın %+4.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Resmi Treasury tentative buyback takviminde 19 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
+  ],
+  "investment_view": {
+    "action": "Kademeli ve seçici risk al; nakit tamponunu koru, güçlü rallileri kovalamaktan kaçın.",
+    "favored": [
+      "Geniş endeks / kaliteli büyük şirketler: tekil yüksek-beta teknolojiye göre daha dengeli.",
+      "Nakit veya kısa vadeli Hazine bonosu tamponu: yeni fırsatlar ve volatilite için opsiyonellik.",
+      "Altın: reel faiz/borç arzı ve makro belirsizliğe karşı portföy hedge'i olarak değerlendirilebilir."
+    ],
+    "avoid": [
+      "Dikey hareket sonrası BTC/ETH'yi FOMO ile kovalamak; kripto IV Rank yüksekse geri çekilme riski büyür.",
+      "Kredi kalitesi zayıf şirketlerde agresif risk almak; CCC spreadindeki bozulma teyit edilmeden göz ardı edilmemeli.",
+      "Tek bir buyback haberini 'QE başladı' kabul edip kaldıraç artırmak."
+    ],
+    "add_risk_if": [
+      "CCC ve IG spreadleri yeniden daralmaya başlar, HY düşük kalırsa risk artırma teyidi.",
+      "VIX düşük kalıp contango korunur ve 10Y/30Y faizleri istikrar kazanırsa risk-on teyidi.",
+      "Makro kompozit skor 60+ bölgesine yerleşirse kademeli ek risk için daha güçlü zemin."
+    ],
+    "reduce_risk_if": [
+      "HY OAS %4.0 üzerine çıkar veya kredi döngüsü Late Cycle/Contraction'a dönerse riski azalt.",
+      "VIX term structure backwardation/inversion'a dönerse kısa vadeli risk bütçesini düşür.",
+      "Uzun vadeli faizler yeniden sert yükselirken CCC/IG spreadleri de açılırsa buyback rahatlamasının geçici kaldığını varsay."
+    ],
+    "confidence": 63.0,
+    "disclaimer": "Bu, ajanın genel piyasa koşullarına göre ürettiği model yatırım görüşüdür; kişisel risk toleransı, nakit ihtiyacı, mali durum veya vergi durumuna göre özelleştirilmiş tavsiye değildir."
+  },
+  "data_quality": {
+    "score": 62,
+    "issues": [
+      "Tarayıcı ajanı Bybit erişim hatası veriyor; coin tarama sinyali karar skoruna dahil edilmedi.",
+      "Gizli Baskı ajanında veri kapsamı dar; MSTR dışındaki birçok özel akış henüz yok.",
+      "Opsiyon ajanında SPX dealer GEX/wall gibi ücretli metrikler eksik.",
+      "Binance Futures GitHub runner'da erişilemiyor; funding/OI için OKX fallback kullanılıyor.",
+      "Treasury buyback sonuç tablosunun bazı alanları otomatik çekilemeyebilir; tentative schedule ve haber teyidi ayrı tutuluyor."
+    ]
+  },
+  "treasury_buyback": {
+    "source": "U.S. Treasury / TreasuryDirect",
+    "source_page": "https://www.treasurydirect.gov/auctions/announcements-data-results/buy-backs/",
+    "tentative_schedule_url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ32026.xml",
+    "schedule": [
+      {
+        "operation_date": "2026-08-18",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      },
+      {
+        "operation_date": "2046-08-19",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2029-08-21",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 3Y to 5Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      },
+      {
+        "operation_date": "2031-08-26",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 5Y to 7Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      },
+      {
+        "operation_date": "2026-10-04",
+        "operation_type": "Cash Management",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
+        "max_amount_raw": "12500000000",
+        "max_amount": 12500000000.0
+      },
+      {
+        "operation_date": "2026-10-10",
+        "operation_type": "Cash Management",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
+        "max_amount_raw": "12500000000",
+        "max_amount": 12500000000.0
+      },
+      {
+        "operation_date": "2036-09-11",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2036-09-16",
+        "operation_type": "Liquidity Support",
+        "security_type": "TIPS",
+        "maturity_bucket": "TIPS 10Y to 30Y",
+        "max_amount_raw": "500000000",
+        "max_amount": 500000000.0
+      },
+      {
+        "operation_date": "2033-09-18",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 7Y to 10Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      },
+      {
+        "operation_date": "2046-09-25",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2027-09-30",
+        "operation_type": "Liquidity Support",
+        "security_type": "TIPS",
+        "maturity_bucket": "TIPS 1Y to 10Y",
+        "max_amount_raw": "750000000",
+        "max_amount": 750000000.0
+      },
+      {
+        "operation_date": "2036-10-02",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2028-10-07",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 2Y to 3Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      },
+      {
+        "operation_date": "2046-10-09",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2036-10-16",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2027-10-22",
+        "operation_type": "Liquidity Support",
+        "security_type": "TIPS",
+        "maturity_bucket": "TIPS 1Y to 10Y",
+        "max_amount_raw": "750000000",
+        "max_amount": 750000000.0
+      },
+      {
+        "operation_date": "2046-10-28",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 20Y to 30Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2036-11-05",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 10Y to 20Y",
+        "max_amount_raw": "2000000000",
+        "max_amount": 2000000000.0
+      },
+      {
+        "operation_date": "2026-12-06",
+        "operation_type": "Liquidity Support",
+        "security_type": "NOMINAL COUPONS",
+        "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
+        "max_amount_raw": "4000000000",
+        "max_amount": 4000000000.0
+      }
+    ],
+    "recent_results": [],
+    "special_announcements": [],
+    "errors": [
+      "TreasuryDirect operasyon tablosu istemci tarafında yükleniyor; doğrudan sonuç XML linki HTML içinde bulunamadı."
+    ],
+    "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
+    "schedule_count": 19,
+    "result_count": 0,
+    "generated_at": "2026-08-19T22:20:19.715419+00:00"
+  },
+  "buyback_news": [
+    {
+      "title": "Stock Market Today: Dow Opens Higher, Bond Yields Dive After Treasury Steps Up Buybacks — Live Updates - WSJ",
+      "source": "WSJ",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYUV6eHp3ak9nQS1lelJ4bUNGcXhzb3dFZHIza09ycS0yWmpROHE1T21kTWN3SEJ2dzNQUHMzOVhBTk84TXkwRjgtZmVScTJLekltN3BsVTQzNEtSS2NudzRoQXlUNFFweS1lR1IyVkhrVHJHYmdpZWppMzQyell3SnFZYU5vdmM?oc=5",
+      "published_at": "2026-08-19T21:45:00+00:00"
+    }
+  ],
+  "agent_status": {
+    "macro": "ok",
+    "credit": "ok",
+    "crypto": "ok",
+    "crypto_derivatives": "ok",
+    "options": "ok",
+    "equities": "ok",
+    "hidden_pressure": "ok",
+    "screener": "error",
+    "news": "ok"
+  },
+  "method": "9 uzman ajan -> normalize edilmiş alt skorlar -> veri kalitesi cezası -> mekanizma ve çapraz-varlık yorum katmanı.",
+  "generated_at": "2026-08-19T22:19:45.510816+00:00"
+}
