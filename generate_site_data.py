@@ -3,6 +3,7 @@ import json,os
 from datetime import datetime,timezone
 from agents import macro,credit,crypto,crypto_derivatives,options,equities,hidden_pressure,screener,news,harmonizer
 from common.treasury_buyback import fetch_treasury_buybacks
+from common.coinalyze import fetch_coinalyze_btc
 
 OUTPUT_DIR=os.path.join(os.path.dirname(__file__),"docs","data")
 AGENTS={"macro":macro,"credit":credit,"crypto":crypto,"crypto_derivatives":crypto_derivatives,"options":options,"equities":equities,"hidden_pressure":hidden_pressure,"screener":screener,"news":news}
@@ -16,7 +17,11 @@ def _write(name,data):
 def main():
     now=datetime.now(timezone.utc).isoformat(); payloads={}
     for name,module in AGENTS.items():
-        try:data=module.get_analysis_data(); data["generated_at"]=now
+        try:
+            data=module.get_analysis_data()
+            if name=="crypto_derivatives":
+                data["coinalyze"]=fetch_coinalyze_btc()
+            data["generated_at"]=now
         except Exception as e:data={"generated_at":now,"error":str(e)}
         payloads[name]=data; _write(name,data); print("Yazıldı:",name)
 
