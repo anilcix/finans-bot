@@ -46,10 +46,22 @@
       "query": "stock market today",
       "items": [
         {
+          "title": "Stock Market Today, Aug. 19: Moderna Skyrockets 177% on Positive Phase 3 Melanoma Data - fool.com",
+          "source": "fool.com",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdm56c1FyUUJNbmtMTUlBU2RtWDBhSDlubFV4ejJsSnRhVkJPLTQ5a1pNNFh6ZUhqeHViZE9FWHJKVmtsR1g4VTVLWXVkY2p1RXNZVjlkQzRya283X1MzTWJpYTF0c2ZWcjdJaWhzU1MwVndjTGI4WVRSZkhCX1NocGpHenJ3TEtjd1pKV19sZmZIdlgwM1N1bWNoQnhpd1NUaUJnX3IzWWF2MmxDRENZOEdoSW9rVWlQN1VvaTZZNC1MTjJvUV9XU3VkRVBoUUtEZWVSaTZBMXVVVmM?oc=5",
+          "published_at": "2026-08-19T21:25:42+00:00"
+        },
+        {
           "title": "Bessent acts to break bond market fever, head off rising borrowing costs - The Washington Post",
           "source": "The Washington Post",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEp5ODBDWGVqYUZ1eEdFS1BxODduekpEZFB0Vm9YcmFCeW9IYnV1eUNFeHpJZ3lLT0NMSk9OazBVZE1xZmJvMnlBZjNjSWpodkEtd09CdmpOT0VSQVJvZDNHRWNFQWxMU1ZxR05UOE92SXd6WTllbEhBQUotZjhVVUdZckw5UloxS1JqamtJcGNzVFVwS3hjNXdXR2VjcFJuMnlReWFIN1dLbHBldzhKWndMTTY?oc=5",
           "published_at": "2026-08-19T21:02:19+00:00"
+        },
+        {
+          "title": "Picking AI Winners Is Getting Harder for Wall Street - Bloomberg",
+          "source": "Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaXBOY2pJTi11ODN0bzVBNGhNUmdWSmNSbUxMRUotXzNSNU5MM29uWTdOVURJem0wSkpFeTlJMUlBbDlRV1ZvVFBZbWN6eUp6R29uWmlpSlNPUEkyWUVER0k1VnNmOFNLR25Ca29RdXkxY1ZSbERsQjAzNVRPWmI0NnlJeGpyWVRxaFdFOEFZWEdHbVY1ajA3OTFSdHhvdnRHdmMxTmxIZVFMc1dGcHBBMTlhSUN3eXpydlVCZUc1aGNHdkhrQ1I5cnhB?oc=5",
+          "published_at": "2026-08-19T21:00:39+00:00"
         },
         {
           "title": "Moderna, Merck, Micron, Marvell, Estée Lauder, Honeywell Aerospace, and More Stocks That Explain Today’s Market - Barron's",
@@ -58,26 +70,14 @@
           "published_at": "2026-08-19T20:36:00+00:00"
         },
         {
-          "title": "Dow, S&P 500 and Nasdaq end higher as Treasury buyback plan triggers rally for stocks, bonds, gold and bitcoin - MarketWatch",
-          "source": "MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMikANBVV95cUxPZXVZMjdaR2NRc0VZMGRERzc0Ykh6VkpDWlNDVzBmWDVzNUF1NnFCaHVIUjF3Q2ZhZTJUbmt3N0VWRVlCZDR1Z0pnZ3dMREQwb3I1c2NqdkNLY3dwOHlQTmlsYzVSXzVudUxtbDkxdHAyLW1XTEk3ZFpWMnFKQks0NzhsYTVNNVlkR2tBWHViX25MRTFmT2pUNEVUazdqMlZTQ1MwakRTOWlqX1RrS1VWSHBDYXQ1dy14S3ZDVEJXUG5wa0hDLXZMTmltbkJnTFJ4UlhFbEc4c25NaWQ1ejNTNE1IY28wVGlfLXBLblhJVlpOaTJRdE8xN3c3YWx3RkJtVmV4RURZbVZOMzFXWWFxblRZSzc2Sjl5SzNlRVJ6dGRwLVkwMm15OGE0NTZaS3lOQmRQT2o4dUJFZmUxanB5VUpwZW5SaE1BSV9XR0tBWUFQbEVNRFpmU2VlVUY3MUhYYlBqcUtjQVpTc0EwR0Y5bm9rczJfaFlycHgtZWd3UEZoNXlwZnRuaTIydUNkQVpJ?oc=5",
-          "published_at": "2026-08-19T20:23:00+00:00"
-        },
-        {
-          "title": "Stocks Snap Losing Streak as Treasury Yields Ease: Stock Market Today - Kiplinger",
-          "source": "Kiplinger",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0FrRjgtTG9nVExROEY1NzVKc01EaTdNZkUzc0p5ZkhWYnVqbWVlT3N6TG5tdWFLaEtqdkRkbW5oNFBZU2xacXQ0U1d6Nm5HUmhlLWZOV1BrS1d1UzB0b0lwZ1M1cGZGOUZEMld4SkllcFlIbFZvS3lCX3VCcEIteW5hV0g1UGZPVy03NTM4ZWpETzd1MTZ5c1hLZ05Ca0pGbEpIMzVyVUwwdnFsR2w5Yw?oc=5",
-          "published_at": "2026-08-19T20:15:00+00:00"
-        },
-        {
           "title": "Stock Market Today: Dow Opens Higher, Bond Yields Dive After Treasury Steps Up Buybacks — Live Updates - WSJ",
           "source": "WSJ",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYUV6eHp3ak9nQS1lelJ4bUNGcXhzb3dFZHIza09ycS0yWmpROHE1T21kTWN3SEJ2dzNQUHMzOVhBTk84TXkwRjgtZmVScTJLekltN3BsVTQzNEtSS2NudzRoQXlUNFFweS1lR1IyVkhrVHJHYmdpZWppMzQyell3SnFZYU5vdmM?oc=5",
-          "published_at": "2026-08-19T20:11:00+00:00"
+          "published_at": "2026-08-19T20:33:00+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T21:01:27.086034+00:00"
+  "generated_at": "2026-08-19T21:36:53.352076+00:00"
 }
