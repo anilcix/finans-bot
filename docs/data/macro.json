@@ -85,6 +85,20 @@
       "signal_emoji": "🟢"
     },
     {
+      "label": "Reel Faiz (Cleveland Fed 1Y)",
+      "value": 2.14440465,
+      "percentile": 86.25,
+      "weight": 0.5,
+      "invert": true,
+      "level_score": 13.75,
+      "momentum_score": 27.441166604876152,
+      "change_1m": -0.030387110000000384,
+      "change_3m": 1.7941033499999999,
+      "combined_score": 18.541908311706653,
+      "signal_label": "Risk-Off",
+      "signal_emoji": "🔴"
+    },
+    {
       "label": "Reel Faiz (10Y TIPS)",
       "value": 2.44,
       "percentile": 99.14529914529915,
@@ -141,7 +155,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 57.52288835536597,
+  "composite_score": 55.43834396800451,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -161,25 +175,11 @@
   },
   "early_warnings": [
     {
-      "name": "HY Kredi Spreadi",
-      "value": "270 bps",
-      "warn": "400+ bps",
-      "crisis": "600+ bps",
-      "status": "🟢 Güvenli"
-    },
-    {
       "name": "SLOOS — Kredi Kartı",
       "value": "%+6.7",
       "warn": "+%10",
       "crisis": "+%20",
       "status": "🟢 Güvenli"
-    },
-    {
-      "name": "CCC-HY Ayrışması",
-      "value": "fark +87 puan",
-      "warn": "30+",
-      "crisis": "50+",
-      "status": "🔴 KRİZ"
     }
   ],
   "macro_market_history": {
@@ -10170,8 +10170,8 @@
       },
       {
         "date": "2026-08-19",
-        "value": 147.0441067184611,
-        "raw": 64391.9296875
+        "value": 146.86831567885338,
+        "raw": 64314.94921875
       }
     ]
   },
@@ -10422,5 +10422,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-19T09:00:31.800857+00:00"
+  "generated_at": "2026-08-19T09:46:14.992857+00:00"
 }
