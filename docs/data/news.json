@@ -10,6 +10,12 @@
       "query": "Bitcoin ETF",
       "items": [
         {
+          "title": "BlackRock's Bitcoin ETF sees $143.57M inflows, ... - Pluang",
+          "source": "Pluang",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTdNdjEwQ3Z2N1hpazRFczRQenZ2MUZFRmE0V2hFODRTU3pfa015YnRtcWRuMk5tN3k5WDMzUXJ6MUdJWkx4NWlsZ1ZvQVA4Y3Nfa1B5NlluT3ZkV3FuRWdMN1V2TFkxa2xQLTFSaVVpSlVZRHd2eFZLeC1MelJxZEk3UWNrM002VW1Wc2ZQeTFkbVZQ?oc=5",
+          "published_at": "2026-08-19T05:13:53+00:00"
+        },
+        {
           "title": "US Spot-Bitcoin ETFs Draw $189.31 Million, Marking Second Straight Day of Inflows - bloomingbit",
           "source": "bloomingbit",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhcHdrZVNZTUEzRW42N08wZ3hndjlEMGJ5eVE1MlVWb194SkhxQW90Z3M5ZC1FcHlBWnk4S25VcndWN2FNamsyUmx1bllCTmhyUERhVg?oc=5",
@@ -32,12 +38,6 @@
           "source": "foreignpolicyjournal.com",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSG9VQVdHT2djZlBudWR4Y3pSYWhGa0FxbEVNaURBVjRUM1BRWjVPUm94OUdPX2UwT0F3dUpRX1I4cnNFUnVwMVJobWJYbGF1cmJuVWp2TUY4SXdtMUQyTUw3UzltMC1DM1BuODRneG9MVnFETnBUeEdubVhVNnhSTERKSzRwTXBMcHUwRENTZmd3MktkQXg0NEwwcmlOb19hUVluZHc2U3hFLVRncGVYYXdhRnJjRkVnbExfdDMwekpvWlFHMGxPbjJqb0FBY21YT01QSTBPaWg?oc=5",
           "published_at": "2026-08-18T22:55:00+00:00"
-        },
-        {
-          "title": "Bitcoin Is Under Pressure, But This Strategy ETF Is Suddenly the Fund to Watch - TradingView",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZTYyN3dtQkJacHBacGZJUkdpNnJvaG02T0xWNnJWZm5HRUxZcExTeEg3SHBkZEs2b2FqXzJFSzdORmlHRnR3UTREQzYydUt6U190c0dIa21DQUt3VWs3dnh4aTdoQjVHbTJuVUtMZkRhSlNMR1Z2MEQ0SU1JYjg4NGxydEgwU0JfUWdkZ2tFYkdoa3Vqc0pNMUgxUXZWNkNhX3FIMUZoSTlmTGFGTzNqd0VmdUU5Q3p2R1M2U2Q4S3NMNmIzX0pxbEdIR2dPZEthQWc?oc=5",
-          "published_at": "2026-08-18T20:40:05+00:00"
         }
       ]
     },
@@ -46,16 +46,22 @@
       "query": "stock market today",
       "items": [
         {
-          "title": "S&P 500 falls for a third day, as elevated global bond yields and oil prices weigh on market - CNBC",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5",
-          "published_at": "2026-08-19T04:04:19+00:00"
+          "title": "Why is Wisetech Global stock tumbling today? - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWWNXMVVxaTdZV0QzTTJvY3M0dXM3SUxjN1BjMS00bzRTX3NVem52MWxSdURyc1k1aUttcVFuMXpjREp5S3c0b1p3dEU3c3ZTUF9kcmw5YkhZMy1BZk56aU8tWW90ZWFCdU1rUFMzM3JQbHBUQVB2YU5IRVlnc0NhN3VDMjU2dlM2eXlJUmVDWGc5c3RPVDlsQWJGQ2JTR0l0V2stS0w3M1U?oc=5",
+          "published_at": "2026-08-19T04:39:27+00:00"
         },
         {
           "title": "Why is Xiaomi stock surging today? - Investing.com",
           "source": "Investing.com",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNjVROW0wLUdDUUUwVm9JSklCbnNPVFJsRUtzR2ZLS2lkdWVfX1N2V0pPaEFBLTBvakRMV1g4QXhTamtieDVQVUpOY0tQbzRkRkYyNnZzOEdkNFcyZlExeXE2STlucjc5N2JlNl9DZlBXTnVudGs0eTZUMHlJZUhzQlFOQjYxekVGaE5PVkVYUkN6ZnFlRnpqUHNnWQ?oc=5",
           "published_at": "2026-08-19T03:45:00+00:00"
+        },
+        {
+          "title": "Why is Baidu stock cratering today? - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd3d0TzFqY2daQVBzRzZ2Y1YyQTJJNl9FNGRnSGhieGc2S3JSLVVja0d3OFE4M1N3ak5YTUNnZnU2QUwwTTZvYUlVTlVVOF9Ia1JfUDJ0cW5EQnczeW1UM3VUeTV5UE00RDlBTG5vQy0wTDItNWo5U09NWXJWSXZ0ci14UlAwQ1NXNHdONG1jRDlsbXc4d0h6Z3AtdkQ?oc=5",
+          "published_at": "2026-08-19T03:11:18+00:00"
         },
         {
           "title": "Futures: After Painful AI Losses, Indexes Near Key Test - Investor's Business Daily",
@@ -68,16 +74,10 @@
           "source": "CNBC",
           "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52WVUwei1VUlFvc0FwU3lkWlBjY2lHYlNOei1RSnktZVRxQmpYWlFRN25yNS12NE96QlpuM2ZOUWpseURQV0JIcFVHZDRiYjJSb2tTSkJ3Vk5UNEpuNTJLRkFfcEZaZUluNVRXWXFFVHBvUDhSallz0gF8QVVfeXFMTnJZcUR5RmdKSDBwYlQyeXdhN2V6NFJYTVhHMVhZNzBxZFNkeFZ4OWZuMUZKLW83VWtXcWh6MVZpMHNjamVEbThLYzB4SzRIN2E2Ym5Ua2JOMU5vb2x2Y2hYSklqWi0tX210RS1neHZGbnRBY1ZqcHRVblhMTg?oc=5",
           "published_at": "2026-08-19T02:06:06+00:00"
-        },
-        {
-          "title": "Stock Market Today: Gift Nifty To US Treasury Yields — Five Key Factors That May Drive Sensex, Nifty 50 on August 19 - NDTV Profit",
-          "source": "NDTV Profit",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTGZXUHk3LTZ0OWpDWFpRZ2RKcHMwMm9YODUyU1dtX3VGLUFHWkpHcjFiOXhfbVl1TmFMVEIwSlotLVNNRFpDN3JsdmdPdWVFQTgwcEVLV19CLXNEQVltaGRYejZrNGdxSlNzVEg4eU5QVy1ZMEUtN0pWdm50T3M5ckZSQkhXMGdwZmFEbVoxUzVXYWhBb3RCNzJ3emZ3ZzVGNEkyZzlkTnRfa0RZY0VaOFBZem1KM0lZTTVyT0RwN3gxUG5temxnY2NuY0lkZm4yV2hubEZBeDhWLWVGRnJ1VEZneVJsNnl5T0xySNIB9AFBVV95cUxPdFg2dElnR0dwb1gwRjFndHhtTkdVc211QTE5Y3IxeWdEZTNEUEdrZzBCX2k2T1RudjVGOTRCb2FmMEtjOUZrQmZiOVlFT042YUNYaWsyQmpLOWNsblVXdlNLQ3EwMWNUaTZURkk3VGVQMkdCMFA0YV9yYjBRc1lERHhpaGsxbDMtSXAyZk90TzcyUHpBZFVselNFQWZ1MUdQQy0xRTdCYlBiejB1MFBBa3M3Sk5BV0hnQldIaWhzOEcyZDVReWNsaWVvYVVRWDRGUmZLYkp4am9ucGp4ZWpoU1h0MXowX2Q4c2tfbUVjTXp5N0Vy?oc=5",
-          "published_at": "2026-08-19T01:26:43+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T04:57:34.180830+00:00"
+  "generated_at": "2026-08-19T05:22:24.820625+00:00"
 }
