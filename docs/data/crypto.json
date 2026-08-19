@@ -14,15 +14,15 @@
     "btc_dominance": 56.483779791226084,
     "eth_dominance": 10.098234902400032
   },
-  "stablecoin_supply_usd": 299755620648,
+  "stablecoin_supply_usd": 299759612142,
   "funding_pct": 0.00591412493872,
   "funding_source": "OKX",
-  "open_interest_btc": 32963.88770000013,
+  "open_interest_btc": 32968.67160000013,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
     "status": 451,
     "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
-  "generated_at": "2026-08-19T06:36:51.273083+00:00"
+  "generated_at": "2026-08-19T06:37:36.096217+00:00"
 }
