@@ -5,12 +5,12 @@
   },
   "max_pain": {
     "strike": 65000.0,
-    "spot": 69208.41,
+    "spot": 69184.37,
     "expiry": "2026-08-20T08:00:00+00:00",
     "days_left": 0,
-    "put_call_ratio": 0.6440340465406841
+    "put_call_ratio": 0.6438494765925984
   },
-  "gex_musd": 237.2431432752863,
+  "gex_musd": 238.63704218244274,
   "iv_rank_pct": 95.57291666666666,
   "current_iv": 28.77368709232592,
   "funding": {
@@ -22,9 +22,9 @@
   },
   "positioning": null,
   "oi_zscore": -2.6459911713230397,
-  "open_interest_btc": 30702.793200000106,
+  "open_interest_btc": 30753.499400000102,
   "open_interest_source": "OKX",
-  "spot_perp_basis_pct": -0.038127423582669615,
+  "spot_perp_basis_pct": -0.031346468033098825,
   "basis_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -45,7 +45,7 @@
     "long_short_latest": 0.55,
     "long_short_ratio": 0.55,
     "funding_latest": -7.13498383e-10,
-    "basis_latest": 0.0002,
+    "basis_latest": -0.0,
     "aggressor_latest": 300.0,
     "aggressor_diff_latest": 300.0,
     "liquidations_latest": 0.0,
@@ -55,12 +55,12 @@
     "source": "Hyperliquid public API",
     "ok": true,
     "error": null,
-    "mark_price": 69219.0,
-    "open_interest_btc": 34604.19366,
-    "open_interest_usd": 2395267680.95154,
+    "mark_price": 69198.0,
+    "open_interest_btc": 34380.7945,
+    "open_interest_usd": 2379082217.8110003,
     "funding_pct": 0.00125,
-    "volume_24h_usd": 5549124966.63089,
-    "premium_pct": -0.02614168,
+    "volume_24h_usd": 5568303152.519115,
+    "premium_pct": -0.01343614,
     "funding_24h_avg_pct": 0.0005718504166666667,
     "funding_positive_pct": 83.33333333333334,
     "funding_samples": 24
@@ -68,26 +68,32 @@
   "okx": {
     "source": "OKX",
     "ok": true,
-    "open_interest_btc": 30702.793200000106,
+    "open_interest_btc": 30753.499400000102,
     "funding_pct": 0.00467644705158
   },
   "coinalyze": {
     "source": "Coinalyze",
     "configured": false,
     "ok": false,
-    "note": "Ücretsiz API key henüz GitHub Secret olarak tanımlı değil; public kaynaklar kullanılmaya devam ediyor.",
+    "markets": [],
+    "aggregate_oi_usd": null,
+    "oi_change_24h_pct": null,
+    "oi_weighted_funding_pct": null,
+    "liquidations_24h": null,
+    "long_short_ratio_avg": null,
+    "note": "COINALYZE_API_KEY GitHub Secret olarak tanımlı değil.",
     "error": null
   },
   "cross_venue_oi": {
-    "total_btc": 65306.98686000011,
+    "total_btc": 65134.293900000106,
     "venues": [
       {
         "venue": "OKX",
-        "oi_btc": 30702.793200000106
+        "oi_btc": 30753.499400000102
       },
       {
         "venue": "Hyperliquid",
-        "oi_btc": 34604.19366
+        "oi_btc": 34380.7945
       }
     ],
     "coverage": "Kısmi agregasyon; Kraken OI birimi normalize edilmediği için toplamın dışında tutulur."
@@ -110,5 +116,5 @@
     "coinalyze_configured": false
   },
   "oi_zscore_source": "Kraken 48s public analytics",
-  "generated_at": "2026-08-19T22:46:33.868996+00:00"
+  "generated_at": "2026-08-19T22:55:58.679379+00:00"
 }
