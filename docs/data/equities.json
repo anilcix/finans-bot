@@ -83,8 +83,8 @@
     {
       "symbol": "SI=F",
       "label": "Gümüş",
-      "price": 67.085,
-      "change_pct": 3.2267495537637627
+      "price": 67.11,
+      "change_pct": 3.2652181941281464
     },
     {
       "symbol": "BZ=F",
@@ -95,8 +95,8 @@
     {
       "symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 84.4,
-      "change_pct": 2.4271844660194173
+      "price": 84.42,
+      "change_pct": 2.451456310679607
     }
   ],
   "unavailable": [
@@ -104,5 +104,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-19T23:15:01.524573+00:00"
+  "generated_at": "2026-08-19T23:16:05.161302+00:00"
 }

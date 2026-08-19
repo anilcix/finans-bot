@@ -1,11 +1,11 @@
 {
   "btc": {
-    "price": 69336,
-    "change_24h": 7.2332751392582315
+    "price": 69338,
+    "change_24h": 7.236488826421995
   },
   "eth": {
-    "price": 2249.33,
-    "change_24h": 17.420043597638397
+    "price": 2248.82,
+    "change_24h": 17.389054778411992
   },
   "global": {
     "total_usd": 2456837709104.6865,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.00467644705158,
   "funding_source": "OKX",
-  "open_interest_btc": 30810.495600000108,
+  "open_interest_btc": 30815.862900000106,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -74,5 +74,5 @@
     "grade": "A"
   },
   "stablecoin_top50_market_cap_usd": 300844282282,
-  "generated_at": "2026-08-19T23:15:01.524573+00:00"
+  "generated_at": "2026-08-19T23:16:05.161302+00:00"
 }
