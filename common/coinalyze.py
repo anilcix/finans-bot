@@ -22,7 +22,13 @@ def _f(x):
         return None
 
 
+def _clean_key(value):
+    """GitHub Secret'a kopyalarken eklenebilen newline/kaçış karakterlerini temizler."""
+    return (value or "").strip().replace("\\n", "").replace("\\r", "").replace("\n", "").replace("\r", "").strip()
+
+
 def _get(path, key, params=None):
+    key = _clean_key(key)
     r = requests.get(f"{BASE}/{path}", params=params or {}, headers={**UA, "api_key": key}, timeout=20)
     r.raise_for_status()
     return r.json()
@@ -72,7 +78,7 @@ def _hist_map(rows):
 
 
 def fetch_coinalyze_btc():
-    key = os.getenv("COINALYZE_API_KEY")
+    key = _clean_key(os.getenv("COINALYZE_API_KEY"))
     out = {
         "source": "Coinalyze",
         "configured": bool(key),
