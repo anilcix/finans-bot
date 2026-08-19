@@ -77,26 +77,26 @@
     {
       "symbol": "GC=F",
       "label": "Altın",
-      "price": 4579.8,
-      "change_pct": 4.552095699022933
+      "price": 4576.2,
+      "change_pct": 4.469911423614286
     },
     {
       "symbol": "SI=F",
       "label": "Gümüş",
-      "price": 67.11,
-      "change_pct": 3.2652181941281464
+      "price": 67.17,
+      "change_pct": 3.35754293100265
     },
     {
       "symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 91.63,
-      "change_pct": 3.51333032083145
+      "price": 91.72,
+      "change_pct": 3.615002259376415
     },
     {
       "symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 84.42,
-      "change_pct": 2.451456310679607
+      "price": 84.55,
+      "change_pct": 2.6092233009708634
     }
   ],
   "unavailable": [
@@ -104,5 +104,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-19T23:16:05.161302+00:00"
+  "generated_at": "2026-08-19T23:34:22.009337+00:00"
 }
