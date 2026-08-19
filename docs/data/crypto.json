@@ -17,12 +17,12 @@
   "stablecoin_supply_usd": 299748747018,
   "funding_pct": 0.00591412493872,
   "funding_source": "OKX",
-  "open_interest_btc": 32930.46670000013,
+  "open_interest_btc": 32935.01210000013,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
     "status": 451,
     "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
-  "generated_at": "2026-08-19T07:08:47.120340+00:00"
+  "generated_at": "2026-08-19T07:09:46.487707+00:00"
 }
