@@ -1,5 +1,6 @@
 """AJAN 1: Makro — FRED + Yahoo; barometre, kompozit skor ve rejimler."""
 from common.fred import fetch_fred_history
+from common.yahoo import fetch_yahoo_history
 from common.stats import percentile_rank,composite_score,score_label
 from common.regime import credit_cycle_phase,yield_curve_regime,hy_spread_warning,sloos_warning,ccc_hy_divergence_warning
 
@@ -28,6 +29,28 @@ def _compute_barometer():
     except Exception: pass
     return out
 
+def _macro_market_history():
+    """Son ~5 yıl için Core PCE YoY, Fed Funds ve S&P 500 geçmişi."""
+    out={"core_pce":[],"fed_funds":[],"sp500":[]}
+    try:
+        dates,vals=fetch_fred_history("PCEPILFE",limit=72,units="pc1")
+        pts=[{"date":d,"value":v} for d,v in zip(dates,vals) if v is not None]
+        out["core_pce"]=list(reversed(pts[:61]))
+    except Exception:
+        pass
+    try:
+        dates,vals=fetch_fred_history("FEDFUNDS",limit=72)
+        pts=[{"date":d,"value":v} for d,v in zip(dates,vals) if v is not None]
+        out["fed_funds"]=list(reversed(pts[:61]))
+    except Exception:
+        pass
+    try:
+        hist=fetch_yahoo_history("^GSPC",range_="5y",interval="1mo")
+        out["sp500"]=[{"date":d,"value":v} for d,v in hist[-61:]]
+    except Exception:
+        pass
+    return out
+
 def get_analysis_data():
     bar=_compute_barometer(); comps=[(p,w,i) for _,_,p,w,i in bar]; score=composite_score(comps) if len(bar)>=4 else None; lbl,emo=score_label(score) if score is not None else (None,None)
     credit={"phase":None,"emoji":None,"desc":None}
@@ -49,7 +72,7 @@ def get_analysis_data():
         if hyp is not None:
             _,cc=fetch_fred_history("BAMLH0A3HYC",limit=3900); cp=percentile_rank(cc,cc[0]); diff,status=ccc_hy_divergence_warning(cp,hyp); warnings.append({"name":"CCC-HY Ayrışması","value":f"fark {diff:+.0f} puan","warn":"30+","crisis":"50+","status":status})
     except Exception: pass
-    return {"barometer":[{"label":l,"value":v,"percentile":p,"weight":w,"invert":i} for l,v,p,w,i in bar],"composite_score":score,"composite_label":lbl,"composite_emoji":emo,"credit_cycle":credit,"yield_curve":yc,"early_warnings":warnings}
+    return {"barometer":[{"label":l,"value":v,"percentile":p,"weight":w,"invert":i} for l,v,p,w,i in bar],"composite_score":score,"composite_label":lbl,"composite_emoji":emo,"credit_cycle":credit,"yield_curve":yc,"early_warnings":warnings,"macro_market_history":_macro_market_history()}
 
 def build_report():
     d=get_analysis_data(); s=d.get("composite_score"); return f"🌡️ *MAKRO*\nKompozit: {s:.0f}/100 — {d.get('composite_label')}" if s is not None else "🌡️ *MAKRO*\n⚠️ Veri alınamadı"
