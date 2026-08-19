@@ -9,7 +9,7 @@
     "crypto": 58.0,
     "crypto_derivatives": 48,
     "equities": 43.2,
-    "news": 74
+    "news": 75
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,9 +17,9 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 74,
+    "score": 75,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 7 destekleyici, 0 risk artırıcı, 2 nötr/karışık benzersiz başlık. Haber skoru 74/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 7 destekleyici, 0 risk artırıcı, 2 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
     "positive_count": 7,
     "negative_count": 0,
     "neutral_count": 2,
@@ -39,9 +39,9 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Stock Market Today: Dow, S&P 500 and Nasdaq Rise as Treasury Buybacks Lower Bond Yields; A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar",
-        "interpretation": "Hisse haberi; endeks genişliği, VIX ve teknoloji hisselerinin ortak tepkisiyle teyit edilir.",
-        "data_confirmation": "Hisse skoru 43/100; VIX 14.9."
+        "digest": "Treasury doubles long-term bond buybacks to $4 billion; Stock Market Today: Dow, S&P 500 and Nasdaq Rise as Treasury Buybacks Lower Bond Yields",
+        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
         "topic": "Kripto",
@@ -49,7 +49,7 @@
         "count": 1,
         "digest": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+7.1; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+6.9; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
       }
     ],
     "important_news": [
@@ -68,10 +68,24 @@
         "data_confirmation": "Hisse skoru 43/100; VIX 14.9."
       },
       {
-        "title": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar",
-        "source": "investinglive.com",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5",
-        "published_at": "2026-08-19T21:52:45+00:00",
+        "title": "New York Stocks Rebound on Treasury Buybacks",
+        "source": "조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1lHWnp1VW5zQlRMN2FCY2ZpTE1GdzF5T0JPa3N5aEF1dTd0S2F4c1RxdmlDbmlOT3pNTkU3ODZWQy1SZ2lBaG1fVnZYUHBBN204VVZIMDdlUkFLT2JUV0VwUmQ0dm5jNi1jcVNoa2dMYm5hVmFtY3RKeXpnbldFWHF6ZnQwV0RnT2t0d1Jn?oc=5",
+        "published_at": "2026-08-19T21:51:50+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "equities",
+        "impact_score": 2,
+        "impact": "Destekleyici",
+        "excerpt": "New York Stocks Rebound on Treasury Buybacks 조선일보",
+        "read_mode": "rss",
+        "interpretation": "Hisse haberi; endeks genişliği, VIX ve teknoloji hisselerinin ortak tepkisiyle teyit edilir.",
+        "data_confirmation": "Hisse skoru 43/100; VIX 14.9."
+      },
+      {
+        "title": "Treasury doubles long-term bond buybacks to $4 billion",
+        "source": "qz.com",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSXl3YUlWRE1SdlNzSlVnVEViMGY3OFdnYUt3eTl6aWVsTTFXUE9hRVdqWEZHT3dTTkV3cGZlWEU3eFUwck5xX2g5clRJSGZNT2NqcFJDZlAzaEV4MlZOZ2ZpNnF4WnFwTm5PN0E1X0c3Zw?oc=5",
+        "published_at": "2026-08-19T23:35:20+00:00",
         "topic": "Tahvil / Likidite",
         "theme": "rates",
         "impact_score": 1,
@@ -82,29 +96,15 @@
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
-        "title": "Crypto surges as Treasury doubles bond buybacks, SEC proposes regulation",
-        "source": "eciks.org",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CYmREY3E1NFp3OFlZVTUyR21lMWpmeWR0Zmg3dVQ3Tmswd240d2d5UVc3MGJ0UC1RX1pfamI2SHN3bF9IcnptVmxZMUtJRFlZTEVLMll1ZE9MemU0ZTVqSnR6TWFMZU8tS3NoYXB0QkdPQUU4Z1BxNQ?oc=5",
-        "published_at": "2026-08-19T21:45:50+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "crypto",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "excerpt": "Crypto surges as Treasury doubles bond buybacks, SEC proposes regulation eciks.org",
-        "read_mode": "rss",
-        "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+7.1; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
-      },
-      {
-        "title": "Treasury Secretary Bessent doubles US long-bond buybacks in the face of surging yields",
-        "source": "Reuters",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVG9LQ251bHQzZlRLUDhWa1JjNTNUUkh3TVN4YUZ3M09OU3d2MVYxUFdjTUdZYVBtQ1dsTEhQb0JpMXJxV1B2QjZwUFdWTVo3YU5VQjlxVGJKdDJUUXE1VFUzNDFDcWhkWE9fM1lCb21XcTRzN3FKQ3hIYW9KSXByWGVUQnB4XzlQbHJtWFl2V2RkV1FOZjhVendlV2djM2ZBRnJoMGVHRS01cTZpR3lvUQ?oc=5",
-        "published_at": "2026-08-19T21:39:45+00:00",
+        "title": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar",
+        "source": "investinglive.com",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5",
+        "published_at": "2026-08-19T21:52:45+00:00",
         "topic": "Tahvil / Likidite",
         "theme": "rates",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "excerpt": "Treasury Secretary Bessent doubles US long-bond buybacks in the face of surging yields Reuters",
+        "excerpt": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investinglive.com",
         "read_mode": "rss",
         "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
@@ -135,7 +135,7 @@
         "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
         "read_mode": "article_context",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+7.1; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+6.9; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
       },
       {
         "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
@@ -176,10 +176,10 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+7.1, ETH %+17.2.",
+    "Kriptoda spot momentum: BTC 24s %+6.9, ETH %+17.2.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+4.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 7 destekleyici, 0 risk artırıcı, 2 nötr/karışık benzersiz başlık. Haber skoru 74/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
+    "Altın %+4.4; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Son 72 saatte haber akışı hafif risk-on: 7 destekleyici, 0 risk artırıcı, 2 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -377,9 +377,19 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-19T23:35:00.655844+00:00"
+    "generated_at": "2026-08-19T23:56:02.192212+00:00"
   },
   "buyback_news": [
+    {
+      "title": "Treasury doubles long-term bond buybacks to $4 billion",
+      "source": "qz.com",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSXl3YUlWRE1SdlNzSlVnVEViMGY3OFdnYUt3eTl6aWVsTTFXUE9hRVdqWEZHT3dTTkV3cGZlWEU3eFUwck5xX2g5clRJSGZNT2NqcFJDZlAzaEV4MlZOZ2ZpNnF4WnFwTm5PN0E1X0c3Zw?oc=5",
+      "published_at": "2026-08-19T23:35:20+00:00",
+      "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "context_mode": "article_context",
+      "resolved_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSXl3YUlWRE1SdlNzSlVnVEViMGY3OFdnYUt3eTl6aWVsTTFXUE9hRVdqWEZHT3dTTkV3cGZlWEU3eFUwck5xX2g5clRJSGZNT2NqcFJDZlAzaEV4MlZOZ2ZpNnF4WnFwTm5PN0E1X0c3Zw?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "topic": "Tahvil / Likidite"
+    },
     {
       "title": "Stock Market Today: Dow, S&P 500 and Nasdaq Rise as Treasury Buybacks Lower Bond Yields",
       "source": "Eurasia Business News",
@@ -395,17 +405,7 @@
       "source": "investinglive.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5",
       "published_at": "2026-08-19T21:52:45+00:00",
-      "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "context_mode": "article_context",
-      "resolved_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "Crypto surges as Treasury doubles bond buybacks, SEC proposes regulation",
-      "source": "eciks.org",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CYmREY3E1NFp3OFlZVTUyR21lMWpmeWR0Zmg3dVQ3Tmswd240d2d5UVc3MGJ0UC1RX1pfamI2SHN3bF9IcnptVmxZMUtJRFlZTEVLMll1ZE9MemU0ZTVqSnR6TWFMZU8tS3NoYXB0QkdPQUU4Z1BxNQ?oc=5",
-      "published_at": "2026-08-19T21:45:50+00:00",
-      "context": "Crypto surges as Treasury doubles bond buybacks, SEC proposes regulation eciks.org",
+      "context": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investinglive.com",
       "context_mode": "rss",
       "topic": "Tahvil / Likidite"
     }
@@ -422,5 +422,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber okuma/yorum -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-19T23:34:22.009337+00:00"
+  "generated_at": "2026-08-19T23:55:28.421541+00:00"
 }
