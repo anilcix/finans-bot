@@ -37,6 +37,7 @@ jobs:
       - name: Site verisini üret
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          COINALYZE_API_KEY: ${{ secrets.COINALYZE_API_KEY }}
         run: python generate_site_data.py
 
       - name: Yeni veriyi repoya yaz
