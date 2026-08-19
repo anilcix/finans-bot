@@ -3,6 +3,7 @@ from common.fred import fetch_fred_history
 from common.yahoo import fetch_yahoo_history
 from common.stats import percentile_rank, risk_score, score_label
 from common.regime import credit_cycle_phase, yield_curve_regime, hy_spread_warning, sloos_warning, ccc_hy_divergence_warning
+from common.macro_lens import liquidity_plumbing, build_macro_reading
 
 LEVEL_WEIGHT = 0.65
 MOMENTUM_WEIGHT = 0.35
@@ -143,8 +144,12 @@ def get_analysis_data():
         if hyp is not None:
             _,cc=fetch_fred_history("BAMLH0A3HYC",limit=1100); cp=percentile_rank(cc,cc[0]); diff,status=ccc_hy_divergence_warning(cp,hyp); warnings.append({"name":"CCC-HY Ayrışması","value":f"fark {diff:+.0f} puan","warn":"30+","crisis":"50+","status":status})
     except Exception: pass
-    return {"barometer":bar,"composite_score":score,"score_method":{"level_weight":LEVEL_WEIGHT,"momentum_weight":MOMENTUM_WEIGHT},"composite_label":lbl,"composite_emoji":emo,"credit_cycle":credit,"yield_curve":yc,"early_warnings":warnings,"macro_market_history":_macro_market_history(),"credit_history":_credit_history(),"asset_history":_asset_history(),"score_history":_score_history_current_method(),"backtest_note":"Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir."}
+    plumbing=liquidity_plumbing()
+    reading=build_macro_reading(bar,credit,yc,warnings,plumbing)
+    return {"barometer":bar,"composite_score":score,"score_method":{"level_weight":LEVEL_WEIGHT,"momentum_weight":MOMENTUM_WEIGHT},"composite_label":lbl,"composite_emoji":emo,"credit_cycle":credit,"yield_curve":yc,"early_warnings":warnings,"liquidity_plumbing":plumbing,"macro_reading":reading,"macro_market_history":_macro_market_history(),"credit_history":_credit_history(),"asset_history":_asset_history(),"score_history":_score_history_current_method(),"backtest_note":"Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir."}
 
 
 def build_report():
-    d=get_analysis_data(); s=d.get("composite_score"); return f"🌡️ *MAKRO*\nKompozit: {s:.0f}/100 — {d.get('composite_label')}" if s is not None else "🌡️ *MAKRO*\n⚠️ Veri alınamadı"
+    d=get_analysis_data(); s=d.get("composite_score"); lens=(d.get("macro_reading") or {}).get("headline")
+    if s is None: return "🌡️ *MAKRO*\n⚠️ Veri alınamadı"
+    return f"🌡️ *MAKRO*\nKompozit: {s:.0f}/100 — {d.get('composite_label')}\n🧭 {lens or 'Katmanlı okuma üretilemedi'}"
