@@ -212,7 +212,11 @@
       "value": 0.317,
       "change": 0.04199999999999998
     },
-    "ust10": null,
+    "ust10": {
+      "date": "2026-08-18",
+      "value": 4.71,
+      "change": 0.11000000000000032
+    },
     "ust30": {
       "date": "2026-08-18",
       "value": 5.28,
@@ -10262,8 +10266,8 @@
       },
       {
         "date": "2026-08-19",
-        "value": 158.70495694693952,
-        "raw": 69498.3203125
+        "value": 158.28668720282798,
+        "raw": 69315.15625
       }
     ]
   },
@@ -10514,5 +10518,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-19T22:02:37.864405+00:00"
+  "generated_at": "2026-08-19T22:16:41.356567+00:00"
 }
