@@ -4,7 +4,7 @@
   "tentative_schedule_url": "https://home.treasury.gov/system/files/221/Tentative-Buyback-ScheduleQ32026.xml",
   "schedule": [
     {
-      "operation_date": "2026-08-18",
+      "operation_date": "2026-11-05",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
@@ -12,7 +12,7 @@
       "max_amount": 4000000000.0
     },
     {
-      "operation_date": "2046-08-19",
+      "operation_date": "2026-08-18",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 20Y to 30Y",
@@ -20,7 +20,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2029-08-21",
+      "operation_date": "2026-08-20",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 3Y to 5Y",
@@ -28,7 +28,7 @@
       "max_amount": 4000000000.0
     },
     {
-      "operation_date": "2031-08-26",
+      "operation_date": "2026-08-25",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 5Y to 7Y",
@@ -36,7 +36,7 @@
       "max_amount": 4000000000.0
     },
     {
-      "operation_date": "2026-10-04",
+      "operation_date": "2026-09-03",
       "operation_type": "Cash Management",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
@@ -44,7 +44,7 @@
       "max_amount": 12500000000.0
     },
     {
-      "operation_date": "2026-10-10",
+      "operation_date": "2026-09-09",
       "operation_type": "Cash Management",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
@@ -52,7 +52,7 @@
       "max_amount": 12500000000.0
     },
     {
-      "operation_date": "2036-09-11",
+      "operation_date": "2026-09-10",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 10Y to 20Y",
@@ -60,7 +60,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2036-09-16",
+      "operation_date": "2026-09-15",
       "operation_type": "Liquidity Support",
       "security_type": "TIPS",
       "maturity_bucket": "TIPS 10Y to 30Y",
@@ -68,7 +68,7 @@
       "max_amount": 500000000.0
     },
     {
-      "operation_date": "2033-09-18",
+      "operation_date": "2026-09-17",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 7Y to 10Y",
@@ -76,7 +76,7 @@
       "max_amount": 4000000000.0
     },
     {
-      "operation_date": "2046-09-25",
+      "operation_date": "2026-09-24",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 20Y to 30Y",
@@ -84,7 +84,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2027-09-30",
+      "operation_date": "2026-09-29",
       "operation_type": "Liquidity Support",
       "security_type": "TIPS",
       "maturity_bucket": "TIPS 1Y to 10Y",
@@ -92,7 +92,7 @@
       "max_amount": 750000000.0
     },
     {
-      "operation_date": "2036-10-02",
+      "operation_date": "2026-10-01",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 10Y to 20Y",
@@ -100,7 +100,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2028-10-07",
+      "operation_date": "2026-10-06",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 2Y to 3Y",
@@ -108,7 +108,7 @@
       "max_amount": 4000000000.0
     },
     {
-      "operation_date": "2046-10-09",
+      "operation_date": "2026-10-08",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 20Y to 30Y",
@@ -116,7 +116,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2036-10-16",
+      "operation_date": "2026-10-15",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 10Y to 20Y",
@@ -124,7 +124,7 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2027-10-22",
+      "operation_date": "2026-10-21",
       "operation_type": "Liquidity Support",
       "security_type": "TIPS",
       "maturity_bucket": "TIPS 1Y to 10Y",
@@ -132,7 +132,7 @@
       "max_amount": 750000000.0
     },
     {
-      "operation_date": "2046-10-28",
+      "operation_date": "2026-10-27",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 20Y to 30Y",
@@ -140,20 +140,12 @@
       "max_amount": 2000000000.0
     },
     {
-      "operation_date": "2036-11-05",
+      "operation_date": "2026-11-04",
       "operation_type": "Liquidity Support",
       "security_type": "NOMINAL COUPONS",
       "maturity_bucket": "Nominal Coupons 10Y to 20Y",
       "max_amount_raw": "2000000000",
       "max_amount": 2000000000.0
-    },
-    {
-      "operation_date": "2026-12-06",
-      "operation_type": "Liquidity Support",
-      "security_type": "NOMINAL COUPONS",
-      "maturity_bucket": "Nominal Coupons 1Mo to 2Y",
-      "max_amount_raw": "4000000000",
-      "max_amount": 4000000000.0
     }
   ],
   "recent_results": [],
@@ -162,7 +154,7 @@
     "TreasuryDirect operasyon tablosu istemci tarafında yükleniyor; doğrudan sonuç XML linki HTML içinde bulunamadı."
   ],
   "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
-  "schedule_count": 19,
+  "schedule_count": 18,
   "result_count": 0,
-  "generated_at": "2026-08-19T22:20:19.715419+00:00"
+  "generated_at": "2026-08-19T22:22:05.322546+00:00"
 }

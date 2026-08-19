@@ -1,11 +1,11 @@
 {
   "btc": {
-    "price": 69320,
-    "change_24h": 7.405193267597464
+    "price": 69290,
+    "change_24h": 7.340631761863388
   },
   "eth": {
-    "price": 2269.73,
-    "change_24h": 18.642878100519734
+    "price": 2269.64,
+    "change_24h": 18.617306581992903
   },
   "global": {
     "total_usd": 2463523144300.4414,
@@ -14,15 +14,15 @@
     "btc_dominance": 56.489340610768124,
     "eth_dominance": 11.120752052272852
   },
-  "stablecoin_supply_usd": 300930152764,
+  "stablecoin_supply_usd": 300934317822,
   "funding_pct": 0.00467644705158,
   "funding_source": "OKX",
-  "open_interest_btc": 30656.415800000104,
+  "open_interest_btc": 30665.8194000001,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
     "status": 451,
     "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
-  "generated_at": "2026-08-19T22:19:45.510816+00:00"
+  "generated_at": "2026-08-19T22:21:37.462307+00:00"
 }
