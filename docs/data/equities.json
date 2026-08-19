@@ -3,100 +3,100 @@
     {
       "symbol": "QQQ",
       "label": "QQQ",
-      "price": 717.527,
-      "change_pct": -0.8529777532126575
+      "price": 716.795,
+      "change_pct": -0.954124637280653
     },
     {
       "symbol": "SPY",
       "label": "SPY",
-      "price": 770.048,
-      "change_pct": -0.3161205970303832
+      "price": 769.86,
+      "change_pct": -0.3404574816502473
     },
     {
       "symbol": "NVDA",
       "label": "NVIDIA",
-      "price": 219.21,
-      "change_pct": -2.177696461243248
+      "price": 219.025,
+      "change_pct": -2.2602525770895614
     },
     {
       "symbol": "MSFT",
       "label": "Microsoft",
-      "price": 484.2,
-      "change_pct": -1.671303535527896
+      "price": 484.315,
+      "change_pct": -1.6479499624312104
     },
     {
       "symbol": "AMZN",
       "label": "Amazon",
-      "price": 264.09,
-      "change_pct": -1.1935049386411247
+      "price": 264.23,
+      "change_pct": -1.1411254115534102
     },
     {
       "symbol": "META",
       "label": "Meta",
-      "price": 552.6,
-      "change_pct": -4.534853589012697
+      "price": 553.06,
+      "change_pct": -4.455385678500488
     },
     {
       "symbol": "GOOGL",
       "label": "Alphabet",
-      "price": 344.44,
-      "change_pct": 0.26197822669848553
+      "price": 344.57,
+      "change_pct": 0.2998195261104886
     },
     {
       "symbol": "AAPL",
       "label": "Apple",
-      "price": 315.24,
-      "change_pct": 4.297766749379655
+      "price": 314.92,
+      "change_pct": 4.191894127378004
     },
     {
       "symbol": "AMD",
       "label": "AMD",
-      "price": 468.265,
-      "change_pct": -3.036671981446591
+      "price": 466.7,
+      "change_pct": -3.360735510322411
     },
     {
       "symbol": "AVGO",
       "label": "Broadcom",
-      "price": 364.095,
-      "change_pct": -12.487681769018142
+      "price": 364.521,
+      "change_pct": -12.385290229539718
     },
     {
       "symbol": "ORCL",
       "label": "Oracle",
-      "price": 145.205,
-      "change_pct": -5.268136743215024
+      "price": 143.89,
+      "change_pct": -6.126043841336126
     },
     {
       "symbol": "PLTR",
       "label": "Palantir",
-      "price": 174.65,
-      "change_pct": 2.110617399438736
+      "price": 174.01,
+      "change_pct": 1.7364359214218892
     }
   ],
   "commodities": [
     {
       "symbol": "GC=F",
       "label": "Altın",
-      "price": 4552.6,
-      "change_pct": 3.9311478403798907
+      "price": 4554.3,
+      "change_pct": 3.9699570815450773
     },
     {
       "symbol": "SI=F",
       "label": "Gümüş",
-      "price": 65.91,
-      "change_pct": 1.418723456638144
+      "price": 65.97,
+      "change_pct": 1.5110481935126474
     },
     {
       "symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 92.41,
-      "change_pct": 4.394487121554452
+      "price": 92.57,
+      "change_pct": 4.575237234523269
     },
     {
       "symbol": "CL=F",
       "label": "WTI Petrol",
-      "price": 85.51,
-      "change_pct": 3.774271844660193
+      "price": 85.61,
+      "change_pct": 3.895631067961157
     }
   ],
   "unavailable": [
@@ -104,5 +104,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-19T16:52:29.824515+00:00"
+  "generated_at": "2026-08-19T17:14:25.119749+00:00"
 }
