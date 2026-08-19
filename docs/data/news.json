@@ -10,6 +10,12 @@
       "query": "Bitcoin ETF",
       "items": [
         {
+          "title": "Bitcoin Miners Already Owned What the AI Economy Is Short Of - ETF Database",
+          "source": "ETF Database",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONjF6ZlhqaWtfd0hWMnRjSFNoSUVfNExhS1B3YXpNc3A3TERNWXRWVm5zdm90Q2Y4NmhXZ0d1dnJMaThZZm1aaUtfOVNSVGVhRWZxUG1zOWlpMHYyRk90U25nZkVpOXZmNVplVTJwWENUdUdFeDBuZjNuWDJ4MC1rWXVFWlBNQllZTTdIQkVRMmU0U2tBWkFLaGNWWm41Vk82LUZkQktBTVMtVENOakE?oc=5",
+          "published_at": "2026-08-19T14:48:37+00:00"
+        },
+        {
           "title": "Crypto Market Update August 19: ETH tests $1,918 resistance, Solana nears multi week highs as PUMP leads gains - Altcoin Buzz",
           "source": "Altcoin Buzz",
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBIY012d2NzbnlVXzZmbWxmdjZGenU5UTNGVV9pMEFURzFwNndJbkdxWnhGOFFUU1JDX3pmSlQxa2VoNE1wbHpkcGlIMnh3RENGSUtNM1pOMkloSHhSRzc5TjRmLTVFYXFI?oc=5",
@@ -32,12 +38,6 @@
           "source": "Benzinga",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPUVRmNTMza0dmZURtTXFPN3VqQ1F3V1JBeUNQamxzQU53ak1YY2hkYlYyVWJ2QzFOVWxnNGw4ODRLOUp6c0QtX1lJMDlVNEF6Q2JfdkMtSm1LUWc2U2QwSW5UNjEyYTM4c3hIUmtlZ2g3cGxRSmN0YlkzZG42eURsbU03Qjk0NGsyUVRibmNaLWdnLVdtUzFTcnhRWG9lMGVRSjl6RlNDUVRuLXNYSEp3V0JWd0FtRjRBVmJtQV9tM25lY2tSYW8tU2RJVXlKMmxrbW1reXYzYm5lYlE?oc=5",
           "published_at": "2026-08-19T12:03:34+00:00"
-        },
-        {
-          "title": "The real cost of a bitcoin ETF: expense ratios, tracking error, and what holders actually keep - Crypto News",
-          "source": "Crypto News",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3WVBXZFBVc3Q1T1FzcnVlbnFLaG5fV2tqYTdENV9aX01UR1ZYYmxDSzFqSGdENzl5d2xJcS1TbkZPUjNINEJ3elBEc0E3bC0zN0dvUUdBQ1ZzUHI3aXNvNlZQOVY5XzZyaWVid2cxMTMwNHJpU2dKMUhzUHc?oc=5",
-          "published_at": "2026-08-19T11:44:22+00:00"
         }
       ]
     },
@@ -46,38 +46,38 @@
       "query": "stock market today",
       "items": [
         {
-          "title": "Stock Market Today: Dow, S&P 500 and Nasdaq set for cautious start as bond market selloff wanes; Fed minutes and Target results on tap - MarketWatch",
-          "source": "MarketWatch",
+          "title": "Stock Market Today: Indexes Mostly Rise, Bond Yields Drop as Treasury Dept. Doubles Buyback of Longer-Term Notes - Investopedia",
+          "source": "Investopedia",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMEU3STJOZDRNeWFKWHJDcENLWE1HaG5hREMwT0tlTG5nTjA0THgyWFhrUXQ0eDVyT2o5Sk15RlZkMVJNdnM2ZE9BajU0enZsNVR0dUtzNFFlRGxiTEl1SkM0a2RHNk94R2tBYmNKSFJmeDNRYm5RQ2xOUjd4RllfSFdEYW9oa3ZfZ2FkdHNhN2Y?oc=5",
+          "published_at": "2026-08-19T14:34:38+00:00"
+        },
+        {
+          "title": "Stock Market Today: Dow Opens Higher, Bond Yields Dive After Treasury Steps Up Buybacks — Live Updates - wsj.com",
+          "source": "wsj.com",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYUV6eHp3ak9nQS1lelJ4bUNGcXhzb3dFZHIza09ycS0yWmpROHE1T21kTWN3SEJ2dzNQUHMzOVhBTk84TXkwRjgtZmVScTJLekltN3BsVTQzNEtSS2NudzRoQXlUNFFweS1lR1IyVkhrVHJHYmdpZWppMzQyell3SnFZYU5vdmM?oc=5",
+          "published_at": "2026-08-19T14:13:00+00:00"
+        },
+        {
+          "title": "Stock Market Today: Dow rises 250 points, S&P 500 edges higher and Nasdaq dips as yields drop on Treasury's bond buybacks plan - marketwatch.com",
+          "source": "marketwatch.com",
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWkFWeEtpMW5EaGV0bUhkMTFBSS0zX00yWVE0X0QydWxMOWNYaGREN1BVN2trMzVsUl9nTkJucE1zR096aW1jWjR5bk9zcTRIZ0t0VG10bzJIeFlSR1ROY0xMNkY3LU5iaWZFdUxnV0diOEZBYzMtVzlJazdjdGJOLUhieTltTEg4TzJVdWNoZE0yRENmTUNrUWdCZm0wejVSaG5DVUlOc215bGV6a3A2dklwa2lHNVNLdkJVLTNnWXRPMmRyX2x5eXB4NHE?oc=5",
           "published_at": "2026-08-19T14:05:00+00:00"
         },
         {
-          "title": "Stock Market Today (Aug. 19, 2026): S&P 500 rises on Treasury buyback - Yahoo Finance Singapore",
-          "source": "Yahoo Finance Singapore",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBINWNLeXdyMjBFcWdBU19VSDBTVXB5bTVJV242cWRfQVhsend4U2lOOThTNzJ1blYtVDdHWjhCZkZPalRKUjdNcmNkc3JWbUx6cF93blY3bkxmeGh3UGZsanduR2xnaUd3UllRV1g3XzdjMUduZS05cXRWblpjVW8?oc=5",
-          "published_at": "2026-08-19T13:50:24+00:00"
+          "title": "Why is Eli Lilly stock surging today? - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOXB2N25sOVJRbV9wQ25uMFlBUDI3WlhmNnBqRk1wUnpnSl9OVTYyZUlIOTBvX2t2QkhwX29hMmw1REdRRk1PLXRlTUpRay1wZTdpOVNBNTlWbTA3RjZNdVFzRXhaWm9PUmRjV1JnLXh6cEZ2VkFJQkdQR0tLTnR6a2VXMWVEVkt5M1ppYWJUcWx4VEVvM3dKTnJ0c0lucDA?oc=5",
+          "published_at": "2026-08-19T13:56:24+00:00"
         },
         {
-          "title": "S&P 500 falls for a third day, as elevated global bond yields and oil prices weigh on market - CNBC",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5",
-          "published_at": "2026-08-19T13:17:15+00:00"
-        },
-        {
-          "title": "Stock futures jump as Treasury action relieves bond market pressure: Live updates - CNBC",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52WVUwei1VUlFvc0FwU3lkWlBjY2lHYlNOei1RSnktZVRxQmpYWlFRN25yNS12NE96QlpuM2ZOUWpseURQV0JIcFVHZDRiYjJSb2tTSkJ3Vk5UNEpuNTJLRkFfcEZaZUluNVRXWXFFVHBvUDhSallz0gF8QVVfeXFMTnJZcUR5RmdKSDBwYlQyeXdhN2V6NFJYTVhHMVhZNzBxZFNkeFZ4OWZuMUZKLW83VWtXcWh6MVZpMHNjamVEbThLYzB4SzRIN2E2Ym5Ua2JOMU5vb2x2Y2hYSklqWi0tX210RS1neHZGbnRBY1ZqcHRVblhMTg?oc=5",
-          "published_at": "2026-08-19T13:11:41+00:00"
-        },
-        {
-          "title": "Stock Market Today: Bond Yields Dive After Treasury Steps Up Buybacks — Live Updates - WSJ",
-          "source": "WSJ",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYUV6eHp3ak9nQS1lelJ4bUNGcXhzb3dFZHIza09ycS0yWmpROHE1T21kTWN3SEJ2dzNQUHMzOVhBTk84TXkwRjgtZmVScTJLekltN3BsVTQzNEtSS2NudzRoQXlUNFFweS1lR1IyVkhrVHJHYmdpZWppMzQyell3SnFZYU5vdmM?oc=5",
-          "published_at": "2026-08-19T13:10:00+00:00"
+          "title": "Moderna, Merck, SK Hynix, Micron, Target, Estée Lauder, and More Stocks That Explain Today’s Market - Barron's",
+          "source": "Barron's",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5YbTRhdFZJUVFkMEVzd05yNFA5NndDQ01NYmhVR2VJdWpiRWNkc3p3anpId2VTUl82WXF4NkJFdm1BOC1rNW5yZXM1NGhXREduUnNYYjV5NGw3SDYtUXFQenNlR0c?oc=5",
+          "published_at": "2026-08-19T13:19:00+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T14:05:37.845494+00:00"
+  "generated_at": "2026-08-19T14:49:59.132205+00:00"
 }
