@@ -10,6 +10,18 @@
       "query": "Bitcoin ETF",
       "items": [
         {
+          "title": "US Spot-Bitcoin ETFs Draw $189.31 Million, Marking Second Straight Day of Inflows - bloomingbit",
+          "source": "bloomingbit",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhcHdrZVNZTUEzRW42N08wZ3hndjlEMGJ5eVE1MlVWb194SkhxQW90Z3M5ZC1FcHlBWnk4S25VcndWN2FNamsyUmx1bllCTmhyUERhVg?oc=5",
+          "published_at": "2026-08-19T04:15:37+00:00"
+        },
+        {
+          "title": "Wintermute: Bitcoin Range Breakout Delayed by ETF Outflows and Miner Selling - CryptoPotato",
+          "source": "CryptoPotato",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFoyWHREcDVJMWlnRnBZbl9BVnVnTTFwd2ZrT09LdzFUUmlpd0VfbzdkcjRXdnZ5ZjczVC1TcUJDVGd0bzNtN0c5S3daYTV0OUFocTZ6ZkRPcUpxSy1CMjV5YzViZDZGaUU3X3FCWXo3QUwzSm44LWNfd1pELWhkRXZFenU2YlFTbFQ4NEwtYWkxTzlsXzBzZkFmLTNlVURqalFz?oc=5",
+          "published_at": "2026-08-19T04:02:00+00:00"
+        },
+        {
           "title": "Strategy (NASDAQ: MSTR) Lags Bitcoin ETF By Nine Points As Dollar Reserve Climbs To $4.8 Billion - foreignpolicyjournal.com",
           "source": "foreignpolicyjournal.com",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSG9VQVdHT2djZlBudWR4Y3pSYWhGa0FxbEVNaURBVjRUM1BRWjVPUm94OUdPX2UwT0F3dUpRX1I4cnNFUnVwMVJobWJYbGF1cmJuVWp2TUY4SXdtMUQyTUw3UzltMC1DM1BuODRneG9MVnFETnBUeEdubVhVNnhSTERKSzRwTXBMcHUwRENTZmd3MktkQXg0NEwwcmlOb19hUVluZHc2U3hFLVRncGVYYXdhRnJjRkVnbExfdDMwekpvWlFHMGxPbjJqb0FBY21YT01QSTBPaWg?oc=5",
@@ -22,22 +34,10 @@
           "published_at": "2026-08-18T20:40:05+00:00"
         },
         {
-          "title": "BlackRock and Fidelity Capture $272M in Bitcoin ETF Inflows as Market Rebounds - KuCoin",
-          "source": "KuCoin",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRmFheDVyTmdaN0duaEtVSHRaaUJ5OEpvTWhLN1UyUmtBY0Z5VW5CamNBRkd4M2kwWjlHdlRDNEJzbVVsbHF3T2ExZmQxcmlOTi1zM1VKbXhLdU5JWnMtNUZNWmpGQmNoZkVueVp2WFZOdnNfVFFUYTZia3AxWldzTTNYY25DU0lhancxMThiMDlzRXJ0bkE4OVJUWW1OUUE2X2V5SjNRNnpXeXd2ZWlDNg?oc=5",
-          "published_at": "2026-08-18T20:32:48+00:00"
-        },
-        {
           "title": "Bitcoin ETF flows jumped by $137 million, but it only recouped a third of recent losses - CryptoRank",
           "source": "CryptoRank",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQjM4RWUxbTU5OTU1LTltNlIzSEptcWNQaDFOYk1GUkpOckNCQ1kyUHBwdklvVUFWajZfQmktMnBUVFI4SEpKZlp0V0VQemVTNV9pbmhLUDBKaFk2MlpWTHh5b05TcUxmbXdjdGZEblM1aVExX0VhMTFRNUZoTlhyZFpxZkxsNkdpNXJna0RMUDBISVdlMlJqX2FqSGRvNGRIVU1lSVA3VHpfenBJMFNfNEdfc2Q3WjBLdnpVOEo5aEQ?oc=5",
           "published_at": "2026-08-18T19:53:15+00:00"
-        },
-        {
-          "title": "Bitcoin ETF flows jumped by $137 million, but it only recouped a third of recent losses - CryptoSlate",
-          "source": "CryptoSlate",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE83TWJHaU91c1d4WVJGUFF0dzV1TFFaaE5USl9nd0lHR080V1JsWGdqb1hndXVFc05GbzBqMmJzR1kwS2ptV1RFWg?oc=5",
-          "published_at": "2026-08-18T19:05:54+00:00"
         }
       ]
     },
@@ -46,10 +46,22 @@
       "query": "stock market today",
       "items": [
         {
+          "title": "Why is Xiaomi stock surging today? - Investing.com",
+          "source": "Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNjVROW0wLUdDUUUwVm9JSklCbnNPVFJsRUtzR2ZLS2lkdWVfX1N2V0pPaEFBLTBvakRMV1g4QXhTamtieDVQVUpOY0tQbzRkRkYyNnZzOEdkNFcyZlExeXE2STlucjc5N2JlNl9DZlBXTnVudGs0eTZUMHlJZUhzQlFOQjYxekVGaE5PVkVYUkN6ZnFlRnpqUHNnWQ?oc=5",
+          "published_at": "2026-08-19T03:45:00+00:00"
+        },
+        {
           "title": "Futures: After Painful AI Losses, Indexes Near Key Test - Investor's Business Daily",
           "source": "Investor's Business Daily",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLXVjWEdwME10Uld4SHBLMnFiRTlDN3QwSUo5MDYxRzQtTDdaT1g1RzRVazFSdklkMFpmd2huWGhvMGw0RWdObk1tZWVoNDNfaHlmdVpkU2QwMzBJV0laemhJUnJvZVR2dnJkeFZhV1BvOGFENWlzUFdRTDBNUFl5cGNMRVBpOWM3ZlplZzZ6by1ZMjl2ekgycXl3bktmX20yNlVzZ1pEaGFGeVFNaGoxN3RuVGdtVldpWHRMMWNSX3A?oc=5",
           "published_at": "2026-08-19T03:09:00+00:00"
+        },
+        {
+          "title": "Stock futures are little changed after S&P 500 posts third straight losing day: Live updates - CNBC",
+          "source": "CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52WVUwei1VUlFvc0FwU3lkWlBjY2lHYlNOei1RSnktZVRxQmpYWlFRN25yNS12NE96QlpuM2ZOUWpseURQV0JIcFVHZDRiYjJSb2tTSkJ3Vk5UNEpuNTJLRkFfcEZaZUluNVRXWXFFVHBvUDhSallz0gF8QVVfeXFMTnJZcUR5RmdKSDBwYlQyeXdhN2V6NFJYTVhHMVhZNzBxZFNkeFZ4OWZuMUZKLW83VWtXcWh6MVZpMHNjamVEbThLYzB4SzRIN2E2Ym5Ua2JOMU5vb2x2Y2hYSklqWi0tX210RS1neHZGbnRBY1ZqcHRVblhMTg?oc=5",
+          "published_at": "2026-08-19T02:06:06+00:00"
         },
         {
           "title": "Stock Market Today: Gift Nifty To US Treasury Yields — Five Key Factors That May Drive Sensex, Nifty 50 on August 19 - NDTV Profit",
@@ -58,26 +70,14 @@
           "published_at": "2026-08-19T01:26:43+00:00"
         },
         {
-          "title": "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
-          "published_at": "2026-08-18T22:58:54+00:00"
-        },
-        {
           "title": "Asian Stocks Set for Losses as Bond Jitters Linger: Markets Wrap - Bloomberg",
           "source": "Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYk94Z1FDZFo0amZJN1M1WGFVc1ZYTklnSS1ObnpQXy1vS3hWeTRob3pWcmFKV3E5X19jQXhMZzJyYWthZWV4NXZFNlJnZTVpRmVrcmk3YXFNYTJzWDZ3cXBRclBWSGJxVU1IRC1LMWN4czA3OUxkOVZJSFVzRmIzbjR0Z1UzWnltVnlhQ2xmc2txbDNy?oc=5",
           "published_at": "2026-08-18T22:11:07+00:00"
-        },
-        {
-          "title": "Stock Market Today, Aug. 18: CoreWeave Falls as Debt-Financing Concerns and Capital Spending Pressures Rise With Interest Rates - The Motley Fool",
-          "source": "The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOdEFpa3NLZnRzdzJfUTktZFU1MTJsTG1Wb2dKUGpOSXY5UWRzMklZSm1TYnkwTk44NEs1S2ZSTWpya3NJdlE2UzQyRW5GYWFvc2NQeFNFRVhPZWpkNC11WTJGcWNQTTJHSWxLSGNHaUJJaTVBY1BiNFZ6b1dFMUFfdUQ5V2VMaGpBUXlGMHZWT0x3V3owa0plMTZmWEFrRG5IbXJDc0s4U3JvamN3N3Vqb3d6cjV3MTNadzJ3OE43eGR0MER1cWI1UFdadG00MnRhRWk4YzZESW9jc194WjZTREhDQndRWFk1NXVuU3ZsNXljaVl2ZDBWTmpac2ltOUZwQjY2Sk8zX2pmM3VUOGlVaFdBYw?oc=5",
-          "published_at": "2026-08-18T22:04:00+00:00"
         }
       ]
     }
   ],
   "recency_hours": 72,
-  "generated_at": "2026-08-19T03:34:41.769327+00:00"
+  "generated_at": "2026-08-19T04:20:10.923868+00:00"
 }
