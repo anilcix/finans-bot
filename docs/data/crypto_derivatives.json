@@ -5,14 +5,14 @@
   },
   "max_pain": {
     "strike": 65000.0,
-    "spot": 69757.83,
+    "spot": 69442.48,
     "expiry": "2026-08-20T08:00:00+00:00",
     "days_left": 0,
-    "put_call_ratio": 0.6532078767667142
+    "put_call_ratio": 0.646268656716418
   },
-  "gex_musd": 238.50122893720487,
-  "iv_rank_pct": 88.80208333333334,
-  "current_iv": 28.400954468574824,
+  "gex_musd": 233.70525366181806,
+  "iv_rank_pct": 95.57291666666666,
+  "current_iv": 28.77368709232592,
   "funding": {
     "avg_pct": 0.006249297071474762,
     "annualized_pct": 6.842980293264865,
@@ -22,14 +22,14 @@
   },
   "positioning": null,
   "oi_zscore": null,
-  "open_interest_btc": 30565.501600000116,
+  "open_interest_btc": 30616.305500000115,
   "open_interest_source": "OKX",
-  "spot_perp_basis_pct": -0.035681582714629276,
+  "spot_perp_basis_pct": -0.04030342723072273,
   "basis_source": "OKX",
   "binance_status": {
     "ok": false,
     "status": 451,
     "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
-  "generated_at": "2026-08-19T21:57:26.688013+00:00"
+  "generated_at": "2026-08-19T22:02:37.864405+00:00"
 }

@@ -196,6 +196,84 @@
       "status": "🔴 KRİZ"
     }
   ],
+  "liquidity_plumbing": {
+    "tga": {
+      "date": "2026-08-12",
+      "value": 963.95,
+      "change": 207.73200000000008
+    },
+    "fed_assets": {
+      "date": "2026-08-12",
+      "value": 6759.955,
+      "change": 16.92699999999968
+    },
+    "rrp": {
+      "date": "2026-08-19",
+      "value": 0.317,
+      "change": 0.04199999999999998
+    },
+    "ust10": null,
+    "ust30": {
+      "date": "2026-08-18",
+      "value": 5.28,
+      "change": 0.16999999999999993
+    },
+    "net_liquidity_proxy": {
+      "value": 5795.688,
+      "change": -190.84700000000066,
+      "unit": "$bn",
+      "note": "Fed assets - TGA - ON RRP; mekanik proxy, nedensellik değildir."
+    }
+  },
+  "macro_reading": {
+    "headline": "Kısa vadeli rahatlama var, fakat alttaki kırılganlık sürüyor",
+    "short_term_support": [
+      "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor."
+    ],
+    "structural_risks": [
+      "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
+      "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
+      "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
+      "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
+      "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
+      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir."
+    ],
+    "confirmations": [
+      "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
+      "Kredi döngüsü modeli: Expansion (Boğa)."
+    ],
+    "framework": [
+      {
+        "step": "1. Mekanizmayı sınıflandır",
+        "rule": "Fed QE/bilanço işlemi, Treasury borç yönetimi-buyback, mali harcama ve piyasa içi teknik akışı birbirine karıştırma."
+      },
+      {
+        "step": "2. İlk etkiyi ölç",
+        "rule": "Faiz, volatilite, dealer bilançosu, kredi spreadi ve riskli varlıklar üzerindeki 1-20 günlük mekanik etkiyi ayrı yaz."
+      },
+      {
+        "step": "3. Neden ihtiyaç duyulduğunu sor",
+        "rule": "Destekleyici bir müdahale otomatik olarak sağlıklı piyasa demek değildir; müdahalenin hangi stresi bastırmaya çalıştığını ara."
+      },
+      {
+        "step": "4. Karşı finansmanı kontrol et",
+        "rule": "Bir alım/rahatlama varsa bunun hangi ihraç, TGA, bill arzı veya bilanço kalemiyle dengelendiğini kontrol et; net likiditeyi bul."
+      },
+      {
+        "step": "5. Zaman ufkunu ayır",
+        "rule": "Kısa vade relief ile 1-3 aylık rejim ve 6-12 aylık yapısal trendi aynı sonuç cümlesine sıkıştırma."
+      },
+      {
+        "step": "6. Teyit ara",
+        "rule": "10Y/30Y faiz, TGA, RRP, Fed bilançosu, HY/CCC spread, SLOOS ve volatilite aynı hikâyeyi doğruluyor mu bak."
+      },
+      {
+        "step": "7. Hipotezi gerçek diye yazma",
+        "rule": "Seçim, politik niyet veya gizli amaç gibi motivasyonları resmi kanıt yoksa 'olası açıklama' olarak etiketle."
+      }
+    ],
+    "principle": "Piyasa desteğini hem etkisiyle hem de neden gerekli olduğuyla birlikte oku."
+  },
   "macro_market_history": {
     "core_pce": [
       {
@@ -10184,8 +10262,8 @@
       },
       {
         "date": "2026-08-19",
-        "value": 159.29313929684835,
-        "raw": 69755.890625
+        "value": 158.70495694693952,
+        "raw": 69498.3203125
       }
     ]
   },
@@ -10436,5 +10514,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-19T21:57:26.688013+00:00"
+  "generated_at": "2026-08-19T22:02:37.864405+00:00"
 }
