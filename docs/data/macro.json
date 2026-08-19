@@ -57,20 +57,6 @@
       "signal_emoji": "🟠"
     },
     {
-      "label": "IG Kredi Spreadi",
-      "value": 0.81,
-      "percentile": 35.45918367346938,
-      "weight": 0.5,
-      "invert": true,
-      "level_score": 64.54081632653062,
-      "momentum_score": 22.175495298324194,
-      "change_1m": 0.020000000000000018,
-      "change_3m": 0.06000000000000005,
-      "combined_score": 49.71295396665837,
-      "signal_label": "Nötr / Karışık",
-      "signal_emoji": "🟡"
-    },
-    {
       "label": "İşsizlik Oranı",
       "value": 4.1,
       "percentile": 27.19665271966527,
@@ -155,7 +141,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 55.43834396800451,
+  "composite_score": 55.76181232966248,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -179,13 +165,6 @@
       "value": "270 bps",
       "warn": "400+ bps",
       "crisis": "600+ bps",
-      "status": "🟢 Güvenli"
-    },
-    {
-      "name": "SLOOS — Kredi Kartı",
-      "value": "%+6.7",
-      "warn": "+%10",
-      "crisis": "+%20",
       "status": "🟢 Güvenli"
     },
     {
@@ -931,8 +910,8 @@
         "value": 7691.759765625
       },
       {
-        "date": "2026-08-18",
-        "value": 7691.759765625
+        "date": "2026-08-19",
+        "value": 7714.81982421875
       }
     ]
   },
@@ -9569,9 +9548,9 @@
         "raw": 767.4500122070312
       },
       {
-        "date": "2026-08-18",
-        "value": 178.83440975219847,
-        "raw": 767.4500122070312
+        "date": "2026-08-19",
+        "value": 179.33423694679158,
+        "raw": 769.594970703125
       }
     ],
     "QQQ": [
@@ -9876,9 +9855,9 @@
         "raw": 717.510009765625
       },
       {
-        "date": "2026-08-18",
-        "value": 200.44419122064605,
-        "raw": 717.510009765625
+        "date": "2026-08-19",
+        "value": 199.5502331573375,
+        "raw": 714.3099975585938
       }
     ],
     "BTC": [
@@ -10184,8 +10163,8 @@
       },
       {
         "date": "2026-08-19",
-        "value": 148.33803117425327,
-        "raw": 64958.55078125
+        "value": 149.026664272476,
+        "raw": 65260.109375
       }
     ]
   },
@@ -10431,10 +10410,10 @@
       "value": 46.88250875439238
     },
     {
-      "date": "2026-08-18",
+      "date": "2026-08-19",
       "value": 51.307067169735724
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-19T13:28:19.311118+00:00"
+  "generated_at": "2026-08-19T14:05:37.845494+00:00"
 }
