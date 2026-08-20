@@ -6,9 +6,9 @@
     "macro": 53.7,
     "credit": 65,
     "options": 78,
-    "crypto": 55.1,
+    "crypto": 55.0,
     "crypto_derivatives": 48,
-    "equities": 34.1,
+    "equities": 34.4,
     "news": 75
   },
   "plain_summary": [
@@ -49,7 +49,7 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081."
+        "data_confirmation": "BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056."
       }
     ],
     "important_news": [
@@ -81,9 +81,9 @@
         "brief_summary": "Hazine, uzun vadeli geri alım operasyonlarını Ağustos'ta ikiye katladı. Hazine, uzun vadeli geri alım operasyonlarını 19 Ağustos 2026'da ikiye katladı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081."
+        "data_confirmation": "BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056."
       },
       {
         "title": "Treasury Buyback Only Briefly Tames Yields",
@@ -145,9 +145,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081."
+        "data_confirmation": "BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056."
       },
       {
         "title": "Why Is Crypto Up Today? Bitcoin Hits $71k as Ethereum Surges Past $2,300",
@@ -161,9 +161,9 @@
         "brief_summary": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.5; çoklu-borsa OI 24s %+3.0; OI-ağırlıklı funding %+0.0081."
+        "data_confirmation": "BTC 24s %+5.3; çoklu-borsa OI 24s %+2.9; OI-ağırlıklı funding %+0.0056."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -172,7 +172,7 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.74 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.86 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
     "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
@@ -191,9 +191,9 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+5.5, ETH %+10.7.",
+    "Kriptoda spot momentum: BTC 24s %+5.3, ETH %+10.7.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+3.7; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+3.6; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 4 nötr/karışık benzersiz başlık. Haber skoru 75/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -392,7 +392,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T15:47:11.568748+00:00"
+    "generated_at": "2026-08-20T16:19:20.507832+00:00"
   },
   "buyback_news": [
     {
@@ -453,5 +453,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T15:46:22.786098+00:00"
+  "generated_at": "2026-08-20T16:18:24.878326+00:00"
 }
