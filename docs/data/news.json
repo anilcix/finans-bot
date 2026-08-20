@@ -43,6 +43,14 @@
       "query": "US Treasury buyback bond market liquidity long term yields",
       "items": [
         {
+          "title": "Treasury bond buyback impact sends Bitcoin surging 8.2% amid $1.44B liquidations",
+          "source": "The Cryptonomist",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1mZVZ2NGs0bENGVmxRcUg2aUVhWElGbEdDeVRBV2NFR0xuR2xBR3JGcE5ueHMwcDN4SDFjQTJHOTZVT1N6eWd5YjRjMGlaNE9sQ05ZdVVhUWxsLXpYTVByYWxtekdJbjQ0dHY2ejhYYmxELU1NTnc?oc=5",
+          "published_at": "2026-08-20T10:28:11+00:00",
+          "context": null,
+          "context_mode": "title_only"
+        },
+        {
           "title": "Treasury Buyback Might Only Briefly Tame Yields",
           "source": "WSJ",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2ZEenJ5a1Bhd25rSkpMT3JFZ1ZwQWtIRjFWcTRjNkJ1Z1U0S0dOQ3ZMUGpJc2Iwazd1aVZVdGxQSzlPN1E0VmpRZ1dsWmlBR09CU2k0eVJ4dF8wazFEbE9MMU5YQzhIQnd6WWtiQU5aRzdSaXQxVkZBT1lTbVM0bnFhTG1TNXo0X3FfZl80TFF1ckVONjA2V2Jn?oc=5",
@@ -63,14 +71,6 @@
           "source": "FXStreet",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ1dUTWxXQ0lpTHRtYTk2M2Z5TGVnOHFTRlQtNFhHb0l6dFRsRmdlekpYeVJUd05ISGJVVkcxaXJ2TE1qQlBDWGUycUdTa1BncGFRZGFOXzBadDZXOGhETEVCa2Vtdmw1a0hldTRfaXRNU1I3NVdJUDVMNldPUDZ2ZnMycTJIaEdrQ2JNVVJGNk94dmVtTW1BRms3c2NobkkzcG9jWVlGblpjQjFIX2c?oc=5",
           "published_at": "2026-08-20T08:18:30+00:00",
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Stock Market Today: Treasury Buybacks Lift Tech as Chips, Crypto and Moderna Lead",
-          "source": "investingLive",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkRiaGxKd2dkSkRtbl84WDVOVDdicFFmcUdPOGZTTy1lS2pVQVBHZGI4YTgzZ010cENNSEZsaFh5bHZPZ2Y5OXFvUDdHSUVUYmNBblJZaG1OeUwxRXZNWkxwM0dYNUk2QmtoSTFDVDgtLVVXbzJUWDVYZE5fRGdnYUNZTEV6M2U5UHlBY3VJX0JkVDNpMjRBMjF6YUhNWHRnZTlmRE40UUlkbDMxTEo1NXd0dw?oc=5",
-          "published_at": "2026-08-20T07:36:10+00:00",
           "context": null,
           "context_mode": "title_only"
         }
@@ -110,5 +110,5 @@
   "headline_count": 9,
   "article_context_count": 0,
   "method": "Google News RSS başlıkları + yalnızca gerçek yayıncı sayfası erişilebildiğinde makale bağlamı; Google boilerplate ve başlık-kopyası açıklamalar özet sayılmaz.",
-  "generated_at": "2026-08-20T10:52:53.293505+00:00"
+  "generated_at": "2026-08-20T11:14:16.861277+00:00"
 }
