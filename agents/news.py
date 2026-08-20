@@ -1,10 +1,9 @@
 """AJAN 9: Piyasa haber akışı — son 72 saat.
 
-Google News RSS ile güncel başlıkları toplar. Google News yönlendirme sayfasından
-mümkünse gerçek yayıncı URL'sini çözer, yayıncı sayfasındaki meta açıklama ve
-ilk anlamlı paragrafları okur. Kısa özet yorum içermez; daha uzun bağlam ayrı
-alan olarak tutulur. Yayıncı sayfası erişilemiyorsa bunu açıkça işaretler ve
-başlığı 'özet' diye tekrar etmez.
+Google News RSS ile güncel başlıkları toplar. RSS yönlendirme URL'sini gerçek
+yayıncı URL'sine çözer, yayıncı sayfasındaki meta açıklama ve ilk anlamlı
+paragrafları okur. Kısa özet yorum içermez; daha uzun bağlam ayrı tutulur.
+Yayıncı sayfası erişilemiyorsa başlık 'özet' diye tekrar edilmez.
 """
 import html
 import re
@@ -15,6 +14,11 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 import requests
 import xml.etree.ElementTree as ET
+
+try:
+    from googlenewsdecoder import gnewsdecoder
+except Exception:
+    gnewsdecoder = None
 
 NEWS_TOPICS = [
     ("Federal Reserve Treasury yields inflation US economy", "Makro / Fed"),
@@ -141,7 +145,20 @@ def _external_http_links(parser, base_url):
 
 
 def _resolve_publisher_url(google_link):
-    """Google News sayfasındaki dış bağlantılardan gerçek yayıncı URL'sini bulmaya çalışır."""
+    """Önce Google News decoder; başarısızsa HTML dış-link fallback'i."""
+    if not google_link:
+        return None
+    if not _is_google_host(urlparse(google_link).netloc):
+        return google_link
+    if gnewsdecoder is not None:
+        try:
+            result = gnewsdecoder(google_link)
+            if isinstance(result, dict) and result.get("status"):
+                decoded = result.get("decoded_url")
+                if decoded and not _is_google_host(urlparse(decoded).netloc):
+                    return decoded
+        except Exception:
+            pass
     try:
         r = requests.get(google_link, timeout=10, headers=UA, allow_redirects=True)
         r.raise_for_status()
@@ -150,14 +167,12 @@ def _resolve_publisher_url(google_link):
             return r.url
         parser = _ArticleParser()
         parser.feed(r.text[:1_500_000])
-        links = _external_http_links(parser, r.url)
-        # Google sayfasındaki ilk gerçek dış haber bağlantısı çoğunlukla yayıncıdır.
-        for u in links:
+        for u in _external_http_links(parser, r.url):
             low = u.lower()
             if not any(x in low for x in ("support.google", "accounts.google", "policies.google")):
                 return u
     except Exception:
-        return None
+        pass
     return None
 
 
@@ -194,7 +209,6 @@ def _sentence_candidates(text):
 
 
 def _extractive_summary(description, paragraphs, title):
-    """Yorum katmadan metinden 2-3 anlamlı cümle seçer."""
     candidates = []
     if description and _usable_context(description, title):
         candidates.extend(_sentence_candidates(description))
@@ -207,20 +221,19 @@ def _extractive_summary(description, paragraphs, title):
         if any(x in low for x in _BAD_PARAGRAPH_PHRASES):
             continue
         words = set(re.findall(r"[a-z0-9]+", low))
-        # Başlıkla alakalı veya ilk güçlü cümle olsun; reklam/menü cümlesi seçilmesin.
         if not picked or len(title_words & words) >= 1:
             picked.append(s)
         if len(picked) >= 3:
             break
     if not picked:
         return None
-    text = " ".join(picked)
-    return text[:850].rstrip()
+    return " ".join(picked)[:850].rstrip()
 
 
 def _fetch_article_context(link, title=""):
-    """Google News URL'sini yayıncıya çözüp gerçek içerikten kısa + geniş özet üretir."""
-    publisher_url = _resolve_publisher_url(link) or link
+    publisher_url = _resolve_publisher_url(link)
+    if not publisher_url:
+        return None
     try:
         r = requests.get(publisher_url, timeout=10, headers=UA, allow_redirects=True)
         r.raise_for_status()
@@ -274,7 +287,6 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
     root = ET.fromstring(r.content)
     cutoff = datetime.now(timezone.utc) - timedelta(hours=RECENCY_HOURS)
     out = []
-
     for item in root.findall(".//item")[:FETCH_LIMIT]:
         source = item.findtext("source", default="").strip()
         raw_title = item.findtext("title", default="").strip()
@@ -294,7 +306,6 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
             "context": rss_ctx,
             "context_mode": "rss_context" if rss_ctx else "title_only",
         })
-
     out.sort(key=lambda x: x["published_at"], reverse=True)
     return out[:max_items]
 
@@ -343,16 +354,12 @@ def get_analysis_data():
             topics.append({"label": label, "query": query, "items": items})
         except Exception as e:
             topics.append({"label": label, "query": query, "items": [], "error": str(e)})
-
-    read_count = sum(
-        1 for t in topics for x in t.get("items", [])
-        if x.get("context_mode") == "publisher_article"
-    )
+    read_count = sum(1 for t in topics for x in t.get("items", []) if x.get("context_mode") == "publisher_article")
     headline_count = sum(len(t.get("items", [])) for t in topics)
     return {
         "topics": topics,
         "recency_hours": RECENCY_HOURS,
         "headline_count": headline_count,
         "article_context_count": read_count,
-        "method": "Google News RSS -> gerçek yayıncı URL çözümleme -> yayıncı meta/ilk paragraflardan yorumsuz extractive özet; erişilemeyen haberde başlık özet diye tekrar edilmez.",
+        "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> meta/ilk paragraflardan yorumsuz extractive özet; uzun bağlam ayrı alan.",
     }
