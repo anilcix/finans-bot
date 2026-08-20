@@ -1,5 +1,5 @@
 {
-  "market_score": 55.7,
+  "market_score": 55.6,
   "stance": "Temkinli Risk-On",
   "confidence": 66.0,
   "component_scores": {
@@ -7,7 +7,7 @@
     "credit": 61,
     "options": 78,
     "crypto": 58.0,
-    "crypto_derivatives": 48,
+    "crypto_derivatives": 47,
     "equities": 43.2,
     "news": 74
   },
@@ -39,7 +39,7 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Bonds bounce on US buybacks, but relief may be brief; JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts",
+        "digest": "Bonds bounce on US buybacks, but relief may be brief; Why gold and Bitcoin surged together: What Treasury buybacks teach investors about dollar debasement",
         "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
@@ -49,10 +49,24 @@
         "count": 1,
         "digest": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0077."
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+5.4; OI-ağırlıklı funding %+0.0077."
       }
     ],
     "important_news": [
+      {
+        "title": "Why gold and Bitcoin surged together: What Treasury buybacks teach investors about dollar debasement",
+        "source": "investingLive",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOazk1MXo2OHZhMEVlUUpTYWVxMkRPaFlHM2NlTlhoR1FLN2UzRjBZT2ZfTDlkTzgxQ1lSV0lTM2g4QUp1VnhGN2ZudFB2RmJhNGVMRGhvZkpZTXNHeHhtVDlxTzVuUmRUU1BTYTk1QktJX3pOZ0N2dF9YVG5EZXhQeW05aFRoVk5mQ1RrczZVLXZmXzAwNWNtX2xoQVBDM3lMYm93NUxpdTZjMFBGLXAyTGNJOC1jenY0MHBHSmdKYXFtbWxuOG5qVV96YnNKVzhKRHc?oc=5",
+        "published_at": "2026-08-20T04:10:26+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "crypto",
+        "impact_score": 2,
+        "impact": "Destekleyici",
+        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "read_mode": "article_context",
+        "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+5.4; OI-ağırlıklı funding %+0.0077."
+      },
       {
         "title": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts",
         "source": "bloomingbit",
@@ -62,24 +76,10 @@
         "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-        "read_mode": "article_context",
+        "excerpt": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts bloomingbit",
+        "read_mode": "rss",
         "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
-      },
-      {
-        "title": "U.S. Treasury buybacks calm yields, lift stocks",
-        "source": "조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1lHWnp1VW5zQlRMN2FCY2ZpTE1GdzF5T0JPa3N5aEF1dTd0S2F4c1RxdmlDbmlOT3pNTkU3ODZWQy1SZ2lBaG1fVnZYUHBBN204VVZIMDdlUkFLT2JUV0VwUmQ0dm5jNi1jcVNoa2dMYm5hVmFtY3RKeXpnbldFWHF6ZnQwV0RnT2t0d1Jn?oc=5",
-        "published_at": "2026-08-19T23:55:33+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "equities",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "excerpt": "U.S. Treasury buybacks calm yields, lift stocks 조선일보",
-        "read_mode": "rss",
-        "interpretation": "Hisse haberi; endeks genişliği, VIX ve teknoloji hisselerinin ortak tepkisiyle teyit edilir.",
-        "data_confirmation": "Hisse skoru 43/100; VIX 14.9."
       },
       {
         "title": "Bonds bounce on US buybacks, but relief may be brief",
@@ -135,7 +135,7 @@
         "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
         "read_mode": "article_context",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0077."
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+5.4; OI-ağırlıklı funding %+0.0077."
       },
       {
         "title": "Bessent acts to break bond market fever, head off rising borrowing costs",
@@ -176,9 +176,9 @@
     "Buyback'i QE diye okumuyoruz: yeni ihraç/TGA finansmanı ve yüksek uzun-vade arzı nedeniyle kalıcı parasal genişleme sinyali değildir."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+7.8, ETH %+18.0.",
+    "Kriptoda spot momentum: BTC 24s %+8.1, ETH %+17.9.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+3.1; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+2.9; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 74/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -377,7 +377,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T04:19:58.911309+00:00"
+    "generated_at": "2026-08-20T04:59:47.313448+00:00"
   },
   "buyback_news": [
     {
@@ -391,21 +391,21 @@
       "topic": "Tahvil / Likidite"
     },
     {
+      "title": "Why gold and Bitcoin surged together: What Treasury buybacks teach investors about dollar debasement",
+      "source": "investingLive",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOazk1MXo2OHZhMEVlUUpTYWVxMkRPaFlHM2NlTlhoR1FLN2UzRjBZT2ZfTDlkTzgxQ1lSV0lTM2g4QUp1VnhGN2ZudFB2RmJhNGVMRGhvZkpZTXNHeHhtVDlxTzVuUmRUU1BTYTk1QktJX3pOZ0N2dF9YVG5EZXhQeW05aFRoVk5mQ1RrczZVLXZmXzAwNWNtX2xoQVBDM3lMYm93NUxpdTZjMFBGLXAyTGNJOC1jenY0MHBHSmdKYXFtbWxuOG5qVV96YnNKVzhKRHc?oc=5",
+      "published_at": "2026-08-20T04:10:26+00:00",
+      "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+      "context_mode": "article_context",
+      "resolved_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOazk1MXo2OHZhMEVlUUpTYWVxMkRPaFlHM2NlTlhoR1FLN2UzRjBZT2ZfTDlkTzgxQ1lSV0lTM2g4QUp1VnhGN2ZudFB2RmJhNGVMRGhvZkpZTXNHeHhtVDlxTzVuUmRUU1BTYTk1QktJX3pOZ0N2dF9YVG5EZXhQeW05aFRoVk5mQ1RrczZVLXZmXzAwNWNtX2xoQVBDM3lMYm93NUxpdTZjMFBGLXAyTGNJOC1jenY0MHBHSmdKYXFtbWxuOG5qVV96YnNKVzhKRHc?oc=5&hl=en-US&gl=US&ceid=US:en",
+      "topic": "Tahvil / Likidite"
+    },
+    {
       "title": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts",
       "source": "bloomingbit",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fajl6T21CMDNIMXQ0ak5qNWQ5STlJMkxaY0pNYm9ZbDFlaWtIZ2R0dUlNVmJPdGlXOHZ0NTlJZVA3R3h0XzRTdW84ZTdlWXlydndUZg?oc=5",
       "published_at": "2026-08-20T01:47:05+00:00",
-      "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "context_mode": "article_context",
-      "resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fajl6T21CMDNIMXQ0ak5qNWQ5STlJMkxaY0pNYm9ZbDFlaWtIZ2R0dUlNVmJPdGlXOHZ0NTlJZVA3R3h0XzRTdW84ZTdlWXlydndUZg?oc=5&hl=en-US&gl=US&ceid=US:en",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "U.S. Treasury Doubles Buybacks Amid Yield Surge",
-      "source": "조선일보",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXRlX0E1VEFqczR3VE5KTmVYUDVLVUZNdF9vaUxWM1ctbFJHWExJNnBDWENwMmtwX3FFMURGV1pldmpkaV9IUGFDdTV6MzhoSHp3c0wwR2FtMERzY1pTR3JVNUNNSl9YYU5YVDNZV3hXaUhSRVJrR0RBY1o2bmYtVzE2aGFFVExrYmZ2dXVB?oc=5",
-      "published_at": "2026-08-19T23:55:33+00:00",
-      "context": "U.S. Treasury Doubles Buybacks Amid Yield Surge 조선일보",
+      "context": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts bloomingbit",
       "context_mode": "rss",
       "topic": "Tahvil / Likidite"
     }
@@ -422,5 +422,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber okuma/yorum -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T04:19:23.822413+00:00"
+  "generated_at": "2026-08-20T04:59:17.084438+00:00"
 }
