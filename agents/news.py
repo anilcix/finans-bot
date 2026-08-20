@@ -3,6 +3,7 @@
 Google News RSS ile güncel başlıkları toplar. RSS yönlendirme URL'sini gerçek
 yayıncı URL'sine çözer, yayıncı sayfasındaki meta açıklama ve ilk anlamlı
 paragrafları okur. Kısa özet yorum içermez; daha uzun bağlam ayrı tutulur.
+Özet ve uzun bağlam ekranda Türkçe gösterilir; orijinal metin ayrıca saklanır.
 Yayıncı sayfası erişilemiyorsa başlık 'özet' diye tekrar edilmez.
 """
 import html
@@ -33,6 +34,7 @@ ARTICLE_READS_PER_TOPIC = 3
 FETCH_LIMIT = 35
 RECENCY_HOURS = 72
 UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; +market-research)"}
+_TRANSLATE_CACHE = {}
 
 _GOOGLE_BOILERPLATE = (
     "comprehensive up-to-date news coverage",
@@ -95,6 +97,32 @@ def _meaningful_paragraph(text):
     return True
 
 
+def _translate_tr(text):
+    """Best-effort EN->TR çeviri. Hata olursa None döndürür; İngilizceyi Türkçe diye etiketlemez."""
+    text = " ".join((text or "").split()).strip()
+    if not text:
+        return None
+    if text in _TRANSLATE_CACHE:
+        return _TRANSLATE_CACHE[text]
+    try:
+        r = requests.get(
+            "https://translate.googleapis.com/translate_a/single",
+            params={"client": "gtx", "sl": "auto", "tl": "tr", "dt": "t", "q": text},
+            headers=UA,
+            timeout=12,
+        )
+        r.raise_for_status()
+        data = r.json()
+        translated = "".join(part[0] for part in (data[0] or []) if part and part[0]).strip()
+        if translated:
+            _TRANSLATE_CACHE[text] = translated
+            return translated
+    except Exception:
+        pass
+    _TRANSLATE_CACHE[text] = None
+    return None
+
+
 def _parse_pub_date(text):
     if not text:
         return None
@@ -145,7 +173,6 @@ def _external_http_links(parser, base_url):
 
 
 def _resolve_publisher_url(google_link):
-    """Önce Google News decoder; başarısızsa HTML dış-link fallback'i."""
     if not google_link:
         return None
     if not _is_google_host(urlparse(google_link).netloc):
@@ -247,14 +274,19 @@ def _fetch_article_context(link, title=""):
         parser.feed(r.text[:2_000_000])
         desc = " ".join((parser.description or "").split()).strip()
         paras = [p for p in parser.paragraphs if _usable_context(p, title)]
-        summary = _extractive_summary(desc, paras, title)
-        full_context = " ".join(([desc] if _usable_context(desc, title) else []) + paras[:5])
-        full_context = " ".join(full_context.split())
-        if not summary or len(summary) < 80:
+        summary_en = _extractive_summary(desc, paras, title)
+        full_en = " ".join(([desc] if _usable_context(desc, title) else []) + paras[:5])
+        full_en = " ".join(full_en.split())
+        if not summary_en or len(summary_en) < 80:
             return None
+        summary_tr = _translate_tr(summary_en)
+        full_tr = _translate_tr(full_en[:2200]) if full_en else summary_tr
         return {
-            "summary": summary,
-            "text": full_context[:2200] if full_context else summary,
+            "summary": summary_tr,
+            "text": full_tr,
+            "summary_original": summary_en,
+            "text_original": full_en[:2200] if full_en else summary_en,
+            "translation_ok": bool(summary_tr),
             "final_url": r.url,
             "mode": "publisher_article",
         }
@@ -292,7 +324,8 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
         raw_title = item.findtext("title", default="").strip()
         title = _clean_title(raw_title, source)
         link = item.findtext("link", default="").strip()
-        rss_ctx = _rss_context(item.findtext("description", default=""), raw_title, source)
+        rss_en = _rss_context(item.findtext("description", default=""), raw_title, source)
+        rss_tr = _translate_tr(rss_en) if rss_en else None
         published = _parse_pub_date(item.findtext("pubDate", default=""))
         if not title or published is None or published < cutoff:
             continue
@@ -301,10 +334,13 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
             "source": source,
             "link": link,
             "published_at": published.isoformat(),
-            "article_summary": rss_ctx,
-            "article_context": rss_ctx,
-            "context": rss_ctx,
-            "context_mode": "rss_context" if rss_ctx else "title_only",
+            "article_summary": rss_tr,
+            "article_context": rss_tr,
+            "article_summary_original": rss_en,
+            "article_context_original": rss_en,
+            "translation_ok": bool(rss_tr) if rss_en else None,
+            "context": rss_tr,
+            "context_mode": "rss_context" if rss_tr else "title_only",
         })
     out.sort(key=lambda x: x["published_at"], reverse=True)
     return out[:max_items]
@@ -325,6 +361,9 @@ def _enrich_topic(items):
             if ctx:
                 items[i]["article_summary"] = ctx["summary"]
                 items[i]["article_context"] = ctx["text"]
+                items[i]["article_summary_original"] = ctx["summary_original"]
+                items[i]["article_context_original"] = ctx["text_original"]
+                items[i]["translation_ok"] = ctx["translation_ok"]
                 items[i]["context"] = ctx["summary"]
                 items[i]["context_mode"] = ctx["mode"]
                 items[i]["resolved_url"] = ctx["final_url"]
@@ -356,10 +395,13 @@ def get_analysis_data():
             topics.append({"label": label, "query": query, "items": [], "error": str(e)})
     read_count = sum(1 for t in topics for x in t.get("items", []) if x.get("context_mode") == "publisher_article")
     headline_count = sum(len(t.get("items", [])) for t in topics)
+    translated_count = sum(1 for t in topics for x in t.get("items", []) if x.get("translation_ok"))
     return {
         "topics": topics,
         "recency_hours": RECENCY_HOURS,
         "headline_count": headline_count,
         "article_context_count": read_count,
-        "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> meta/ilk paragraflardan yorumsuz extractive özet; uzun bağlam ayrı alan.",
+        "translated_count": translated_count,
+        "language": "tr",
+        "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
     }
