@@ -43,6 +43,22 @@
       "query": "US Treasury buyback bond market liquidity long term yields",
       "items": [
         {
+          "title": "Treasury Buyback Might Only Briefly Tame Yields",
+          "source": "WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2ZEenJ5a1Bhd25rSkpMT3JFZ1ZwQWtIRjFWcTRjNkJ1Z1U0S0dOQ3ZMUGpJc2Iwazd1aVZVdGxQSzlPN1E0VmpRZ1dsWmlBR09CU2k0eVJ4dF8wazFEbE9MMU5YQzhIQnd6WWtiQU5aRzdSaXQxVkZBT1lTbVM0bnFhTG1TNXo0X3FfZl80TFF1ckVONjA2V2Jn?oc=5",
+          "published_at": "2026-08-20T09:24:00+00:00",
+          "context": null,
+          "context_mode": "title_only"
+        },
+        {
+          "title": "US Treasury doubles long-dated bond buybacks: Why are yields rising again?",
+          "source": "FXStreet",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV2pnVDI1T3BJYmVkNFgxUFJNc3ZrUFI2NF8zSFBRaU9Nd1dQRzdZdHYyaHp5a2ZPUV92ZDZ4VUhnWXU2MDhqcFQtUW83SGVGS3VoQ3ZONlYzNVR1ZEFIaURmZERUNUhOa3VVbWlsTF9kMlJHQjg1eXNpc1hiME1uOTVzSWpMaEhrR0Z2NHRNa0RvQ1JkbUUyWUliYzlucWhabk5KM0UtMlVEbWtBdGZUeVhkRkxLdw?oc=5",
+          "published_at": "2026-08-20T08:32:19+00:00",
+          "context": null,
+          "context_mode": "title_only"
+        },
+        {
           "title": "British Pound gains as US Dollar softens on Treasury bond buybacks",
           "source": "FXStreet",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ1dUTWxXQ0lpTHRtYTk2M2Z5TGVnOHFTRlQtNFhHb0l6dFRsRmdlekpYeVJUd05ISGJVVkcxaXJ2TE1qQlBDWGUycUdTa1BncGFRZGFOXzBadDZXOGhETEVCa2Vtdmw1a0hldTRfaXRNU1I3NVdJUDVMNldPUDZ2ZnMycTJIaEdrQ2JNVVJGNk94dmVtTW1BRms3c2NobkkzcG9jWVlGblpjQjFIX2c?oc=5",
@@ -55,22 +71,6 @@
           "source": "investingLive",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkRiaGxKd2dkSkRtbl84WDVOVDdicFFmcUdPOGZTTy1lS2pVQVBHZGI4YTgzZ010cENNSEZsaFh5bHZPZ2Y5OXFvUDdHSUVUYmNBblJZaG1OeUwxRXZNWkxwM0dYNUk2QmtoSTFDVDgtLVVXbzJUWDVYZE5fRGdnYUNZTEV6M2U5UHlBY3VJX0JkVDNpMjRBMjF6YUhNWHRnZTlmRE40UUlkbDMxTEo1NXd0dw?oc=5",
           "published_at": "2026-08-20T07:36:10+00:00",
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Will the US Treasury buyback be a game changer for markets?",
-          "source": "investingLive",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdWJvNDNyVmhZaU9xS3RfOWIzdUpubDFxRFdJcEF4ZHMxSVFGTmZOcVFYLXhPVkREdzE3cjJjOHpZSjlfZjdEeUlOWHNQQVFKcVJCeEJsUDJPTUlOZFU2MjR0TmV1VlNKWXBjdVlpb3dzcjRoczd6cnNWOU1UaXBTYWJTcDd4bmw1ZGYwZVBvYkVXWlVj?oc=5",
-          "published_at": "2026-08-20T05:59:15+00:00",
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Dollar at three-month lows as Treasury takes aim at surging bond yields",
-          "source": "WKZO",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFdidU5tekRzOGtrME5kS0NoUl9jSGpac1I5dTU4Vkx2RlJMUUt1dGJzclJ0T2pvUDk5SHNtSVdCTko2NGFUdUlfNlhqYXI2Y1QycnVIZXNVRS1QVWVzRk5xMGNYVXptUDhJQndKelJxeFVUVERNSFZjcGx5dEVCQjcxUEM4VFpqSURjY05nczFSVk9UeFU1UGtBTHp4Rm5vQkE?oc=5",
-          "published_at": "2026-08-20T05:55:21+00:00",
           "context": null,
           "context_mode": "title_only"
         }
@@ -110,5 +110,5 @@
   "headline_count": 9,
   "article_context_count": 0,
   "method": "Google News RSS başlıkları + yalnızca gerçek yayıncı sayfası erişilebildiğinde makale bağlamı; Google boilerplate ve başlık-kopyası açıklamalar özet sayılmaz.",
-  "generated_at": "2026-08-20T10:16:20.354977+00:00"
+  "generated_at": "2026-08-20T10:52:53.293505+00:00"
 }
