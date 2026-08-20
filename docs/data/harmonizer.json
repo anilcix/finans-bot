@@ -6,9 +6,9 @@
     "macro": 53.7,
     "credit": 65,
     "options": 68,
-    "crypto": 66.1,
+    "crypto": 66.5,
     "crypto_derivatives": 56,
-    "equities": 34.4,
+    "equities": 34.8,
     "news": 74
   },
   "plain_summary": [
@@ -41,7 +41,7 @@
         "count": 3,
         "digest": "Bitcoin şüphecisi Peter Schiff, ABD Hazine tahvil getirilerindeki kalıcı artışların, finansal piyasalara daha geniş hükümet müdahalesine yol açabileceğini söyledi. Bitcoin şüphecisi Peter Schiff, ABD Hazine tahvil getirilerindeki kalıcı artışların, finansal piyasalara daha geniş hükümet… | Piyasa görünümüne göre, uzun vadeli devlet tahvilleri için genişletilmiş ABD Hazine geri alım programı Bitcoin'in hareketini 180.000 dolara getirebilir. Piyasa görünümüne göre, uzun vadeli devlet tahvilleri için genişletilmiş ABD Hazine geri alım programı Bitcoin'in hareketini 180.000 dolara…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       },
       {
         "topic": "Kripto",
@@ -49,7 +49,7 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       }
     ],
     "important_news": [
@@ -65,9 +65,9 @@
         "brief_summary": "Piyasa görünümüne göre, uzun vadeli devlet tahvilleri için genişletilmiş ABD Hazine geri alım programı Bitcoin'in hareketini 180.000 dolara getirebilir. Piyasa görünümüne göre, uzun vadeli devlet tahvilleri için genişletilmiş ABD Hazine geri alım programı Bitcoin'in hareketini 180.000 dolara…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       },
       {
         "title": "Bitcoin (BTC) price analysis: $180,000 targeted on Treasury buybacks",
@@ -81,9 +81,9 @@
         "brief_summary": "Bitcoin (BTC) price analysis: $180,000 targeted on Treasury buybacks",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       },
       {
         "title": "Peter Schiff Says Rising Treasury Yields Could Trigger Larger Buybacks, Fed QE",
@@ -97,9 +97,9 @@
         "brief_summary": "Bitcoin şüphecisi Peter Schiff, ABD Hazine tahvil getirilerindeki kalıcı artışların, finansal piyasalara daha geniş hükümet müdahalesine yol açabileceğini söyledi. Bitcoin şüphecisi Peter Schiff, ABD Hazine tahvil getirilerindeki kalıcı artışların, finansal piyasalara daha geniş hükümet…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       },
       {
         "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
@@ -145,9 +145,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.8; çoklu-borsa OI 24s %+2.3; OI-ağırlıklı funding %+0.0053."
+        "data_confirmation": "BTC 24s %+6.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0053."
       },
       {
         "title": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
@@ -172,7 +172,7 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 16.02 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 16.07 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "BTC yükselişi Kraken CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
@@ -192,7 +192,7 @@
     "Buyback'i QE diye okumuyoruz: yeni ihraç/TGA finansmanı ve yüksek uzun-vade arzı nedeniyle kalıcı parasal genişleme sinyali değildir."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+5.8, ETH %+10.5.",
+    "Kriptoda spot momentum: BTC 24s %+6.4, ETH %+11.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+3.7; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 74/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
@@ -393,7 +393,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T19:08:04.229791+00:00"
+    "generated_at": "2026-08-20T19:42:09.153076+00:00"
   },
   "buyback_news": [
     {
@@ -454,5 +454,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T19:07:15.596198+00:00"
+  "generated_at": "2026-08-20T19:41:13.288343+00:00"
 }
