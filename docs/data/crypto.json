@@ -1,34 +1,34 @@
 {
   "btc": {
-    "price": 71583,
-    "change_24h": 10.090551934430268
+    "price": 71554,
+    "change_24h": 9.9585563251798
   },
   "eth": {
-    "price": 2273.53,
-    "change_24h": 17.452689002702023
+    "price": 2272.01,
+    "change_24h": 17.63764202691428
   },
   "global": {
-    "total_usd": 2452370521528.127,
-    "total2_usd": 1013823119586.6298,
-    "total3_usd": 738588139532.6819,
-    "btc_dominance": 58.65946394776863,
-    "eth_dominance": 11.22322168032108
+    "total_usd": 2427278447032.059,
+    "total2_usd": 1005428803802.5706,
+    "total3_usd": 733756055315.2751,
+    "btc_dominance": 58.57793715294787,
+    "eth_dominance": 11.192483862718007
   },
-  "stablecoin_supply_usd": 300829629368,
+  "stablecoin_supply_usd": 300846361985,
   "stablecoin_market_cap_usd": 307646685078.723,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.3068603607378373,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 83403888022.25415,
+    "total_tvl_usd": 83231340651.55304,
     "chains": {
-      "Base": 5120102527.654972,
-      "BSC": 5298150082.132325,
-      "Arbitrum": 1347170018.7159553,
-      "Ethereum": 46495815801.813774,
-      "Solana": 5301623833.444117,
-      "Bitcoin": 3898724302.0333114
+      "Base": 5106698216.260048,
+      "BSC": 5293029701.271956,
+      "Ethereum": 46365471502.82861,
+      "Arbitrum": 1343599446.4805956,
+      "Solana": 5290562622.329883,
+      "Bitcoin": 3898273904.8179464
     },
     "stablecoin_market_cap_usd": 307646685078.723,
     "stablecoin_7d_change_pct": 0.3068603607378373,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 30131.369300000137,
+  "open_interest_btc": 30117.739600000143,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 300829629368,
-  "generated_at": "2026-08-20T13:36:13.968628+00:00"
+  "stablecoin_top50_market_cap_usd": 300846361985,
+  "generated_at": "2026-08-20T13:48:51.703376+00:00"
 }
