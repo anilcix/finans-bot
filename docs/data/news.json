@@ -15,7 +15,7 @@
         },
         {
           "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
-          "source": "nbcnews.com",
+          "source": "NBC News",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
           "published_at": "2026-08-19T20:29:22+00:00",
           "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -115,5 +115,5 @@
   "headline_count": 9,
   "article_context_count": 5,
   "method": "Google News RSS + erişilebilen sayfalarda meta açıklama/ilk paragraf bağlamı; engellenen içerikte başlık/RSS ile fallback.",
-  "generated_at": "2026-08-20T05:27:45.347451+00:00"
+  "generated_at": "2026-08-20T05:56:12.763480+00:00"
 }

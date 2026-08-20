@@ -1,20 +1,20 @@
 {
   "btc": {
-    "price": 69599,
-    "change_24h": 8.227704866217069
+    "price": 69343,
+    "change_24h": 7.9885376118131495
   },
   "eth": {
-    "price": 2254.26,
-    "change_24h": 17.944741726101306
+    "price": 2244.27,
+    "change_24h": 17.51218018856142
   },
   "global": {
-    "total_usd": 2392483408607.132,
-    "total2_usd": 998275805134.1562,
-    "total3_usd": 726746938922.1633,
-    "btc_dominance": 58.274494128453014,
-    "eth_dominance": 11.349247615893521
+    "total_usd": 2382088267565.802,
+    "total2_usd": 994375113967.2968,
+    "total3_usd": 724374363090.3367,
+    "btc_dominance": 58.256160046351916,
+    "eth_dominance": 11.334624100762952
   },
-  "stablecoin_supply_usd": 301005962470,
+  "stablecoin_supply_usd": 300993684654,
   "stablecoin_market_cap_usd": 307777470016.2269,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.3463927644127507,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 31364.565800000102,
+  "open_interest_btc": 31336.286800000107,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301005962470,
-  "generated_at": "2026-08-20T05:27:45.347451+00:00"
+  "stablecoin_top50_market_cap_usd": 300993684654,
+  "generated_at": "2026-08-20T05:56:12.763480+00:00"
 }

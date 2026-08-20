@@ -19,7 +19,7 @@
   "news_analysis": {
     "score": 75,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "positive_count": 6,
     "negative_count": 0,
     "neutral_count": 3,
@@ -31,25 +31,25 @@
         "topic": "Makro / Fed",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Bessent acts to break bond market fever, head off rising borrowing costs; Bond yields fall after Treasury announces surprise move to ease rising rates",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "digest": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News. | Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "U.S. Treasury Buyback Cools Long-Term Yields, But Structural Concerns Remain - News and Statistics; Why gold and Bitcoin surged together: What Treasury buybacks teach investors about dollar debasement",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "digest": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News. | Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
         "topic": "Kripto",
         "tone": "destekleyici",
         "count": 1,
-        "digest": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-        "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0077."
+        "digest": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+8.0; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0077."
       }
     ],
     "important_news": [
@@ -62,9 +62,11 @@
         "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "brief_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "summary_mode": "article_context",
         "read_mode": "article_context",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
@@ -76,10 +78,12 @@
         "theme": "crypto",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "brief_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "summary_mode": "article_context",
         "read_mode": "article_context",
-        "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0077."
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.0; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0077.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+8.0; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0077."
       },
       {
         "title": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts",
@@ -90,9 +94,11 @@
         "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "excerpt": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts bloomingbit",
+        "brief_summary": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts bloomingbit",
+        "summary_mode": "article_context",
         "read_mode": "rss",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
@@ -104,23 +110,27 @@
         "theme": "rates",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "excerpt": "Bonds bounce on US buybacks, but relief may be brief KELO-AM",
+        "brief_summary": "Bonds bounce on US buybacks, but relief may be brief KELO-AM",
+        "summary_mode": "article_context",
         "read_mode": "rss",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
         "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
-        "source": "nbcnews.com",
+        "source": "NBC News",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
         "published_at": "2026-08-19T20:29:22+00:00",
         "topic": "Makro / Fed",
         "theme": "rates",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "brief_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "summary_mode": "article_context",
         "read_mode": "article_context",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       },
       {
@@ -132,10 +142,12 @@
         "theme": "crypto",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "brief_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "summary_mode": "article_context",
         "read_mode": "article_context",
-        "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0077."
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.0; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0077.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+8.0; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0077."
       },
       {
         "title": "Bessent acts to break bond market fever, head off rising borrowing costs",
@@ -146,13 +158,15 @@
         "theme": "rates",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "brief_summary": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
+        "summary_mode": "article_context",
         "read_mode": "article_context",
-        "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
       }
     ],
-    "principle": "Haber başlığı tek başına pozisyon sinyali değildir; veri ajanlarıyla teyit edilen haberin ağırlığı yükselir."
+    "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
@@ -176,10 +190,10 @@
     "Buyback'i QE diye okumuyoruz: yeni ihraç/TGA finansmanı ve yüksek uzun-vade arzı nedeniyle kalıcı parasal genişleme sinyali değildir."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.2, ETH %+17.9.",
+    "Kriptoda spot momentum: BTC 24s %+8.0, ETH %+17.5.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+2.8; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
+    "Altın %+2.7; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Son 72 saatte haber akışı hafif risk-on: 6 destekleyici, 0 risk artırıcı, 3 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -377,7 +391,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T05:28:26.063180+00:00"
+    "generated_at": "2026-08-20T05:56:43.034249+00:00"
   },
   "buyback_news": [
     {
@@ -421,6 +435,6 @@
     "screener": "error",
     "news": "ok"
   },
-  "method": "9 uzman ajan -> normalize alt skorlar -> haber okuma/yorum -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T05:27:45.347451+00:00"
+  "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
+  "generated_at": "2026-08-20T05:56:12.763480+00:00"
 }
