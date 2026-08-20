@@ -3,117 +3,43 @@
     {
       "label": "Makro / Fed",
       "query": "Federal Reserve Treasury yields inflation US economy",
-      "items": [
-        {
-          "title": "Bessent acts to break bond market fever, head off rising borrowing costs",
-          "source": "The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEp5ODBDWGVqYUZ1eEdFS1BxODduekpEZFB0Vm9YcmFCeW9IYnV1eUNFeHpJZ3lLT0NMSk9OazBVZE1xZmJvMnlBZjNjSWpodkEtd09CdmpOT0VSQVJvZDNHRWNFQWxMU1ZxR05UOE92SXd6WTllbEhBQUotZjhVVUdZckw5UloxS1JqamtJcGNzVFVwS3hjNXdXR2VjcFJuMnlReWFIN1dLbHBldzhKWndMTTY?oc=5",
-          "published_at": "2026-08-20T01:32:19+00:00",
-          "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-          "context_mode": "article_context",
-          "resolved_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEp5ODBDWGVqYUZ1eEdFS1BxODduekpEZFB0Vm9YcmFCeW9IYnV1eUNFeHpJZ3lLT0NMSk9OazBVZE1xZmJvMnlBZjNjSWpodkEtd09CdmpOT0VSQVJvZDNHRWNFQWxMU1ZxR05UOE92SXd6WTllbEhBQUotZjhVVUdZckw5UloxS1JqamtJcGNzVFVwS3hjNXdXR2VjcFJuMnlReWFIN1dLbHBldzhKWndMTTY?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
-          "source": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5",
-          "published_at": "2026-08-19T20:29:22+00:00",
-          "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-          "context_mode": "article_context",
-          "resolved_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWERIM2I3T0tzZWlQc3dWSzVhX1Z4eGdwbDl3d1N4VUZrWXcwQnpGSVNKbC1aWTU1Z1g4anRBaG15Y3BIT3NhS0YzSGtxSWlnOGpNSlA0ODRZTnBmREwzTWZObHJ6VE1ra25qc2lSRDdGY0VBQWY5Q0RCWDFBNVNDRVRBRTJqMGJ2YWF5QmRQZHR0Y0Jo?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "An alarmed bond market gets the Trump administration to act again",
-          "source": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbkdjRlNLRi13YW5NR2w5dmtidXU1X1VHbzV3NnU1T1hReVYxTHZwMWhBRmJnUHJWVmZSZjFRVWF2dEFzaWdxTlhWTDNsQ19DMWliS0pzN3VjeERRLTRRaEhLekx5SndKZ1djMmJuMEhRRDZaZG1wazhrcEJlSFo5MVRDazZnVS11SGt4anZNcDV5ZnU4NllUWE1raXdoY1RnaFktctIBqgFBVV95cUxQcmx0SDZHMWx3b2x1cm42NzRXRU53Yk1idmtPVGRTQS04cllBS3MyZ1Bsc3ZxLUUyeDlybFRiWU5HaWx0OWUxU1U5bFNXcXZhUU5HRTgyVjdzT1ZIdzlDZGhsR1Y1WjVNa0daUnJIX3VsdW05RU1Ta2xOMlZSa3JsaW1yS3BELUlNMTZ5QWNWNHhpMGkzUmVoaHJJcEl4VFZpa0dNUEljNXlEdw?oc=5",
-          "published_at": "2026-08-19T20:22:01+00:00",
-          "context": "An alarmed bond market gets the Trump administration to act again PBS",
-          "context_mode": "rss"
-        },
-        {
-          "title": "US national debt passes $40tn after doubling in a decade",
-          "source": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HaVpuTEo1UTZ0dEJGWTUyWlBKdE5PVnRoek9FbldTR3FnTmxoRXhuaG1aQXUwaklEVGxSOG96eThjZXlwLWJiMmJvdW5qYW1KU1dlc3l2SEQtcE1u?oc=5",
-          "published_at": "2026-08-19T18:42:06+00:00",
-          "context": "US national debt passes $40tn after doubling in a decade BBC",
-          "context_mode": "rss"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Federal+Reserve+Treasury+yields+inflation+US+economy&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Tahvil / Likidite",
       "query": "US Treasury buyback bond market liquidity long term yields",
-      "items": [
-        {
-          "title": "JPMorgan Says Bigger Treasury Buybacks Won’t Curb Long Yields Without Deficit Cuts",
-          "source": "bloomingbit",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fajl6T21CMDNIMXQ0ak5qNWQ5STlJMkxaY0pNYm9ZbDFlaWtIZ2R0dUlNVmJPdGlXOHZ0NTlJZVA3R3h0XzRTdW84ZTdlWXlydndUZg?oc=5",
-          "published_at": "2026-08-20T01:47:05+00:00",
-          "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-          "context_mode": "article_context",
-          "resolved_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fajl6T21CMDNIMXQ0ak5qNWQ5STlJMkxaY0pNYm9ZbDFlaWtIZ2R0dUlNVmJPdGlXOHZ0NTlJZVA3R3h0XzRTdW84ZTdlWXlydndUZg?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "U.S. Treasury Doubles Buybacks Amid Yield Surge",
-          "source": "조선일보",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXRlX0E1VEFqczR3VE5KTmVYUDVLVUZNdF9vaUxWM1ctbFJHWExJNnBDWENwMmtwX3FFMURGV1pldmpkaV9IUGFDdTV6MzhoSHp3c0wwR2FtMERzY1pTR3JVNUNNSl9YYU5YVDNZV3hXaUhSRVJrR0RBY1o2bmYtVzE2aGFFVExrYmZ2dXVB?oc=5",
-          "published_at": "2026-08-19T23:55:33+00:00",
-          "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-          "context_mode": "article_context",
-          "resolved_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXRlX0E1VEFqczR3VE5KTmVYUDVLVUZNdF9vaUxWM1ctbFJHWExJNnBDWENwMmtwX3FFMURGV1pldmpkaV9IUGFDdTV6MzhoSHp3c0wwR2FtMERzY1pTR3JVNUNNSl9YYU5YVDNZV3hXaUhSRVJrR0RBY1o2bmYtVzE2aGFFVExrYmZ2dXVB?oc=5&hl=en-US&gl=US&ceid=US:en"
-        },
-        {
-          "title": "U.S. Treasury buybacks calm yields, lift stocks",
-          "source": "조선일보",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1lHWnp1VW5zQlRMN2FCY2ZpTE1GdzF5T0JPa3N5aEF1dTd0S2F4c1RxdmlDbmlOT3pNTkU3ODZWQy1SZ2lBaG1fVnZYUHBBN204VVZIMDdlUkFLT2JUV0VwUmQ0dm5jNi1jcVNoa2dMYm5hVmFtY3RKeXpnbldFWHF6ZnQwV0RnT2t0d1Jn?oc=5",
-          "published_at": "2026-08-19T23:55:33+00:00",
-          "context": "U.S. Treasury buybacks calm yields, lift stocks 조선일보",
-          "context_mode": "rss"
-        },
-        {
-          "title": "Treasury doubles long-term bond buybacks to $4 billion",
-          "source": "qz.com",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSXl3YUlWRE1SdlNzSlVnVEViMGY3OFdnYUt3eTl6aWVsTTFXUE9hRVdqWEZHT3dTTkV3cGZlWEU3eFUwck5xX2g5clRJSGZNT2NqcFJDZlAzaEV4MlZOZ2ZpNnF4WnFwTm5PN0E1X0c3Zw?oc=5",
-          "published_at": "2026-08-19T23:35:20+00:00",
-          "context": "Treasury doubles long-term bond buybacks to $4 billion qz.com",
-          "context_mode": "rss"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=US+Treasury+buyback+bond+market+liquidity+long+term+yields&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Kredi",
       "query": "high yield credit spreads corporate debt default US",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=high+yield+credit+spreads+corporate+debt+default+US&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Hisseler / AI",
       "query": "S&P 500 Nasdaq AI semiconductors earnings stock market",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=S%26P+500+Nasdaq+AI+semiconductors+earnings+stock+market&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Kripto",
       "query": "Bitcoin Ethereum ETF crypto regulation market",
-      "items": [
-        {
-          "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-          "source": "Altcoin Buzz",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5",
-          "published_at": "2026-08-19T18:40:18+00:00",
-          "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-          "context_mode": "article_context",
-          "resolved_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5&hl=en-US&gl=US&ceid=US:en"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Bitcoin+Ethereum+ETF+crypto+regulation+market&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Emtia / Jeopolitik",
       "query": "oil gold commodities geopolitics tariffs",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=oil+gold+commodities+geopolitics+tariffs&hl=en-US&gl=US&ceid=US%3Aen"
     }
   ],
   "recency_hours": 72,
-  "headline_count": 9,
-  "article_context_count": 5,
+  "headline_count": 0,
+  "article_context_count": 0,
   "method": "Google News RSS + erişilebilen sayfalarda meta açıklama/ilk paragraf bağlamı; engellenen içerikte başlık/RSS ile fallback.",
-  "generated_at": "2026-08-20T02:52:16.879243+00:00"
+  "generated_at": "2026-08-20T03:34:45.121493+00:00"
 }
