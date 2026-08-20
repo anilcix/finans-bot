@@ -1,5 +1,5 @@
 {
-  "market_score": 55.5,
+  "market_score": 55.6,
   "stance": "Temkinli Risk-On",
   "confidence": 66.0,
   "component_scores": {
@@ -9,7 +9,7 @@
     "crypto": 58.0,
     "crypto_derivatives": 47,
     "equities": 43.2,
-    "news": 71
+    "news": 74
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,9 +17,9 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 71,
+    "score": 74,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 4 nötr/karışık benzersiz başlık. Haber skoru 71/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 4 nötr/karışık benzersiz başlık. Haber skoru 74/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "positive_count": 5,
     "negative_count": 0,
     "neutral_count": 4,
@@ -39,9 +39,9 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Dollar at three-month lows as Treasury takes aim at surging bond yields | Will the US Treasury buyback be a game changer for markets?",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
+        "digest": "Stock Market Today: Treasury Buybacks Lift Tech as Chips, Crypto and Moderna Lead | Dollar at three-month lows as Treasury takes aim at surging bond yields",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086."
       },
       {
         "topic": "Kripto",
@@ -49,10 +49,26 @@
         "count": 1,
         "digest": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+7.6; OI-ağırlıklı funding %+0.0077."
+        "data_confirmation": "BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "important_news": [
+      {
+        "title": "Stock Market Today: Treasury Buybacks Lift Tech as Chips, Crypto and Moderna Lead",
+        "source": "investingLive",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkRiaGxKd2dkSkRtbl84WDVOVDdicFFmcUdPOGZTTy1lS2pVQVBHZGI4YTgzZ010cENNSEZsaFh5bHZPZ2Y5OXFvUDdHSUVUYmNBblJZaG1OeUwxRXZNWkxwM0dYNUk2QmtoSTFDVDgtLVVXbzJUWDVYZE5fRGdnYUNZTEV6M2U5UHlBY3VJX0JkVDNpMjRBMjF6YUhNWHRnZTlmRE40UUlkbDMxTEo1NXd0dw?oc=5",
+        "published_at": "2026-08-20T07:36:10+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "crypto",
+        "impact_score": 2,
+        "impact": "Destekleyici",
+        "brief_summary": "Stock Market Today: Treasury Buybacks Lift Tech as Chips, Crypto and Moderna Lead",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086."
+      },
       {
         "title": "Will the US Treasury buyback be a game changer for markets?",
         "source": "investingLive",
@@ -71,7 +87,7 @@
       },
       {
         "title": "U.S. Treasury Buyback Cools Long-Term Yields, But Structural Concerns Remain - News and Statistics",
-        "source": "indexbox.io",
+        "source": "IndexBox",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX2N0T2oydkw1X1h3UUUxZWxuazRNVWhMZ1lfMl9Ma0J5M2JjdXFtNE5DUzFTTjNhWWl2b3d4MElZNHQzYWZPN2U4endEdnp6aGV1NkUtS0M3c00wcHVsY1FkMlNSandwSEJJTFhzUW9uc2NuQ3RqLWpzN0ZIeFo1WVdpVTEwWGFBa3l3VnRLM2ROdzg?oc=5",
         "published_at": "2026-08-20T05:01:00+00:00",
         "topic": "Tahvil / Likidite",
@@ -79,22 +95,6 @@
         "impact_score": 2,
         "impact": "Destekleyici",
         "brief_summary": "U.S. Treasury Buyback Cools Long-Term Yields, But Structural Concerns Remain - News and Statistics",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
-      },
-      {
-        "title": "U.S. Treasury Doubles Long-Term Bond Buybacks, Yen Briefly Strengthens to Low-158 Range Against Dollar",
-        "source": "finance.biggo.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5WXlOeF8tdkdCOWx5b2dzQVg4V19HeVVxZ0pTa2ZPRHFVc01XeWkxZ3Bmb3B1ZFJPd21MQ0sxSlUxNFl2ekVtSHphR3k1VEhrQmJLUjVtbEtMcHpwM21OcHJhekZncDB5RmdjRHNmWF9LQzgwbmc?oc=5",
-        "published_at": "2026-08-20T04:55:00+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "rates",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "U.S. Treasury Doubles Long-Term Bond Buybacks, Yen Briefly Strengthens to Low-158 Range Against Dollar",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
         "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
@@ -129,9 +129,9 @@
         "brief_summary": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+7.6; OI-ağırlıklı funding %+0.0077.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+7.6; OI-ağırlıklı funding %+0.0077."
+        "data_confirmation": "BTC 24s %+11.0; çoklu-borsa OI 24s %+7.4; OI-ağırlıklı funding %+0.0086."
       },
       {
         "title": "Dollar at three-month lows as Treasury takes aim at surging bond yields",
@@ -171,7 +171,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 14.97 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.12 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
     "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
@@ -190,10 +190,10 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.4, ETH %+17.4.",
+    "Kriptoda spot momentum: BTC 24s %+11.0, ETH %+18.9.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+3.0; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 4 nötr/karışık benzersiz başlık. Haber skoru 71/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 4 nötr/karışık benzersiz başlık. Haber skoru 74/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -391,9 +391,18 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T07:55:47.516461+00:00"
+    "generated_at": "2026-08-20T08:22:27.797152+00:00"
   },
   "buyback_news": [
+    {
+      "title": "Stock Market Today: Treasury Buybacks Lift Tech as Chips, Crypto and Moderna Lead",
+      "source": "investingLive",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkRiaGxKd2dkSkRtbl84WDVOVDdicFFmcUdPOGZTTy1lS2pVQVBHZGI4YTgzZ010cENNSEZsaFh5bHZPZ2Y5OXFvUDdHSUVUYmNBblJZaG1OeUwxRXZNWkxwM0dYNUk2QmtoSTFDVDgtLVVXbzJUWDVYZE5fRGdnYUNZTEV6M2U5UHlBY3VJX0JkVDNpMjRBMjF6YUhNWHRnZTlmRE40UUlkbDMxTEo1NXd0dw?oc=5",
+      "published_at": "2026-08-20T07:36:10+00:00",
+      "context": null,
+      "context_mode": "title_only",
+      "topic": "Tahvil / Likidite"
+    },
     {
       "title": "Will the US Treasury buyback be a game changer for markets?",
       "source": "investingLive",
@@ -405,18 +414,9 @@
     },
     {
       "title": "U.S. Treasury Buyback Cools Long-Term Yields, But Structural Concerns Remain - News and Statistics",
-      "source": "indexbox.io",
+      "source": "IndexBox",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX2N0T2oydkw1X1h3UUUxZWxuazRNVWhMZ1lfMl9Ma0J5M2JjdXFtNE5DUzFTTjNhWWl2b3d4MElZNHQzYWZPN2U4endEdnp6aGV1NkUtS0M3c00wcHVsY1FkMlNSandwSEJJTFhzUW9uc2NuQ3RqLWpzN0ZIeFo1WVdpVTEwWGFBa3l3VnRLM2ROdzg?oc=5",
       "published_at": "2026-08-20T05:01:00+00:00",
-      "context": null,
-      "context_mode": "title_only",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "U.S. Treasury Doubles Long-Term Bond Buybacks, Yen Briefly Strengthens to Low-158 Range Against Dollar",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5WXlOeF8tdkdCOWx5b2dzQVg4V19HeVVxZ0pTa2ZPRHFVc01XeWkxZ3Bmb3B1ZFJPd21MQ0sxSlUxNFl2ekVtSHphR3k1VEhrQmJLUjVtbEtMcHpwM21OcHJhekZncDB5RmdjRHNmWF9LQzgwbmc?oc=5",
-      "published_at": "2026-08-20T04:55:00+00:00",
       "context": null,
       "context_mode": "title_only",
       "topic": "Tahvil / Likidite"
@@ -434,5 +434,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T07:55:18.443526+00:00"
+  "generated_at": "2026-08-20T08:21:54.807272+00:00"
 }
