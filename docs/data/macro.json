@@ -198,14 +198,14 @@
   ],
   "liquidity_plumbing": {
     "tga": {
-      "date": "2026-08-12",
-      "value": 963.95,
-      "change": 207.73200000000008
+      "date": "2026-08-19",
+      "value": 953.612,
+      "change": 123.98899999999992
     },
     "fed_assets": {
-      "date": "2026-08-12",
-      "value": 6759.955,
-      "change": 16.92699999999968
+      "date": "2026-08-19",
+      "value": 6745.699,
+      "change": -1.6790000000000873
     },
     "rrp": {
       "date": "2026-08-20",
@@ -223,8 +223,8 @@
       "change": 0.0600000000000005
     },
     "net_liquidity_proxy": {
-      "value": 5795.78,
-      "change": -190.65400000000045,
+      "value": 5791.861999999999,
+      "change": -125.51699999999983,
       "unit": "$bn",
       "note": "Fed assets - TGA - ON RRP; mekanik proxy, nedensellik değildir."
     }
@@ -9653,8 +9653,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 177.74619081414812,
-        "raw": 762.780029296875
+        "value": 177.7042339458088,
+        "raw": 762.5999755859375
       }
     ],
     "QQQ": [
@@ -10267,8 +10267,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 166.21647140721768,
-        "raw": 72787.6796875
+        "value": 166.033695824858,
+        "raw": 72707.640625
       }
     ]
   },
@@ -10519,5 +10519,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-20T20:25:01.065145+00:00"
+  "generated_at": "2026-08-20T20:42:38.609092+00:00"
 }
