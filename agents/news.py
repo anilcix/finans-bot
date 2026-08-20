@@ -1,8 +1,9 @@
 """AJAN 9: Piyasa haber akışı — son 72 saat.
 
-Google News RSS ile güncel başlıkları toplar. Ulaşılabilen haberlerde sayfanın meta
-açıklaması / ilk anlamlı paragraflarından kısa bağlam çıkarır. Haber içeriği
-engellenirse başlık + RSS açıklamasıyla devam eder; içerik uydurmaz.
+Google News RSS ile güncel başlıkları toplar. Ulaşılabilen gerçek yayıncı
+sayfalarında meta açıklama / ilk anlamlı paragraflardan kısa bağlam çıkarır.
+Google News'in genel tanıtım metni gerçek haber bağlamı sayılmaz. Haber içeriği
+engellenirse temiz başlık/RSS ile devam eder; içerik uydurmaz.
 """
 import html
 import re
@@ -26,6 +27,12 @@ ARTICLE_READS_PER_TOPIC = 2
 FETCH_LIMIT = 35
 RECENCY_HOURS = 72
 UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; +market-research)"}
+
+_GOOGLE_BOILERPLATE = (
+    "comprehensive up-to-date news coverage",
+    "aggregated from sources all over the world by google news",
+    "google news",
+)
 
 
 class _ArticleParser(HTMLParser):
@@ -86,13 +93,31 @@ def _clean_title(title, source):
     return title
 
 
-def _fetch_article_context(link):
-    """Ulaşılabilen sayfadan kısa bağlam alır; tam makale saklamaz."""
+def _usable_context(text, title=""):
+    text = " ".join((text or "").split()).strip()
+    if len(text) < 80:
+        return False
+    low = text.lower()
+    if any(x in low for x in _GOOGLE_BOILERPLATE):
+        return False
+    # RSS bazen sadece başlık + kaynak döndürür; bunu makale bağlamı sayma.
+    clean_title = " ".join((title or "").lower().split()).strip()
+    if clean_title and low.startswith(clean_title[: min(60, len(clean_title))]):
+        return False
+    return True
+
+
+def _fetch_article_context(link, title=""):
+    """Yalnızca gerçek yayıncı içeriği görünüyorsa kısa bağlam döndürür."""
     try:
         r = requests.get(link, timeout=8, headers=UA, allow_redirects=True)
         r.raise_for_status()
         ctype = (r.headers.get("content-type") or "").lower()
         if "html" not in ctype:
+            return None
+        # Google News yönlendirme sayfasında kaldıysak içerik sayma.
+        final_host = requests.utils.urlparse(r.url).netloc.lower()
+        if "news.google." in final_host or final_host.endswith("google.com"):
             return None
         parser = _ArticleParser()
         parser.feed(r.text[:1_500_000])
@@ -101,11 +126,26 @@ def _fetch_article_context(link):
             bits.append(parser.description)
         bits.extend(parser.paragraphs[:2])
         text = " ".join(" ".join(bits).split())
-        if len(text) < 80:
+        if not _usable_context(text, title):
             return None
         return {"text": text[:900], "final_url": r.url, "mode": "article_context"}
     except Exception:
         return None
+
+
+def _rss_context(raw_desc, title, source):
+    text = _clean_html(raw_desc)
+    if not text:
+        return None
+    low = text.lower()
+    if any(x in low for x in _GOOGLE_BOILERPLATE):
+        return None
+    # Google RSS açıklaması çoğu zaman yalnızca başlık+kaynak; özet olarak kabul etme.
+    normalized_title = _clean_title(title, source).lower()
+    stripped = low.replace((source or "").lower(), "").strip(" -|—")
+    if normalized_title and normalized_title[:60] in stripped:
+        return None
+    return text[:500] if len(text) >= 80 else None
 
 
 def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
@@ -122,9 +162,10 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
 
     for item in root.findall(".//item")[:FETCH_LIMIT]:
         source = item.findtext("source", default="").strip()
-        title = _clean_title(item.findtext("title", default="").strip(), source)
+        raw_title = item.findtext("title", default="").strip()
+        title = _clean_title(raw_title, source)
         link = item.findtext("link", default="").strip()
-        rss_desc = _clean_html(item.findtext("description", default=""))
+        rss_ctx = _rss_context(item.findtext("description", default=""), raw_title, source)
         published = _parse_pub_date(item.findtext("pubDate", default=""))
         if not title or published is None or published < cutoff:
             continue
@@ -133,8 +174,8 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
             "source": source,
             "link": link,
             "published_at": published.isoformat(),
-            "context": rss_desc[:500] if rss_desc else None,
-            "context_mode": "rss" if rss_desc else "title_only",
+            "context": rss_ctx,
+            "context_mode": "rss_context" if rss_ctx else "title_only",
         })
 
     out.sort(key=lambda x: x["published_at"], reverse=True)
@@ -142,12 +183,11 @@ def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
 
 
 def _enrich_topic(items):
-    """En yeni iki haberi paralel olarak okuyup kısa bağlam ekler."""
     targets = [(i, x) for i, x in enumerate(items[:ARTICLE_READS_PER_TOPIC]) if x.get("link")]
     if not targets:
         return items
     with ThreadPoolExecutor(max_workers=min(ARTICLE_READS_PER_TOPIC, 2)) as pool:
-        future_map = {pool.submit(_fetch_article_context, x["link"]): i for i, x in targets}
+        future_map = {pool.submit(_fetch_article_context, x["link"], x.get("title", "")): i for i, x in targets}
         for fut in as_completed(future_map):
             i = future_map[fut]
             try:
@@ -195,5 +235,5 @@ def get_analysis_data():
         "recency_hours": RECENCY_HOURS,
         "headline_count": headline_count,
         "article_context_count": read_count,
-        "method": "Google News RSS + erişilebilen sayfalarda meta açıklama/ilk paragraf bağlamı; engellenen içerikte başlık/RSS ile fallback.",
+        "method": "Google News RSS başlıkları + yalnızca gerçek yayıncı sayfası erişilebildiğinde makale bağlamı; Google boilerplate ve başlık-kopyası açıklamalar özet sayılmaz.",
     }
