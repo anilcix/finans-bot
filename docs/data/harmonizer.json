@@ -8,7 +8,7 @@
     "options": 78,
     "crypto": 58.0,
     "crypto_derivatives": 47,
-    "equities": 36.0,
+    "equities": 34.9,
     "news": 71
   },
   "plain_summary": [
@@ -39,9 +39,9 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Artan mali açıklar, değişen Japon talebi ve yapay zeka destekli borç ihraçları, uzun vadeli tahviller üzerindeki arz-talep baskısını topluca artırıyor. Kısa bir süre sonra Hazine Bakanı Bessent, uzun vadeli Hazine geri alımlarının genişletileceğini, belirli 10 ila 30 yıllık tahviller için maksimum… | Olay: ABD Hazinesi, likiditeyi artırmak ve uzun vadeli tahvil getirilerindeki artışı frenlemek için devlet tahvili geri alım programında bir artış olduğunu duyurdu; 10 ila 30 yıllık borç geri alımlarını \"en azından\" ikiye katlayarak 4 milyar ABD dolarına çıkardı. Piyasanın tepkisi: Duyuru…",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
+        "digest": "Hazine, uzun vadeli geri alım operasyonlarını Ağustos'ta ikiye katladı. Hazine, uzun vadeli geri alım operasyonlarını 19 Ağustos 2026'da ikiye katladı. | Artan mali açıklar, değişen Japon talebi ve yapay zeka destekli borç ihraçları, uzun vadeli tahviller üzerindeki arz-talep baskısını topluca artırıyor. Kısa bir süre sonra Hazine Bakanı Bessent, uzun vadeli Hazine geri alımlarının genişletileceğini, belirli 10 ila 30 yıllık tahviller için maksimum…",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       },
       {
         "topic": "Kripto",
@@ -49,25 +49,25 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       }
     ],
     "important_news": [
       {
-        "title": "US Treasury buyback plan a drop in the bucket – Market Outlook",
-        "source": "sc.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wSFNLdFAxS3ZWV1hsazQ1TlFKbDNRajk4UnJIdDlQS3NmZzAxMjVlQUxyTjFXeHI4MEdkNUstMDJFc3RVTm14RnpaZW9ldTg5bDFncDRhM3U3QUtKVDdKYm1aX2Z0YzZCbkFVcFRuTWxyalpnQWc?oc=5",
-        "published_at": "2026-08-20T12:06:11+00:00",
+        "title": "The Treasury buyback trade: how $4 billion in bond operations moved Bitcoin 8% in a day",
+        "source": "Cryptonews.net",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQaXJ5RkQtWkhKak50ZGZ4OTVOeVVfSE9rR052X3NaTVlCWlpsc1JiQ0FkYzRnZjZyM2NVVktXWnJPSVE4dXdpWWhPNzNPTl9GazVmNjdqYzNiTkU?oc=5",
+        "published_at": "2026-08-20T14:10:38+00:00",
         "topic": "Tahvil / Likidite",
-        "theme": "rates",
+        "theme": "crypto",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "brief_summary": "Olay: ABD Hazinesi, likiditeyi artırmak ve uzun vadeli tahvil getirilerindeki artışı frenlemek için devlet tahvili geri alım programında bir artış olduğunu duyurdu; 10 ila 30 yıllık borç geri alımlarını \"en azından\" ikiye katlayarak 4 milyar ABD dolarına çıkardı. Piyasanın tepkisi: Duyuru…",
+        "brief_summary": "Hazine, uzun vadeli geri alım operasyonlarını Ağustos'ta ikiye katladı. Hazine, uzun vadeli geri alım operasyonlarını 19 Ağustos 2026'da ikiye katladı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.17 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       },
       {
         "title": "US Treasury buybacks calm long-end bond market but fiscal risks remain",
@@ -97,9 +97,9 @@
         "brief_summary": "The Treasury doubled its long-term bond buyback to support the market, yet U.S. stocks barely rose—is the real signal hidden in Bitcoin?",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       },
       {
         "title": "Bond yields fall after Treasury announces surprise move to ease rising rates",
@@ -129,9 +129,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       },
       {
         "title": "Why Are Long-Term U.S. Treasuries Increasingly Difficult to Sell? The Real Problem May Not Be Inflation",
@@ -161,9 +161,9 @@
         "brief_summary": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı.",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.0; çoklu-borsa OI 24s %+6.8; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+9.6; çoklu-borsa OI 24s %+5.8; OI-ağırlıklı funding %+0.0083."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -171,7 +171,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.58 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.91 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
     "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
@@ -185,14 +185,14 @@
     "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
     "CCC spreadi %10.27 ve son 3 ayda +0.88 puan genişledi; düşük kaliteli kredide gizli stres var.",
     "BTC yükselirken Kraken CVD negatif; fiyat hareketi agresif alıcı akışıyla teyit edilmiyor, kaldıraç kaynaklı yükseliş ihtimali var.",
-    "Kripto opsiyon IV Rank %100; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli.",
+    "Kripto opsiyon IV Rank %99; oynaklık tarihsel olarak yüksek, yükselişi kovalamak riskli.",
     "Funding örneklerinin %95'ı pozitif; long tarafında kalabalıklaşma riski artmış.",
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+10.0, ETH %+17.6.",
+    "Kriptoda spot momentum: BTC 24s %+9.6, ETH %+17.6.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+2.7; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+2.8; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 5 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -391,22 +391,22 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-20T13:49:46.894022+00:00"
+    "generated_at": "2026-08-20T14:19:51.385671+00:00"
   },
   "buyback_news": [
     {
-      "title": "US Treasury buyback plan a drop in the bucket – Market Outlook",
-      "source": "sc.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wSFNLdFAxS3ZWV1hsazQ1TlFKbDNRajk4UnJIdDlQS3NmZzAxMjVlQUxyTjFXeHI4MEdkNUstMDJFc3RVTm14RnpaZW9ldTg5bDFncDRhM3U3QUtKVDdKYm1aX2Z0YzZCbkFVcFRuTWxyalpnQWc?oc=5",
-      "published_at": "2026-08-20T12:06:11+00:00",
-      "article_summary": "Olay: ABD Hazinesi, likiditeyi artırmak ve uzun vadeli tahvil getirilerindeki artışı frenlemek için devlet tahvili geri alım programında bir artış olduğunu duyurdu; 10 ila 30 yıllık borç geri alımlarını \"en azından\" ikiye katlayarak 4 milyar ABD dolarına çıkardı. Piyasanın tepkisi: Duyuru öncesindeki uzun vadeli tahvil satışlarının boyutu göz önüne alındığında nispeten sessiz. Yatırım stratejisi: “Likidite yönetimi aracının” 2 milyar ABD Dolarından 4 milyar ABD Dolarına çıkarılması, genel devlet tahvili piyasasına kıyasla küçük bir rakamdır.",
-      "article_context": "Olay: ABD Hazinesi, likiditeyi artırmak ve uzun vadeli tahvil getirilerindeki artışı frenlemek için devlet tahvili geri alım programında bir artış olduğunu duyurdu; 10 ila 30 yıllık borç geri alımlarını \"en azından\" ikiye katlayarak 4 milyar ABD dolarına çıkardı. Açıklamadan önce ABD 30 yıllık devlet tahvili getirisi %5,34 ile 2007'den bu yana en yüksek seviyesine sıçramıştı. Piyasanın tepkisi: Duyuru öncesindeki uzun vadeli tahvil satışlarının boyutu göz önüne alındığında nispeten sessiz. ABD 30 yıllık tahvil getirisi Çarşamba günü 9 baz puan düşerek %5,19 seviyesinde kapandı ve kısmen c. Haziran sonundan bu yana 40 baz puanlık bir sıçrama (özellikle Fed Başkanı Warsh'un enflasyon risklerine karşı fazla toleranslı görüldüğü Temmuz ayındaki basın toplantısından sonra). 10 yıllık getiri 6 baz puan düşerek %4,65'e gerilerken, 2 yıllık getiri pek değişmedi. Geniş USD endeksi (DXY) %0,8 düşüşle üç ayın en düşük seviyesine gerileyerek 200DMA'nın altına indi ve altının 200DMA'yı 4517 USD/ons civarında test etmesine yardımcı oldu. S&P500 endeksi yüzde 0,2 yükseldi. Yatırım stratejisi: “Likidite yönetimi aracının” 2 milyar ABD Dolarından 4 milyar ABD Dolarına çıkarılması, genel devlet tahvili piyasasına kıyasla küçük bir rakamdır. Bu nedenle, bunun pazarda önemli bir etken olması pek olası değildir. Daha da önemlisi, bu Fed liderliğindeki tahvil geri alımları (QE) değil, Hazine'nin bir geri dönüşüm uygulamasıdır. Her ne kadar piyasanın ilk tepkisi daha düşük uzun vadeli getiriler, daha zayıf bir DXY ve daha yüksek altın olsa da, yatırımcıların bu duyurunun ezber bozan bir gelişme olmadığını fark etmesiyle piyasalar sakinleşiyor gibi görünüyor. Daha uzun vadeli getirilere ilişkin aralıklı görüşümüzü koruyoruz ve gelir tahsislerimizde 3-5 yıllık vade aralığına odaklanıyoruz. Risk senaryosu: Tahvil geri alım planının ABD Hazinesini gerçekten çaresiz bırakma riski var. Bu, tahvillerde daha da kötü bir satışı tetikleyebilir ve bu da daha geniş piyasa koşullarını etkilemeye başlayabilir. Bu, Warsh'un Fed'in bilançosunu küçültmek istediğini söylemesine rağmen, Fed'in bir tür gerçek QE/getiri eğrisi yönetimi ile işleri istikrara kavuşturmak için adım atmasını gerektirebilir. Eğer piyasalar bunu öngörürse, DXY'de düşüş ve altın yükselişi yaşanabilir.",
-      "article_summary_original": "Event: The US Treasury announced an increase in its government bond buyback programme, “at least” doubling buybacks of 10-year to 30-year debt to USD 4bn, to boost liquidity and curb a surge in long-term bond yields. Market reaction: Relatively muted, given the scale of the long bond sell-off in the run-up to the announcement. Investment strategy: Doubling the “liquidity management tool” from USD 2bn to USD 4bn is small relative to the overall government bond market.",
-      "article_context_original": "Event: The US Treasury announced an increase in its government bond buyback programme, “at least” doubling buybacks of 10-year to 30-year debt to USD 4bn, to boost liquidity and curb a surge in long-term bond yields. Before the announcement, the US 30-year government bond yield had jumped to 5.34%, the highest since 2007. Market reaction: Relatively muted, given the scale of the long bond sell-off in the run-up to the announcement. The US 30-year yield dropped 9bps on Wednesday, closing at 5.19%, partially retracing c. 40bps jump since end-June (especially after Fed Chair Warsh’s July press briefing when he was seen as too tolerant of inflation risks). The 10-year yield fell 6bps to 4.65%, while the 2-year yield was little changed. The broad USD index (DXY) fell 0.8% to a three-month low, breaking below its 200DMA, helping gold test its 200DMA around USD 4517/oz. The S&P500 stock index rose 0.2%. Investment strategy: Doubling the “liquidity management tool” from USD 2bn to USD 4bn is small relative to the overall government bond market. Thus, this is unlikely to be a major market driver. Crucially, this is a Treasury recycling exercise, not Fed-led bond buybacks (QE). Although the initial market reaction was lower long-end yields, a weaker DXY and higher gold, markets appear to be settling down as investors recognise the announcement is not a game changer. We maintain our rangebound view on longer end yields and focus on 3-5-year maturity range in our income allocations. Risk scenario: There is a risk that the bond buyback plan might actually make the US Treasury look desperate. It might trigger an even worse sell-off in bonds, which might start to affect broader market conditions. That might require the Fed to step in to stabilise things with some kind of real QE/yield curve management, even though Warsh has said he wants to shrink the Fed’s balance sheet. If markets anticipate this, it would be DXY bearish and gold bullish.",
+      "title": "The Treasury buyback trade: how $4 billion in bond operations moved Bitcoin 8% in a day",
+      "source": "Cryptonews.net",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQaXJ5RkQtWkhKak50ZGZ4OTVOeVVfSE9rR052X3NaTVlCWlpsc1JiQ0FkYzRnZjZyM2NVVktXWnJPSVE4dXdpWWhPNzNPTl9GazVmNjdqYzNiTkU?oc=5",
+      "published_at": "2026-08-20T14:10:38+00:00",
+      "article_summary": "Hazine, uzun vadeli geri alım operasyonlarını Ağustos'ta ikiye katladı. Hazine, uzun vadeli geri alım operasyonlarını 19 Ağustos 2026'da ikiye katladı. Hazine Bakanı Scott Bessent, çoğu finans kuruluşunun ancak ön sayfasında yer alan ancak tek bir öğleden sonra bu yıl herhangi bir Federal Reserve açıklamasından daha fazla sermaye aktaran bir şey yaptı.",
+      "article_context": "ABD Hazinesi 19 Ağustos'ta uzun vadeli geri alım operasyonlarını ikiye katlayarak getirileri sıkıştırdı ve kripto paraların Mart ayından bu yana en büyük tek günlük rallisini tetikledi. Bu kimsenin tesisat hikayesi değil. ABD Hazinesi 19 Ağustos'ta uzun vadeli geri alım operasyonlarını ikiye katlayarak getirileri sıkıştırdı ve Mart ayından bu yana en büyük tek günlük kripto rallisini tetikledi. Bu kimsenin izini sürmediği tesisat hikayesi. 19 Ağustos 2026'da Hazine Bakanı Scott Bessent, çoğu finans kuruluşunun ancak ön sayfasında yer alan ancak tek bir öğleden sonra bu yıl Federal Reserve'ün yaptığı herhangi bir açıklamadan daha fazla sermaye aktaran bir şey yaptı. Hazine Bakanlığı, uzun vadeli likidite desteği geri alım operasyonlarının boyutunu en az iki katına çıkaracağını, 10 ila 20 yıl ve 20 ila 30 yıl vadeli sektörlerdeki menkul kıymetler için operasyon başına maksimum tutarı 2 milyar dolardan en az 4 milyar dolara çıkaracağını duyurdu. Tahvil piyasası birkaç dakika içinde tepki verdi. Önceki seansta %5,34'ün üzerinde 19 yılın en yüksek seviyesine ulaşan 30 yıllık getiri, 9 baz puan düşerek %5,19'a geriledi. 10 yıllık yüzde 4,647'ye düştü. Hisse senetleri yükseldi. Haftanın büyük bölümünde 64.000 dolar civarında yatay seyreden Bitcoin, 12 saatten kısa sürede %8,2 artışla 69.500 dolara yükseldi. Hareket rastgele değildi. Bu yazı, Hazine basın bülteninden kripto tasfiye kademesine kadar her düğümdeki gerçek dolar akışıyla adım adım takip edilen belirli bir aktarım zincirini takip etti. Günün haberlerinin çoğu fiyat hareketinin kendisine odaklandı. Bu parça sıhhi tesisata odaklanıyor: ne taşındı, neden taşındı ve zincirin her aşamasında ne kadar para harcandı. Resmi basın açıklaması 19 Ağustos sabahı yayınlandı. Tek bir operasyonel değişiklik içeriyordu: 9 Eylül'den 4 Kasım 2026'ya kadar nominal uzun vadeli likidite desteği geri alım operasyonlarının maksimum boyutu, operasyon başına 2 milyar dolardan en az 4 milyar dolara çıkacak. Uzun vadeli operasyonların sayısı da her çeyrekte ikiden dörde çıkacak.",
+      "article_summary_original": "Treasury doubled its long-end buyback operations on Aug. Treasury doubled its long-end buyback operations on Aug. 19, 2026, Treasury Secretary Scott Bessent did something that barely made the front page of most financial outlets but moved more capital in a single afternoon than any Federal Reserve statement this year.",
+      "article_context_original": "The U.S. Treasury doubled its long-end buyback operations on Aug. 19, compressing yields and triggering the largest single-day crypto rally since March. This is the plumbing story nobody The U.S. Treasury doubled its long-end buyback operations on Aug. 19, compressing yields and triggering the largest single-day crypto rally since March. This is the plumbing story nobody else traced. On Aug. 19, 2026, Treasury Secretary Scott Bessent did something that barely made the front page of most financial outlets but moved more capital in a single afternoon than any Federal Reserve statement this year. The Treasury Department announced it would at least double the size of its long-end liquidity support buyback operations, raising the per-operation maximum from $2 billion to at least $4 billion for securities in the 10-to-20-year and 20-to-30-year maturity sectors. The bond market reacted within minutes. The 30-year yield, which had touched a 19-year high above 5.34% the prior session, dropped 9 basis points to 5.19%. The 10-year fell to 4.647%. Stocks rose. And Bitcoin, which had been drifting sideways near $64,000 for most of the week, surged 8.2% to $69,500 in under 12 hours. The move was not random. It followed a specific transmission chain that this piece traces step by step, from the Treasury press release to the crypto liquidation cascade, with the actual dollar flows at each node. Most coverage of the day focused on the price action itself. This piece focuses on the plumbing: what moved, why it moved, and how much money was involved at each stage of the chain. The official press release landed on the morning of Aug. 19. It contained a single operative change: beginning Sep. 9 and running through Nov. 4, 2026, the maximum size of nominal long-end liquidity support buyback operations would rise from $2 billion to at least $4 billion per operation. The number of long-end operations would also increase from two to four per quarter.",
       "translation_ok": true,
-      "context": "Olay: ABD Hazinesi, likiditeyi artırmak ve uzun vadeli tahvil getirilerindeki artışı frenlemek için devlet tahvili geri alım programında bir artış olduğunu duyurdu; 10 ila 30 yıllık borç geri alımlarını \"en azından\" ikiye katlayarak 4 milyar ABD dolarına çıkardı. Piyasanın tepkisi: Duyuru öncesindeki uzun vadeli tahvil satışlarının boyutu göz önüne alındığında nispeten sessiz. Yatırım stratejisi: “Likidite yönetimi aracının” 2 milyar ABD Dolarından 4 milyar ABD Dolarına çıkarılması, genel devlet tahvili piyasasına kıyasla küçük bir rakamdır.",
+      "context": "Hazine, uzun vadeli geri alım operasyonlarını Ağustos'ta ikiye katladı. Hazine, uzun vadeli geri alım operasyonlarını 19 Ağustos 2026'da ikiye katladı. Hazine Bakanı Scott Bessent, çoğu finans kuruluşunun ancak ön sayfasında yer alan ancak tek bir öğleden sonra bu yıl herhangi bir Federal Reserve açıklamasından daha fazla sermaye aktaran bir şey yaptı.",
       "context_mode": "publisher_article",
-      "resolved_url": "https://www.sc.com/hk/market-outlook/market-watch-20-8-2026/?mvog=1",
+      "resolved_url": "https://cryptonews.net/news/analytics/33323493/",
       "topic": "Tahvil / Likidite"
     },
     {
@@ -451,5 +451,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-20T13:48:51.703376+00:00"
+  "generated_at": "2026-08-20T14:18:58.734779+00:00"
 }
