@@ -2,71 +2,29 @@
   "barometer": [
     {
       "label": "HY Kredi Spreadi",
-      "value": 2.75,
-      "percentile": 16.539440203562343,
+      "value": 2.73,
+      "percentile": 13.722998729351971,
       "weight": 2.0,
       "invert": true,
-      "level_score": 83.46055979643765,
-      "momentum_score": 32.49884739511296,
-      "change_1m": 0.06000000000000005,
-      "change_3m": 0.009999999999999787,
-      "combined_score": 65.62396045597401,
+      "level_score": 86.27700127064803,
+      "momentum_score": 34.719898157898534,
+      "change_1m": 0.040000000000000036,
+      "change_3m": -0.010000000000000231,
+      "combined_score": 68.2320151811857,
       "signal_label": "Kırılgan Risk-On",
       "signal_emoji": "🟢"
     },
     {
-      "label": "Fed Politika Faizi",
-      "value": 3.63,
-      "percentile": 75.0,
-      "weight": 1.0,
-      "invert": true,
-      "level_score": 25.0,
-      "momentum_score": 52.79469660858358,
-      "change_1m": 0.0,
-      "change_3m": -0.010000000000000231,
-      "combined_score": 34.72814381300425,
-      "signal_label": "Kırılgan / Savunmacı",
-      "signal_emoji": "🟠"
-    },
-    {
-      "label": "Enflasyon (CPI YoY)",
-      "value": 3.30386,
-      "percentile": 76.98744769874477,
-      "weight": 1.0,
-      "invert": true,
-      "level_score": 23.012552301255226,
-      "momentum_score": 71.11166500498504,
-      "change_1m": -0.1596700000000002,
-      "change_3m": -0.4753900000000004,
-      "combined_score": 39.84724174756066,
-      "signal_label": "Kırılgan / Savunmacı",
-      "signal_emoji": "🟠"
-    },
-    {
-      "label": "SLOOS — Kredi Kartı Standartları",
-      "value": 6.7,
-      "percentile": 61.25000000000001,
-      "weight": 1.0,
-      "invert": true,
-      "level_score": 38.74999999999999,
-      "momentum_score": 31.64556962025317,
-      "change_1m": null,
-      "change_3m": 4.7,
-      "combined_score": 36.263449367088604,
-      "signal_label": "Kırılgan / Savunmacı",
-      "signal_emoji": "🟠"
-    },
-    {
       "label": "IG Kredi Spreadi",
-      "value": 0.82,
-      "percentile": 39.61783439490446,
+      "value": 0.81,
+      "percentile": 35.49618320610687,
       "weight": 0.5,
       "invert": true,
-      "level_score": 60.38216560509554,
-      "momentum_score": 17.142971095415582,
-      "change_1m": 0.039999999999999925,
-      "change_3m": 0.07999999999999996,
-      "combined_score": 45.24844752670755,
+      "level_score": 64.50381679389312,
+      "momentum_score": 19.225991918205736,
+      "change_1m": 0.030000000000000027,
+      "change_3m": 0.07000000000000006,
+      "combined_score": 48.656578087402536,
       "signal_label": "Nötr / Karışık",
       "signal_emoji": "🟡"
     },
@@ -155,13 +113,13 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 52.955117449256655,
+  "composite_score": 61.608139835223156,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
   },
-  "composite_label": "Nötr / Karışık",
-  "composite_emoji": "🟡",
+  "composite_label": "Kırılgan Risk-On",
+  "composite_emoji": "🟢",
   "credit_cycle": {
     "phase": "Expansion (Boğa)",
     "emoji": "🟢",
@@ -176,7 +134,7 @@
   "early_warnings": [
     {
       "name": "HY Kredi Spreadi",
-      "value": "275 bps",
+      "value": "273 bps",
       "warn": "400+ bps",
       "crisis": "600+ bps",
       "status": "🟢 Güvenli"
@@ -190,7 +148,7 @@
     },
     {
       "name": "CCC-HY Ayrışması",
-      "value": "fark +81 puan",
+      "value": "fark +84 puan",
       "warn": "30+",
       "crisis": "50+",
       "status": "🔴 KRİZ"
@@ -232,15 +190,16 @@
   "macro_reading": {
     "headline": "Kısa vadeli rahatlama var, fakat alttaki kırılganlık sürüyor",
     "short_term_support": [
+      "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
       "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor."
     ],
     "structural_risks": [
-      "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
       "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
       "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
-      "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
       "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
-      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir."
+      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
+      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
+      "Erken uyarı: CCC-HY Ayrışması 🔴 KRİZ."
     ],
     "confirmations": [
       "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
@@ -1014,16 +973,12 @@
       },
       {
         "date": "2026-08-20",
-        "value": 7674.47021484375
+        "value": 7696.77001953125
       }
     ]
   },
   "credit_history": {
     "hy": [
-      {
-        "date": "2024-08-26",
-        "value": 3.15
-      },
       {
         "date": "2024-08-27",
         "value": 3.17
@@ -3099,13 +3054,13 @@
       {
         "date": "2026-08-18",
         "value": 2.75
+      },
+      {
+        "date": "2026-08-19",
+        "value": 2.73
       }
     ],
     "ig": [
-      {
-        "date": "2024-08-23",
-        "value": 0.96
-      },
       {
         "date": "2024-08-26",
         "value": 0.96
@@ -5181,13 +5136,13 @@
       {
         "date": "2026-08-18",
         "value": 0.82
+      },
+      {
+        "date": "2026-08-19",
+        "value": 0.81
       }
     ],
     "ccc": [
-      {
-        "date": "2024-08-26",
-        "value": 9.39
-      },
       {
         "date": "2024-08-27",
         "value": 9.43
@@ -7263,6 +7218,10 @@
       {
         "date": "2026-08-18",
         "value": 10.27
+      },
+      {
+        "date": "2026-08-19",
+        "value": 10.3
       }
     ],
     "yield_curve": [
@@ -9652,8 +9611,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 178.38000975674973,
-        "raw": 765.5
+        "value": 178.85769225846,
+        "raw": 767.5499267578125
       }
     ],
     "QQQ": [
@@ -9959,8 +9918,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 198.68282323922665,
-        "raw": 711.2050170898438
+        "value": 199.37423447093357,
+        "raw": 713.6799926757812
       }
     ],
     "BTC": [
@@ -10266,8 +10225,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 163.53515629007137,
-        "raw": 71613.5078125
+        "value": 164.72292104817382,
+        "raw": 72133.640625
       }
     ]
   },
@@ -10514,9 +10473,9 @@
     },
     {
       "date": "2026-08-20",
-      "value": 48.950678786888
+      "value": 49.8322297080053
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-20T14:18:58.734779+00:00"
+  "generated_at": "2026-08-20T15:00:34.792762+00:00"
 }
