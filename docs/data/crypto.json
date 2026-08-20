@@ -1,37 +1,37 @@
 {
   "btc": {
-    "price": 69163,
-    "change_24h": 6.883036794622075
+    "price": 69659,
+    "change_24h": 7.906162578824777
   },
   "eth": {
-    "price": 2249.05,
-    "change_24h": 17.24019115864486
+    "price": 2263.66,
+    "change_24h": 18.190428550415028
   },
   "global": {
-    "total_usd": 2456440203080.7104,
-    "total2_usd": 1066729507973.5618,
-    "total3_usd": 794685419945.7671,
-    "btc_dominance": 56.57417157414466,
-    "eth_dominance": 11.07472869425498
+    "total_usd": 2467629381893.7734,
+    "total2_usd": 1069283843516.2037,
+    "total3_usd": 796083512584.443,
+    "btc_dominance": 56.66756720591544,
+    "eth_dominance": 11.071368048069438
   },
-  "stablecoin_supply_usd": 300880471117,
-  "stablecoin_market_cap_usd": 307821764084.7518,
+  "stablecoin_supply_usd": 300596221815,
+  "stablecoin_market_cap_usd": 307789662589.47424,
   "stablecoin_source": "DefiLlama",
-  "stablecoin_7d_change_pct": 0.3482164386351627,
+  "stablecoin_7d_change_pct": 0.34355826759033814,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 82218047290.39468,
+    "total_tvl_usd": 81541579487.3344,
     "chains": {
-      "Base": 5027385694.135765,
-      "BSC": 5218293019.93438,
-      "Ethereum": 45848988466.565,
-      "Arbitrum": 1336431215.057327,
-      "Solana": 5207933698.166858,
-      "Bitcoin": 3749661357.187404
+      "Base": 5008070586.102298,
+      "BSC": 5198072099.147557,
+      "Ethereum": 45297700043.525505,
+      "Arbitrum": 1331060243.8597023,
+      "Solana": 5155135248.509104,
+      "Bitcoin": 3757123937.8194838
     },
-    "stablecoin_market_cap_usd": 307821764084.7518,
-    "stablecoin_7d_change_pct": 0.3482164386351627,
+    "stablecoin_market_cap_usd": 307789662589.47424,
+    "stablecoin_7d_change_pct": 0.34355826759033814,
     "errors": []
   },
   "network": {
@@ -45,17 +45,17 @@
       "transactions_7d_change_pct": 16.795738807617177
     },
     "eth": {
-      "date": "2026-08-18",
-      "active_addresses": 814843.0,
-      "active_addresses_7d_change_pct": -6.134351655060799,
-      "transactions": 2856958.0,
-      "transactions_7d_change_pct": 19.012444627365177
+      "date": "2026-08-19",
+      "active_addresses": 775498.0,
+      "active_addresses_7d_change_pct": -2.8096907322440856,
+      "transactions": null,
+      "transactions_7d_change_pct": null
     },
     "error": null
   },
-  "funding_pct": 0.00467644705158,
+  "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 30803.7843000001,
+  "open_interest_btc": 30823.447700000102,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 300880471117,
-  "generated_at": "2026-08-19T23:55:28.421541+00:00"
+  "stablecoin_top50_market_cap_usd": 300596221815,
+  "generated_at": "2026-08-20T00:29:17.140632+00:00"
 }

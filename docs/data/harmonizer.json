@@ -49,7 +49,7 @@
         "count": 1,
         "digest": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+6.9; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+7.9; çoklu-borsa OI 24s %+2.2; OI-ağırlıklı funding %+0.0075."
       }
     ],
     "important_news": [
@@ -97,14 +97,14 @@
       },
       {
         "title": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar",
-        "source": "investinglive.com",
+        "source": "investingLive",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5",
         "published_at": "2026-08-19T21:52:45+00:00",
         "topic": "Tahvil / Likidite",
         "theme": "rates",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "excerpt": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investinglive.com",
+        "excerpt": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investingLive",
         "read_mode": "rss",
         "interpretation": "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.17 puan."
@@ -135,7 +135,7 @@
         "excerpt": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
         "read_mode": "article_context",
         "interpretation": "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir.",
-        "data_confirmation": "BTC 24s %+6.9; çoklu-borsa OI 24s %+1.5; OI-ağırlıklı funding %+0.0084."
+        "data_confirmation": "BTC 24s %+7.9; çoklu-borsa OI 24s %+2.2; OI-ağırlıklı funding %+0.0075."
       },
       {
         "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
@@ -176,9 +176,9 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+6.9, ETH %+17.2.",
+    "Kriptoda spot momentum: BTC 24s %+7.9, ETH %+18.2.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+4.4; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+4.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 7 destekleyici, 0 risk artırıcı, 2 nötr/karışık benzersiz başlık. Haber skoru 75/100. 5 haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -377,7 +377,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-19T23:56:02.192212+00:00"
+    "generated_at": "2026-08-20T00:29:52.895828+00:00"
   },
   "buyback_news": [
     {
@@ -402,10 +402,10 @@
     },
     {
       "title": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar",
-      "source": "investinglive.com",
+      "source": "investingLive",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLWIybWR0R2pSS2R3WklHcFhfX3p0c0lPaV9VTmxwaGJwd0hTUE4tVkotaC0wdnVOUW9NNlgxZ196YmNELXRKNkhTUlBtS0NwZzF2YmQ1eXZIR19SdlFvQ19FYjNDQzNBaGtxSzNPVE51X05nZVNOVk4yRXkzYlQ5dWYwWmdtZUFMMzdkT0hYY2c2d3FhZ214Wm5YSlpHOXMxNHFmbjJ5SThFMXp5dExrSjhJSUs?oc=5",
       "published_at": "2026-08-19T21:52:45+00:00",
-      "context": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investinglive.com",
+      "context": "A radical Bessent, panicking with big Treasury bond buyback move, craters the dollar investingLive",
       "context_mode": "rss",
       "topic": "Tahvil / Likidite"
     }
@@ -422,5 +422,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber okuma/yorum -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-19T23:55:28.421541+00:00"
+  "generated_at": "2026-08-20T00:29:17.140632+00:00"
 }
