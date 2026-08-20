@@ -1,7 +1,7 @@
 """MERKEZ HARMANLAYICI.
 
 9 uzman ajanın mevcut çıktısını tekrar veri çekmeden birleştirir.
-Amaç: mekanizma -> kısa vade -> alttaki neden -> teyit -> haber yorumu -> model yatırım görüşü.
+Amaç: mekanizma -> kısa vade -> alttaki neden -> teyit -> haber özeti/yorumu -> model yatırım görüşü.
 Bu katman kişisel risk profili bilmez; yatırım görüşü model portföyü içindir.
 """
 import re
@@ -58,7 +58,6 @@ def _options_score(o):
 
 
 def _crypto_score(c,d):
-    """Spot momentumu likidite ve on-chain teyidi olmadan tek başına ödüllendirmez."""
     btc=float(_v(c,"btc","change_24h",default=0) or 0);eth=float(_v(c,"eth","change_24h",default=0) or 0);fear=float(_v(d,"fear_greed","value",default=50) or 50)
     s=50+_clamp((btc+eth)/2,-12,12)*0.75
     if 40<=fear<=70:s+=4
@@ -190,13 +189,58 @@ def _impact_label(s):
     return "Destekleyici" if s>0 else "Risk artırıcı" if s<0 else "Nötr / karışık"
 
 
-def _topic_interpretation(theme, tone):
-    if theme=="rates":return "Tahvil/likidite haberi; faiz yönü, TGA/Fed bilançosu ve kredi spreadleriyle birlikte okunmalı. Buyback tek başına QE değildir."
-    if theme=="macro":return "Makro haber; enflasyon-büyüme dengesi ve faiz patikası üzerindeki etkisiyle okunmalı."
-    if theme=="credit":return "Kredi haberi; HY/IG/CCC spreadleri teyit etmiyorsa başlık etkisinin kalıcılığına düşük güven verilir."
-    if theme=="crypto":return "Kripto haberi; spot fiyat, CVD, OI ve funding aynı yönde teyit verirse etkisi daha güvenilir kabul edilir."
-    if theme=="equities":return "Hisse haberi; endeks genişliği, VIX ve teknoloji hisselerinin ortak tepkisiyle teyit edilir."
-    return "Emtia/jeopolitik haber; petrol-altın tepkisi ve enflasyon/faiz kanalı üzerinden okunur."
+def _clean_title(title,source=None):
+    t=" ".join((title or "").split()).strip()
+    if source:
+        for sep in (" - "," | "," — "):
+            suffix=sep+source
+            if t.lower().endswith(suffix.lower()):t=t[:-len(suffix)].strip()
+    return t
+
+
+def _brief_news_summary(item,max_chars=300):
+    """Haber bağlamından 1-2 cümlelik 'ne oldu?' özeti. Bağlam yoksa başlığı sadeleştirir."""
+    context=" ".join((item.get("context") or "").split()).strip()
+    title=_clean_title(item.get("title"),item.get("source"))
+    if context:
+        # Meta açıklamasındaki boilerplate'i azalt; ilk iki anlamlı cümleyi kullan.
+        parts=[x.strip() for x in re.split(r"(?<=[.!?])\s+",context) if len(x.strip())>=35]
+        text=" ".join(parts[:2]) if parts else context
+        if len(text)>max_chars:
+            cut=text[:max_chars].rsplit(" ",1)[0].rstrip(" ,;:")
+            text=cut+"…"
+        return text,"article_context"
+    text=title
+    if len(text)>max_chars:
+        text=text[:max_chars].rsplit(" ",1)[0]+"…"
+    return text,"headline_only"
+
+
+def _market_effect(theme,tone,data):
+    confirm=_theme_confirmation(theme,data)
+    direction="destekleyici" if tone>0 else "risk artırıcı" if tone<0 else "tek başına yön vermeyen"
+    if theme=="rates":
+        core="Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır."
+    elif theme=="macro":
+        core="Büyüme-enflasyon dengesi üzerinden Fed faiz patikasını etkiler; düşük enflasyon/sağlam büyüme risk varlıkları için olumlu, tersi olumsuzdur."
+    elif theme=="credit":
+        core="Şirketlerin finansman maliyeti ve temerrüt riskine dokunur; spread daralması risk iştahını, genişleme ise savunmayı destekler."
+    elif theme=="crypto":
+        core="Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır."
+    elif theme=="equities":
+        core="Kazanç beklentisi ve risk iştahını etkiler; endeks genişliği ve VIX aynı yönde teyit verirse piyasa etkisi daha güvenilir olur."
+    else:
+        core="Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir."
+    return f"Bu haber şu aşamada {direction}. {core} Veri teyidi: {confirm}"
+
+
+def _topic_interpretation(theme,tone):
+    if theme=="rates":return "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler."
+    if theme=="macro":return "Enflasyon-büyüme dengesi ve Fed faiz patikası üzerinden geniş piyasayı etkiler."
+    if theme=="credit":return "Finansman maliyeti ve temerrüt riski üzerinden risk iştahının kalitesini gösterir."
+    if theme=="crypto":return "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler."
+    if theme=="equities":return "Kazanç beklentisi, teknoloji genişliği ve volatilite üzerinden hisse risk iştahını etkiler."
+    return "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler."
 
 
 def _story_key(item):
@@ -216,12 +260,13 @@ def _news_analysis(data):
         dedup.append(x)
     scored=[]
     for i,x in enumerate(dedup[:24]):
-        s=_news_sentiment(x);theme=_news_theme(x)
+        s=_news_sentiment(x);theme=_news_theme(x);brief,brief_mode=_brief_news_summary(x)
         scored.append({
-            "title":x.get("title"),"source":x.get("source"),"link":x.get("link"),"published_at":x.get("published_at"),
+            "title":_clean_title(x.get("title"),x.get("source")),"source":x.get("source"),"link":x.get("link"),"published_at":x.get("published_at"),
             "topic":x.get("topic"),"theme":theme,"impact_score":s,"impact":_impact_label(s),
-            "excerpt":(x.get("context") or "")[:360],"read_mode":x.get("context_mode") or "title_only",
-            "interpretation":_topic_interpretation(theme,s),"data_confirmation":_theme_confirmation(theme,data),"_order":i,
+            "brief_summary":brief,"summary_mode":brief_mode,"read_mode":x.get("context_mode") or "title_only",
+            "market_effect":_market_effect(theme,s,data),"interpretation":_topic_interpretation(theme,s),
+            "data_confirmation":_theme_confirmation(theme,data),"_order":i,
         })
     pos=sum(1 for x in scored if x["impact_score"]>0);neg=sum(1 for x in scored if x["impact_score"]<0);neu=len(scored)-pos-neg
     raw=sum(x["impact_score"] for x in scored);score=_clamp(50+raw*3,25,75)
@@ -230,19 +275,19 @@ def _news_analysis(data):
     else:tone="Karışık / Nötr"
     read_count=int(news.get("article_context_count") or sum(1 for x in scored if x["read_mode"]=="article_context"))
     summary=f"Son {news.get('recency_hours',72)} saatte haber akışı {tone.lower()}: {pos} destekleyici, {neg} risk artırıcı, {neu} nötr/karışık benzersiz başlık. Haber skoru {score:.0f}/100."
-    if read_count:summary+=f" {read_count} haberde sayfa bağlamına kadar erişildi; diğerlerinde başlık/RSS fallback kullanıldı."
-    else:summary+=" Yayıncı sayfası bağlamı alınamayan haberlerde başlık/RSS ile sınırlı kalındı."
+    if read_count:summary+=f" {read_count} haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi."
+    else:summary+=" Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor."
     topic_rows=[]
     for t in news.get("topics",[]) or []:
         label=t.get("label") or "Haber";rows=[x for x in scored if x.get("topic")==label]
         if not rows:continue
         ts=sum(x["impact_score"] for x in rows);theme=rows[0]["theme"]
         tilt="destekleyici" if ts>0 else "risk artırıcı" if ts<0 else "karışık"
-        top="; ".join(x["title"] for x in rows[:2] if x.get("title"))
-        topic_rows.append({"topic":label,"tone":tilt,"count":len(rows),"digest":top,"interpretation":_topic_interpretation(theme,ts),"data_confirmation":_theme_confirmation(theme,data)})
+        digest=" | ".join(x["brief_summary"] for x in rows[:2] if x.get("brief_summary"))
+        topic_rows.append({"topic":label,"tone":tilt,"count":len(rows),"digest":digest,"interpretation":_topic_interpretation(theme,ts),"data_confirmation":_theme_confirmation(theme,data)})
     important=sorted(scored,key=lambda x:(-abs(x["impact_score"]),x["_order"]))[:7]
     for x in important:x.pop("_order",None)
-    return {"score":round(score,1),"tone":tone,"summary":summary,"positive_count":pos,"negative_count":neg,"neutral_count":neu,"headline_count":news.get("headline_count",len(items)),"unique_story_count":len(scored),"article_context_count":read_count,"topic_summaries":topic_rows,"important_news":important,"principle":"Haber başlığı tek başına pozisyon sinyali değildir; veri ajanlarıyla teyit edilen haberin ağırlığı yükselir."}
+    return {"score":round(score,1),"tone":tone,"summary":summary,"positive_count":pos,"negative_count":neg,"neutral_count":neu,"headline_count":news.get("headline_count",len(items)),"unique_story_count":len(scored),"article_context_count":read_count,"topic_summaries":topic_rows,"important_news":important,"principle":"Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."}
 
 
 def _quality(data,buyback):
@@ -347,7 +392,7 @@ def synthesize(agent_data,buyback=None):
     medium="Orta vadede reel faiz, düşük kaliteli kredi, uzun-vade Hazine arzı ve kripto kaldıraç kalitesi ayrı risk katmanları olarak izleniyor."
     if score<45:
         short="Kısa vadeli destekler var ancak haber + piyasa verileri risk bütçesini artırmak için yeterli ortak teyit vermiyor.";medium="Kredi, volatilite, faiz ve kripto akış teyitleri gelmeden savunmacı yaklaşım daha tutarlı."
-    return {"market_score":round(score,1),"stance":stance,"confidence":confidence,"component_scores":{k:round(v,1) for k,v in components.items()},"plain_summary":[short,medium,"Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."],"news_analysis":news_read,"supportive_factors":support,"risk_factors":risks,"cross_asset_read":cross,"investment_view":_investment_view(score,confidence,agent_data),"data_quality":{"score":quality,"issues":quality_issues},"treasury_buyback":buyback or {},"buyback_news":bbnews,"agent_status":{k:("error" if isinstance(v,dict) and v.get("error") else "ok") for k,v in agent_data.items()},"method":"9 uzman ajan -> normalize alt skorlar -> haber okuma/yorum -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı."}
+    return {"market_score":round(score,1),"stance":stance,"confidence":confidence,"component_scores":{k:round(v,1) for k,v in components.items()},"plain_summary":[short,medium,"Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."],"news_analysis":news_read,"supportive_factors":support,"risk_factors":risks,"cross_asset_read":cross,"investment_view":_investment_view(score,confidence,agent_data),"data_quality":{"score":quality,"issues":quality_issues},"treasury_buyback":buyback or {},"buyback_news":bbnews,"agent_status":{k:("error" if isinstance(v,dict) and v.get("error") else "ok") for k,v in agent_data.items()},"method":"9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı."}
 
 
 def build_report(result):
