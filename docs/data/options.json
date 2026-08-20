@@ -1,7 +1,7 @@
 {
   "vix": {
     "price": 14.89,
-    "change_pct": 1.7771701982228283
+    "change_pct": 4.491228070175443
   },
   "vix9d": {
     "price": 12.66,
@@ -20,5 +20,5 @@
     "Dealer Gamma/Charm/Vanna",
     "Put/Call Ratio"
   ],
-  "generated_at": "2026-08-20T06:21:13.249312+00:00"
+  "generated_at": "2026-08-20T07:13:00.001813+00:00"
 }
