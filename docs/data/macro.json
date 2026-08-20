@@ -15,6 +15,48 @@
       "signal_emoji": "🟢"
     },
     {
+      "label": "Fed Politika Faizi",
+      "value": 3.63,
+      "percentile": 75.0,
+      "weight": 1.0,
+      "invert": true,
+      "level_score": 25.0,
+      "momentum_score": 52.79469660858358,
+      "change_1m": 0.0,
+      "change_3m": -0.010000000000000231,
+      "combined_score": 34.72814381300425,
+      "signal_label": "Kırılgan / Savunmacı",
+      "signal_emoji": "🟠"
+    },
+    {
+      "label": "Enflasyon (CPI YoY)",
+      "value": 3.30386,
+      "percentile": 76.98744769874477,
+      "weight": 1.0,
+      "invert": true,
+      "level_score": 23.012552301255226,
+      "momentum_score": 71.11166500498504,
+      "change_1m": -0.1596700000000002,
+      "change_3m": -0.4753900000000004,
+      "combined_score": 39.84724174756066,
+      "signal_label": "Kırılgan / Savunmacı",
+      "signal_emoji": "🟠"
+    },
+    {
+      "label": "SLOOS — Kredi Kartı Standartları",
+      "value": 6.7,
+      "percentile": 61.25000000000001,
+      "weight": 1.0,
+      "invert": true,
+      "level_score": 38.74999999999999,
+      "momentum_score": 31.64556962025317,
+      "change_1m": null,
+      "change_3m": 4.7,
+      "combined_score": 36.263449367088604,
+      "signal_label": "Kırılgan / Savunmacı",
+      "signal_emoji": "🟠"
+    },
+    {
       "label": "IG Kredi Spreadi",
       "value": 0.81,
       "percentile": 35.49618320610687,
@@ -113,13 +155,13 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 61.608139835223156,
+  "composite_score": 53.69524308891129,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
   },
-  "composite_label": "Kırılgan Risk-On",
-  "composite_emoji": "🟢",
+  "composite_label": "Nötr / Karışık",
+  "composite_emoji": "🟡",
   "credit_cycle": {
     "phase": "Expansion (Boğa)",
     "emoji": "🟢",
@@ -194,12 +236,12 @@
       "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor."
     ],
     "structural_risks": [
+      "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
       "1 yıllık reel faiz yüksek; finansal koşulların görünenden daha sıkı kalmasına yol açabilir.",
       "10 yıllık reel faiz yüksek; uzun duration teknoloji/hisse değerlemeleri için yapısal baskı oluşturabilir.",
+      "Banka kredi standartları son çeyrekte sıkılaşıyor; piyasa fiyatı rahat olsa da kredi kanalı gecikmeli risk taşıyor.",
       "30 yıllık Hazine faizi son ay belirgin yükseldi; uzun uçta arz/term-premium baskısı teyit istiyor.",
-      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir.",
-      "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük.",
-      "Erken uyarı: CCC-HY Ayrışması 🔴 KRİZ."
+      "TGA son 4 haftada yükseliyor; Hazine nakit birikimi banka rezervlerinden likidite çekebilir."
     ],
     "confirmations": [
       "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
@@ -973,7 +1015,7 @@
       },
       {
         "date": "2026-08-20",
-        "value": 7696.77001953125
+        "value": 7671.14013671875
       }
     ]
   },
@@ -9611,8 +9653,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 178.85769225846,
-        "raw": 767.5499267578125
+        "value": 178.34039962850395,
+        "raw": 765.3300170898438
       }
     ],
     "QQQ": [
@@ -9918,8 +9960,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 199.37423447093357,
-        "raw": 713.6799926757812
+        "value": 198.41602887319664,
+        "raw": 710.25
       }
     ],
     "BTC": [
@@ -10225,8 +10267,8 @@
       },
       {
         "date": "2026-08-20",
-        "value": 164.72292104817382,
-        "raw": 72133.640625
+        "value": 164.81581635879817,
+        "raw": 72174.3203125
       }
     ]
   },
@@ -10477,5 +10519,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-20T15:00:34.792762+00:00"
+  "generated_at": "2026-08-20T15:46:22.786098+00:00"
 }
