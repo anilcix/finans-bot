@@ -31,11 +31,11 @@
           "context_mode": "rss"
         },
         {
-          "title": "US treasury doubles debt buyback to steady bond market amid inflation fears",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRGE5RGFuOHBlV1NBOER4NFJnN2NkVWFMYTVOYXQ2YjFjNmlGWUxRTFpZbGRrVDJ6cVBMQ1VxX2RCcUpDVzZfbVk1ME10RGJHeThldTNDYUpGQ1pnd1gyTFdpZVRDY296Z3F6NnBXbjROUDRkdUVKbmFEXzBYLTFDQjl2cnNFSnUxd1NkN3B2LTlvVzZWNDJTMQ?oc=5",
-          "published_at": "2026-08-19T14:57:00+00:00",
-          "context": "US treasury doubles debt buyback to steady bond market amid inflation fears The Guardian",
+          "title": "US national debt passes $40tn after doubling in a decade",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HaVpuTEo1UTZ0dEJGWTUyWlBKdE5PVnRoek9FbldTR3FnTmxoRXhuaG1aQXUwaklEVGxSOG96eThjZXlwLWJiMmJvdW5qYW1KU1dlc3l2SEQtcE1u?oc=5",
+          "published_at": "2026-08-19T18:42:06+00:00",
+          "context": "US national debt passes $40tn after doubling in a decade BBC",
           "context_mode": "rss"
         }
       ]
@@ -96,7 +96,7 @@
       "items": [
         {
           "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-          "source": "altcoinbuzz.io",
+          "source": "Altcoin Buzz",
           "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5",
           "published_at": "2026-08-19T18:40:18+00:00",
           "context": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
@@ -115,5 +115,5 @@
   "headline_count": 9,
   "article_context_count": 5,
   "method": "Google News RSS + erişilebilen sayfalarda meta açıklama/ilk paragraf bağlamı; engellenen içerikte başlık/RSS ile fallback.",
-  "generated_at": "2026-08-20T01:58:07.878957+00:00"
+  "generated_at": "2026-08-20T02:52:16.879243+00:00"
 }
