@@ -1,15 +1,15 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "venue": "Binance",
-  "generated_at": "2026-08-21T08:14:47.686042+00:00",
-  "interval_minutes": 15,
+  "generated_at": "2026-08-21T08:17:32.741118+00:00",
+  "interval_minutes": 10,
   "window_hours": 24,
-  "max_points": 96,
-  "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 15 dakikalık bucket delta değeridir.",
+  "max_points": 144,
+  "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 10 dakikalık bucket delta değeridir.",
   "oi_definition": "Coinalyze üzerinden Binance BTC perpetual USD açık pozisyon snapshotı.",
   "points": [
     {
-      "ts": "2026-08-21T08:00:00+00:00",
+      "ts": "2026-08-21T08:10:00+00:00",
       "spot_cvd_delta_usd": null,
       "spot_buy_usd": null,
       "spot_sell_usd": null,
@@ -17,9 +17,9 @@
       "spot_coverage_seconds": null,
       "spot_source": "Binance Spot BTCUSDT",
       "spot_ok": false,
-      "spot_error": "451 Client Error:  for url: https://api.binance.com/api/v3/aggTrades?symbol=BTCUSDT&limit=1000&startTime=1787298300000&endTime=1787299199999",
-      "binance_oi_usd": null,
-      "oi_source": null
+      "spot_error": "451 Client Error:  for url: https://api.binance.com/api/v3/aggTrades?symbol=BTCUSDT&limit=1000&startTime=1787299200000&endTime=1787299799999",
+      "binance_oi_usd": 8519030549.028,
+      "oi_source": "Coinalyze Binance BTC perpetual"
     }
   ]
 }
