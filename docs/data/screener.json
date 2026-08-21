@@ -5,5 +5,5 @@
   "oi_source": "Bybit",
   "oi_contracts_checked": 0,
   "error": "403 Client Error: Forbidden for url: https://api.bybit.com/v5/market/tickers?category=linear",
-  "generated_at": "2026-08-21T12:03:11.801053+00:00"
+  "generated_at": "2026-08-21T13:05:15.385948+00:00"
 }
