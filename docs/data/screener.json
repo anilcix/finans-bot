@@ -14,5 +14,5 @@
     "shared_rate_limit_retry": true
   },
   "rate_limit_design": "Shared rate-limit: en fazla 10 OI adayı + en güçlü 3 adayda detay; HTTP 429'da bir kez otomatik bekle/tekrar dene.",
-  "generated_at": "2026-08-21T22:54:20.154931+00:00"
+  "generated_at": "2026-08-21T23:01:39.627461+00:00"
 }
