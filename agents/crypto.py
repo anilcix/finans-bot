@@ -1,7 +1,8 @@
-"""AJAN 3: KRİPTO — CoinGecko + Coin Metrics Community + DefiLlama + OKX fallback."""
+"""AJAN 3: KRİPTO — CoinGecko + Coin Metrics + DefiLlama + Coinalyze BTC OI/Funding."""
 import requests
 from common.report import safe_line, price_change_line, val_line, unavailable_note
 from common.crypto_free_sources import fetch_coinmetrics_network, fetch_defillama_snapshot
+from common.coinalyze import fetch_coinalyze_btc
 
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
 BINANCE_FAPI = "https://fapi.binance.com/fapi/v1"
@@ -42,17 +43,16 @@ def _stablecoin_top50_market_cap():
     return sum(c.get("market_cap",0) or 0 for c in r.json())
 
 
-def _funding_value():
+def _funding_value_fallback():
     try:
         r=requests.get(f"{BINANCE_FAPI}/premiumIndex",params={"symbol":"BTCUSDT"},timeout=6,headers=BINANCE_HEADERS);r.raise_for_status()
         return float(r.json()["lastFundingRate"])*100,"Binance"
     except Exception:
         row=_okx("/public/funding-rate-history",{"instId":"BTC-USDT-SWAP","limit":1})[0]
-        rate=row.get("realizedRate") or row.get("fundingRate")
-        return float(rate)*100,"OKX"
+        return float(row.get("realizedRate") or row.get("fundingRate"))*100,"OKX"
 
 
-def _open_interest_value():
+def _open_interest_value_fallback():
     try:
         r=requests.get(f"{BINANCE_FAPI}/openInterest",params={"symbol":"BTCUSDT"},timeout=6,headers=BINANCE_HEADERS);r.raise_for_status()
         return float(r.json()["openInterest"]),"Binance"
@@ -61,16 +61,22 @@ def _open_interest_value():
         return float(row["oiCcy"]),"OKX"
 
 
-def _funding_rate():
-    rate,source=_funding_value();return f"💰 BTC Funding Rate ({source}): %{rate:+.4f}"
-
-
-def _open_interest():
-    value,source=_open_interest_value();return val_line(f"BTC Open Interest ({source})",value,suffix=" BTC",emoji="📐",decimals=0)
+def _coinalyze_lines():
+    ca=fetch_coinalyze_btc();total=ca.get("total_all_exchanges") or {};core=ca.get("core_exchanges") or {}
+    if not ca.get("ok"):
+        rate,rs=_funding_value_fallback();oi,os=_open_interest_value_fallback()
+        return f"💰 BTC Funding ({rs} fallback): %{rate:+.4f}\n📐 BTC OI ({os} fallback): {oi:,.0f} BTC"
+    toi=total.get("aggregate_oi_usd");tf=total.get("oi_weighted_funding_pct");coi=core.get("aggregate_oi_usd");cf=core.get("oi_weighted_funding_pct")
+    return "\n".join([
+        f"🌐 BTC OI — Tüm Borsalar: ${toi/1e9:.2f}B" if toi is not None else "🌐 BTC OI — Tüm Borsalar: —",
+        f"💰 BTC Funding — Tüm Borsalar (OI-ağırlıklı): %{tf:+.4f}" if tf is not None else "💰 BTC Funding — Tüm Borsalar: —",
+        f"🏦 BTC OI — Binance+OKX+Bybit: ${coi/1e9:.2f}B" if coi is not None else "🏦 BTC OI — Binance+OKX+Bybit: —",
+        f"💵 BTC Funding — Binance+OKX+Bybit (OI-ağırlıklı): %{cf:+.4f}" if cf is not None else "💵 BTC Funding — Binance+OKX+Bybit: —",
+    ])
 
 
 def build_report():
-    lines=["₿ *KRİPTO*",safe_line("BTC/ETH Fiyatları",_btc_eth),safe_line("Piyasa Genel Görünümü",_global_market),safe_line("Funding Rate",_funding_rate),safe_line("Open Interest",_open_interest),"",unavailable_note(["ETF Flows","Exchange Reserves","MVRV","NUPL","SOPR","Miner Reserves","LTH Supply"])]
+    lines=["₿ *KRİPTO*",safe_line("BTC/ETH Fiyatları",_btc_eth),safe_line("Piyasa Genel Görünümü",_global_market),safe_line("Coinalyze BTC OI & Funding",_coinalyze_lines),"",unavailable_note(["ETF Flows","Exchange Reserves","MVRV","NUPL","SOPR","Miner Reserves","LTH Supply"])]
     return "\n".join(lines)
 
 
@@ -80,7 +86,10 @@ def get_analysis_data():
         "stablecoin_supply_usd":None,
         "stablecoin_market_cap_usd":None,"stablecoin_source":None,"stablecoin_7d_change_pct":None,
         "defi":None,"network":None,
-        "funding_pct":None,"funding_source":None,"open_interest_btc":None,"open_interest_source":None,
+        "coinalyze":None,
+        "funding_pct":None,"funding_source":None,
+        "open_interest_btc":None,"open_interest_usd":None,"open_interest_source":None,
+        "core3_open_interest_usd":None,"core3_funding_pct":None,"core3_exchanges":[],
         "binance_status":_binance_probe(),"data_quality":{},
     }
     try:
@@ -95,28 +104,32 @@ def get_analysis_data():
         data["global"]={"total_usd":total,"total2_usd":total*(1-btc/100),"total3_usd":total*(1-btc/100-eth/100),"btc_dominance":btc,"eth_dominance":eth}
     except Exception:pass
 
-    # CoinGecko Top-50 stablecoin market cap geriye dönük uyumluluk için tutulur.
     try:
-        top50=_stablecoin_top50_market_cap();data["stablecoin_supply_usd"]=top50
-        data["stablecoin_top50_market_cap_usd"]=top50
+        top50=_stablecoin_top50_market_cap();data["stablecoin_supply_usd"]=top50;data["stablecoin_top50_market_cap_usd"]=top50
     except Exception:pass
 
-    # DefiLlama: daha geniş stablecoin piyasa değeri + DeFi TVL.
     dl=fetch_defillama_snapshot();data["defi"]=dl
     if dl.get("stablecoin_market_cap_usd") is not None:
         data["stablecoin_market_cap_usd"]=dl["stablecoin_market_cap_usd"];data["stablecoin_source"]="DefiLlama";data["stablecoin_7d_change_pct"]=dl.get("stablecoin_7d_change_pct")
     elif data.get("stablecoin_top50_market_cap_usd") is not None:
         data["stablecoin_market_cap_usd"]=data["stablecoin_top50_market_cap_usd"];data["stablecoin_source"]="CoinGecko Top-50"
 
-    # Coin Metrics Community: ana zincir aktivitesi; key gerektirmez.
     cm=fetch_coinmetrics_network();data["network"]=cm
 
-    try:data["funding_pct"],data["funding_source"]=_funding_value()
-    except Exception:pass
-    try:data["open_interest_btc"],data["open_interest_source"]=_open_interest_value()
-    except Exception:pass
+    ca=fetch_coinalyze_btc();data["coinalyze"]=ca
+    total_ca=ca.get("total_all_exchanges") or {};core=ca.get("core_exchanges") or {}
+    if ca.get("ok"):
+        data["open_interest_usd"]=total_ca.get("aggregate_oi_usd");data["open_interest_source"]="Coinalyze · Tüm Borsalar"
+        data["funding_pct"]=total_ca.get("oi_weighted_funding_pct");data["funding_source"]="Coinalyze · Tüm Borsalar · OI-ağırlıklı"
+        data["core3_open_interest_usd"]=core.get("aggregate_oi_usd");data["core3_funding_pct"]=core.get("oi_weighted_funding_pct");data["core3_exchanges"]=core.get("exchanges") or []
+        data["coinalyze_all_exchange_count"]=total_ca.get("exchange_count")
+    else:
+        try:data["funding_pct"],data["funding_source"]=_funding_value_fallback()
+        except Exception:pass
+        try:data["open_interest_btc"],data["open_interest_source"]=_open_interest_value_fallback()
+        except Exception:pass
 
-    checks={"coingecko":bool(data.get("btc") and data.get("global")),"defillama":bool(dl.get("ok")),"coinmetrics":bool(cm.get("ok")),"derivatives_fallback":data.get("funding_pct") is not None and data.get("open_interest_btc") is not None}
+    checks={"coingecko":bool(data.get("btc") and data.get("global")),"defillama":bool(dl.get("ok")),"coinmetrics":bool(cm.get("ok")),"coinalyze":bool(ca.get("ok"))}
     ok=sum(1 for v in checks.values() if v)
     data["data_quality"]={"sources":checks,"ok_count":ok,"source_count":len(checks),"grade":"A" if ok==4 else "B" if ok>=3 else "C" if ok>=2 else "D"}
     return data
