@@ -1,37 +1,37 @@
 {
   "btc": {
-    "price": 77957,
-    "change_24h": 8.371314153418496
+    "price": 77904,
+    "change_24h": 8.42311133102607
   },
   "eth": {
-    "price": 2402.47,
-    "change_24h": 5.159360207190942
+    "price": 2401.41,
+    "change_24h": 5.314787270695944
   },
   "global": {
-    "total_usd": 2606488938120.43,
-    "total2_usd": 1041925867475.3597,
-    "total3_usd": 751947622002.6572,
-    "btc_dominance": 60.02569386591355,
-    "eth_dominance": 11.1252436652123
+    "total_usd": 2597179023798.0454,
+    "total2_usd": 1037982662630.868,
+    "total3_usd": 749130289223.5905,
+    "btc_dominance": 60.034227401353725,
+    "eth_dominance": 11.121773692168032
   },
-  "stablecoin_supply_usd": 301631966647,
-  "stablecoin_market_cap_usd": 308197470653.4862,
+  "stablecoin_supply_usd": 301628381663,
+  "stablecoin_market_cap_usd": 308351118317.41345,
   "stablecoin_source": "DefiLlama",
-  "stablecoin_7d_change_pct": 0.48871546915654207,
+  "stablecoin_7d_change_pct": 0.5310021836461898,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 86155506326.8154,
+    "total_tvl_usd": 86228460564.62807,
     "chains": {
-      "Base": 5392324847.416058,
-      "BSC": 5445889013.172663,
-      "Arbitrum": 1384163310.263654,
-      "Ethereum": 48086320574.00454,
-      "Solana": 5445066546.406263,
-      "Bitcoin": 4169978337.6123753
+      "Base": 5396773211.047356,
+      "BSC": 5450653317.795486,
+      "Arbitrum": 1384616469.4858954,
+      "Ethereum": 48078325403.843376,
+      "Solana": 5449768870.194456,
+      "Bitcoin": 4216888194.020379
     },
-    "stablecoin_market_cap_usd": 308197470653.4862,
-    "stablecoin_7d_change_pct": 0.48871546915654207,
+    "stablecoin_market_cap_usd": 308351118317.41345,
+    "stablecoin_7d_change_pct": 0.5310021836461898,
     "errors": []
   },
   "network": {
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.008070918901589999,
   "funding_source": "OKX",
-  "open_interest_btc": 30086.007800000105,
+  "open_interest_btc": 30369.200700000125,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301631966647,
-  "generated_at": "2026-08-21T10:13:57.796353+00:00"
+  "stablecoin_top50_market_cap_usd": 301628381663,
+  "generated_at": "2026-08-21T10:49:02.293447+00:00"
 }

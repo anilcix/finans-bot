@@ -1,15 +1,15 @@
 {
-  "market_score": 54.4,
+  "market_score": 54.3,
   "stance": "Nötr / Bekle-Gör",
   "confidence": 66.0,
   "component_scores": {
     "macro": 52.6,
     "credit": 65,
     "options": 78,
-    "crypto": 54.1,
+    "crypto": 54.2,
     "crypto_derivatives": 48,
     "equities": 34.4,
-    "news": 59
+    "news": 56
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,29 +17,29 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 59,
-    "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 3 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 59/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
-    "positive_count": 3,
+    "score": 56,
+    "tone": "Karışık / Nötr",
+    "summary": "Son 72 saatte haber akışı karışık / nötr: 2 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 56/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "positive_count": 2,
     "negative_count": 0,
     "neutral_count": 7,
     "headline_count": 10,
-    "unique_story_count": 10,
+    "unique_story_count": 9,
     "article_context_count": 6,
     "topic_summaries": [
       {
         "topic": "Makro / Fed",
         "tone": "destekleyici",
-        "count": 4,
-        "digest": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi. | Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
+        "count": 3,
+        "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
       {
         "topic": "Tahvil / Likidite",
-        "tone": "destekleyici",
+        "tone": "karışık",
         "count": 4,
-        "digest": "Tahvil piyasası 2026'nın tamamına yayılan bir hikaye anlatıyor: İnatçı enflasyon, kötüleşen mali koşullar ve dış talepte devam eden gerileme... Tahvil getirileri anında düştü, hisse senetleri toparlandı ve altın keskin bir şekilde yükseldi. | Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes",
+        "digest": "Hazine Bakanı Scott Bessent, CNBC'ye uzun tahvil piyasası hakkında diğer yatırımcıların sahip olmadığı asimetrik bilgilere sahip olduğunu söyledi, ancak bunun ne olduğunu söylemeyi reddetti. Bessent, CNBC'ye 30 yıllık tahvil piyasası hakkında asimetrik bilgiye sahip olduğunu ancak bunu tanımlamayı… | Tahvil piyasası 2026'nın tamamına yayılan bir hikaye anlatıyor: İnatçı enflasyon, kötüleşen mali koşullar ve dış talepte devam eden gerileme... Tahvil getirileri anında düştü, hisse senetleri toparlandı ve altın keskin bir şekilde yükseldi.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
@@ -49,26 +49,10 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.8; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
       }
     ],
     "important_news": [
-      {
-        "title": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
-        "source": "The Business Times",
-        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmtYdXpzckdiNGplZUtwMjdNbXU1Q2FqZTZjWnQwczRZaTNUcmxaMG1jUnZ5VGR2WGplSGRYeE1DRElqUFZFYU9IRVM0SVBscTdkLVdFM0dBV0VQR2RMWHhDVF9NcmFRRldGMXE5UW4tVldJa2JwQlFDTldZYXAxajJJazdnTHN2NU44Z3gyZm1vZ0JKSHdDQ1pUYnQtQXo3SkR1ZS1pUGwtbkRFdDYtQU8zQ0NVNkVBaUtQM0VMQ082VnRwRW5nUUlPdlBpa1gydURBNTZ5U3BQUEU2eHZmLWpKdnIzVXNEaVlGbw?oc=5",
-        "published_at": "2026-08-21T01:22:00+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "rates",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
-      },
       {
         "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
         "source": "Council on Foreign Relations",
@@ -97,9 +81,25 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.8; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.8; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
+      },
+      {
+        "title": "Bessent Says He Knows Something The Bond Market Doesn’t",
+        "source": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTVCREVqUDlvRXFVdXFKZVRCNGVoQXJUWjR0amE0X3pzX0hCR1ZmaWcwSUFiZ0Y0TmNMZjdhVlRmRFhRTXRFV3lWbVFpM2g2MjVwOFNGMzVHRzlRQlJ0dncxNjBaZzZCMFZ5UHk1SllsZjBjXzd0OTkyOHhFVmFmdS1oQlRmcll0Wk9DVzNIZlpKM2pFWG9Sa3plQzFhejA?oc=5",
+        "published_at": "2026-08-21T10:14:24+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "rates",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Hazine Bakanı Scott Bessent, CNBC'ye uzun tahvil piyasası hakkında diğer yatırımcıların sahip olmadığı asimetrik bilgilere sahip olduğunu söyledi, ancak bunun ne olduğunu söylemeyi reddetti. Bessent, CNBC'ye 30 yıllık tahvil piyasası hakkında asimetrik bilgiye sahip olduğunu ancak bunu tanımlamayı…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
       {
         "title": "Government intervention in the bond market: What does it really mean?",
@@ -129,9 +129,9 @@
         "brief_summary": "Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.8; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.8; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
       },
       {
         "title": "Bessent’s bond market push struggles to bring down US borrowing costs",
@@ -142,25 +142,25 @@
         "theme": "rates",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
+        "brief_summary": "Bessent’s bond market push struggles to bring down US borrowing costs",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
       {
-        "title": "US Fed officials tread carefully after Treasury’s bond market intervention",
-        "source": "The Straits Times",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRW1TTTUxMzhuUjdJUkpfaWI4YmtwVjJ0V192UXpiUUNFdmQzajZ4dmFySWxaTERkR25SR190WkVYTnlFTUhDcTlWZ2dScE9kRjRjZjFfNTdXM0FuYmJUWERJdlhxYlZnX094YnYwckFMN0hVbWRFNGNMejUtd0NWTzI4UHM1emctalNhbV9UQmJLazFkX0g4Zzg4b05TbFQwYTgwalhRVGdraEl6ZTJ3RA?oc=5",
-        "published_at": "2026-08-21T00:58:00+00:00",
+        "title": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
+        "source": "Intellectia AI",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1dwNTZ4UUt5QlowTVhWc0tLS1pXSllEZmlmRmdwNHNMWi1XbDNRSXVyQlZzcHZ1U1Z1eFJnSXo0S3RBdzJFLS1RX0JwenYzbVFfRmRka0RaaDUtMnJMN1pIbnRTR2NRaXZSS3I2OWE1T0E4NldiUC1UQXo5MHlOT0QxVWgyaVU?oc=5",
+        "published_at": "2026-08-21T04:15:48+00:00",
         "topic": "Makro / Fed",
         "theme": "rates",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
+        "brief_summary": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
@@ -172,10 +172,10 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.68 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.70 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Stablecoin piyasa değeri 7 günde %+0.53; kripto içi dolar likiditesi genişliyor.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
-    "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
-    "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
+    "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -191,11 +191,11 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.4, ETH %+5.2.",
+    "Kriptoda spot momentum: BTC 24s %+8.4, ETH %+5.3.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+5.1; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 3 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 59/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Altın %+5.3; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Son 72 saatte haber akışı karışık / nötr: 2 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 56/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -393,38 +393,9 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T10:14:45.964720+00:00"
+    "generated_at": "2026-08-21T10:49:43.062722+00:00"
   },
   "buyback_news": [
-    {
-      "title": "Bessent’s bond market push struggles to bring down US borrowing costs",
-      "source": "The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenUzSUdtaW94YmRLUDhrYnA1R19NbWU4eEpYREFyLTl0c3dGc19uc0lUUi1oMnhmVEM5N0NCVmFlNk9yRklpbHNtOWp6OTlaZGxfdXIxWGkwYkl3Xy1FSHJzdmowamtBOU5pQ1o3OXdZZ0w0RHFjNGU4QXdONVpDQjB6WGE1V1R1MEtrNkU0SHlJZ19LY2llRHZITlItc3cxSEVaVW92aDVJbjBlY25CcGdIaWJQaUlJRzY0UTV1ZXQtUm1VcHctYkl0ZDhCRUxQUF9CeHVvONIB3AFBVV95cUxPNWtIa3R4cDlmcFlyWTZCQ0RwUHo1VTNGX19hdDNtc01TZ2Vzd3FHRXJxanMwNy1kRncweWZHcTExNDlsSEdSSmI4S08yak9SczFmaGxSOGtDUklsWXRmam8yWVNPU2dGaXJXal9hbFVESDJ5VHpiTEktRjFDWjVDdlEyaUNtXzJpc0dFOGdmejBIcWcxQzg5MlhwUlZrb1EtQ0UtS0paS3FlaVppR3c4R0lVVGlUeWZnN014eWxHNDNiRUktUndCcTJsd3MzZElXT29UT2pvUXBaSHZE?oc=5",
-      "published_at": "2026-08-21T05:24:53+00:00",
-      "article_summary": "ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak üzere borçlanma maliyetlerini yükselten daha geniş baskılara odaklanmayı sürdürüyor. ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi.",
-      "article_context": "ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak üzere borçlanma maliyetlerini yükselten daha geniş baskılara odaklanmayı sürdürüyor. ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak üzere borçlanma maliyetlerini yükselten daha geniş baskılara odaklanmayı sürdürüyor. En Trend Hisse Senetleri: SBI Hisse Fiyatı, Axis Bank Hisse Fiyatı, HDFC Bank Hisse Fiyatı, Infosys Hisse Fiyatı, Wipro Hisse Fiyatı, NTPC Hisse Fiyatı En Trend Hisse Senetleri: SBI Hisse Fiyatı, Axis Bank Hisse Fiyatı, HDFC Bank Hisse Fiyatı, Infosys Hisse Fiyatı, Wipro Hisse Fiyatı, NTPC Hisse Fiyatı Daha Büyük veya Daha İyi: BEL'in en büyük hissedarı aynı zamanda onun en büyük müşterisi ve kural koyucusudur. ET Prime özel serisinin son bölümü: Daha Büyük mü, Daha İyi mi? Bharat Electronics'in 2013'ten 2026'ya yolculuğu – Bölüm 2",
-      "article_summary_original": "US Treasury Secretary Scott Bessents bond-buyback push has offered only limited relief, with long-term Treasury yields rising again. Investors remain focused on the wider pressures driving borrowing costs higher, including the growing fiscal deficit, heavy government debt issuance, persistent inflation and uncertainty over Federal Reserve policy. US Treasury Secretary Scott Bessent’s bond-buyback push has offered only limited relief, with long-term Treasury yields rising again.",
-      "article_context_original": "US Treasury Secretary Scott Bessents bond-buyback push has offered only limited relief, with long-term Treasury yields rising again. Investors remain focused on the wider pressures driving borrowing costs higher, including the growing fiscal deficit, heavy government debt issuance, persistent inflation and uncertainty over Federal Reserve policy. US Treasury Secretary Scott Bessent’s bond-buyback push has offered only limited relief, with long-term Treasury yields rising again. Investors remain focused on the wider pressures driving borrowing costs higher, including the growing fiscal deficit, heavy government debt issuance, persistent inflation and uncertainty over Federal Reserve policy. Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price Top Trending Stocks: SBI Share Price, Axis Bank Share Price, HDFC Bank Share Price, Infosys Share Price, Wipro Share Price, NTPC Share Price Bigger or Better: BEL’s biggest shareholder is also its biggest customer – and its rule-maker. Final part ET Prime special series: Bigger or Better? Bharat Electronics’ 2013 to 2026 journey – Part 2",
-      "translation_ok": true,
-      "context": "ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak üzere borçlanma maliyetlerini yükselten daha geniş baskılara odaklanmayı sürdürüyor. ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://economictimes.indiatimes.com/markets/us-stocks/bessents-bond-market-push-struggles-to-bring-down-us-borrowing-costs/articleshow/133393939.cms?from=mdr",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
-      "source": "The Business Times",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmtYdXpzckdiNGplZUtwMjdNbXU1Q2FqZTZjWnQwczRZaTNUcmxaMG1jUnZ5VGR2WGplSGRYeE1DRElqUFZFYU9IRVM0SVBscTdkLVdFM0dBV0VQR2RMWHhDVF9NcmFRRldGMXE5UW4tVldJa2JwQlFDTldZYXAxajJJazdnTHN2NU44Z3gyZm1vZ0JKSHdDQ1pUYnQtQXo3SkR1ZS1pUGwtbkRFdDYtQU8zQ0NVNkVBaUtQM0VMQ082VnRwRW5nUUlPdlBpa1gydURBNTZ5U3BQUEU2eHZmLWpKdnIzVXNEaVlGbw?oc=5",
-      "published_at": "2026-08-21T01:22:00+00:00",
-      "article_summary": null,
-      "article_context": null,
-      "article_summary_original": null,
-      "article_context_original": null,
-      "translation_ok": null,
-      "context": null,
-      "context_mode": "title_only",
-      "topic": "Tahvil / Likidite"
-    },
     {
       "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
       "source": "Council on Foreign Relations",
@@ -453,5 +424,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T10:13:57.796353+00:00"
+  "generated_at": "2026-08-21T10:49:02.293447+00:00"
 }
