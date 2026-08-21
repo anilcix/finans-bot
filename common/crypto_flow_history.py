@@ -1,19 +1,21 @@
-"""15 dakikalık kripto akış geçmişi.
+"""15 dakikalık Binance BTC akış geçmişi.
 
-- Spot CVD: Kraken BTC/USD spot trade akışından agresif buy - sell notional USD.
-- OI: Coinalyze çoklu-borsa BTC perpetual aggregate OI snapshot.
-- Her çalışma bir tamamlanmış 15dk bucket üretir; son 96 bucket (24s) tutulur.
+- Spot CVD: Binance BTCUSDT spot aggregate trade akışından agresif buy - sell notional USDT.
+- OI: Coinalyze üzerinden Binance BTC perpetual açık pozisyon snapshotı.
+- Her çalışma tamamlanmış son 15dk bucket'ı üretir; son 96 bucket (24s) tutulur.
+- Binance Spot API erişilemezse CVD uydurulmaz; bucket unavailable olarak kaydedilir.
 """
 import json
 import os
 from datetime import datetime, timezone
 import requests
 
-KRAKEN_API = "https://api.kraken.com/0/public/Trades"
-PAIR = "XBTUSD"
+BINANCE_SPOT_API = "https://api.binance.com/api/v3/aggTrades"
+SYMBOL = "BTCUSDT"
 BUCKET_SECONDS = 15 * 60
 MAX_BUCKETS = 96
-UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; market-research)"}
+SCHEMA_VERSION = 2
+UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; market-research)", "Accept": "application/json"}
 
 
 def _completed_bucket(now=None):
@@ -24,71 +26,73 @@ def _completed_bucket(now=None):
     return start_ts, end_ts
 
 
-def fetch_kraken_spot_cvd_15m(now=None):
-    """Tamamlanmış son 15 dakikadaki Kraken BTC/USD spot CVD'yi USD notional olarak hesaplar."""
+def fetch_binance_spot_cvd_15m(now=None):
+    """Tamamlanmış son 15dk Binance BTCUSDT spot CVD; USDT notional bazında."""
     start_ts, end_ts = _completed_bucket(now)
-    since = str(start_ts * 1_000_000_000)
-    buy_usd = 0.0
-    sell_usd = 0.0
+    start_ms = start_ts * 1000
+    end_ms = end_ts * 1000 - 1
+    buy_usdt = 0.0
+    sell_usdt = 0.0
     trade_count = 0
-    first_trade_ts = None
-    last_trade_ts = None
-    seen_last = None
+    first_trade_ms = None
+    last_trade_ms = None
+    from_id = None
 
-    for _ in range(30):
-        r = requests.get(KRAKEN_API, params={"pair": PAIR, "since": since}, headers=UA, timeout=15)
+    # İlk çağrı zaman aralığı ile bucket başını bulur. Sonraki sayfalar fromId ile devam eder.
+    for page in range(80):
+        params = {"symbol": SYMBOL, "limit": 1000}
+        if from_id is None:
+            params.update({"startTime": start_ms, "endTime": end_ms})
+        else:
+            params["fromId"] = from_id
+        r = requests.get(BINANCE_SPOT_API, params=params, headers=UA, timeout=15)
         r.raise_for_status()
-        payload = r.json()
-        if payload.get("error"):
-            raise ValueError(str(payload["error"]))
-        result = payload.get("result") or {}
-        key = next((k for k in result if k != "last"), None)
-        if not key:
+        rows = r.json()
+        if not isinstance(rows, list) or not rows:
             break
-        rows = result.get(key) or []
-        for row in rows:
+
+        last_id = None
+        reached_end = False
+        for x in rows:
             try:
-                price = float(row[0]); volume = float(row[1]); t = float(row[2]); side = row[3]
+                trade_id = int(x["a"])
+                t_ms = int(x["T"])
+                price = float(x["p"])
+                qty = float(x["q"])
+                buyer_is_maker = bool(x.get("m"))
             except Exception:
                 continue
-            if t < start_ts:
+            last_id = trade_id
+            if t_ms < start_ms:
                 continue
-            if t >= end_ts:
-                continue
-            notional = price * volume
-            if side == "b":
-                buy_usd += notional
+            if t_ms > end_ms:
+                reached_end = True
+                break
+            notional = price * qty
+            # m=True: buyer maker, dolayısıyla agresif taraf seller.
+            if buyer_is_maker:
+                sell_usdt += notional
             else:
-                sell_usd += notional
+                buy_usdt += notional
             trade_count += 1
-            first_trade_ts = t if first_trade_ts is None else min(first_trade_ts, t)
-            last_trade_ts = t if last_trade_ts is None else max(last_trade_ts, t)
+            first_trade_ms = t_ms if first_trade_ms is None else min(first_trade_ms, t_ms)
+            last_trade_ms = t_ms if last_trade_ms is None else max(last_trade_ms, t_ms)
 
-        cursor = str(result.get("last") or "")
-        if not cursor or cursor == seen_last:
+        if reached_end or last_id is None or len(rows) < 1000:
             break
-        seen_last = cursor
-        since = cursor
-
-        # Son dönen trade bucket sonuna ulaştıysa daha fazla sayfa gerekmiyor.
-        if rows:
-            try:
-                if float(rows[-1][2]) >= end_ts:
-                    break
-            except Exception:
-                pass
+        from_id = last_id + 1
 
     coverage_seconds = 0.0
-    if first_trade_ts is not None and last_trade_ts is not None:
-        coverage_seconds = max(0.0, last_trade_ts - first_trade_ts)
+    if first_trade_ms is not None and last_trade_ms is not None:
+        coverage_seconds = max(0.0, (last_trade_ms - first_trade_ms) / 1000.0)
 
     return {
-        "source": "Kraken Spot BTC/USD",
+        "source": "Binance Spot BTCUSDT",
         "bucket_start": datetime.fromtimestamp(start_ts, timezone.utc).isoformat(),
         "bucket_end": datetime.fromtimestamp(end_ts, timezone.utc).isoformat(),
-        "buy_notional_usd": buy_usd,
-        "sell_notional_usd": sell_usd,
-        "cvd_delta_usd": buy_usd - sell_usd,
+        "buy_notional_usdt": buy_usdt,
+        "sell_notional_usdt": sell_usdt,
+        "cvd_delta_usdt": buy_usdt - sell_usdt,
         "trade_count": trade_count,
         "coverage_seconds": coverage_seconds,
         "ok": trade_count > 0,
@@ -102,18 +106,21 @@ def update_history(output_dir, derivatives_data, now=None):
     start_ts, end_ts = _completed_bucket(now)
     bucket_end = datetime.fromtimestamp(end_ts, timezone.utc).isoformat()
 
+    points = []
     try:
         with open(path, "r", encoding="utf-8") as f:
             old = json.load(f)
-        points = list(old.get("points") or [])
+        # Kraken/aggregate eski şemayı Binance grafiğine karıştırma.
+        if old.get("schema_version") == SCHEMA_VERSION and old.get("venue") == "Binance":
+            points = list(old.get("points") or [])
     except Exception:
-        points = []
+        pass
 
     try:
-        spot = fetch_kraken_spot_cvd_15m(now)
+        spot = fetch_binance_spot_cvd_15m(now)
     except Exception as e:
         spot = {
-            "source": "Kraken Spot BTC/USD",
+            "source": "Binance Spot BTCUSDT",
             "bucket_start": datetime.fromtimestamp(start_ts, timezone.utc).isoformat(),
             "bucket_end": bucket_end,
             "ok": False,
@@ -124,32 +131,32 @@ def update_history(output_dir, derivatives_data, now=None):
     binance = ca.get("binance") or {}
     point = {
         "ts": bucket_end,
-        "spot_cvd_delta_usd": spot.get("cvd_delta_usd"),
-        "spot_buy_usd": spot.get("buy_notional_usd"),
-        "spot_sell_usd": spot.get("sell_notional_usd"),
+        "spot_cvd_delta_usd": spot.get("cvd_delta_usdt"),
+        "spot_buy_usd": spot.get("buy_notional_usdt"),
+        "spot_sell_usd": spot.get("sell_notional_usdt"),
         "spot_trade_count": spot.get("trade_count"),
         "spot_coverage_seconds": spot.get("coverage_seconds"),
         "spot_source": spot.get("source"),
         "spot_ok": bool(spot.get("ok")),
         "spot_error": spot.get("error"),
-        "aggregate_oi_usd": ca.get("aggregate_oi_usd"),
         "binance_oi_usd": binance.get("open_interest_usd"),
-        "oi_source": "Coinalyze multi-exchange BTC perpetual" if ca.get("ok") else None,
+        "oi_source": "Coinalyze Binance BTC perpetual" if ca.get("binance_available") else None,
     }
 
-    # Aynı 15dk bucket yeniden üretilirse replace et.
     points = [p for p in points if p.get("ts") != bucket_end]
     points.append(point)
     points.sort(key=lambda p: p.get("ts") or "")
     points = points[-MAX_BUCKETS:]
 
     payload = {
+        "schema_version": SCHEMA_VERSION,
+        "venue": "Binance",
         "generated_at": now.isoformat(),
         "interval_minutes": 15,
         "window_hours": 24,
         "max_points": MAX_BUCKETS,
-        "spot_cvd_definition": "Kraken BTC/USD spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 15 dakikalık bucket delta değeridir.",
-        "oi_definition": "Coinalyze seçili büyük BTC perpetual piyasalarının USD aggregate açık pozisyon snapshotı.",
+        "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 15 dakikalık bucket delta değeridir.",
+        "oi_definition": "Coinalyze üzerinden Binance BTC perpetual USD açık pozisyon snapshotı.",
         "points": points,
     }
     with open(path, "w", encoding="utf-8") as f:
