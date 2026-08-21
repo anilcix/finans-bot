@@ -1,12 +1,12 @@
 {
   "market_score": 55.0,
-  "stance": "Nötr / Bekle-Gör",
+  "stance": "Temkinli Risk-On",
   "confidence": 66.0,
   "component_scores": {
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 53.5,
+    "crypto": 54.5,
     "crypto_derivatives": 48,
     "equities": 40.4,
     "news": 71
@@ -39,9 +39,9 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Altın fiyatları Perşembe günü yüksek seviyelerde konsolide oldu; spot altın %0,1 düşüşle ons başına 4.516,19 dolara yerleşerek 4.500 doların üzerinde kaldı... Altın fiyatları, piyasanın önceki seanstaki %4'ten fazla yükselişin ardından kar alma baskısını sindirmesi ve ABD hükümetinin uzun vadeli… | Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
+        "digest": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine… | Treasury buyback renews dollar-debasement fears",
         "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.5; WTI Petrol %+2.6."
+        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
       },
       {
         "topic": "Kripto",
@@ -49,30 +49,14 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+6.7; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.5; çoklu-borsa OI 24s %+3.5; OI-ağırlıklı funding %+0.0085."
       }
     ],
     "important_news": [
       {
-        "title": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation",
-        "source": "finance.biggo.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HQ1lqTlp5SEl6S0N1dVlVRVRYbTVXRUtlWUE5M2ZlcUVWbFBYaklROTJ2UEFZT2dtTGtpb3ZBeTZUQWNFU2JQaERkdk1Tdk5Obkc2YWJnTjRqdDNtWXdmSlRLRUVVNElRSGltTzFHLS1LTmtBYnc?oc=5",
-        "published_at": "2026-08-21T18:06:00+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "commodities",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "brief_summary": "Altın fiyatları Perşembe günü yüksek seviyelerde konsolide oldu; spot altın %0,1 düşüşle ons başına 4.516,19 dolara yerleşerek 4.500 doların üzerinde kaldı... Altın fiyatları, piyasanın önceki seanstaki %4'ten fazla yükselişin ardından kar alma baskısını sindirmesi ve ABD hükümetinin uzun vadeli…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.5; WTI Petrol %+2.6.",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.5; WTI Petrol %+2.6."
-      },
-      {
         "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
         "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM0dEMHNYTmR5X2tPZGc5OURpRUh0RzFDTG5YRUxnMDVYZ1AxWDVnSlZ5aWFCX0U4ZGs3blczdFdvNnhyeVNzdUxESjZkeDQtYkEtcmdCSFZVUVlFUW1FQXlxdng0U090X3dIMHVOTnRRbEFsbGFtME5wRVJHYjFSQk1TMXhJOUpqbFZ2S2FXdzlZRVlTbWdrZHl6WFNoXy1NaFlUQzg0eV9hRTdqVDZ0LWRPMUUyZG5fdWowWFJaM3MxdzE2MFI4M3RR?oc=5",
         "published_at": "2026-08-21T14:09:58+00:00",
         "topic": "Tahvil / Likidite",
         "theme": "commodities",
@@ -81,9 +65,25 @@
         "brief_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.5; WTI Petrol %+2.6.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5.",
         "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.5; WTI Petrol %+2.6."
+        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
+      },
+      {
+        "title": "Treasury buyback renews dollar-debasement fears",
+        "source": "Reuters",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
+        "published_at": "2026-08-21T14:03:54+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "rates",
+        "impact_score": 2,
+        "impact": "Destekleyici",
+        "brief_summary": "Treasury buyback renews dollar-debasement fears",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
@@ -94,9 +94,9 @@
         "theme": "rates",
         "impact_score": 1,
         "impact": "Destekleyici",
-        "brief_summary": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
+        "brief_summary": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
@@ -129,9 +129,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.7; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.5; çoklu-borsa OI 24s %+3.5; OI-ağırlıklı funding %+0.0085.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+6.7; çoklu-borsa OI 24s %+2.0; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.5; çoklu-borsa OI 24s %+3.5; OI-ağırlıklı funding %+0.0085."
       },
       {
         "title": "Treasury Intervention Puts the Dollar Under Pressure",
@@ -190,7 +190,7 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+6.7, ETH %+5.3.",
+    "Kriptoda spot momentum: BTC 24s %+7.5, ETH %+7.0.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
@@ -198,7 +198,7 @@
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
-    "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
+    "action": "Kademeli ve seçici risk al; nakit tamponunu koru, güçlü rallileri kovalamaktan kaçın.",
     "favored": [
       "Geniş endeks / kaliteli büyük şirketler: tekil yüksek-beta teknolojiye göre daha dengeli.",
       "Nakit veya kısa vadeli Hazine bonosu tamponu: yeni fırsatlar ve volatilite için opsiyonellik.",
@@ -392,44 +392,29 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T21:04:26.267890+00:00"
+    "generated_at": "2026-08-21T21:34:51.135373+00:00"
   },
   "buyback_news": [
     {
-      "title": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HQ1lqTlp5SEl6S0N1dVlVRVRYbTVXRUtlWUE5M2ZlcUVWbFBYaklROTJ2UEFZT2dtTGtpb3ZBeTZUQWNFU2JQaERkdk1Tdk5Obkc2YWJnTjRqdDNtWXdmSlRLRUVVNElRSGltTzFHLS1LTmtBYnc?oc=5",
-      "published_at": "2026-08-21T18:06:00+00:00",
-      "article_summary": "Altın fiyatları Perşembe günü yüksek seviyelerde konsolide oldu; spot altın %0,1 düşüşle ons başına 4.516,19 dolara yerleşerek 4.500 doların üzerinde kaldı... Altın fiyatları, piyasanın önceki seanstaki %4'ten fazla yükselişin ardından kar alma baskısını sindirmesi ve ABD hükümetinin uzun vadeli Hazine geri alımlarını daha da genişletebileceği beklentilerinin destek sağlamasıyla (20'si) Perşembe günü yüksek seviyelerde konsolide oldu. artan petrol fiyatlarından ve Fed'in şahin eğilimli toplantı tutanaklarından kaynaklanan enflasyon ve faiz baskıları.",
-      "article_context": "Altın fiyatları Perşembe günü yüksek seviyelerde konsolide oldu; spot altın %0,1 düşüşle ons başına 4.516,19 dolara yerleşerek 4.500 doların üzerinde kaldı... Altın fiyatları, piyasanın önceki seanstaki %4'ten fazla yükselişin ardından kar alma baskısını sindirmesi ve ABD hükümetinin uzun vadeli Hazine geri alımlarını daha da genişletebileceği beklentilerinin destek sağlamasıyla (20'si) Perşembe günü yüksek seviyelerde konsolide oldu. artan petrol fiyatlarından ve Fed'in şahin eğilimli toplantı tutanaklarından kaynaklanan enflasyon ve faiz baskıları. 13:32'de. Perşembe günü New York saatine göre spot altın %0,1 düşüşle ons başına 4.516,19 dolara (yaklaşık 140.000 NT$) geriledi. Altın fiyatları kayıplarının çoğunu telafi etmeden önce gün içinde 4.450,08 dolara kadar geriledi. Seansın başlarında altın, Çarşamba günkü %4'ün üzerinde tek günlük kazancının ardından 2 Haziran'dan bu yana en yüksek seviyesine ulaşmıştı. ABD altın vadeli işlemleri trendi %0,6 artışla ons başına 4.571,40 $ (yaklaşık 150.000 NT $) seviyesinde kapattı. American Gold Exchange piyasa analisti Jim Wyckoff, altının önceki seanstaki güçlü yükselişin ardından rutin kar alma baskısıyla karşı karşıya olduğunu söyledi. Bazı yatırımcılar kısa vadeli keskin yükselişin ardından kazançlara odaklanmayı tercih etti ve bu da spot altın fiyatlarının bir noktada gözle görülür şekilde geri çekilmesine neden oldu. Fed'in son toplantı tutanaklarının hafif şahin bir görünüm sergilediğini, petrol fiyatlarının yükselmeye devam ettiğini, bu durumun yeniden canlanan enflasyona ilişkin endişeleri yeniden alevlendirdiğini ve aynı zamanda altın üzerinde baskı oluşturduğunu kaydetti. Daha yüksek enerji fiyatları enflasyonun yapışkanlığını artırabileceğinden, faiz oranlarının daha uzun süre yüksek kalacağına ilişkin piyasa endişeleri yoğunlaştı ve getirisi olmayan bir varlık olan altının çekiciliğinin bir kısmını azalttı. Ancak altının gün içi düşüşü daraldı. ABD Hazine Bakanı Scott Bessent, Perşembe günü CNBC'ye verdiği röportajda, ABD hükümetinin, bireysel tahvil ihraç programları için potansiyel olarak 4 milyar doları (yaklaşık 130 milyar NT $) aşan geri alımlarla Hazine geri alım hacimlerini daha da artırabileceğini söyledi. Bessent'in sözleri, ABD hükümetinin uzun vadeli tahvillere yönelik likidite desteğini güçlendireceğine ilişkin piyasa beklentilerini yeniden alevlendirdi. Bir gün önce ABD Hazine Bakanlığı likidite desteği alımlarını artıracağını duyurdu",
-      "article_summary_original": "Gold prices consolidated at elevated levels on Thursday, with spot gold edging down 0.1% to settle at $4,516.19 per ounce, holding above the $4,500… Gold prices consolidated at elevated levels on Thursday (the 20th), as the market digested profit-taking pressure following the previous session's surge of more than 4%, while expectations that the U.S. government may further expand long-dated Treasury buybacks provided support, offsetting inflation and rate pressures stemming from rising oil prices and the Federal Reserve's hawkish-leaning meeting minutes.",
-      "article_context_original": "Gold prices consolidated at elevated levels on Thursday, with spot gold edging down 0.1% to settle at $4,516.19 per ounce, holding above the $4,500… Gold prices consolidated at elevated levels on Thursday (the 20th), as the market digested profit-taking pressure following the previous session's surge of more than 4%, while expectations that the U.S. government may further expand long-dated Treasury buybacks provided support, offsetting inflation and rate pressures stemming from rising oil prices and the Federal Reserve's hawkish-leaning meeting minutes. At 1:32 p.m. New York time on Thursday, spot gold was down 0.1% at $4,516.19 per ounce (approximately NT$140,000). Gold prices dipped as low as $4,450.08 intraday before recovering most of the losses. Earlier in the session, gold had touched its highest level since June 2, following Wednesday's single-day gain of more than 4%. U.S. gold futures bucked the trend to close 0.6% higher at $4,571.40 per ounce (approximately NT$150,000). Jim Wyckoff, market analyst at American Gold Exchange, said gold faced routine profit-taking pressure after the previous session's strong rally. Some investors chose to lock in gains following the sharp short-term advance, causing spot gold prices to pull back noticeably at one point. He noted that the Fed's latest meeting minutes leaned slightly hawkish, while oil prices continued to climb, reigniting concerns about resurgent inflation and also weighing on gold. As higher energy prices could increase inflation stickiness, market concerns about interest rates remaining elevated for longer intensified, diminishing some of the appeal of gold, a non-yielding asset. However, gold's intraday decline narrowed. U.S. Treasury Secretary Scott Bessent said in a CNBC interview on Thursday that the U.S. government may further increase Treasury buyback volumes, with repurchases for individual bond issuance programs potentially exceeding $4 billion (approximately NT$130 billion). Bessent's remarks reignited market expectations that the U.S. government would strengthen liquidity support for long-dated bonds. A day earlier, the U.S. Treasury Department announced it would increase liquidity-support buy",
-      "translation_ok": true,
-      "context": "Altın fiyatları Perşembe günü yüksek seviyelerde konsolide oldu; spot altın %0,1 düşüşle ons başına 4.516,19 dolara yerleşerek 4.500 doların üzerinde kaldı... Altın fiyatları, piyasanın önceki seanstaki %4'ten fazla yükselişin ardından kar alma baskısını sindirmesi ve ABD hükümetinin uzun vadeli Hazine geri alımlarını daha da genişletebileceği beklentilerinin destek sağlamasıyla (20'si) Perşembe günü yüksek seviyelerde konsolide oldu. artan petrol fiyatlarından ve Fed'in şahin eğilimli toplantı tutanaklarından kaynaklanan enflasyon ve faiz baskıları.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://finance.biggo.com/news/f007e578-1eb7-4059-950c-34f5eee1ee52",
-      "topic": "Tahvil / Likidite"
-    },
-    {
       "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
       "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM0dEMHNYTmR5X2tPZGc5OURpRUh0RzFDTG5YRUxnMDVYZ1AxWDVnSlZ5aWFCX0U4ZGs3blczdFdvNnhyeVNzdUxESjZkeDQtYkEtcmdCSFZVUVlFUW1FQXlxdng0U090X3dIMHVOTnRRbEFsbGFtME5wRVJHYjFSQk1TMXhJOUpqbFZ2S2FXdzlZRVlTbWdrZHl6WFNoXy1NaFlUQzg0eV9hRTdqVDZ0LWRPMUUyZG5fdWowWFJaM3MxdzE2MFI4M3RR?oc=5",
       "published_at": "2026-08-21T14:09:58+00:00",
       "article_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
-      "article_context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. XAU/USD paritesinin teknik görünümü yakın vadede alıcıların hakimiyetini vurgularken, gelecek hafta piyasa volatilitesini artırabilecek önemli olaylara sahne olacak. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi. Salı günü Orta Doğu'daki gerilimlerin tekrar gündeme gelmesiyle birlikte altın yükseliş momentumunu kaybetti ve günü olumsuz bölgede tamamladı. ABD Başkanı Donald Trump geç saatlerde ABD yönetiminin Mutabakat Zaptı'nın uzatılmasını istemediğini söyledi. Ayrıca Trump'ın Fox News'e, yönetiminin İran'la müzakerelerine engel olması halinde Umman'ı bombalayacaklarını söylediği bildirildi. Bu arada Birleşik Krallık Deniz Ticaret Operasyonları (UKMTO), Salı günü erken saatlerde, Hürmüz Boğazı'ndan geçmeye çalışan bir gemiye \"bilinmeyen bir merminin\" çarptığını bildirdi. Bu arada, yatırımcıların Orta Doğu'daki krize ilişkin artan belirsizliğe tepki vermesiyle 30 yıllık Hazine tahvilinin getirisi yaklaşık yirmi yılın en yüksek seviyesine tırmandı. Çarşamba günü günün ikinci yarısında, ABD Hazine Bakanlığı'nın beklenmedik bir şekilde piyasa likiditesini desteklemek için bazı uzun vadeli borç geri alım operasyonlarının boyutunu ikiye katlayacağını açıklamasının ardından USD sert bir şekilde satıldı. ABD Hazine bonosu getirilerinin keskin bir düşüşle düzeltme yapmasıyla Altın, aralığının dışına çıktı ve Haziran başından bu yana ilk kez 4.500 doların üzerine çıktı.",
+      "article_context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. XAU/USD paritesinin teknik görünümü yakın vadede alıcıların hakimiyetini vurgularken, gelecek hafta piyasa volatilitesini artırabilecek önemli olaylara sahne olacak. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi. Salı günü Orta Doğu'daki gerilimlerin tekrar gündeme gelmesiyle birlikte altın yükseliş momentumunu kaybetti ve günü olumsuz bölgede tamamladı. ABD Başkanı Donald Trump geç saatlerde ABD yönetiminin Mutabakat Zaptı'nın uzatılmasını istemediğini söyledi. Ayrıca Trump'ın Fox News'e, yönetiminin İran'la müzakerelerine engel olması halinde Umman'ı bombalayacaklarını söylediği bildirildi. Bu arada Birleşik Krallık Deniz Ticaret Operasyonları (UKMTO), Salı günü erken saatlerde, Hürmüz Boğazı'ndan geçmeye çalışan bir gemiye \"bilinmeyen bir merminin\" çarptığını bildirdi. Bu arada, yatırımcıların Orta Doğu'daki krize ilişkin artan belirsizliğe tepki vermesiyle 30 yıllık Hazine tahvilinin getirisi neredeyse yirmi yılın en yüksek seviyesine tırmandı. Çarşamba günü günün ikinci yarısında, ABD Hazine Bakanlığı'nın beklenmedik bir şekilde piyasa likiditesini desteklemek için bazı uzun vadeli borç geri alım operasyonlarının boyutunu ikiye katlayacağını açıklamasının ardından USD sert bir şekilde satıldı. ABD Hazine bonosu getirilerinin keskin bir düşüşle düzeltme yapmasıyla Altın, aralığının dışına çıktı ve Haziran başından bu yana ilk kez 4.500 doların üzerine çıktı.",
       "article_summary_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases.",
       "article_context_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. While XAU/USD’s technical outlook highlights buyers’ dominance in the near term, next week will feature key events that could ramp up market volatility. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases. With tensions in the Middle East coming back under the spotlight on Tuesday, Gold lost its bullish momentum and closed the day deep in negative territory. US President Donald Trump said late that the US administration is not seeking an extension of the Memorandum of Understanding. Additionally, Trump reportedly told Fox News that they will bomb Oman if it gets in the way of his administration's negotiations with Iran. In the meantime, the UK Maritime Trade Operations (UKMTO) reported early Tuesday that a vessel was struck by an \"unknown projectile\" while attempting to pass through the Strait of Hormuz. In the meantime, the yield on the 30-year Treasury bond climbed to its highest level in nearly two decades as investors reacted to heightened uncertainty surrounding the crisis in the Middle East. In the second half of the day on Wednesday, the USD sold off sharply as the US Treasury Department unexpectedly announced that it will double the size of some long-dated debt buyback operations to support market liquidity. With US Treasury bond yields correcting sharply lower, Gold broke out of its range and climbed above $4,500 for the first time since early June.",
       "translation_ok": true,
       "context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
       "context_mode": "publisher_article",
-      "resolved_url": "https://www.fxstreet.com/analysis/gold-weekly-forecast-bulls-dominate-as-us-treasury-department-intervenes-in-bond-market-202608211409",
+      "resolved_url": "https://www.fxstreet.com/news/gold-weekly-forecast-bulls-dominate-as-us-treasury-department-intervenes-in-bond-market-202608211409",
       "topic": "Tahvil / Likidite"
     },
     {
-      "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFZna0lwak5KOTd6UEhDLXc1QzZ5ZHM3bGNEb3VVcVhhVko5bHpLMTF3azFVUTgwNmlzVjFLZzZoMkRqNllraGo2aktBenlTem5xcEJSMXlyN0ZMNnhtVmYxeDBGUE9VNXNOTGtqTExLT1dLSnd4UFVJTFdUNGFPbU1MWGNvdkZvVHdVU1ZFSlpWbXNYX0lOVkg3dTNsTHJxYUpYM0VhcTBHQQ?oc=5",
-      "published_at": "2026-08-21T13:18:57+00:00",
+      "title": "Treasury buyback renews dollar-debasement fears",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
+      "published_at": "2026-08-21T14:03:54+00:00",
       "article_summary": null,
       "article_context": null,
       "article_summary_original": null,
@@ -437,6 +422,21 @@
       "translation_ok": null,
       "context": null,
       "context_mode": "title_only",
+      "topic": "Tahvil / Likidite"
+    },
+    {
+      "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
+      "source": "Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFZna0lwak5KOTd6UEhDLXc1QzZ5ZHM3bGNEb3VVcVhhVko5bHpLMTF3azFVUTgwNmlzVjFLZzZoMkRqNllraGo2aktBenlTem5xcEJSMXlyN0ZMNnhtVmYxeDBGUE9VNXNOTGtqTExLT1dLSnd4UFVJTFdUNGFPbU1MWGNvdkZvVHdVU1ZFSlpWbXNYX0lOVkg3dTNsTHJxYUpYM0VhcTBHQQ?oc=5",
+      "published_at": "2026-08-21T13:18:57+00:00",
+      "article_summary": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı planladığını duyurdu.",
+      "article_context": "ABD Hazinesi, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Daha fazlasını buradan öğrenin. ABD Hazine Bakanlığı, daha uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı planladığını duyurdu. Hareket, piyasanın işleyişini geliştirmeyi ve arz yönetiminde daha fazla esneklik sağlamayı amaçlıyor",
+      "article_summary_original": "Treasury plans to double liquidity buybacks for long-term bonds as yields stay high. Treasury Department has announced plans to at least double the maximum size of its liquidity-support buyback operations focused on longer-dated nominal coupon securities.",
+      "article_context_original": "U.S. Treasury plans to double liquidity buybacks for long-term bonds as yields stay high. Learn more here. The U.S. Treasury Department has announced plans to at least double the maximum size of its liquidity-support buyback operations focused on longer-dated nominal coupon securities. The move aims to enhance market functioning and provide greater flexibility in managing the supply",
+      "translation_ok": true,
+      "context": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı planladığını duyurdu.",
+      "context_mode": "publisher_article",
+      "resolved_url": "https://seekingalpha.com/news/4635868-treasury-scales-up-debt-buybacks-echoing-moves-before-the-1929-crash",
       "topic": "Tahvil / Likidite"
     }
   ],
@@ -452,5 +452,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T21:03:15.856282+00:00"
+  "generated_at": "2026-08-21T21:34:02.599551+00:00"
 }
