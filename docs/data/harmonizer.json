@@ -1,12 +1,12 @@
 {
-  "market_score": 56.1,
+  "market_score": 56.2,
   "stance": "Temkinli Risk-On",
   "confidence": 66.0,
   "component_scores": {
     "macro": 52.6,
     "credit": 65,
     "options": 78,
-    "crypto": 64.9,
+    "crypto": 65.0,
     "crypto_derivatives": 55,
     "equities": 34.4,
     "news": 68
@@ -31,7 +31,7 @@
         "topic": "Makro / Fed",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. Müdahale, piyasalarda finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda kafa karışıklığına yol açabilir. | Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
+        "digest": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi. | Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
@@ -41,7 +41,7 @@
         "count": 4,
         "digest": "Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa… | Yatırımcılar, Hazine'nin daha kalıcı destek sağlayacak adımlar atmasını istediklerini söylüyorlar [SİNGAPUR/LONDRA/NEW YORK] ABD Hazinesi'nin sürpriz tahvil geri alımı, 20 Ağustos Perşembe günü tahvil getirilerinin artması ve ABD dolarının da yükselmesine neden olurken, ABD enflasyonu ve genişleyen…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066."
       },
       {
         "topic": "Kripto",
@@ -49,7 +49,7 @@
         "count": 3,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Trump, Bitcoin'in 70 bin doları aşması nedeniyle Kongre'ye Açıklık Yasasını geçirmesi çağrısında bulunarak ABD kripto düzenlemelerini ve piyasa görünümünü odak noktasına koydu. Donald Trump, 19 Ağustos'ta Beyaz Saray'daki kripto toplantısı sırasında Kongre'ye tarihi kripto para birimi mevzuatını…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066."
       }
     ],
     "important_news": [
@@ -65,9 +65,9 @@
         "brief_summary": "Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066."
       },
       {
         "title": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
@@ -129,9 +129,25 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.2; çoklu-borsa OI 24s %+6.0; OI-ağırlıklı funding %+0.0065."
+        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+6.3; OI-ağırlıklı funding %+0.0066."
+      },
+      {
+        "title": "US Fed officials tread carefully after Treasury’s bond market intervention",
+        "source": "The Straits Times",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRW1TTTUxMzhuUjdJUkpfaWI4YmtwVjJ0V192UXpiUUNFdmQzajZ4dmFySWxaTERkR25SR190WkVYTnlFTUhDcTlWZ2dScE9kRjRjZjFfNTdXM0FuYmJUWERJdlhxYlZnX094YnYwckFMN0hVbWRFNGNMejUtd0NWTzI4UHM1emctalNhbV9UQmJLazFkX0g4Zzg4b05TbFQwYTgwalhRVGdraEl6ZTJ3RA?oc=5",
+        "published_at": "2026-08-21T08:28:42+00:00",
+        "topic": "Makro / Fed",
+        "theme": "rates",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       },
       {
         "title": "US debt tops $40t, stoking fiscal concern",
@@ -148,22 +164,6 @@
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
-      },
-      {
-        "title": "US Fed officials tread carefully after Treasury’s bond market intervention",
-        "source": "The Straits Times",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRW1TTTUxMzhuUjdJUkpfaWI4YmtwVjJ0V192UXpiUUNFdmQzajZ4dmFySWxaTERkR25SR190WkVYTnlFTUhDcTlWZ2dScE9kRjRjZjFfNTdXM0FuYmJUWERJdlhxYlZnX094YnYwckFMN0hVbWRFNGNMejUtd0NWTzI4UHM1emctalNhbV9UQmJLazFkX0g4Zzg4b05TbFQwYTgwalhRVGdraEl6ZTJ3RA?oc=5",
-        "published_at": "2026-08-21T00:58:00+00:00",
-        "topic": "Makro / Fed",
-        "theme": "rates",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. Müdahale, piyasalarda finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda kafa karışıklığına yol açabilir.",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.06 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -172,7 +172,7 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.83 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.87 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "BTC yükselişi Kraken CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
@@ -192,10 +192,10 @@
     "Buyback'i QE diye okumuyoruz: yeni ihraç/TGA finansmanı ve yüksek uzun-vade arzı nedeniyle kalıcı parasal genişleme sinyali değildir."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.2, ETH %+4.9.",
+    "Kriptoda spot momentum: BTC 24s %+8.4, ETH %+4.9.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+4.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+4.8; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 68/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -394,7 +394,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T08:18:12.043265+00:00"
+    "generated_at": "2026-08-21T08:32:55.941020+00:00"
   },
   "buyback_news": [
     {
@@ -454,5 +454,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T08:17:32.741118+00:00"
+  "generated_at": "2026-08-21T08:32:09.979272+00:00"
 }

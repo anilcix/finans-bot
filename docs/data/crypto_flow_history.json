@@ -1,25 +1,20 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "venue": "Binance",
-  "generated_at": "2026-08-21T08:17:32.741118+00:00",
+  "generated_at": "2026-08-21T08:32:09.979272+00:00",
   "interval_minutes": 10,
   "window_hours": 24,
   "max_points": 144,
-  "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 10 dakikalık bucket delta değeridir.",
-  "oi_definition": "Coinalyze üzerinden Binance BTC perpetual USD açık pozisyon snapshotı.",
-  "points": [
-    {
-      "ts": "2026-08-21T08:10:00+00:00",
-      "spot_cvd_delta_usd": null,
-      "spot_buy_usd": null,
-      "spot_sell_usd": null,
-      "spot_trade_count": null,
-      "spot_coverage_seconds": null,
-      "spot_source": "Binance Spot BTCUSDT",
-      "spot_ok": false,
-      "spot_error": "451 Client Error:  for url: https://api.binance.com/api/v3/aggTrades?symbol=BTCUSDT&limit=1000&startTime=1787299200000&endTime=1787299799999",
-      "binance_oi_usd": 8519030549.028,
-      "oi_source": "Coinalyze Binance BTC perpetual"
-    }
-  ]
+  "source": "Coinalyze",
+  "spot_symbol": null,
+  "spot_symbol_on_exchange": null,
+  "perp_symbol": null,
+  "perp_symbol_on_exchange": null,
+  "spot_source": null,
+  "oi_source": null,
+  "spot_cvd_definition": "Coinalyze Binance spot 5dk OHLCV: delta = buy volume (bv) - sell volume (v-bv). İkişer 5dk bar 10dk bucket olarak birleştirilir ve kümülatif CVD hesaplanır.",
+  "oi_definition": "Coinalyze Binance BTC perpetual 5dk OI history; her 10dk bucket için son 5dk close OI snapshotı kullanılır.",
+  "ok": false,
+  "error": "429 Client Error: Too Many Requests for url: https://api.coinalyze.net/v1/ohlcv-history?symbols=BTCUSD.A&interval=5min&from=1787213575&to=1787301175",
+  "points": []
 }
