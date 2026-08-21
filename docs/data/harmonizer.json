@@ -6,7 +6,7 @@
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 55.3,
+    "crypto": 55.5,
     "crypto_derivatives": 48,
     "equities": 40.4,
     "news": 71
@@ -47,9 +47,9 @@
         "topic": "Kripto",
         "tone": "destekleyici",
         "count": 3,
-        "digest": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile… | Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı.",
+        "digest": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç… | Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.9; çoklu-borsa OI 24s %+3.8; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "important_news": [
@@ -129,9 +129,25 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.9; çoklu-borsa OI 24s %+3.8; OI-ağırlıklı funding %+0.0086.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.9; çoklu-borsa OI 24s %+3.8; OI-ağırlıklı funding %+0.0086."
+      },
+      {
+        "title": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs",
+        "source": "Cryptonews.net",
+        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SMDZMMDJQdVNud29wVElsSDFCbnB1RVpqbXFaWG55MUZJWXZDZHMzSGhSYV80MUNSV0tEMjVzTWhjQlptbUp5RnpLQ0J6cF9PVHg1aTJUaw?oc=5",
+        "published_at": "2026-08-21T22:41:12+00:00",
+        "topic": "Kripto",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.9; çoklu-borsa OI 24s %+3.8; OI-ağırlıklı funding %+0.0086.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+7.9; çoklu-borsa OI 24s %+3.8; OI-ağırlıklı funding %+0.0086."
       },
       {
         "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
@@ -148,22 +164,6 @@
         "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5.",
         "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
         "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
-      },
-      {
-        "title": "Bitcoin And Ethereum ETFs Pull $825M As Institutional Demand Returns",
-        "source": "CryptoRank",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzYwd1QwUWd3UlZqc2R4UnYxVHFGbmlUdmxoTWtSa0pGdXhOQnVXMVFtdG1RYTlKWDE0blFNTHdZTXZ6dm9zZWhZaHMxMVVfSk5BR25UQ2FZV1hDMEJCVDhSVnF3dVdUOXFJbGo4NkJ0NHhtV1dCRG83RWgxVWN0WWlhSzRzcTJSU3lta2Vn?oc=5",
-        "published_at": "2026-08-21T14:51:26+00:00",
-        "topic": "Kripto",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -190,7 +190,7 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+7.7, ETH %+9.0.",
+    "Kriptoda spot momentum: BTC 24s %+7.9, ETH %+9.4.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
@@ -392,7 +392,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T22:37:44.545402+00:00"
+    "generated_at": "2026-08-21T22:43:35.908814+00:00"
   },
   "buyback_news": [
     {
@@ -451,5 +451,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T22:36:47.919004+00:00"
+  "generated_at": "2026-08-21T22:42:44.638064+00:00"
 }
