@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T07:14:04.271364+00:00",
+  "generated_at": "2026-08-21T07:21:44.880364+00:00",
   "interval_minutes": 15,
   "window_hours": 24,
   "max_points": 96,
@@ -32,6 +32,20 @@
       "spot_error": null,
       "aggregate_oi_usd": 17476053524.890217,
       "binance_oi_usd": 8352618859.383301,
+      "oi_source": "Coinalyze multi-exchange BTC perpetual"
+    },
+    {
+      "ts": "2026-08-21T07:15:00+00:00",
+      "spot_cvd_delta_usd": 1813104.5519686006,
+      "spot_buy_usd": 3731510.2993588625,
+      "spot_sell_usd": 1918405.7473902619,
+      "spot_trade_count": 1552,
+      "spot_coverage_seconds": 897.5530829429626,
+      "spot_source": "Kraken Spot BTC/USD",
+      "spot_ok": true,
+      "spot_error": null,
+      "aggregate_oi_usd": 17411545898.554413,
+      "binance_oi_usd": 8330954679.125,
       "oi_source": "Coinalyze multi-exchange BTC perpetual"
     }
   ]
