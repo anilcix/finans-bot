@@ -1,34 +1,34 @@
 {
   "btc": {
-    "price": 74785,
-    "change_24h": 8.049565952522254
+    "price": 74982,
+    "change_24h": 8.149493409753795
   },
   "eth": {
-    "price": 2347.58,
-    "change_24h": 4.3251081423577284
+    "price": 2353.15,
+    "change_24h": 4.543782098426801
   },
   "global": {
-    "total_usd": 2528095233237.926,
-    "total2_usd": 1035707885605.6011,
-    "total3_usd": 753728745501.3751,
-    "btc_dominance": 59.03208581746778,
-    "eth_dominance": 11.153817957366806
+    "total_usd": 2533879137680.849,
+    "total2_usd": 1035707724907.381,
+    "total3_usd": 753409992811.2523,
+    "btc_dominance": 59.12560668322484,
+    "eth_dominance": 11.140931226676571
   },
-  "stablecoin_supply_usd": 301454095004,
+  "stablecoin_supply_usd": 301443040428,
   "stablecoin_market_cap_usd": 308168114244.7841,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.478746018464582,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 84864365036.97942,
+    "total_tvl_usd": 84863163886.43312,
     "chains": {
-      "Base": 5281247084.646426,
-      "BSC": 5380186947.350283,
-      "Ethereum": 47350939960.73897,
-      "Arbitrum": 1374972556.4878643,
-      "Solana": 5339545968.513023,
-      "Bitcoin": 4041303010.0375867
+      "Base": 5281256719.040091,
+      "BSC": 5377407315.011253,
+      "Ethereum": 47359102247.775665,
+      "Arbitrum": 1374908419.5013332,
+      "Solana": 5342124981.632134,
+      "Bitcoin": 4040975147.649803
     },
     "stablecoin_market_cap_usd": 308168114244.7841,
     "stablecoin_7d_change_pct": 0.478746018464582,
@@ -53,14 +53,14 @@
     },
     "error": null
   },
-  "funding_pct": 0.008744,
-  "funding_source": "Binance",
-  "open_interest_btc": 108163.497,
-  "open_interest_source": "Binance",
+  "funding_pct": 0.00115687813457,
+  "funding_source": "OKX",
+  "open_interest_btc": 30226.77270000013,
+  "open_interest_source": "OKX",
   "binance_status": {
-    "ok": true,
-    "status": 200,
-    "message": "Binance Futures erişimi başarılı"
+    "ok": false,
+    "status": 451,
+    "message": "HTTP 451 — GitHub runner üzerinden Binance Futures erişimi reddedildi"
   },
   "data_quality": {
     "sources": {
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301454095004,
-  "generated_at": "2026-08-21T04:06:30.938154+00:00"
+  "stablecoin_top50_market_cap_usd": 301443040428,
+  "generated_at": "2026-08-21T04:50:51.670707+00:00"
 }
