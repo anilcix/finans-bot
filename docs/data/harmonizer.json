@@ -6,7 +6,7 @@
     "macro": 52.6,
     "credit": 65,
     "options": 78,
-    "crypto": 54.2,
+    "crypto": 53.7,
     "crypto_derivatives": 48,
     "equities": 34.4,
     "news": 56
@@ -49,7 +49,7 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+4.1; OI-ağırlıklı funding %+0.0066."
       }
     ],
     "important_news": [
@@ -81,9 +81,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.1; çoklu-borsa OI 24s %+4.1; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+4.1; OI-ağırlıklı funding %+0.0066."
       },
       {
         "title": "Bessent Says He Knows Something The Bond Market Doesn’t",
@@ -129,9 +129,9 @@
         "brief_summary": "Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.1; çoklu-borsa OI 24s %+4.1; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.4; çoklu-borsa OI 24s %+4.9; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.1; çoklu-borsa OI 24s %+4.1; OI-ağırlıklı funding %+0.0066."
       },
       {
         "title": "Bessent’s bond market push struggles to bring down US borrowing costs",
@@ -172,8 +172,8 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.70 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "Stablecoin piyasa değeri 7 günde %+0.53; kripto içi dolar likiditesi genişliyor.",
+    "VIX 15.67 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "Stablecoin piyasa değeri 7 günde %+0.51; kripto içi dolar likiditesi genişliyor.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir."
   ],
@@ -191,10 +191,10 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.4, ETH %+5.3.",
+    "Kriptoda spot momentum: BTC 24s %+8.1, ETH %+4.5.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+5.3; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Altın %+5.2; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 72 saatte haber akışı karışık / nötr: 2 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 56/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
@@ -393,7 +393,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T10:49:43.062722+00:00"
+    "generated_at": "2026-08-21T11:12:27.711093+00:00"
   },
   "buyback_news": [
     {
@@ -424,5 +424,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T10:49:02.293447+00:00"
+  "generated_at": "2026-08-21T11:11:41.790159+00:00"
 }
