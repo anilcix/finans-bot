@@ -1,10 +1,9 @@
-"""Coinalyze ücretsiz API key ile çoklu-borsa BTC türev verisi.
+"""Coinalyze ücretsiz API key ile BTC türev + Binance spot akış verisi.
 
 COINALYZE_API_KEY yoksa sessizce devre dışı kalır.
-Büyük borsalardan birer temsilci BTC perpetual kontratı seçer; OI, funding,
-liquidation ve long/short verilerini hem borsa bazında hem agregat olarak döndürür.
-Binance doğrudan API erişimi GitHub runner'da engellense bile Coinalyze katmanı
-üzerinden Binance verisi görünür tutulur.
+Ana katman büyük borsalardan BTC perpetual OI/funding/liquidation/L/S toplar.
+Ek akış katmanı Binance BTC spot 5dk buy/sell volume ve Binance BTC perp 5dk OI
+history verisini doğrudan Coinalyze API'den alıp 10dk seriye dönüştürür.
 """
 from datetime import datetime, timedelta, timezone
 import os
@@ -39,7 +38,6 @@ def _canon_exchange(name):
 
 
 def _exchange_map(rows):
-    """Coinalyze /exchanges -> future-markets içindeki exchange code'u okunur isme çevirir."""
     out={}
     for x in rows if isinstance(rows,list) else []:
         code=str(x.get("code", ""));name=x.get("name")
@@ -67,8 +65,108 @@ def _pick_markets(rows, exchange_names, limit=7):
     return selected
 
 
+def _pick_binance_spot(rows, exchange_names):
+    candidates=[]
+    for x in rows if isinstance(rows,list) else []:
+        if str(x.get("base_asset","")).upper()!="BTC":continue
+        quote=str(x.get("quote_asset","")).upper()
+        if quote not in ("USDT","USD","USDC"):continue
+        code=str(x.get("exchange",""));exch=_canon_exchange(exchange_names.get(code,code))
+        if exch!="Binance":continue
+        if not x.get("has_buy_sell_data"):continue
+        qrank={"USDT":0,"USD":1,"USDC":2}.get(quote,9)
+        candidates.append((qrank,x))
+    candidates.sort(key=lambda z:z[0])
+    return candidates[0][1] if candidates else None
+
+
+def _pick_binance_perp(rows, exchange_names):
+    candidates=[]
+    for x in rows if isinstance(rows,list) else []:
+        if str(x.get("base_asset","")).upper()!="BTC" or not x.get("is_perpetual"):continue
+        quote=str(x.get("quote_asset","")).upper()
+        if quote not in ("USDT","USD","USDC"):continue
+        code=str(x.get("exchange",""));exch=_canon_exchange(exchange_names.get(code,code))
+        if exch!="Binance":continue
+        stable=0 if str(x.get("margined","")).upper()=="STABLE" else 1
+        qrank={"USDT":0,"USD":1,"USDC":2}.get(quote,9)
+        candidates.append((stable,qrank,x))
+    candidates.sort(key=lambda z:z[:2])
+    return candidates[0][2] if candidates else None
+
+
 def _hist_map(rows):
     return {x.get("symbol"):x.get("history") or [] for x in rows if isinstance(x,dict)} if isinstance(rows,list) else {}
+
+
+def _pair_5m_to_10m(spot_hist, oi_hist):
+    """Coinalyze native 5m serileri 10m bucket'a çevirir."""
+    spot_by_t={int(x.get("t")):x for x in spot_hist if isinstance(x,dict) and x.get("t") is not None}
+    oi_by_t={int(x.get("t")):x for x in oi_hist if isinstance(x,dict) and x.get("t") is not None}
+    all_ts=sorted(set(spot_by_t)|set(oi_by_t))
+    buckets={}
+    for ts in all_ts:
+        bucket=(ts//600)*600
+        b=buckets.setdefault(bucket,{"spot":[],"oi":[]})
+        if ts in spot_by_t:b["spot"].append(spot_by_t[ts])
+        if ts in oi_by_t:b["oi"].append(oi_by_t[ts])
+    points=[]
+    cumulative_btc=0.0
+    for bucket in sorted(buckets):
+        b=buckets[bucket];spot_rows=sorted(b["spot"],key=lambda x:x.get("t",0));oi_rows=sorted(b["oi"],key=lambda x:x.get("t",0))
+        delta_btc=None;buy_btc=sell_btc=None;close_price=None
+        if spot_rows:
+            total_v=sum(_f(x.get("v")) or 0 for x in spot_rows)
+            buy_btc=sum(_f(x.get("bv")) or 0 for x in spot_rows)
+            sell_btc=max(0.0,total_v-buy_btc)
+            delta_btc=buy_btc-sell_btc
+            cumulative_btc+=delta_btc
+            close_price=_f(spot_rows[-1].get("c"))
+        oi_usd=_f(oi_rows[-1].get("c")) if oi_rows else None
+        points.append({
+            "ts":datetime.fromtimestamp(bucket+600,timezone.utc).isoformat(),
+            "spot_cvd_delta_btc":delta_btc,
+            "spot_cvd_cumulative_btc":cumulative_btc if delta_btc is not None else None,
+            "spot_buy_btc":buy_btc,
+            "spot_sell_btc":sell_btc,
+            "spot_close_usd":close_price,
+            "binance_oi_usd":oi_usd,
+        })
+    return points[-144:]
+
+
+def fetch_coinalyze_binance_flow_history(hours=24):
+    """Tamamen Coinalyze kaynaklı Binance Spot CVD + Binance Perp OI, 10dk seri."""
+    key=_clean_key(os.getenv("COINALYZE_API_KEY"))
+    out={"source":"Coinalyze","venue":"Binance","interval_minutes":10,"window_hours":hours,"points":[],"ok":False,"error":None}
+    if not key:
+        out["error"]="COINALYZE_API_KEY tanımlı değil.";return out
+    try:
+        exchange_names=_exchange_map(_get("exchanges",key))
+        spot_meta=_pick_binance_spot(_get("spot-markets",key),exchange_names)
+        perp_meta=_pick_binance_perp(_get("future-markets",key),exchange_names)
+        if not spot_meta:raise ValueError("Coinalyze Binance BTC spot market bulunamadı")
+        if not perp_meta:raise ValueError("Coinalyze Binance BTC perpetual market bulunamadı")
+        now=datetime.now(timezone.utc);frm=int((now-timedelta(hours=hours,minutes=20)).timestamp());to=int(now.timestamp())
+        spot_symbol=spot_meta["symbol"];perp_symbol=perp_meta["symbol"]
+        spot_rows=_get("ohlcv-history",key,{"symbols":spot_symbol,"interval":"5min","from":frm,"to":to})
+        oi_rows=_get("open-interest-history",key,{"symbols":perp_symbol,"interval":"5min","from":frm,"to":to,"convert_to_usd":"true"})
+        spot_hist=_hist_map(spot_rows).get(spot_symbol) or []
+        oi_hist=_hist_map(oi_rows).get(perp_symbol) or []
+        points=_pair_5m_to_10m(spot_hist,oi_hist)
+        out.update({
+            "ok":bool(points),
+            "points":points,
+            "spot_symbol":spot_symbol,
+            "spot_symbol_on_exchange":spot_meta.get("symbol_on_exchange"),
+            "perp_symbol":perp_symbol,
+            "perp_symbol_on_exchange":perp_meta.get("symbol_on_exchange"),
+            "spot_source":"Coinalyze Binance spot OHLCV buy/sell volume",
+            "oi_source":"Coinalyze Binance BTC perpetual OI history",
+            "definition":"Spot CVD = kümülatif (buy volume - sell volume). Coinalyze 5m v/bv serileri ikişer birleştirilerek 10m bucket yapılır; OI aynı 10m bucket'ta son 5m close snapshotıdır.",
+        })
+    except Exception as e:out["error"]=str(e)[:300]
+    return out
 
 
 def fetch_coinalyze_btc():
