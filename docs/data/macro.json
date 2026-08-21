@@ -1,6 +1,34 @@
 {
   "barometer": [
     {
+      "label": "HY Kredi Spreadi",
+      "value": 2.75,
+      "percentile": 16.772554002541295,
+      "weight": 2.0,
+      "invert": true,
+      "level_score": 83.2274459974587,
+      "momentum_score": 31.369098279070442,
+      "change_1m": 0.06999999999999984,
+      "change_3m": 0.029999999999999805,
+      "combined_score": 65.07702429602281,
+      "signal_label": "Kırılgan Risk-On",
+      "signal_emoji": "🟢"
+    },
+    {
+      "label": "Fed Politika Faizi",
+      "value": 3.63,
+      "percentile": 75.0,
+      "weight": 1.0,
+      "invert": true,
+      "level_score": 25.0,
+      "momentum_score": 52.79469660858358,
+      "change_1m": 0.0,
+      "change_3m": -0.010000000000000231,
+      "combined_score": 34.72814381300425,
+      "signal_label": "Kırılgan / Savunmacı",
+      "signal_emoji": "🟠"
+    },
+    {
       "label": "Enflasyon (CPI YoY)",
       "value": 3.30386,
       "percentile": 76.98744769874477,
@@ -127,7 +155,7 @@
       "signal_emoji": "🟢"
     }
   ],
-  "composite_score": 50.20904804806353,
+  "composite_score": 51.73365214013405,
   "score_method": {
     "level_weight": 0.65,
     "momentum_weight": 0.35
@@ -215,6 +243,7 @@
       "ON RRP tamponu neredeyse tükenmiş; yeni Hazine arzını absorbe edecek eski likidite yastığı çok daha küçük."
     ],
     "confirmations": [
+      "HY spread tarihsel olarak düşük bölgede; piyasa henüz geniş tabanlı kredi stresi fiyatlamıyor.",
       "Kredi döngüsü modeli: Expansion (Boğa)."
     ],
     "framework": [
@@ -985,7 +1014,7 @@
       },
       {
         "date": "2026-08-21",
-        "value": 7676.60009765625
+        "value": 7690.06005859375
       }
     ]
   },
@@ -9623,8 +9652,8 @@
       },
       {
         "date": "2026-08-21",
-        "value": 178.47571408456514,
-        "raw": 765.9107055664062
+        "value": 178.7633390840318,
+        "raw": 767.14501953125
       }
     ],
     "QQQ": [
@@ -9930,8 +9959,8 @@
       },
       {
         "date": "2026-08-21",
-        "value": 198.96358223654568,
-        "raw": 712.2100219726562
+        "value": 199.68803798038695,
+        "raw": 714.8032836914062
       }
     ],
     "BTC": [
@@ -10237,8 +10266,8 @@
       },
       {
         "date": "2026-08-21",
-        "value": 176.90801339355204,
-        "raw": 77469.6015625
+        "value": 177.0481502602612,
+        "raw": 77530.96875
       }
     ]
   },
@@ -10489,5 +10518,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-21T15:00:54.182826+00:00"
+  "generated_at": "2026-08-21T15:43:27.636864+00:00"
 }

@@ -1,34 +1,34 @@
 {
   "btc": {
-    "price": 77331,
-    "change_24h": 7.568287715215201
+    "price": 77593,
+    "change_24h": 7.361102503631021
   },
   "eth": {
-    "price": 2391.71,
-    "change_24h": 4.627695799805925
+    "price": 2400.76,
+    "change_24h": 4.2632409504629525
   },
   "global": {
-    "total_usd": 2610368750946.9834,
-    "total2_usd": 1062120824933.3896,
-    "total3_usd": 774258891740.7228,
-    "btc_dominance": 59.31146415432394,
-    "eth_dominance": 11.027634815511679
+    "total_usd": 2620574933170.2324,
+    "total2_usd": 1065800904181.0284,
+    "total3_usd": 776578750800.7134,
+    "btc_dominance": 59.32950091636269,
+    "eth_dominance": 11.036591616574366
   },
-  "stablecoin_supply_usd": 301674511662,
+  "stablecoin_supply_usd": 301603436147,
   "stablecoin_market_cap_usd": 307383747948.94794,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.2216884291022847,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 86229832539.661,
+    "total_tvl_usd": 86023180520.10153,
     "chains": {
-      "Base": 5406058208.076287,
-      "BSC": 5452835878.826904,
-      "Ethereum": 48108947939.31245,
-      "Arbitrum": 1378109248.0986507,
-      "Solana": 5443801740.688214,
-      "Bitcoin": 4173842396.5617056
+      "Base": 5400385204.190231,
+      "BSC": 5446689091.607438,
+      "Arbitrum": 1376641294.2857425,
+      "Ethereum": 47926203860.606865,
+      "Solana": 5433549955.344916,
+      "Bitcoin": 4174814319.299426
     },
     "stablecoin_market_cap_usd": 307383747948.94794,
     "stablecoin_7d_change_pct": 0.2216884291022847,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.008070918901589999,
   "funding_source": "OKX",
-  "open_interest_btc": 30332.732200000155,
+  "open_interest_btc": 30323.79270000014,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301674511662,
-  "generated_at": "2026-08-21T15:00:54.182826+00:00"
+  "stablecoin_top50_market_cap_usd": 301603436147,
+  "generated_at": "2026-08-21T15:43:27.636864+00:00"
 }
