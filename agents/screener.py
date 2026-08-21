@@ -3,14 +3,17 @@
 Akış:
 1) CoinGecko Top 200 içinde olağandışı spot aktiviteyi Hacim/MCap ile seç.
 2) Coinalyze desteklenen perpetual piyasalarından her coin için tercih edilen kontratı bul.
-3) En fazla 18 adayda 24s Open Interest değişimini hesapla.
-4) En güçlü en fazla 6 adayda funding, long/short ve 24s liquidations ile sinyali zenginleştir.
+3) En fazla 10 adayda 24s Open Interest değişimini hesapla.
+4) En güçlü en fazla 3 adayda funding, long/short ve 24s liquidations ile sinyali zenginleştir.
 
-Coinalyze ücretsiz API limiti 40 sembol-çağrı/dk olduğu için varsayılan bütçe
-18 OI + 6 funding + 6 liquidation + 6 long/short + 2 metadata = 38 çağrı eşdeğeridir.
+Coinalyze free rate limit aynı GitHub Action içindeki Kripto Türev ajanıyla ortak
+kullanıldığı için tarayıcı kendi bütçesini düşük tutar. HTTP 429 alınırsa
+Retry-After kadar (yoksa yaklaşık 61 sn) bekleyip aynı isteği bir kez tekrarlar.
+Böylece rate-limit geçici ise bütün tarama hata ile sonlanmaz.
 """
 from datetime import datetime, timedelta, timezone
 import os
+import time
 import requests
 
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
@@ -58,17 +61,34 @@ def _key():
     return key
 
 
-def _ca_get(path, params=None):
-    r = requests.get(
-        f"{COINALYZE_BASE}{path}",
-        params=params or {},
-        headers={**UA, "api_key": _key()},
-        timeout=20,
-    )
-    if r.status_code == 429:
-        raise RuntimeError(f"Coinalyze rate limit aşıldı; Retry-After={r.headers.get('Retry-After', '—')}")
-    r.raise_for_status()
-    return r.json()
+def _retry_delay(response):
+    raw = response.headers.get("Retry-After")
+    try:
+        delay = float(raw)
+        return max(2.0, min(delay + 1.0, 65.0))
+    except (TypeError, ValueError):
+        return 61.0
+
+
+def _ca_get(path, params=None, retry_rate_limit=True):
+    """Coinalyze GET; shared rate-limit için 429'da bir kez bekleyip tekrarlar."""
+    for attempt in range(2 if retry_rate_limit else 1):
+        r = requests.get(
+            f"{COINALYZE_BASE}{path}",
+            params=params or {},
+            headers={**UA, "api_key": _key()},
+            timeout=25,
+        )
+        if r.status_code != 429:
+            r.raise_for_status()
+            return r.json()
+        if attempt == 0 and retry_rate_limit:
+            time.sleep(_retry_delay(r))
+            continue
+        raise RuntimeError(
+            f"Coinalyze rate limit ikinci denemede de aşıldı; Retry-After={r.headers.get('Retry-After', '—')}"
+        )
+    raise RuntimeError("Coinalyze isteği tamamlanamadı")
 
 
 def _exchange_map():
@@ -130,7 +150,7 @@ def _select_contracts(markets, exchange_names, candidate_symbols):
     return {base: row for base, (_, row) in grouped.items()}
 
 
-def _batches(items, n=20):
+def _batches(items, n=10):
     for i in range(0, len(items), n):
         yield items[i:i+n]
 
@@ -145,7 +165,7 @@ def _oi_history(contract_rows, hours=25):
     }
     by_symbol = {}
     symbols = [x["symbol"] for x in contract_rows]
-    for batch in _batches(symbols, 20):
+    for batch in _batches(symbols, 10):
         rows = _ca_get("/open-interest-history", {**params_base, "symbols": ",".join(batch)})
         for row in rows or []:
             history = row.get("history") or []
@@ -255,9 +275,9 @@ def _reading(x):
 def scan_top_movers(
     min_volume_mcap_ratio=0.15,
     min_oi_change=10,
-    max_results=10,
-    max_oi_checks=18,
-    detail_checks=6,
+    max_results=8,
+    max_oi_checks=10,
+    detail_checks=3,
 ):
     coins = _top_200()
     spot_candidates = []
@@ -319,9 +339,24 @@ def scan_top_movers(
         "has_long_short_ratio_data": x.get("has_long_short_ratio_data"),
     } for x in details]
 
-    funding = _funding_current(contract_rows) if contract_rows else {}
-    liquidations = _liquidations(contract_rows) if contract_rows else {}
-    long_short = _long_short(contract_rows) if contract_rows else {}
+    # Detay katmanı rate-limit yüzünden başarısız olursa OI-only tarama yine korunur.
+    funding = {}
+    liquidations = {}
+    long_short = {}
+    detail_warnings = []
+    if contract_rows:
+        try:
+            funding = _funding_current(contract_rows)
+        except Exception as e:
+            detail_warnings.append("Funding: " + str(e)[:140])
+        try:
+            liquidations = _liquidations(contract_rows)
+        except Exception as e:
+            detail_warnings.append("Liquidation: " + str(e)[:140])
+        try:
+            long_short = _long_short(contract_rows)
+        except Exception as e:
+            detail_warnings.append("Long/Short: " + str(e)[:140])
 
     detail_symbols = {x["coinalyze_symbol"] for x in details}
     out = []
@@ -343,6 +378,8 @@ def scan_top_movers(
         "eligible_contracts": len(eligible),
         "details_enriched": len(details),
         "exchange_count": len(exchange_names),
+        "detail_warnings": detail_warnings,
+        "shared_rate_limit_retry": True,
     }
 
 
@@ -360,6 +397,8 @@ def build_report():
         )
     else:
         lines.append(f"Kriterleri geçen coin yok. OI kontrol edilen kontrat: {checked}")
+    if meta.get("detail_warnings"):
+        lines.append("Detay metriklerinin bir bölümü rate-limit nedeniyle eksik olabilir; OI taraması korunur.")
     return "\n".join(lines)
 
 
@@ -374,7 +413,7 @@ def get_analysis_data():
             "derivatives_source": "Coinalyze",
             "oi_contracts_checked": checked,
             "scan_meta": meta,
-            "rate_limit_design": "40 çağrı/dk limitine göre: 18 OI adayı + en güçlü 6 adayda funding/liquidation/long-short.",
+            "rate_limit_design": "Shared rate-limit: en fazla 10 OI adayı + en güçlü 3 adayda detay; HTTP 429'da bir kez otomatik bekle/tekrar dene.",
         }
     except Exception as e:
         return {
@@ -385,4 +424,5 @@ def get_analysis_data():
             "derivatives_source": "Coinalyze",
             "oi_contracts_checked": 0,
             "error": str(e),
+            "rate_limit_design": "429 geçici ise otomatik retry edilir; ikinci 429 dışında tarama yarıda bırakılmaz.",
         }
