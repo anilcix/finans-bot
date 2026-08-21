@@ -1,15 +1,15 @@
 {
-  "market_score": 56.0,
+  "market_score": 56.1,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 55.3,
-    "crypto_derivatives": 48,
+    "crypto": 55.2,
+    "crypto_derivatives": 47,
     "equities": 40.4,
-    "news": 71
+    "news": 74
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,9 +17,9 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 71,
+    "score": 74,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 74/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "positive_count": 5,
     "negative_count": 0,
     "neutral_count": 6,
@@ -39,7 +39,7 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro… | Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi.",
+        "digest": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision' | Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro…",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
@@ -49,10 +49,26 @@
         "count": 4,
         "digest": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç… | Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.8."
       }
     ],
     "important_news": [
+      {
+        "title": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision'",
+        "source": "finance.biggo.com",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cmEtOWZaWkgwR0hRTVpFOUhwdGg2MHVUZlFydHdTVGg0WUtBbVljX1FFX1ZfWkZmS1RHYkJFWjR5alNvVFROaHdNMG5fN09Bd0pjUGVsaWctdU1iUWxfWTVxZFFkS0pHa3d3aHR0MmR2azhFLWc?oc=5",
+        "published_at": "2026-08-21T22:55:00+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "rates",
+        "impact_score": 2,
+        "impact": "Destekleyici",
+        "brief_summary": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision'",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
+      },
       {
         "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
         "source": "Eurasia Business News",
@@ -79,22 +95,6 @@
         "impact_score": 2,
         "impact": "Destekleyici",
         "brief_summary": "Treasury buyback renews dollar-debasement fears",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
-        "source": "Seeking Alpha",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFZna0lwak5KOTd6UEhDLXc1QzZ5ZHM3bGNEb3VVcVhhVko5bHpLMTF3azFVUTgwNmlzVjFLZzZoMkRqNllraGo2aktBenlTem5xcEJSMXlyN0ZMNnhtVmYxeDBGUE9VNXNOTGtqTExLT1dLSnd4UFVJTFdUNGFPbU1MWGNvdkZvVHdVU1ZFSlpWbXNYX0lOVkg3dTNsTHJxYUpYM0VhcTBHQQ?oc=5",
-        "published_at": "2026-08-21T13:18:57+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "rates",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
         "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
@@ -129,9 +129,9 @@
         "brief_summary": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.8."
       },
       {
         "title": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs",
@@ -145,9 +145,9 @@
         "brief_summary": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.8."
       },
       {
         "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
@@ -190,11 +190,11 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+7.8, ETH %+8.9.",
+    "Kriptoda spot momentum: BTC 24s %+7.8, ETH %+8.7.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 74/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -391,9 +391,23 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T23:04:29.826088+00:00"
+    "generated_at": "2026-08-21T23:08:50.196571+00:00"
   },
   "buyback_news": [
+    {
+      "title": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision'",
+      "source": "finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cmEtOWZaWkgwR0hRTVpFOUhwdGg2MHVUZlFydHdTVGg0WUtBbVljX1FFX1ZfWkZmS1RHYkJFWjR5alNvVFROaHdNMG5fN09Bd0pjUGVsaWctdU1iUWxfWTVxZFFkS0pHa3d3aHR0MmR2azhFLWc?oc=5",
+      "published_at": "2026-08-21T22:55:00+00:00",
+      "article_summary": null,
+      "article_context": null,
+      "article_summary_original": null,
+      "article_context_original": null,
+      "translation_ok": null,
+      "context": null,
+      "context_mode": "title_only",
+      "topic": "Tahvil / Likidite"
+    },
     {
       "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
       "source": "Eurasia Business News",
@@ -422,20 +436,6 @@
       "context": null,
       "context_mode": "title_only",
       "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
-      "source": "Seeking Alpha",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFZna0lwak5KOTd6UEhDLXc1QzZ5ZHM3bGNEb3VVcVhhVko5bHpLMTF3azFVUTgwNmlzVjFLZzZoMkRqNllraGo2aktBenlTem5xcEJSMXlyN0ZMNnhtVmYxeDBGUE9VNXNOTGtqTExLT1dLSnd4UFVJTFdUNGFPbU1MWGNvdkZvVHdVU1ZFSlpWbXNYX0lOVkg3dTNsTHJxYUpYM0VhcTBHQQ?oc=5",
-      "published_at": "2026-08-21T13:18:57+00:00",
-      "article_summary": null,
-      "article_context": null,
-      "article_summary_original": null,
-      "article_context_original": null,
-      "translation_ok": null,
-      "context": null,
-      "context_mode": "title_only",
-      "topic": "Tahvil / Likidite"
     }
   ],
   "agent_status": {
@@ -450,5 +450,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T23:01:39.627461+00:00"
+  "generated_at": "2026-08-21T23:07:49.412614+00:00"
 }

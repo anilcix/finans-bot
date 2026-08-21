@@ -65,6 +65,19 @@
       "query": "US Treasury buyback bond market liquidity long term yields",
       "items": [
         {
+          "title": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision'",
+          "source": "finance.biggo.com",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cmEtOWZaWkgwR0hRTVpFOUhwdGg2MHVUZlFydHdTVGg0WUtBbVljX1FFX1ZfWkZmS1RHYkJFWjR5alNvVFROaHdNMG5fN09Bd0pjUGVsaWctdU1iUWxfWTVxZFFkS0pHa3d3aHR0MmR2azhFLWc?oc=5",
+          "published_at": "2026-08-21T22:55:00+00:00",
+          "article_summary": null,
+          "article_context": null,
+          "article_summary_original": null,
+          "article_context_original": null,
+          "translation_ok": null,
+          "context": null,
+          "context_mode": "title_only"
+        },
+        {
           "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
           "source": "Eurasia Business News",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbjZnSHBvcDN4UGZtdXNaRF9WSmU0NUZjazBKYkdjQ2ctRFJ0MkdVMXBPSHBVMTBEQjhUYjdEbEU3UGl6YW9wdmlQUVRqN2N5S1prVUJac3ZMXzVjaWVnSFRpbE91bm5uV0JyZEEwdzU5Qkx6VFdEcUZjRG93MDctYzlQRS05dDNkQlJMV3kzX0pzZVpsX1BOQ2VXNUIxVlRnbDcyZlVWam5Pb0N2WlRTN0VpQ3E2WkdqaEhteTZEdWE?oc=5",
@@ -97,19 +110,6 @@
           "source": "Reuters",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
           "published_at": "2026-08-21T14:03:54+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
-          "source": "Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbFZna0lwak5KOTd6UEhDLXc1QzZ5ZHM3bGNEb3VVcVhhVko5bHpLMTF3azFVUTgwNmlzVjFLZzZoMkRqNllraGo2aktBenlTem5xcEJSMXlyN0ZMNnhtVmYxeDBGUE9VNXNOTGtqTExLT1dLSnd4UFVJTFdUNGFPbU1MWGNvdkZvVHdVU1ZFSlpWbXNYX0lOVkg3dTNsTHJxYUpYM0VhcTBHQQ?oc=5",
-          "published_at": "2026-08-21T13:18:57+00:00",
           "article_summary": null,
           "article_context": null,
           "article_summary_original": null,
@@ -203,5 +203,5 @@
   "translated_count": 7,
   "language": "tr",
   "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
-  "generated_at": "2026-08-21T23:01:39.627461+00:00"
+  "generated_at": "2026-08-21T23:07:49.412614+00:00"
 }

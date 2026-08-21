@@ -1,34 +1,34 @@
 {
   "btc": {
-    "price": 78387,
-    "change_24h": 7.846660012736908
+    "price": 78419,
+    "change_24h": 7.804206609260632
   },
   "eth": {
-    "price": 2519.39,
-    "change_24h": 8.856451374881471
+    "price": 2517.68,
+    "change_24h": 8.709733908714487
   },
   "global": {
-    "total_usd": 2665706468567.5293,
-    "total2_usd": 1093442734375.4863,
-    "total3_usd": 789429655980.016,
-    "btc_dominance": 58.981127619686134,
-    "eth_dominance": 11.404596941944547
+    "total_usd": 2658386951806.143,
+    "total2_usd": 1090352197196.238,
+    "total3_usd": 787326560846.6003,
+    "btc_dominance": 58.98444368847664,
+    "eth_dominance": 11.39885358464305
   },
-  "stablecoin_supply_usd": 302236841164,
+  "stablecoin_supply_usd": 302264800014,
   "stablecoin_market_cap_usd": 308176523284.6562,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.3243118742168205,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 86979394198.98291,
+    "total_tvl_usd": 87785509567.96233,
     "chains": {
-      "BSC": 5508414674.325761,
-      "Base": 5439988960.925957,
-      "Ethereum": 48709291045.620705,
-      "Arbitrum": 1403174327.035174,
-      "Solana": 5459995769.160547,
-      "Bitcoin": 4045837422.8967943
+      "Base": 5459908794.487134,
+      "BSC": 5557796615.679976,
+      "Arbitrum": 1415106864.8542697,
+      "Ethereum": 49234613793.97109,
+      "Solana": 5496546173.290781,
+      "Bitcoin": 4096392574.5963745
     },
     "stablecoin_market_cap_usd": 308176523284.6562,
     "stablecoin_7d_change_pct": 0.3243118742168205,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 29570.78970000014,
+  "open_interest_btc": 29574.80320000014,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 302236841164,
-  "generated_at": "2026-08-21T23:01:39.627461+00:00"
+  "stablecoin_top50_market_cap_usd": 302264800014,
+  "generated_at": "2026-08-21T23:07:49.412614+00:00"
 }
