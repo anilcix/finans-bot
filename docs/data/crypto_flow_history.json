@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "venue": "Binance",
-  "generated_at": "2026-08-21T16:04:59.881665+00:00",
+  "generated_at": "2026-08-21T16:46:53.574139+00:00",
   "interval_minutes": 10,
   "window_hours": 24,
   "max_points": 144,
@@ -15,6 +15,6 @@
   "spot_cvd_definition": "Coinalyze Binance spot 5dk OHLCV: delta = buy volume (bv) - sell volume (v-bv). İkişer 5dk bar 10dk bucket olarak birleştirilir ve kümülatif CVD hesaplanır.",
   "oi_definition": "Coinalyze Binance BTC perpetual 5dk OI history; her 10dk bucket için son 5dk close OI snapshotı kullanılır.",
   "ok": false,
-  "error": "429 Client Error: Too Many Requests for url: https://api.coinalyze.net/v1/ohlcv-history?symbols=BTCUSD.A&interval=5min&from=1787240795&to=1787328395",
+  "error": "429 Client Error: Too Many Requests for url: https://api.coinalyze.net/v1/ohlcv-history?symbols=BTCUSD.A&interval=5min&from=1787243275&to=1787330875",
   "points": []
 }
