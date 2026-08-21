@@ -1,33 +1,33 @@
 {
   "btc": {
-    "price": 75450,
-    "change_24h": 8.060011719216268
+    "price": 75893,
+    "change_24h": 8.760414075121453
   },
   "eth": {
-    "price": 2372.98,
-    "change_24h": 4.891369249669351
+    "price": 2379.28,
+    "change_24h": 5.461965544918514
   },
   "global": {
-    "total_usd": 2552556318243.015,
-    "total2_usd": 1042483594108.1962,
-    "total3_usd": 756909053998.0773,
-    "btc_dominance": 59.1592323876418,
-    "eth_dominance": 11.187786066427972
+    "total_usd": 2570306935427.2827,
+    "total2_usd": 1047528458243.433,
+    "total3_usd": 760609737036.3008,
+    "btc_dominance": 59.24500518576028,
+    "eth_dominance": 11.162819399210598
   },
-  "stablecoin_supply_usd": 301484159733,
+  "stablecoin_supply_usd": 301497088372,
   "stablecoin_market_cap_usd": 308259699646.8257,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.5070578881404719,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 85092286830.71188,
+    "total_tvl_usd": 85152780297.2581,
     "chains": {
-      "Base": 5306622610.830259,
-      "BSC": 5389029761.027864,
-      "Ethereum": 47462712834.51305,
-      "Arbitrum": 1377146924.2215493,
-      "Solana": 5379119247.088527,
+      "Base": 5307466767.29077,
+      "BSC": 5391521636.345918,
+      "Ethereum": 47511926041.07033,
+      "Arbitrum": 1378082528.9948103,
+      "Solana": 5384084067.220724,
       "Bitcoin": 4069414100.3268366
     },
     "stablecoin_market_cap_usd": 308259699646.8257,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.00115687813457,
   "funding_source": "OKX",
-  "open_interest_btc": 30877.839900000115,
+  "open_interest_btc": 30910.73560000013,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301484159733,
-  "generated_at": "2026-08-21T06:53:05.211370+00:00"
+  "stablecoin_top50_market_cap_usd": 301497088372,
+  "generated_at": "2026-08-21T07:14:04.271364+00:00"
 }
