@@ -1,33 +1,33 @@
 {
   "btc": {
-    "price": 78484,
-    "change_24h": 7.929559241133675
+    "price": 78547,
+    "change_24h": 7.902307307395219
   },
   "eth": {
-    "price": 2530.28,
-    "change_24h": 9.37447550903035
+    "price": 2523.49,
+    "change_24h": 8.920702180778644
   },
   "global": {
-    "total_usd": 2646308816790.244,
-    "total2_usd": 1084877788521.5629,
-    "total3_usd": 783018885349.8328,
-    "btc_dominance": 59.00411238332226,
-    "eth_dominance": 11.406790517285897
+    "total_usd": 2665706468567.5293,
+    "total2_usd": 1093442734375.4863,
+    "total3_usd": 789429655980.016,
+    "btc_dominance": 58.981127619686134,
+    "eth_dominance": 11.404596941944547
   },
-  "stablecoin_supply_usd": 302232902568,
+  "stablecoin_supply_usd": 302242723456,
   "stablecoin_market_cap_usd": 308176523284.6562,
   "stablecoin_source": "DefiLlama",
   "stablecoin_7d_change_pct": 0.3243118742168205,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
-    "total_tvl_usd": 86929788611.26237,
+    "total_tvl_usd": 86979394198.98291,
     "chains": {
-      "BSC": 5508398248.759709,
-      "Base": 5439355391.117617,
-      "Ethereum": 48681888776.067024,
-      "Arbitrum": 1401397614.8223183,
-      "Solana": 5449177799.477351,
+      "BSC": 5508414674.325761,
+      "Base": 5439988960.925957,
+      "Ethereum": 48709291045.620705,
+      "Arbitrum": 1403174327.035174,
+      "Solana": 5459995769.160547,
       "Bitcoin": 4045837422.8967943
     },
     "stablecoin_market_cap_usd": 308176523284.6562,
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 29675.461000000145,
+  "open_interest_btc": 29562.51340000014,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 302232902568,
-  "generated_at": "2026-08-21T22:42:44.638064+00:00"
+  "stablecoin_top50_market_cap_usd": 302242723456,
+  "generated_at": "2026-08-21T22:54:20.154931+00:00"
 }

@@ -5,6 +5,14 @@
   "oi_source": "Coinalyze",
   "derivatives_source": "Coinalyze",
   "oi_contracts_checked": 0,
-  "error": "Coinalyze rate limit aşıldı; Retry-After=51.49",
-  "generated_at": "2026-08-21T22:42:44.638064+00:00"
+  "scan_meta": {
+    "spot_candidates": 48,
+    "eligible_contracts": 10,
+    "details_enriched": 0,
+    "exchange_count": 28,
+    "detail_warnings": [],
+    "shared_rate_limit_retry": true
+  },
+  "rate_limit_design": "Shared rate-limit: en fazla 10 OI adayı + en güçlü 3 adayda detay; HTTP 429'da bir kez otomatik bekle/tekrar dene.",
+  "generated_at": "2026-08-21T22:54:20.154931+00:00"
 }
