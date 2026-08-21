@@ -1,5 +1,5 @@
 {
-  "market_score": 56.1,
+  "market_score": 56.2,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
@@ -7,7 +7,7 @@
     "credit": 61,
     "options": 78,
     "crypto": 55.2,
-    "crypto_derivatives": 47,
+    "crypto_derivatives": 48,
     "equities": 40.4,
     "news": 74
   },
@@ -31,7 +31,7 @@
         "topic": "Makro / Fed",
         "tone": "destekleyici",
         "count": 3,
-        "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
+        "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
@@ -39,7 +39,7 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision' | Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro…",
+        "digest": "21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'e uzun vadeli Hazine geri alımlarını genişletme talimatı verdiğini reddetti ve şunu vurguladı: Ayın 21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'in bu hafta uzun vadeli Hazine geri alımlarını genişletme yönündeki ani kararının… | Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro…",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
@@ -49,7 +49,7 @@
         "count": 4,
         "digest": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç… | Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8."
+        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0091."
       }
     ],
     "important_news": [
@@ -62,9 +62,9 @@
         "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "brief_summary": "Treasury Buyback Expansion Provides Fleeting Relief as Trump Distances Himself: 'Bessent's Own Decision'",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
+        "brief_summary": "21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'e uzun vadeli Hazine geri alımlarını genişletme talimatı verdiğini reddetti ve şunu vurguladı: Ayın 21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'in bu hafta uzun vadeli Hazine geri alımlarını genişletme yönündeki ani kararının…",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
         "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
@@ -129,9 +129,9 @@
         "brief_summary": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0091.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8."
+        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0091."
       },
       {
         "title": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs",
@@ -145,9 +145,9 @@
         "brief_summary": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0091.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+7.8."
+        "data_confirmation": "BTC 24s %+7.8; çoklu-borsa OI 24s %+3.3; OI-ağırlıklı funding %+0.0091."
       },
       {
         "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
@@ -190,7 +190,7 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+7.8, ETH %+8.7.",
+    "Kriptoda spot momentum: BTC 24s %+7.8, ETH %+8.8.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
@@ -391,7 +391,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T23:08:50.196571+00:00"
+    "generated_at": "2026-08-21T23:14:45.120462+00:00"
   },
   "buyback_news": [
     {
@@ -399,13 +399,14 @@
       "source": "finance.biggo.com",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6cmEtOWZaWkgwR0hRTVpFOUhwdGg2MHVUZlFydHdTVGg0WUtBbVljX1FFX1ZfWkZmS1RHYkJFWjR5alNvVFROaHdNMG5fN09Bd0pjUGVsaWctdU1iUWxfWTVxZFFkS0pHa3d3aHR0MmR2azhFLWc?oc=5",
       "published_at": "2026-08-21T22:55:00+00:00",
-      "article_summary": null,
-      "article_context": null,
-      "article_summary_original": null,
-      "article_context_original": null,
-      "translation_ok": null,
-      "context": null,
-      "context_mode": "title_only",
+      "article_summary": "21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'e uzun vadeli Hazine geri alımlarını genişletme talimatı verdiğini reddetti ve şunu vurguladı: Ayın 21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'in bu hafta uzun vadeli Hazine geri alımlarını genişletme yönündeki ani kararının onun talimatıyla yapılmadığını, daha ziyade Bessent'in kendi yetkisi dahilinde bağımsız olarak gerçekleştirdiği bir eylem olduğunu açıkça belirtti. Trump ayrıca Bessent'e tahvil ve faiz oranı piyasaları hakkında keskin kararlar vermesi nedeniyle övgüde bulundu.",
+      "article_context": "21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'e uzun vadeli Hazine geri alımlarını genişletme talimatı verdiğini reddetti ve şunu vurguladı: Ayın 21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'in bu hafta uzun vadeli Hazine geri alımlarını genişletme yönündeki ani kararının onun talimatıyla yapılmadığını, daha ziyade Bessent'in kendi yetkisi dahilinde bağımsız olarak gerçekleştirdiği bir eylem olduğunu açıkça belirtti. Trump ayrıca Bessent'e tahvil ve faiz oranı piyasaları hakkında keskin kararlar vermesi nedeniyle övgüde bulundu. Bessent'ten tahvil piyasasına müdahale etmesini isteyip istemediği sorulduğunda Trump şu yanıtı verdi: \"Hiç de değil. Çok yetenekli. Bunu kendisi yapmak istedi ve bunda çok iyi.\" Trump, Bessent'in tahviller ve faiz oranları konusunda iyi piyasa içgüdülerine sahip olduğunu da sözlerine ekledi. Bu açıklamaların arkasında, uzun vadeli ABD Hazine tahvil getirilerindeki yükselişin devam etmesi ve uzun vadeli borçlanma maliyetlerinin son yılların en yüksek seviyelerine ulaşması yer alıyor. Piyasalar öncelikle ABD'nin artan mali açığı ve ulusal borcundan, ısrarla yükselen enflasyondan ve yapay zeka (AI) altyapı inşaatlarını finanse eden teknoloji şirketlerinin ağır borç ihraçlarından endişe duyuyor ve bunların tümü uzun vadeli tahviller üzerindeki arz baskısını yoğunlaştırıyor. ABD Hazine Bakanlığı 19'unda, uzun tahvil likiditesini iyileştirmeyi ve borçlanma maliyetlerini düşürmeyi amaçlayarak, 10 ila 30 yıl vadeli Hazine tahvillerinin tek açık artırmada geri alım boyutunu ikiye katlayarak en az 4 milyar dolara (yaklaşık 130 milyar NT$) çıkaracağını duyurdu. Karar yatırımcıları hazırlıksız yakaladı, uzun vadeli tahvil fiyatlarını kısa süreliğine yükseltti ve getirileri düşürdü; 30 yıllık Hazine tahvili getirisi geçen yılın Ekim ayından bu yana en büyük tek günlük düşüşünü kaydetti. Ancak politika etkisi kısa ömürlü oldu. Uzun vadeli Hazine tahvilleri ertesi gün kazanımlarını geri verdi ve Bessent'in 20'sinde CNBC'ye verdiği bir röportajda geri alım boyutlarının daha da genişletilebileceğini söylemesinden sonra bile getiriler tırmanışa devam etmeden önce yalnızca kısa bir süre düştü. 10 yıllık Hazine tahvili getirisi 21'inde %4,737'ye yükselirken, 30 yıllık getirisi %5,276'ya yükseldi; her ikisi de onlarca yılın en yüksek seviyelerine yaklaştı; bu, ABD'nin mali durumu ve borç arzına ilişkin piyasa endişelerinin azalmadığının bir işareti.",
+      "article_summary_original": "President Donald Trump on the 21st denied instructing Treasury Secretary Scott Bessent to expand long-dated Treasury buybacks, emphasizing it was… President Donald Trump on the 21st made clear that Treasury Secretary Scott Bessent's sudden decision this week to expand long-dated Treasury buybacks was not made at his direction, but rather was an action Bessent took independently within his own authority. Trump also praised Bessent for having sharp judgment on bond and interest rate markets.",
+      "article_context_original": "President Donald Trump on the 21st denied instructing Treasury Secretary Scott Bessent to expand long-dated Treasury buybacks, emphasizing it was… President Donald Trump on the 21st made clear that Treasury Secretary Scott Bessent's sudden decision this week to expand long-dated Treasury buybacks was not made at his direction, but rather was an action Bessent took independently within his own authority. Trump also praised Bessent for having sharp judgment on bond and interest rate markets. When asked whether he had requested Bessent to intervene in the bond market, Trump responded: \"Not at all. He's very capable. He wanted to do it himself, and he's very good at it.\" Trump added that Bessent has good market instincts on bonds and interest rates. The backdrop to these remarks is the continued climb in long-dated U.S. Treasury yields, with long-term borrowing costs rising to multi-year highs. Markets are primarily concerned about the expanding U.S. fiscal deficit and national debt, persistently elevated inflation, and heavy debt issuance by technology companies funding artificial intelligence (AI) infrastructure buildouts, all of which are intensifying supply pressure on long-term bonds. The U.S. Treasury Department announced on the 19th that it would double the single-auction buyback size for 10- to 30-year Treasuries to at least $4 billion (approximately NT$130 billion), aiming to improve long-bond liquidity and lower borrowing costs. The decision caught investors off guard, briefly lifting long-bond prices and pulling yields lower, with the 30-year Treasury yield posting its largest single-day decline since October of last year. However, the policy effect proved short-lived. Long-dated Treasuries gave back their gains the following day, and even after Bessent told CNBC in an interview on the 20th that buyback sizes could be expanded further, yields only dipped briefly before resuming their climb. The 10-year Treasury yield rose to 4.737% on the 21st, while the 30-year yield climbed to 5.276%, both approaching multi-decade highs—a sign that market concerns about U.S. fiscal health and debt supply have not abated.",
+      "translation_ok": true,
+      "context": "21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'e uzun vadeli Hazine geri alımlarını genişletme talimatı verdiğini reddetti ve şunu vurguladı: Ayın 21'inde Başkan Donald Trump, Hazine Bakanı Scott Bessent'in bu hafta uzun vadeli Hazine geri alımlarını genişletme yönündeki ani kararının onun talimatıyla yapılmadığını, daha ziyade Bessent'in kendi yetkisi dahilinde bağımsız olarak gerçekleştirdiği bir eylem olduğunu açıkça belirtti. Trump ayrıca Bessent'e tahvil ve faiz oranı piyasaları hakkında keskin kararlar vermesi nedeniyle övgüde bulundu.",
+      "context_mode": "publisher_article",
+      "resolved_url": "https://finance.biggo.com/news/29924a16-2e4e-4b44-aa55-c8fb45cf96c6",
       "topic": "Tahvil / Likidite"
     },
     {
@@ -450,5 +451,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T23:07:49.412614+00:00"
+  "generated_at": "2026-08-21T23:12:51.829208+00:00"
 }
