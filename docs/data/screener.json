@@ -6,83 +6,125 @@
       "coingecko_id": "bianrensheng",
       "exchange": "Binance Spot",
       "exchange_symbol": "币安人生USDT",
-      "price": 0.535022,
+      "price": 0.545179,
       "change_24h": 12.1,
-      "volume_zscore_10m": 2.7000722961495325,
-      "volume_10m_usd": 118567.8135,
-      "volume_mean_10m_usd": 24624.832142,
-      "buyer_share_pct": 72.94609844517373,
-      "taker_buy_10m_usd": 86490.59396,
-      "taker_sell_10m_usd": 32077.219540000006,
-      "spot_delta_10m_usd": 54413.37441999999,
-      "price_change_10m_pct": 0.886290778804466,
+      "volume_zscore_10m": 4.529596840092133,
+      "volume_10m_usd": 208235.45499,
+      "volume_mean_10m_usd": 30293.541872,
+      "buyer_share_pct": 66.07602543313655,
+      "taker_buy_10m_usd": 137593.7122,
+      "taker_sell_10m_usd": 70641.74278999999,
+      "spot_delta_10m_usd": 66951.96941000002,
+      "price_change_10m_pct": 1.2269938650306678,
       "price_candle_green": true,
       "cvd_last3": [
-        {
-          "ts": 1787352000000,
-          "delta_usd": -118877.4706,
-          "green": false
-        },
-        {
-          "ts": 1787352600000,
-          "delta_usd": 2112.942129999996,
-          "green": true
-        },
         {
           "ts": 1787353200000,
           "delta_usd": 54413.37441999999,
           "green": true
+        },
+        {
+          "ts": 1787353800000,
+          "delta_usd": 11345.023629999996,
+          "green": true
+        },
+        {
+          "ts": 1787354400000,
+          "delta_usd": 66951.96941000002,
+          "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": -62351.15405000001,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.694682140666906,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 132710.36746,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 7.187199383405788,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-21T23:00:00+00:00"
+      "signal_time_utc": "2026-08-21T23:20:00+00:00"
     },
     {
-      "symbol": "PEPE",
-      "name": "Pepe",
-      "coingecko_id": "pepe",
+      "symbol": "DCR",
+      "name": "Decred",
+      "coingecko_id": "decred",
       "exchange": "Binance Spot",
-      "exchange_symbol": "PEPEUSDT",
-      "price": 4.17e-06,
-      "change_24h": 28.2,
-      "volume_zscore_10m": 2.045188826652104,
-      "volume_10m_usd": 1826938.50907489,
-      "volume_mean_10m_usd": 866779.7996363123,
-      "buyer_share_pct": 66.37762414916341,
-      "taker_buy_10m_usd": 1212678.37699006,
-      "taker_sell_10m_usd": 614260.13208483,
-      "spot_delta_10m_usd": 598418.2449052301,
-      "price_change_10m_pct": 0.48661800486620166,
-      "price_candle_green": true,
+      "exchange_symbol": "DCRUSDT",
+      "price": 12.84,
+      "change_24h": 5.9,
+      "volume_zscore_10m": 3.475645869147681,
+      "volume_10m_usd": 16084.29042,
+      "volume_mean_10m_usd": 2943.6797063333333,
+      "buyer_share_pct": 55.67428799261882,
+      "taker_buy_10m_usd": 8954.81417,
+      "taker_sell_10m_usd": 7129.47625,
+      "spot_delta_10m_usd": 1825.33792,
+      "price_change_10m_pct": -0.4662004662004615,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787352000000,
-          "delta_usd": -17168.11513711,
+          "ts": 1787353200000,
+          "delta_usd": -2531.66802,
           "green": false
         },
         {
-          "ts": 1787352600000,
-          "delta_usd": 485365.5765104699,
+          "ts": 1787353800000,
+          "delta_usd": 246.54785999999996,
           "green": true
         },
         {
-          "ts": 1787353200000,
-          "delta_usd": 598418.2449052301,
+          "ts": 1787354400000,
+          "delta_usd": 1825.33792,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 1066615.70627859,
+      "cvd_30m_delta_usd": -459.7822400000002,
       "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 4.3829512415684455,
+      "signal_score": 4.743074668409563,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-21T23:00:00+00:00"
+      "signal_time_utc": "2026-08-21T23:20:00+00:00"
+    },
+    {
+      "symbol": "AXS",
+      "name": "Axie Infinity",
+      "coingecko_id": "axie-infinity",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "AXSUSDT",
+      "price": 1.058,
+      "change_24h": 9.6,
+      "volume_zscore_10m": 2.4436205793262302,
+      "volume_10m_usd": 43824.226769999994,
+      "volume_mean_10m_usd": 16240.824800333334,
+      "buyer_share_pct": 55.63754826289661,
+      "taker_buy_10m_usd": 24382.72532,
+      "taker_sell_10m_usd": 19441.501449999992,
+      "spot_delta_10m_usd": 4941.223870000009,
+      "price_change_10m_pct": -0.0945179584121103,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787353200000,
+          "delta_usd": -186.61413999999968,
+          "green": false
+        },
+        {
+          "ts": 1787353800000,
+          "delta_usd": 61.67377000000124,
+          "green": true
+        },
+        {
+          "ts": 1787354400000,
+          "delta_usd": 4941.223870000009,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 4816.2835000000105,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 3.707375405615891,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-21T23:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -95,10 +137,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 3,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-21T23:12:51.829208+00:00"
+  "generated_at": "2026-08-21T23:33:43.441815+00:00"
 }
