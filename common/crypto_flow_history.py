@@ -1,8 +1,8 @@
-"""15 dakikalık Binance BTC akış geçmişi.
+"""10 dakikalık Binance BTC akış geçmişi.
 
 - Spot CVD: Binance BTCUSDT spot aggregate trade akışından agresif buy - sell notional USDT.
 - OI: Coinalyze üzerinden Binance BTC perpetual açık pozisyon snapshotı.
-- Her çalışma tamamlanmış son 15dk bucket'ı üretir; son 96 bucket (24s) tutulur.
+- Her çalışma tamamlanmış son 10dk bucket'ı üretir; son 144 bucket (24s) tutulur.
 - Binance Spot API erişilemezse CVD uydurulmaz; bucket unavailable olarak kaydedilir.
 """
 import json
@@ -12,9 +12,9 @@ import requests
 
 BINANCE_SPOT_API = "https://api.binance.com/api/v3/aggTrades"
 SYMBOL = "BTCUSDT"
-BUCKET_SECONDS = 15 * 60
-MAX_BUCKETS = 96
-SCHEMA_VERSION = 2
+BUCKET_SECONDS = 10 * 60
+MAX_BUCKETS = 144
+SCHEMA_VERSION = 3
 UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; market-research)", "Accept": "application/json"}
 
 
@@ -26,8 +26,8 @@ def _completed_bucket(now=None):
     return start_ts, end_ts
 
 
-def fetch_binance_spot_cvd_15m(now=None):
-    """Tamamlanmış son 15dk Binance BTCUSDT spot CVD; USDT notional bazında."""
+def fetch_binance_spot_cvd_10m(now=None):
+    """Tamamlanmış son 10dk Binance BTCUSDT spot CVD; USDT notional bazında."""
     start_ts, end_ts = _completed_bucket(now)
     start_ms = start_ts * 1000
     end_ms = end_ts * 1000 - 1
@@ -38,8 +38,7 @@ def fetch_binance_spot_cvd_15m(now=None):
     last_trade_ms = None
     from_id = None
 
-    # İlk çağrı zaman aralığı ile bucket başını bulur. Sonraki sayfalar fromId ile devam eder.
-    for page in range(80):
+    for _ in range(80):
         params = {"symbol": SYMBOL, "limit": 1000}
         if from_id is None:
             params.update({"startTime": start_ms, "endTime": end_ms})
@@ -69,7 +68,6 @@ def fetch_binance_spot_cvd_15m(now=None):
                 reached_end = True
                 break
             notional = price * qty
-            # m=True: buyer maker, dolayısıyla agresif taraf seller.
             if buyer_is_maker:
                 sell_usdt += notional
             else:
@@ -110,14 +108,13 @@ def update_history(output_dir, derivatives_data, now=None):
     try:
         with open(path, "r", encoding="utf-8") as f:
             old = json.load(f)
-        # Kraken/aggregate eski şemayı Binance grafiğine karıştırma.
         if old.get("schema_version") == SCHEMA_VERSION and old.get("venue") == "Binance":
             points = list(old.get("points") or [])
     except Exception:
         pass
 
     try:
-        spot = fetch_binance_spot_cvd_15m(now)
+        spot = fetch_binance_spot_cvd_10m(now)
     except Exception as e:
         spot = {
             "source": "Binance Spot BTCUSDT",
@@ -152,10 +149,10 @@ def update_history(output_dir, derivatives_data, now=None):
         "schema_version": SCHEMA_VERSION,
         "venue": "Binance",
         "generated_at": now.isoformat(),
-        "interval_minutes": 15,
+        "interval_minutes": 10,
         "window_hours": 24,
         "max_points": MAX_BUCKETS,
-        "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 15 dakikalık bucket delta değeridir.",
+        "spot_cvd_definition": "Binance BTCUSDT spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 10 dakikalık bucket delta değeridir.",
         "oi_definition": "Coinalyze üzerinden Binance BTC perpetual USD açık pozisyon snapshotı.",
         "points": points,
     }
