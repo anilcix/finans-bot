@@ -1,15 +1,15 @@
 {
-  "market_score": 56.1,
+  "market_score": 55.7,
   "stance": "Temkinli Risk-On",
   "confidence": 66.0,
   "component_scores": {
     "macro": 52.6,
     "credit": 65,
     "options": 78,
-    "crypto": 66.7,
+    "crypto": 65.3,
     "crypto_derivatives": 55,
     "equities": 34.4,
-    "news": 65
+    "news": 59
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,15 +17,15 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 65,
+    "score": 59,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 65/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
-    "positive_count": 4,
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 3 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 59/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "positive_count": 3,
     "negative_count": 0,
     "neutral_count": 7,
-    "headline_count": 11,
-    "unique_story_count": 11,
-    "article_context_count": 8,
+    "headline_count": 10,
+    "unique_story_count": 10,
+    "article_context_count": 6,
     "topic_summaries": [
       {
         "topic": "Makro / Fed",
@@ -39,36 +39,20 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak… | Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa…",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.06 puan."
+        "digest": "Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes | ABD Hazine Bakanı Scott Bessent'in tahvil geri alım hamlesi yalnızca sınırlı bir rahatlama sağladı; uzun vadeli Hazine getirileri yeniden yükseldi. Yatırımcılar, büyüyen mali açık, ağır devlet tahvili ihraçları, kalıcı enflasyon ve Federal Rezerv politikasına ilişkin belirsizlik de dahil olmak…",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066."
       },
       {
         "topic": "Kripto",
         "tone": "destekleyici",
-        "count": 3,
-        "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Trump, Bitcoin'in 70 bin doları aşması nedeniyle Kongre'ye Açıklık Yasasını geçirmesi çağrısında bulunarak ABD kripto düzenlemelerini ve piyasa görünümünü odak noktasına koydu. Donald Trump, 19 Ağustos'ta Beyaz Saray'daki kripto toplantısı sırasında Kongre'ye tarihi kripto para birimi mevzuatını…",
+        "count": 2,
+        "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.7; çoklu-borsa OI 24s %+5.7; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066."
       }
     ],
     "important_news": [
-      {
-        "title": "U.S. Treasury Buyback Program Restart Signal Triggers Market Resonance, Bitcoin Tests $70,000 Level",
-        "source": "NAI500",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNmd6bVVNTm5hRmpzUW5jMmNCMXhvUEV1bUViWC1tVGRnajhGNUdMUTI5OUtvajVWU3N4eVhHSzZGTV96TlhnRzl5LXo4bm9aTlBiRjB5WEZsYlFxejVZUVB1djBIRzJXQ1ZBSFNidW4tVHdSRXVqdFlWLWV4MU51ejVGeEtGYkNnVFZveEVrMFFaVWpGZmNndF9rbHBSQ3FTYWY5ZzhyYkVSVzZ1SDBreXFUUjB6S0lORkVaNVpScDFwTkZNYURN?oc=5",
-        "published_at": "2026-08-21T02:34:51+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "crypto",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "brief_summary": "Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+10.7; çoklu-borsa OI 24s %+5.7; OI-ağırlıklı funding %+0.0066.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.7; çoklu-borsa OI 24s %+5.7; OI-ağırlıklı funding %+0.0066."
-      },
       {
         "title": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
         "source": "The Business Times",
@@ -113,9 +97,25 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+10.7; çoklu-borsa OI 24s %+5.7; OI-ağırlıklı funding %+0.0066.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+10.7; çoklu-borsa OI 24s %+5.7; OI-ağırlıklı funding %+0.0066."
+        "data_confirmation": "BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066."
+      },
+      {
+        "title": "Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes",
+        "source": "CoinDesk",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeWYzT2NKX0RFcWJ5Rm8zNEZBWkx2OExLRGtGd1NxY0Zoa2s5d1pza2loZVZSXzctek9wMUdsZDVoWnVUY1B4MW9kdkY5NXpId1Z3YkpjbGM3MTRIamNFYjY5Qm9FX2ltUVpkaG5PcmllWGZZYlJjMGpOd21NYlZTUEtCZWdkVlh1NGl6MEhvUUhETVFsYlZ6bTQwamxBTF9oWEN3Z0pvdXl3Z1k2R0NKdkhkTVlMY2Zsd05Td2ZLc0wxYW55?oc=5",
+        "published_at": "2026-08-21T09:17:15+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "crypto",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bitcoin surges to $78,000 as Treasury move fuels Yyeld-curve control hopes",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066.",
+        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
+        "data_confirmation": "BTC 24s %+8.8; çoklu-borsa OI 24s %+5.5; OI-ağırlıklı funding %+0.0066."
       },
       {
         "title": "US Fed officials tread carefully after Treasury’s bond market intervention",
@@ -172,7 +172,7 @@
     "HY spread son 3 ayda daralıyor; kredi koşulları kısa vadede riskli varlıkları destekliyor.",
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.77 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.73 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "BTC yükselişi Kraken CVD tarafından da teyit ediliyor; agresif alıcı akışı fiyat yönüyle uyumlu.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
@@ -192,11 +192,11 @@
     "Buyback'i QE diye okumuyoruz: yeni ihraç/TGA finansmanı ve yüksek uzun-vade arzı nedeniyle kalıcı parasal genişleme sinyali değildir."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+10.7, ETH %+7.1.",
+    "Kriptoda spot momentum: BTC 24s %+8.8, ETH %+5.4.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+5.0; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 65/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Altın %+5.1; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Son 72 saatte haber akışı hafif risk-on: 3 destekleyici, 0 risk artırıcı, 7 nötr/karışık benzersiz başlık. Haber skoru 59/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -394,7 +394,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T09:02:57.572784+00:00"
+    "generated_at": "2026-08-21T09:48:53.893668+00:00"
   },
   "buyback_news": [
     {
@@ -413,21 +413,6 @@
       "topic": "Tahvil / Likidite"
     },
     {
-      "title": "U.S. Treasury Buyback Program Restart Signal Triggers Market Resonance, Bitcoin Tests $70,000 Level",
-      "source": "NAI500",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNmd6bVVNTm5hRmpzUW5jMmNCMXhvUEV1bUViWC1tVGRnajhGNUdMUTI5OUtvajVWU3N4eVhHSzZGTV96TlhnRzl5LXo4bm9aTlBiRjB5WEZsYlFxejVZUVB1djBIRzJXQ1ZBSFNidW4tVHdSRXVqdFlWLWV4MU51ejVGeEtGYkNnVFZveEVrMFFaVWpGZmNndF9rbHBSQ3FTYWY5ZzhyYkVSVzZ1SDBreXFUUjB6S0lORkVaNVpScDFwTkZNYURN?oc=5",
-      "published_at": "2026-08-21T02:34:51+00:00",
-      "article_summary": "Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından, kripto varlık fiyatları üzerindeki baskıyı hafifletebilecek potansiyel bir dönüm noktası olarak görülüyor. Hazine Bakanı Scott Bessent, hükümetin bu tür operasyonları düzenli olarak yürüteceğini, tahvil getirileri ile temel göstergeler arasındaki sapmaları düzeltmeyi ve böylece Bitcoin'in yüksek getiri baskısından kurtulması için yapısal destek sağlamayı hedefleyeceğini kamuoyuna doğruladı.",
-      "article_context": "ABD Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından şu şekilde görülüyor: ABD Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından, kripto varlık fiyatları üzerindeki baskıyı hafifletebilecek potansiyel bir dönüm noktası olarak görülüyor. Hazine Bakanı Scott Bessent, hükümetin bu tür operasyonları düzenli olarak yürüteceğini, tahvil getirileri ile temel göstergeler arasındaki sapmaları düzeltmeyi ve böylece Bitcoin'in yüksek getiri baskısından kurtulması için yapısal destek sağlamayı hedefleyeceğini kamuoyuna doğruladı. Bessent, geri alım ölçeğinin daha önce açıklanan 4 milyar dolarlık sınırı aşmasının beklendiğini açıkladı. O dönemde 10 yıllık Hazine tahvili getirisi önceki güne göre üç baz puanlık mütevazı bir artışla %4,68 civarında seyrediyordu ancak yine de önemli bir baskı kaynağı olmaya devam ediyordu. Geri alım sinyalinin yayınlanmasının ardından Bitcoin hızlı bir şekilde yanıt vererek neredeyse 73.000 dolar seviyesine ulaştı. Veriler, sermaye akışlarının faiz oranlarına son derece duyarlı olduğunu gösteriyor ve Bessent'in açıklamaları, riskli varlıklarda değerleme toparlanmasını doğrudan tetikledi; piyasa, bu hareketi, artan uzun vadeli borçlanma maliyetlerine karşı önemli bir koruma olarak yorumladı. Risk Dimensions Baş Yatırım Yetkilisi Mark Connors, mevcut 4 milyar doların yalnızca başlangıç ​​olduğunu ve hükümetin borçları için alıcı bulmakta giderek daha fazla zorlukla karşı karşıya kalması nedeniyle aylık geri alım tutarlarının 10 milyar ila 30 milyar dolar arasına çıkmasının beklendiğini belirtti. Bu likidite enjeksiyonu Bitcoin döngüsü beklentilerini değiştirdi: Connors artık fiyatların Kasım ayına kadar düşük kalacağına inanmıyor; bunun yerine, ek kaldıraç oranının bankaların Hazine tahvili varlıklarını artırmasına izin verecek şekilde gevşetilmesi durumunda Bitcoin'in doğrudan 180.000 dolara doğru hareket edebileceğini öne sürüyor. 2030 öncesi dönem için uzun vadeli fiyat tahmini 180.000 ila 360.000 dolar arasında değişiyor ve geri alım operasyonlarının, tahvil fiyatlarını destekleyerek ve getirileri baskılayarak, riskli varlıklar için sermayeyi dışarıda bırakan makro olumsuzlukları ortadan kaldırdığını vurguluyor. Kısa vadeli hareketler, h",
-      "article_summary_original": "Department of the Treasury’s launch of a long-term bond buyback program is reshaping macro liquidity expectations and is viewed by the market as a… Department of the Treasury’s launch of a long-term bond buyback program is reshaping macro liquidity expectations and is viewed by the market as a potential turning point that could relieve pressure on crypto asset prices. Treasury Secretary Scott Bessent publicly confirmed that the government will conduct such operations on a regular basis, aiming to correct deviations between bond yields and fundamentals, thereby providing structural support for Bitcoin to break free from high-yield suppression.",
-      "article_context_original": "The U.S. Department of the Treasury’s launch of a long-term bond buyback program is reshaping macro liquidity expectations and is viewed by the market as a… The U.S. Department of the Treasury’s launch of a long-term bond buyback program is reshaping macro liquidity expectations and is viewed by the market as a potential turning point that could relieve pressure on crypto asset prices. Treasury Secretary Scott Bessent publicly confirmed that the government will conduct such operations on a regular basis, aiming to correct deviations between bond yields and fundamentals, thereby providing structural support for Bitcoin to break free from high-yield suppression. Bessent revealed that the buyback scale is expected to exceed the previously announced $4 billion cap. At the time, the 10-year Treasury yield was hovering around 4.68%, a modest three-basis-point increase from the previous day, yet still constituting a significant source of pressure. Following the release of the buyback signal, Bitcoin responded swiftly, nearly touching the $73,000 level. Data shows that capital flows are highly sensitive to interest rates, and Bessent’s remarks directly triggered a valuation recovery in risk assets, with the market interpreting this move as a substantive hedge against rising long-term borrowing costs. Mark Connors, Chief Investment Officer at Risk Dimensions, noted that the current $4 billion is merely the beginning, and as the government faces increasing difficulty in finding buyers for its debt, monthly buyback amounts are expected to expand to between $10 billion and $30 billion. This liquidity injection has altered Bitcoin cycle expectations: Connors no longer believes prices will remain depressed until November; instead, he suggests that if the supplementary leverage ratio is relaxed to allow banks to increase their holdings of Treasury bonds, Bitcoin could move directly toward $180,000. His long-term price forecast for the period before 2030 ranges from $180,000 to $360,000, emphasizing that buyback operations, by supporting bond prices and suppressing yields, eliminate the macro headwinds that have been crowding out capital for risk assets. Short-term movements, h",
-      "translation_ok": true,
-      "context": "Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından bir ... Hazine Bakanlığı'nın uzun vadeli bir tahvil geri alım programı başlatması, makro likidite beklentilerini yeniden şekillendiriyor ve piyasa tarafından, kripto varlık fiyatları üzerindeki baskıyı hafifletebilecek potansiyel bir dönüm noktası olarak görülüyor. Hazine Bakanı Scott Bessent, hükümetin bu tür operasyonları düzenli olarak yürüteceğini, tahvil getirileri ile temel göstergeler arasındaki sapmaları düzeltmeyi ve böylece Bitcoin'in yüksek getiri baskısından kurtulması için yapısal destek sağlamayı hedefleyeceğini kamuoyuna doğruladı.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://nai500.com/blog/2026/08/u-s-treasury-buyback-program-restart-signal-triggers-market-resonance-bitcoin-tests-70000-level/",
-      "topic": "Tahvil / Likidite"
-    },
-    {
       "title": "US Treasury’s surprise bond buyback offers fleeting relief as debt worries persist",
       "source": "The Business Times",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSmtYdXpzckdiNGplZUtwMjdNbXU1Q2FqZTZjWnQwczRZaTNUcmxaMG1jUnZ5VGR2WGplSGRYeE1DRElqUFZFYU9IRVM0SVBscTdkLVdFM0dBV0VQR2RMWHhDVF9NcmFRRldGMXE5UW4tVldJa2JwQlFDTldZYXAxajJJazdnTHN2NU44Z3gyZm1vZ0JKSHdDQ1pUYnQtQXo3SkR1ZS1pUGwtbkRFdDYtQU8zQ0NVNkVBaUtQM0VMQ082VnRwRW5nUUlPdlBpa1gydURBNTZ5U3BQUEU2eHZmLWpKdnIzVXNEaVlGbw?oc=5",
@@ -441,6 +426,21 @@
       "context_mode": "publisher_article",
       "resolved_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-treasurys-surprise-bond-buyback-offers-fleeting-relief-debt-worries-persist",
       "topic": "Tahvil / Likidite"
+    },
+    {
+      "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
+      "source": "Council on Foreign Relations",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVJ6bXhzRjhidmNacEdxUTU1dTZ1X0lCZ2VITXJsbEpnQlVMX3dBNE5VdHpTRVBvalNZLUZKZ1c3X19ySVQtQWdsOVM5TW5pdW9FejFLUC1rN1J4V1hCc0ExRnV5MndzOThHS2phSVJjM2VBSkUya0ZVbm16Q1FneHJUWEZ1a2Uxb1VFcmItYmxRMUJQUGc?oc=5",
+      "published_at": "2026-08-20T16:30:05+00:00",
+      "article_summary": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Hazine, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını operasyon başına 2 milyar dolardan 4 milyar dolara en az iki katına çıkaracağını açıklayarak yatırımcıları şaşırttı.",
+      "article_context": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Rebecca Patterson dünya çapında tanınan bir yatırımcı ve makroekonomik araştırmacıdır. Küresel olayların politika, jeopolitik, ekonomi, finans ve teknoloji genelindeki dalgalı etkilerini inceleyen haftalık bir CFR podcast'i olan The Spillover'ın ortak sunucusudur. ABD Hazinesi, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını en az ikiye katlayacağını (operasyon başına 2 milyar dolardan 4 milyar dolara) duyurarak yatırımcıları şaşırttı. Bu haber, on yıllık ve otuz yıllık ABD devlet tahvili getirilerinin bu hafta yirmi yılın en yüksek seviyesine ulaşmasının ardından geldi; birçok ABD dışı devlet tahvili getirisi de bu eğilimi yansıtıyor. Hazine'nin duyurusu hemen getirileri düşürdü ve kurum, politika değişikliğinin ABD'nin uzun vadeli tahvil piyasasına \"Hazine'nin daha fazla likidite desteği sağlama arzusunu yansıttığını\" söyledi. Hareket aynı zamanda daha temel soruların da altını çizdi: Hanehalkı, işletmeler ve devletin borç ödeme maliyetlerine yansıyan borçlanma maliyetlerini düşürmenin sürdürülebilir yolları nelerdir ve öngörülebilir gelecekte bunlardan herhangi biri makul müdür? Peki tahvil getirilerinin yapısal olarak daha yüksek seviyelerde yer alması ne kadar anlamlı?",
+      "article_summary_original": "Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Treasury surprised investors on August 19 when it announced that it would at least double the amount of longer-dated Treasury bonds that it would buy back from investors—from $2 billion to $4 billion per operation—between September 9 and November 4.",
+      "article_context_original": "Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Rebecca Patterson is a globally recognized investor and macroeconomic researcher. She is the co-host of The Spillover, a weekly CFR podcast that examines the ripple effects of global events across policy, geopolitics, economics, finance, and technology. The U.S. Treasury surprised investors on August 19 when it announced that it would at least double the amount of longer-dated Treasury bonds that it would buy back from investors—from $2 billion to $4 billion per operation—between September 9 and November 4. The news came after ten-year and thirty-year U.S. government bond yields both hit twenty-year highs this week, with several non-U.S. government bond yields echoing the trend. Treasury’s announcement immediately pulled yields lower, with the agency saying the policy change “reflects Treasury’s desire to provide greater liquidity support” to the United States’ long-term bond market. The move also underlined more fundamental questions: What are the sustainable paths to lower borrowing costs—the kind that flow through to households, businesses, and government debt-servicing costs—and are any of them plausible in the foreseeable future? And how meaningful is it if bond yields settle at structurally higher levels?",
+      "translation_ok": true,
+      "context": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Hazine, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını operasyon başına 2 milyar dolardan 4 milyar dolara en az iki katına çıkaracağını açıklayarak yatırımcıları şaşırttı.",
+      "context_mode": "publisher_article",
+      "resolved_url": "https://www.cfr.org/articles/what-the-treasurys-buyback-surprise-says-about-the-bond-market",
+      "topic": "Makro / Fed"
     }
   ],
   "agent_status": {
@@ -455,5 +455,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T09:00:59.354408+00:00"
+  "generated_at": "2026-08-21T09:48:08.082658+00:00"
 }
