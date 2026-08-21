@@ -6,7 +6,7 @@
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 55.7,
+    "crypto": 55.3,
     "crypto_derivatives": 48,
     "equities": 40.4,
     "news": 71
@@ -19,18 +19,18 @@
   "news_analysis": {
     "score": 71,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 5 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "positive_count": 5,
     "negative_count": 0,
-    "neutral_count": 6,
+    "neutral_count": 5,
     "headline_count": 11,
-    "unique_story_count": 11,
+    "unique_story_count": 10,
     "article_context_count": 7,
     "topic_summaries": [
       {
         "topic": "Makro / Fed",
         "tone": "destekleyici",
-        "count": 4,
+        "count": 3,
         "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
@@ -39,9 +39,9 @@
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi. | Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
+        "digest": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro… | Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "topic": "Kripto",
@@ -49,25 +49,25 @@
         "count": 3,
         "digest": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile… | Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "important_news": [
       {
-        "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
-        "published_at": "2026-08-21T14:09:58+00:00",
+        "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
+        "source": "Eurasia Business News",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbjZnSHBvcDN4UGZtdXNaRF9WSmU0NUZjazBKYkdjQ2ctRFJ0MkdVMXBPSHBVMTBEQjhUYjdEbEU3UGl6YW9wdmlQUVRqN2N5S1prVUJac3ZMXzVjaWVnSFRpbE91bm5uV0JyZEEwdzU5Qkx6VFdEcUZjRG93MDctYzlQRS05dDNkQlJMV3kzX0pzZVpsX1BOQ2VXNUIxVlRnbDcyZlVWam5Pb0N2WlRTN0VpQ3E2WkdqaEhteTZEdWE?oc=5",
+        "published_at": "2026-08-21T22:23:38+00:00",
         "topic": "Tahvil / Likidite",
-        "theme": "commodities",
+        "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "brief_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
+        "brief_summary": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5.",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "Treasury buyback renews dollar-debasement fears",
@@ -129,9 +129,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
       },
       {
         "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
@@ -161,9 +161,9 @@
         "brief_summary": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+8.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+8.3; çoklu-borsa OI 24s %+3.9; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+7.7; çoklu-borsa OI 24s %+3.6; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -190,11 +190,11 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+8.3, ETH %+9.6.",
+    "Kriptoda spot momentum: BTC 24s %+7.7, ETH %+9.0.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 5 nötr/karışık benzersiz başlık. Haber skoru 71/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -392,22 +392,22 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T22:14:37.789548+00:00"
+    "generated_at": "2026-08-21T22:37:44.545402+00:00"
   },
   "buyback_news": [
     {
-      "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
-      "published_at": "2026-08-21T14:09:58+00:00",
-      "article_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
-      "article_context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. XAU/USD paritesinin teknik görünümü yakın vadede alıcıların hakimiyetini vurgularken, gelecek hafta piyasa volatilitesini artırabilecek önemli olaylara sahne olacak. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi. Salı günü Orta Doğu'daki gerilimlerin tekrar gündeme gelmesiyle birlikte altın yükseliş momentumunu kaybetti ve günü olumsuz bölgede tamamladı. ABD Başkanı Donald Trump geç saatlerde ABD yönetiminin Mutabakat Zaptı'nın uzatılmasını istemediğini söyledi. Ayrıca Trump'ın Fox News'e, yönetiminin İran'la müzakerelerine engel olması halinde Umman'ı bombalayacaklarını söylediği bildirildi. Bu arada Birleşik Krallık Deniz Ticaret Operasyonları (UKMTO), Salı günü erken saatlerde, Hürmüz Boğazı'ndan geçmeye çalışan bir gemiye \"bilinmeyen bir merminin\" çarptığını bildirdi. Bu arada, yatırımcıların Orta Doğu'daki krize ilişkin artan belirsizliğe tepki vermesiyle 30 yıllık Hazine tahvilinin getirisi yaklaşık yirmi yılın en yüksek seviyesine tırmandı. Çarşamba günü günün ikinci yarısında, ABD Hazine Bakanlığı'nın beklenmedik bir şekilde piyasa likiditesini desteklemek için bazı uzun vadeli borç geri alım operasyonlarının boyutunu ikiye katlayacağını açıklamasının ardından USD sert bir şekilde satıldı. ABD Hazine bonosu getirilerinin keskin bir düşüşle düzeltme yapmasıyla Altın, aralığının dışına çıktı ve Haziran başından bu yana ilk kez 4.500 doların üzerine çıktı.",
-      "article_summary_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases.",
-      "article_context_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. While XAU/USD’s technical outlook highlights buyers’ dominance in the near term, next week will feature key events that could ramp up market volatility. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases. With tensions in the Middle East coming back under the spotlight on Tuesday, Gold lost its bullish momentum and closed the day deep in negative territory. US President Donald Trump said late that the US administration is not seeking an extension of the Memorandum of Understanding. Additionally, Trump reportedly told Fox News that they will bomb Oman if it gets in the way of his administration's negotiations with Iran. In the meantime, the UK Maritime Trade Operations (UKMTO) reported early Tuesday that a vessel was struck by an \"unknown projectile\" while attempting to pass through the Strait of Hormuz. In the meantime, the yield on the 30-year Treasury bond climbed to its highest level in nearly two decades as investors reacted to heightened uncertainty surrounding the crisis in the Middle East. In the second half of the day on Wednesday, the USD sold off sharply as the US Treasury Department unexpectedly announced that it will double the size of some long-dated debt buyback operations to support market liquidity. With US Treasury bond yields correcting sharply lower, Gold broke out of its range and climbed above $4,500 for the first time since early June.",
+      "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
+      "source": "Eurasia Business News",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbjZnSHBvcDN4UGZtdXNaRF9WSmU0NUZjazBKYkdjQ2ctRFJ0MkdVMXBPSHBVMTBEQjhUYjdEbEU3UGl6YW9wdmlQUVRqN2N5S1prVUJac3ZMXzVjaWVnSFRpbE91bm5uV0JyZEEwdzU5Qkx6VFdEcUZjRG93MDctYzlQRS05dDNkQlJMV3kzX0pzZVpsX1BOQ2VXNUIxVlRnbDcyZlVWam5Pb0N2WlRTN0VpQ3E2WkdqaEhteTZEdWE?oc=5",
+      "published_at": "2026-08-21T22:23:38+00:00",
+      "article_summary": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro karşısında üç ayın en düşük seviyesine geriledi; yatırımcıların Hazine Bakanlığı'nın tahvil geri alımını genişletip genişletmediğini sorgulamasıyla ABD dolarının 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine gerilediğine dair daha geniş sorular ortaya çıktı Programın uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltabileceği belirtiliyor.",
+      "article_context": "ABD doları, Hazine tahvili geri alımlarının mali sorunları çözmediği endişeleri nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi ve bu da ABD borçlanmasının sürdürülebilirliği hakkında daha geniş soruları gündeme getirdi… ABD doları, hazine tahvili geri alımlarının mali sorunları çözmede başarısız olduğuna dair endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi ve ABD borçlanmasının sürdürülebilirliği ve enflasyon baskıları hakkında daha geniş soruları gündeme getirdi. Yazan: John Meyer, mali işler danışmanı – Eurasia Business News, 22 Ağustos 2026. Makale No 3114 Dow Jones Menkul Kıymetler Borsası, Manhattan, New York City- Fotoğraf kaynağı: Swann Collins. Yatırımcıların Hazine Bakanlığı'nın genişletilmiş tahvil geri alım programının uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltıp azaltamayacağını sorgulamasıyla ABD doları, 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine geriledi. Daha uzun vadeli Hazine tahvillerindeki likiditeyi desteklemek için tasarlanan politika, bunun yerine ABD mali koşullarına ilişkin endişeleri yoğunlaştırdı ve tahvil piyasalarına daha müdahaleci bir yaklaşım getirdi. Euro üç ayın en yüksek seviyesi yakınında yaklaşık 1,1685 dolara yükselirken, dolar endeksi 98,82'ye yakın işlem gördü. Doların altı ana para birimine karşı ölçümünü yapan endeks, haftalık %0,8'den fazla düşüşe doğru gidiyordu.",
+      "article_summary_original": "dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. dollar fell to a three-month low against the euro on August 21 as investors questioned whether the Treasury Department’s expanded bond-buyback program could meaningfully reduce long-term borrowing costs.",
+      "article_context_original": "The U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. borrowing sustainabilit… The U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. borrowing sustainability and inflation pressures. By John Meyer, consultant in financial affairs – Eurasia Business News, August 22, 2026. Article No 3114 Dow Jones Stock Exchange, Manhattan, New York City- Photo credit : Swann Collins. The U.S. dollar fell to a three-month low against the euro on August 21 as investors questioned whether the Treasury Department’s expanded bond-buyback program could meaningfully reduce long-term borrowing costs. The policy, designed to support liquidity in longer-dated Treasury securities, instead intensified concerns about U.S. fiscal conditions and a more interventionist approach to bond markets. The euro rose to approximately $1.1685, near a three-month high, while the dollar index traded close to 98.82. The index, which measures the dollar against six major currencies, was headed for a weekly decline of more than 0.8%.",
       "translation_ok": true,
-      "context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
+      "context": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro karşısında üç ayın en düşük seviyesine geriledi; yatırımcıların Hazine Bakanlığı'nın tahvil geri alımını genişletip genişletmediğini sorgulamasıyla ABD dolarının 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine gerilediğine dair daha geniş sorular ortaya çıktı Programın uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltabileceği belirtiliyor.",
       "context_mode": "publisher_article",
-      "resolved_url": "https://www.fxstreet.com/analysis/gold-weekly-forecast-bulls-dominate-as-us-treasury-department-intervenes-in-bond-market-202608211409",
+      "resolved_url": "https://eurasiabusinessnews.com/2026/08/21/dollar-falls-to-three-month-low-as-treasury-buyback-plan-raises-fiscal-concerns/",
       "topic": "Tahvil / Likidite"
     },
     {
@@ -451,5 +451,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T22:13:45.750996+00:00"
+  "generated_at": "2026-08-21T22:36:47.919004+00:00"
 }
