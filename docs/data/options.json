@@ -1,15 +1,15 @@
 {
   "vix": {
-    "price": 15.13,
-    "change_pct": -0.3949967083607553
+    "price": 15.16,
+    "change_pct": -0.19749835418037764
   },
   "vix9d": {
     "price": 12.64,
     "change_pct": -12.161223071577485
   },
   "vix3m": {
-    "price": 18.47,
-    "change_pct": -3.095487932843651
+    "price": 18.52,
+    "change_pct": -2.8331584470094398
   },
   "term_structure": "CONTANGO / normal",
   "unavailable": [
@@ -20,5 +20,5 @@
     "Dealer Gamma/Charm/Vanna",
     "Put/Call Ratio"
   ],
-  "generated_at": "2026-08-21T19:58:28.917747+00:00"
+  "generated_at": "2026-08-21T20:24:34.788010+00:00"
 }

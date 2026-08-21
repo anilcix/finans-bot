@@ -1,23 +1,23 @@
 {
   "btc": {
-    "price": 77088,
-    "change_24h": 6.118312094536159
+    "price": 77450,
+    "change_24h": 6.470702107516861
   },
   "eth": {
-    "price": 2414.24,
-    "change_24h": 3.8375625041571633
+    "price": 2435.72,
+    "change_24h": 4.893922656546714
   },
   "global": {
-    "total_usd": 2605336806059.3276,
-    "total2_usd": 1061085604649.2771,
-    "total3_usd": 770416500077.5203,
-    "btc_dominance": 59.27261296192219,
-    "eth_dominance": 11.156680544939022
+    "total_usd": 2617027176991.754,
+    "total2_usd": 1067067740413.4641,
+    "total3_usd": 773978243711.0728,
+    "btc_dominance": 59.225958759815114,
+    "eth_dominance": 11.199329501778227
   },
-  "stablecoin_supply_usd": 301916449933,
-  "stablecoin_market_cap_usd": 307774782395.5545,
+  "stablecoin_supply_usd": 301960102267,
+  "stablecoin_market_cap_usd": 307769070000.38257,
   "stablecoin_source": "DefiLlama",
-  "stablecoin_7d_change_pct": 0.33098811466358846,
+  "stablecoin_7d_change_pct": 0.3420443560017139,
   "defi": {
     "source": "DefiLlama",
     "ok": true,
@@ -30,8 +30,8 @@
       "Solana": 5444350130.994138,
       "Bitcoin": 4193901922.0636425
     },
-    "stablecoin_market_cap_usd": 307774782395.5545,
-    "stablecoin_7d_change_pct": 0.33098811466358846,
+    "stablecoin_market_cap_usd": 307769070000.38257,
+    "stablecoin_7d_change_pct": 0.3420443560017139,
     "errors": []
   },
   "network": {
@@ -55,7 +55,7 @@
   },
   "funding_pct": 0.01,
   "funding_source": "OKX",
-  "open_interest_btc": 29929.26840000014,
+  "open_interest_btc": 29804.556400000136,
   "open_interest_source": "OKX",
   "binance_status": {
     "ok": false,
@@ -73,6 +73,6 @@
     "source_count": 4,
     "grade": "A"
   },
-  "stablecoin_top50_market_cap_usd": 301916449933,
-  "generated_at": "2026-08-21T19:58:28.917747+00:00"
+  "stablecoin_top50_market_cap_usd": 301960102267,
+  "generated_at": "2026-08-21T20:24:34.788010+00:00"
 }

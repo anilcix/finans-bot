@@ -1,15 +1,15 @@
 {
-  "market_score": 54.8,
+  "market_score": 54.6,
   "stance": "Nötr / Bekle-Gör",
   "confidence": 66.0,
   "component_scores": {
-    "macro": 51.7,
+    "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 52.7,
+    "crypto": 53.3,
     "crypto_derivatives": 48,
-    "equities": 40.6,
-    "news": 71
+    "equities": 40.4,
+    "news": 65
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,15 +17,15 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 71,
+    "score": 65,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 5 nötr/karışık benzersiz başlık. Haber skoru 71/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
-    "positive_count": 5,
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 65/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "positive_count": 4,
     "negative_count": 0,
-    "neutral_count": 5,
+    "neutral_count": 6,
     "headline_count": 10,
     "unique_story_count": 10,
-    "article_context_count": 6,
+    "article_context_count": 7,
     "topic_summaries": [
       {
         "topic": "Makro / Fed",
@@ -33,15 +33,15 @@
         "count": 4,
         "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Müdahale, finansal koşulların ana belirleyicisinin hangi kurum olduğu konusunda olası bir kafa karışıklığı yaratıyor. ABD Hazinesi, uzun vadeli devlet borçlarının geri alımında daha agresif bir tempoya yöneldi.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 52/100; 30Y değişim +0.06 puan."
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "topic": "Tahvil / Likidite",
         "tone": "destekleyici",
         "count": 4,
-        "digest": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation | Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.9; Brent Petrol %+3.4; WTI Petrol %+2.7."
+        "digest": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı… | Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programını genişletmesinden önceki hafta ABD Hazine tahvil getirilerinde keskin bir artış hakim oldu. Hareket, piyasa likiditesini iyileştirdi ve borçlanma maliyetlerini kısa süreliğine düşürdü, ancak aynı zamanda doları da zayıflattı.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "topic": "Kripto",
@@ -49,41 +49,25 @@
         "count": 2,
         "digest": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. | Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+6.1; çoklu-borsa OI 24s %+1.1; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+6.5; çoklu-borsa OI 24s %+1.9; OI-ağırlıklı funding %+0.0086."
       }
     ],
     "important_news": [
       {
-        "title": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation",
-        "source": "finance.biggo.com",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HQ1lqTlp5SEl6S0N1dVlVRVRYbTVXRUtlWUE5M2ZlcUVWbFBYaklROTJ2UEFZT2dtTGtpb3ZBeTZUQWNFU2JQaERkdk1Tdk5Obkc2YWJnTjRqdDNtWXdmSlRLRUVVNElRSGltTzFHLS1LTmtBYnc?oc=5",
-        "published_at": "2026-08-21T18:06:00+00:00",
+        "title": "Bond market erases Treasury's buyback rally in under 24 hours",
+        "source": "Wealth Professional",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSHVxWHpieFpNYk1DOVp1Y01Za1gxNHMxaFVTSnhlRkRra1gzam01c1hYdVNtbk1abElMMXNHYUFtYUc5OWo3MmQ0ZWhTcEk1bHNSVkhmVFZ4aEc3SVl4eDdTd0ZrdmlJeDdqWnBENTBya3pmTEtsR0V0REI2Q01FVVAtMEJpSFM1dVhONTJQa0RERnh4YTVyVkZETWNjYXlfM0RfbzZDZGxOTC1JR3BWQk1VNGppcnNvemFVVHNBaTF5ZFNnT0U0?oc=5",
+        "published_at": "2026-08-21T12:12:11+00:00",
         "topic": "Tahvil / Likidite",
-        "theme": "commodities",
+        "theme": "rates",
         "impact_score": 2,
         "impact": "Destekleyici",
-        "brief_summary": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.9; Brent Petrol %+3.4; WTI Petrol %+2.7.",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.9; Brent Petrol %+3.4; WTI Petrol %+2.7."
-      },
-      {
-        "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
-        "source": "FXStreet",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
-        "published_at": "2026-08-21T14:09:58+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "commodities",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "brief_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine…",
+        "brief_summary": "Uzun vadeli getiriler yeniden yükselirken açık, enflasyon ve petrol 4 milyar dolarlık müdahaleyi aştı ABD Hazinesi'nin uzun vadeli geri alımlarını ikiye katlamasının ardından küresel tahvil piyasalarına yayılan rahatlama, tek bir işlem seansında buharlaştı ve 10 ve 30 yıllık getiriler Perşembe günü…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.9; Brent Petrol %+3.4; WTI Petrol %+2.7.",
-        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
-        "data_confirmation": "Altın %+5.9; Brent Petrol %+3.4; WTI Petrol %+2.7."
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
@@ -97,9 +81,9 @@
         "brief_summary": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 52/100; 30Y değişim +0.06 puan.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 52/100; 30Y değişim +0.06 puan."
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
@@ -113,9 +97,9 @@
         "brief_summary": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 52/100; 30Y değişim +0.06 puan.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 52/100; 30Y değişim +0.06 puan."
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
@@ -129,9 +113,9 @@
         "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.1; çoklu-borsa OI 24s %+1.1; OI-ağırlıklı funding %+0.0086.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+6.5; çoklu-borsa OI 24s %+1.9; OI-ağırlıklı funding %+0.0086.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+6.1; çoklu-borsa OI 24s %+1.1; OI-ağırlıklı funding %+0.0086."
+        "data_confirmation": "BTC 24s %+6.5; çoklu-borsa OI 24s %+1.9; OI-ağırlıklı funding %+0.0086."
       },
       {
         "title": "Treasury Intervention Puts the Dollar Under Pressure",
@@ -142,12 +126,28 @@
         "theme": "rates",
         "impact_score": 0,
         "impact": "Nötr / karışık",
-        "brief_summary": "Treasury Intervention Puts the Dollar Under Pressure",
+        "brief_summary": "Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programını genişletmesinden önceki hafta ABD Hazine tahvil getirilerinde keskin bir artış hakim oldu. Hareket, piyasa likiditesini iyileştirdi ve borçlanma maliyetlerini kısa süreliğine düşürdü, ancak aynı zamanda doları da zayıflattı.",
+        "summary_mode": "article_context",
+        "read_mode": "publisher_article",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
+        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
+      },
+      {
+        "title": "Bessent Says He Knows Something The Bond Market Doesn’t",
+        "source": "24/7 Wall St.",
+        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbTVCREVqUDlvRXFVdXFKZVRCNGVoQXJUWjR0amE0X3pzX0hCR1ZmaWcwSUFiZ0Y0TmNMZjdhVlRmRFhRTXRFV3lWbVFpM2g2MjVwOFNGMzVHRzlRQlJ0dncxNjBaZzZCMFZ5UHk1SllsZjBjXzd0OTkyOHhFVmFmdS1oQlRmcll0Wk9DVzNIZlpKM2pFWG9Sa3plQzFhejA?oc=5",
+        "published_at": "2026-08-21T10:14:24+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "rates",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Bessent Says He Knows Something The Bond Market Doesn’t",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 52/100; 30Y değişim +0.06 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 52/100; 30Y değişim +0.06 puan."
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
         "title": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
@@ -161,9 +161,9 @@
         "brief_summary": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 52/100; 30Y değişim +0.06 puan.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 52/100; 30Y değişim +0.06 puan."
+        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -171,7 +171,7 @@
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
-    "VIX 15.13 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
+    "VIX 15.16 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
     "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
@@ -190,11 +190,11 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+6.1, ETH %+3.8.",
+    "Kriptoda spot momentum: BTC 24s %+6.5, ETH %+4.9.",
     "On-chain kullanım teyidi pozitif: BTC aktif adres 7g %+11.0, ETH %+14.0.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
-    "Altın %+5.9; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 5 nötr/karışık benzersiz başlık. Haber skoru 71/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Altın %+5.8; savunma/enflasyon hedge talebi aynı anda güçlü.",
+    "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 65/100. 7 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -392,38 +392,9 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-21T19:59:38.942889+00:00"
+    "generated_at": "2026-08-21T20:25:29.918580+00:00"
   },
   "buyback_news": [
-    {
-      "title": "U.S. Treasury Buyback Expectations Support Gold Prices, Holding Above $4,500 Level Amid High-Level Consolidation",
-      "source": "finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HQ1lqTlp5SEl6S0N1dVlVRVRYbTVXRUtlWUE5M2ZlcUVWbFBYaklROTJ2UEFZT2dtTGtpb3ZBeTZUQWNFU2JQaERkdk1Tdk5Obkc2YWJnTjRqdDNtWXdmSlRLRUVVNElRSGltTzFHLS1LTmtBYnc?oc=5",
-      "published_at": "2026-08-21T18:06:00+00:00",
-      "article_summary": null,
-      "article_context": null,
-      "article_summary_original": null,
-      "article_context_original": null,
-      "translation_ok": null,
-      "context": null,
-      "context_mode": "title_only",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "Gold Forecast: The US Treasury buyback rewrites the rules, for now",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcU5jMTJ3Q2Z2c0Nab0hNZlVBSjdnOVR6dE5tTVJaRUMzbmx0ZlB6ZmFHeHY4UUFWZ2xUbmp5YkpFUXp3TmNVc1lTMGQybkRvbEdfN1JTZlhkeVdBQU10d3MzQXRDaWtocEpCYy1IVHlLM05jbU5KSUFrYkpKY1pvU3dBNUxneElzR3dlZUJIaHBSM2dIQUlOSWoyM3BGdDBkbXk5N1A4NlA4S05RZVUwY3VkWEI3RmZyS3UzRDhEN05XLThvbXMzcXY4cmlkREE?oc=5",
-      "published_at": "2026-08-21T14:09:58+00:00",
-      "article_summary": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
-      "article_context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. XAU/USD paritesinin teknik görünümü yakın vadede alıcıların hakimiyetini vurgularken, gelecek hafta piyasa volatilitesini artırabilecek önemli olaylara sahne olacak. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi. Salı günü Orta Doğu'daki gerilimlerin tekrar gündeme gelmesiyle birlikte altın yükseliş momentumunu kaybetti ve günü olumsuz bölgede tamamladı. ABD Başkanı Donald Trump geç saatlerde ABD yönetiminin Mutabakat Zaptı'nın uzatılmasını istemediğini söyledi. Ayrıca Trump'ın Fox News'e, yönetiminin İran'la müzakerelerine engel olması halinde Umman'ı bombalayacaklarını söylediği bildirildi. Bu arada Birleşik Krallık Deniz Ticaret Operasyonları (UKMTO), Salı günü erken saatlerde, Hürmüz Boğazı'ndan geçmeye çalışan bir gemiye \"bilinmeyen bir merminin\" çarptığını bildirdi. Bu arada, yatırımcıların Orta Doğu'daki krize ilişkin artan belirsizliğe tepki vermesiyle 30 yıllık Hazine tahvilinin getirisi neredeyse yirmi yılın en yüksek seviyesine tırmandı. Çarşamba günü günün ikinci yarısında, ABD Hazine Bakanlığı'nın beklenmedik bir şekilde piyasa likiditesini desteklemek için bazı uzun vadeli borç geri alım operasyonlarının boyutunu ikiye katlayacağını açıklamasının ardından USD sert bir şekilde satıldı. ABD Hazine bonosu getirilerinin keskin bir düşüşle düzeltme yapmasıyla Altın, aralığının dışına çıktı ve Haziran başından bu yana ilk kez 4.500 doların üzerine çıktı.",
-      "article_summary_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases.",
-      "article_context_original": "Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. Following the previous week’s choppy action, Gold (XA/USD) gathered bullish momentum and advanced to its highest level since late May and touched $4,600. While XAU/USD’s technical outlook highlights buyers’ dominance in the near term, next week will feature key events that could ramp up market volatility. The US Dollar (USD) started the week under bearish pressure and Gold rose nearly 1% on Monday as investors continued to scale back bets for a Federal Reserve (Fed) rate hike in September following the previous week’s disappointing economic data releases. With tensions in the Middle East coming back under the spotlight on Tuesday, Gold lost its bullish momentum and closed the day deep in negative territory. US President Donald Trump said late that the US administration is not seeking an extension of the Memorandum of Understanding. Additionally, Trump reportedly told Fox News that they will bomb Oman if it gets in the way of his administration's negotiations with Iran. In the meantime, the UK Maritime Trade Operations (UKMTO) reported early Tuesday that a vessel was struck by an \"unknown projectile\" while attempting to pass through the Strait of Hormuz. In the meantime, the yield on the 30-year Treasury bond climbed to its highest level in nearly two decades as investors reacted to heightened uncertainty surrounding the crisis in the Middle East. In the second half of the day on Wednesday, the USD sold off sharply as the US Treasury Department unexpectedly announced that it will double the size of some long-dated debt buyback operations to support market liquidity. With US Treasury bond yields correcting sharply lower, Gold broke out of its range and climbed above $4,500 for the first time since early June.",
-      "translation_ok": true,
-      "context": "Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. Önceki haftaki dalgalı hareketin ardından Altın (XA/USD) yükseliş ivmesi yakaladı ve Mayıs sonundan bu yana en yüksek seviyesine yükselerek 4.600 dolara ulaştı. ABD Doları (USD) haftaya düşüş baskısı altında başladı ve Altın, önceki haftanın hayal kırıklığı yaratan ekonomik verilerinin ardından yatırımcıların Eylül ayında Fed'in faiz artırımına yönelik bahislerini azaltmasıyla Pazartesi günü yaklaşık %1 yükseldi.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://www.fxstreet.com/analysis/gold-weekly-forecast-bulls-dominate-as-us-treasury-department-intervenes-in-bond-market-202608211409",
-      "topic": "Tahvil / Likidite"
-    },
     {
       "title": "Treasury scales up debt buybacks, echoing moves before the 1929 crash",
       "source": "Seeking Alpha",
@@ -437,6 +408,36 @@
       "context": "Hazine, getirilerin yüksek kalması nedeniyle uzun vadeli tahviller için likidite geri alımlarını ikiye katlamayı planlıyor. Hazine Bakanlığı, uzun vadeli nominal kuponlu menkul kıymetlere odaklanan likidite destekli geri alım operasyonlarının maksimum boyutunu en az iki katına çıkarmayı planladığını duyurdu.",
       "context_mode": "publisher_article",
       "resolved_url": "https://seekingalpha.com/news/4635868-treasury-scales-up-debt-buybacks-echoing-moves-before-the-1929-crash",
+      "topic": "Tahvil / Likidite"
+    },
+    {
+      "title": "Treasury Intervention Puts the Dollar Under Pressure",
+      "source": "marketpulse.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbU9GcGZ3MWMxbHBjcVVKbGFUMWpCTTUwT3lrQnZTRFFnenMyYzducE5HNDE2WTdOYl9XOUVUejRwX3Jaa0U0SzR5X3dfYnlSWTJGSy1aNUx6ZmI5N0dJaUJGYmViWmZpakRHeGhYa1pVdkYyMU5Fdy1yOTFDWlVwZjEwMzhpOXVPV3VPR2Q5WEtkVGs?oc=5",
+      "published_at": "2026-08-21T12:37:00+00:00",
+      "article_summary": "Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programını genişletmesinden önceki hafta ABD Hazine tahvil getirilerinde keskin bir artış hakim oldu. Hareket, piyasa likiditesini iyileştirdi ve borçlanma maliyetlerini kısa süreliğine düşürdü, ancak aynı zamanda doları da zayıflattı. ABD Hazine tahvil getirilerindeki keskin artış ve bunun ardından Hazine Bakanlığı'nın tepkisi haftanın ana piyasa gelişmeleriydi.",
+      "article_context": "Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programını genişletmesinden önceki hafta ABD Hazine tahvil getirilerinde keskin bir artış hakim oldu. Hareket, piyasa likiditesini iyileştirdi ve borçlanma maliyetlerini kısa süreliğine düşürdü, ancak aynı zamanda doları da zayıflattı. Petrol fiyatlarının yükselmesi ve ABD'nin borcunun 40 trilyon doları aşmasıyla yatırımcılar, Washington'un tahvil piyasasını istikrara kavuşturmak için para birimindeki değer kaybını tolere etmeye daha istekli olup olmadığını sorguluyor. ABD Hazine tahvil getirilerindeki keskin artış ve bunun ardından Hazine Bakanlığı'nın tepkisi haftanın ana piyasa gelişmeleriydi. Artan borçlanma maliyetleri, yükselen petrol fiyatları ve Orta Doğu'da süregelen gerginlikler, başlangıçta riskten kaçınmayı artırdı. Haftanın ilerleyen saatlerinde dikkatler Washington'un tahvil piyasasını istikrara kavuşturma girişimine çevrildi ve bu da aynı zamanda dolar üzerinde önemli bir baskı oluşturdu. Hafta başında küresel devlet tahvili piyasaları yoğun satış baskısı altında kaldı. 30 yıllık ABD hazinesinin getirisi %5,32 ile 2007'den bu yana en yüksek seviyesine çıktı. 10 yıllık getirisi %4,74'e yükseldi. Satışlar Avustralya, Yeni Zelanda ve Japonya'daki devlet tahvillerine de sıçradı. Yatırımcılar artan ABD hükümet harcamaları, rekor seviyedeki kamu borcu ve önemli miktarda uzun vadeli Hazine tahvili arzı konusunda endişeliydi. Bir diğer risk kaynağı ise veri merkezleri ve yapay zeka altyapısı yatırımlarını finanse eden büyük teknoloji şirketlerinin artan borçlarıydı. Yüksek enerji fiyatları devlet tahvilleri üzerindeki baskıyı artırdı. Brent ham petrolü, Orta Doğu'daki çatışmanın sona ermesi ihtimalinin kötüleşmesiyle varil başına 90 doların üzerine çıktı. Lübnan'daki çatışmalar yeniden yoğunlaşırken, Donald Trump İran'la anlaşmanın uzatılmasına ilgi göstermedi. Müzakerelerde ilerleme kaydedilmemesi Hürmüz Boğazı'nın yeniden açılmasına ilişkin belirsizliği artırdı. Bu önemli güzergah üzerinden nakliyeye yönelik uzun süreli kısıtlamalar, petrol fiyatlarını yüksek tutabilir ve küresel enflasyonist baskıyı yoğunlaştırabilir.",
+      "article_summary_original": "A sharp rise in US Treasury yields dominated the week before the Treasury Department expanded its long-term bond buyback programme. The move improved market liquidity and briefly reduced borrowing costs, but also weakened the dollar. The sharp rise in US Treasury yields and the subsequent response from the Treasury Department were the main market developments of the week.",
+      "article_context_original": "A sharp rise in US Treasury yields dominated the week before the Treasury Department expanded its long-term bond buyback programme. The move improved market liquidity and briefly reduced borrowing costs, but also weakened the dollar. With oil prices elevated and US debt exceeding USD40 trillion, investors are questioning whether Washington is becoming more willing to tolerate currency depreciation in order to stabilise the bond market. The sharp rise in US Treasury yields and the subsequent response from the Treasury Department were the main market developments of the week. Increasing borrowing costs, higher oil prices and persistent tensions in the Middle East initially intensified risk aversion. Later in the week, attention shifted to Washington’s attempt to stabilise the bond market, which simultaneously put significant pressure on the dollar. At the beginning of the week, global sovereign bond markets came under heavy selling pressure. The yield on the 30-year US Treasury climbed to 5.32%, its highest level since 2007. The 10-year yield increased to 4.74%. The sell-off also spread to government bonds in Australia, New Zealand and Japan. Investors were concerned about rising US government spending, record public debt and the substantial supply of long-dated Treasury securities. Another source of risk was the increasing debt of major technology companies financing investment in data centres and artificial intelligence infrastructure. Higher energy prices added to the pressure on government bonds. Brent crude rose above USD90 per barrel as the prospects of ending the conflict in the Middle East deteriorated. Donald Trump showed no interest in extending the agreement with Iran, while fighting in Lebanon intensified again. The lack of progress in negotiations increased uncertainty surrounding the reopening of the Strait of Hormuz. Prolonged restrictions on shipping through this crucial route could keep oil prices elevated and intensify global inflationary pressure.",
+      "translation_ok": true,
+      "context": "Hazine Bakanlığı'nın uzun vadeli tahvil geri alım programını genişletmesinden önceki hafta ABD Hazine tahvil getirilerinde keskin bir artış hakim oldu. Hareket, piyasa likiditesini iyileştirdi ve borçlanma maliyetlerini kısa süreliğine düşürdü, ancak aynı zamanda doları da zayıflattı. ABD Hazine tahvil getirilerindeki keskin artış ve bunun ardından Hazine Bakanlığı'nın tepkisi haftanın ana piyasa gelişmeleriydi.",
+      "context_mode": "publisher_article",
+      "resolved_url": "https://www.marketpulse.com/markets/treasury-intervention-puts-the-dollar-under-pressure/",
+      "topic": "Tahvil / Likidite"
+    },
+    {
+      "title": "Bond market erases Treasury's buyback rally in under 24 hours",
+      "source": "Wealth Professional",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSHVxWHpieFpNYk1DOVp1Y01Za1gxNHMxaFVTSnhlRkRra1gzam01c1hYdVNtbk1abElMMXNHYUFtYUc5OWo3MmQ0ZWhTcEk1bHNSVkhmVFZ4aEc3SVl4eDdTd0ZrdmlJeDdqWnBENTBya3pmTEtsR0V0REI2Q01FVVAtMEJpSFM1dVhONTJQa0RERnh4YTVyVkZETWNjYXlfM0RfbzZDZGxOTC1JR3BWQk1VNGppcnNvemFVVHNBaTF5ZFNnT0U0?oc=5",
+      "published_at": "2026-08-21T12:12:11+00:00",
+      "article_summary": "Uzun vadeli getiriler yeniden yükselirken açık, enflasyon ve petrol 4 milyar dolarlık müdahaleyi aştı ABD Hazinesi'nin uzun vadeli geri alımlarını ikiye katlamasının ardından küresel tahvil piyasalarına yayılan rahatlama, tek bir işlem seansında buharlaştı ve 10 ve 30 yıllık getiriler Perşembe günü duyurudan önceki seviyesinin üzerinde kapandı. CNBC'ye göre, Amerikan ipoteklerinin, otomobil kredilerinin ve kredi kartı borçlarının referans noktası olan 10 yıllık ABD Hazine tahvilinin getirisi beş baz puandan fazla artarak yüzde 4,704'e yükseldi.",
+      "article_context": "Uzun vadeli getiriler yeniden yükselirken açık, enflasyon ve petrol 4 milyar ABD doları tutarındaki müdahaleyi geride bıraktı Uzun vadeli getiriler yeniden tırmanırken açık, enflasyon ve petrol 4 milyar ABD doları tutarındaki müdahaleyi geride bıraktı ABD Hazinesi'nin uzun vadeli geri alımlarını ikiye katlamasının ardından küresel tahvil piyasalarını kasıp kavuran rahatlama, tek bir işlem seansında buharlaştı ve 10 ve 30 yıllık getiriler Perşembe günü duyurudan önceki seviyesinin üzerinde kapandı. CNBC'ye göre, Amerikan ipoteklerinin, otomobil kredilerinin ve kredi kartı borçlarının referans noktası olan 10 yıllık ABD Hazine tahvilinin getirisi beş baz puandan fazla artarak yüzde 4,704'e yükseldi. Hızlandırılmış geri alımın ana hedefi olan 30 yıllık tahvil getirisi beş baz puandan fazla artışla yüzde 5,248'e yükselirken, ABD Merkez Bankası faiz beklentilerini daha yakından takip eden iki yıllık tahvil bir baz puandan az artışla yüzde 4,185'e yükseldi. Hazine Çarşamba günü yaptığı açıklamada, 10 ila 20 yıllık ve 20 ila 30 yıllık sektörlerdeki likidite desteği geri alım operasyonlarının maksimum boyutunu en az iki katına çıkaracağını ve 9 Eylül'den 4 Kasım'a kadar operasyon başına tavanı 2 milyar ABD dolarından en az 4 milyar ABD dolarına çıkaracağını söyledi.",
+      "article_summary_original": "Deficits, inflation, and oil outrun a US$4 billion intervention as long-end yields climb again The relief that swept through global bond markets after the US Treasury doubled its long-end buybacks evaporated within a single trading session, with 10- and 30-year yields closing Thursday above where they sat before the announcement. The yield on the 10-year US Treasury note, the reference point for American mortgages, auto loans, and credit card debt, rose more than five basis points to 4.704 percent, according to CNBC.",
+      "article_context_original": "Deficits, inflation, and oil outrun a US$4 billion intervention as long-end yields climb again Deficits, inflation, and oil outrun a US$4 billion intervention as long-end yields climb again The relief that swept through global bond markets after the US Treasury doubled its long-end buybacks evaporated within a single trading session, with 10- and 30-year yields closing Thursday above where they sat before the announcement. The yield on the 10-year US Treasury note, the reference point for American mortgages, auto loans, and credit card debt, rose more than five basis points to 4.704 percent, according to CNBC. The 30-year bond yield, the primary target of the accelerated buyback, added more than five basis points to 5.248 percent, while the two-year note, which tracks US Federal Reserve rate expectations more closely, edged up less than one basis point to 4.185 percent. Treasury said Wednesday it would at least double the maximum size of its liquidity support buyback operations in the 10- to 20-year and 20- to 30-year sectors, lifting the cap from US$2bn to at least US$4bn per operation from September 9 through November 4.",
+      "translation_ok": true,
+      "context": "Uzun vadeli getiriler yeniden yükselirken açık, enflasyon ve petrol 4 milyar dolarlık müdahaleyi aştı ABD Hazinesi'nin uzun vadeli geri alımlarını ikiye katlamasının ardından küresel tahvil piyasalarına yayılan rahatlama, tek bir işlem seansında buharlaştı ve 10 ve 30 yıllık getiriler Perşembe günü duyurudan önceki seviyesinin üzerinde kapandı. CNBC'ye göre, Amerikan ipoteklerinin, otomobil kredilerinin ve kredi kartı borçlarının referans noktası olan 10 yıllık ABD Hazine tahvilinin getirisi beş baz puandan fazla artarak yüzde 4,704'e yükseldi.",
+      "context_mode": "publisher_article",
+      "resolved_url": "https://www.wealthprofessional.ca/investments/equity-markets/bond-market-erases-treasurys-buyback-rally-in-under-24-hours/393329",
       "topic": "Tahvil / Likidite"
     }
   ],
@@ -452,5 +453,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-21T19:58:28.917747+00:00"
+  "generated_at": "2026-08-21T20:24:34.788010+00:00"
 }

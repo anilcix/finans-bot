@@ -1,7 +1,7 @@
 {
   "mstr": {
-    "price": 119.34,
-    "change_pct": 28.26741186586414
+    "price": 119.25,
+    "change_pct": 28.17067927773
   },
   "unavailable": [
     "MSTR mNAV",
@@ -14,5 +14,5 @@
     "Asia Liquidity",
     "Korea Retail Flow"
   ],
-  "generated_at": "2026-08-21T19:58:28.917747+00:00"
+  "generated_at": "2026-08-21T20:24:34.788010+00:00"
 }
