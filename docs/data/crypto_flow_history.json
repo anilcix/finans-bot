@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-08-21T06:53:05.211370+00:00",
+  "interval_minutes": 15,
+  "window_hours": 24,
+  "max_points": 96,
+  "spot_cvd_definition": "Kraken BTC/USD spot agresif alış notionalı eksi agresif satış notionalı; her nokta tamamlanmış 15 dakikalık bucket delta değeridir.",
+  "oi_definition": "Coinalyze seçili büyük BTC perpetual piyasalarının USD aggregate açık pozisyon snapshotı.",
+  "points": [
+    {
+      "ts": "2026-08-21T06:45:00+00:00",
+      "spot_cvd_delta_usd": 2213162.6198222777,
+      "spot_buy_usd": 3175226.0987896407,
+      "spot_sell_usd": 962063.478967363,
+      "spot_trade_count": 1415,
+      "spot_coverage_seconds": 898.1537010669708,
+      "spot_source": "Kraken Spot BTC/USD",
+      "spot_ok": true,
+      "spot_error": null,
+      "aggregate_oi_usd": null,
+      "binance_oi_usd": null,
+      "oi_source": null
+    }
+  ]
+}
