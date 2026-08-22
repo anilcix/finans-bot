@@ -1,46 +1,46 @@
 {
   "movers": [
     {
-      "symbol": "BTC",
-      "name": "Bitcoin",
-      "coingecko_id": "bitcoin",
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "coingecko_id": "iota",
       "exchange": "Binance Spot",
-      "exchange_symbol": "BTCUSDT",
-      "price": 77083,
-      "change_24h": -0.7,
-      "volume_zscore_10m": 5.5756870550456945,
-      "volume_10m_usd": 21204568.2511079,
-      "volume_mean_10m_usd": 5173473.48139049,
-      "buyer_share_pct": 58.50226802470997,
-      "taker_buy_10m_usd": 12405153.3517457,
-      "taker_sell_10m_usd": 8799414.8993622,
-      "spot_delta_10m_usd": 3605738.4523834996,
-      "price_change_10m_pct": 0.08278557548706544,
+      "exchange_symbol": "IOTAUSDT",
+      "price": 0.04505684,
+      "change_24h": 0.5,
+      "volume_zscore_10m": 4.459875960534163,
+      "volume_10m_usd": 22407.724000000002,
+      "volume_mean_10m_usd": 4067.4874933333335,
+      "buyer_share_pct": 71.34091440969193,
+      "taker_buy_10m_usd": 15985.875199999999,
+      "taker_sell_10m_usd": 6421.848800000003,
+      "spot_delta_10m_usd": 9564.026399999995,
+      "price_change_10m_pct": 1.1210762331838486,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787437200000,
-          "delta_usd": 55997.309571499005,
-          "green": true
-        },
-        {
-          "ts": 1787437800000,
-          "delta_usd": 3766022.0915706996,
-          "green": true
-        },
-        {
           "ts": 1787438400000,
-          "delta_usd": 3605738.4523834996,
+          "delta_usd": -60.18560000000025,
+          "green": false
+        },
+        {
+          "ts": 1787439000000,
+          "delta_usd": -1320.4278,
+          "green": false
+        },
+        {
+          "ts": 1787439600000,
+          "delta_usd": 9564.026399999995,
           "green": true
         }
       ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 7427757.853525698,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.475913857516692,
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 8183.412999999995,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.943967401503356,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T22:40:00+00:00"
+      "signal_time_utc": "2026-08-22T23:00:00+00:00"
     }
   ],
   "window": "10m",
@@ -58,5 +58,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T22:56:09.512857+00:00"
+  "generated_at": "2026-08-22T23:14:04.242367+00:00"
 }
