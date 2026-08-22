@@ -1,5 +1,132 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "DCR",
+      "name": "Decred",
+      "coingecko_id": "decred",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "DCRUSDT",
+      "price": 13.84,
+      "change_24h": 8.6,
+      "volume_zscore_10m": 3.1251763162208457,
+      "volume_10m_usd": 30948.31898,
+      "volume_mean_10m_usd": 7261.935177333334,
+      "buyer_share_pct": 80.74966803899733,
+      "taker_buy_10m_usd": 24990.66484,
+      "taker_sell_10m_usd": 5957.654139999999,
+      "spot_delta_10m_usd": 19033.010700000003,
+      "price_change_10m_pct": 2.8846153846153966,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787399400000,
+          "delta_usd": 1.5198899999999753,
+          "green": true
+        },
+        {
+          "ts": 1787400000000,
+          "delta_usd": 3319.0014600000004,
+          "green": true
+        },
+        {
+          "ts": 1787400600000,
+          "delta_usd": 19033.010700000003,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 22353.53205,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 7.250143120120579,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T12:10:00+00:00"
+    },
+    {
+      "symbol": "XPL",
+      "name": "Plasma",
+      "coingecko_id": "plasma",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "XPLUSDT",
+      "price": 0.096301,
+      "change_24h": -10.5,
+      "volume_zscore_10m": 2.77023384188744,
+      "volume_10m_usd": 466488.53686500003,
+      "volume_mean_10m_usd": 171686.48392546666,
+      "buyer_share_pct": 71.72974623958127,
+      "taker_buy_10m_usd": 334611.04373000003,
+      "taker_sell_10m_usd": 131877.493135,
+      "spot_delta_10m_usd": 202733.55059500004,
+      "price_change_10m_pct": 0.9752516778523512,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787399400000,
+          "delta_usd": -3052.9440669999967,
+          "green": false
+        },
+        {
+          "ts": 1787400000000,
+          "delta_usd": 105260.92822500004,
+          "green": true
+        },
+        {
+          "ts": 1787400600000,
+          "delta_usd": 202733.55059500004,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 304941.5347530001,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 5.643208465845567,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T12:10:00+00:00"
+    },
+    {
+      "symbol": "ENA",
+      "name": "Ethena",
+      "coingecko_id": "ethena",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "ENAUSDT",
+      "price": 0.158345,
+      "change_24h": 9.8,
+      "volume_zscore_10m": 2.181613903458237,
+      "volume_10m_usd": 1417224.544199,
+      "volume_mean_10m_usd": 695423.0737702333,
+      "buyer_share_pct": 55.83511163985938,
+      "taker_buy_10m_usd": 791308.9064409999,
+      "taker_sell_10m_usd": 625915.6377580002,
+      "spot_delta_10m_usd": 165393.26868299977,
+      "price_change_10m_pct": 1.9770408163265252,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787399400000,
+          "delta_usd": -39341.99515199999,
+          "green": false
+        },
+        {
+          "ts": 1787400000000,
+          "delta_usd": 142108.41277100006,
+          "green": true
+        },
+        {
+          "ts": 1787400600000,
+          "delta_usd": 165393.26868299977,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 268159.68630199984,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 3.465125067444175,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T12:10:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,10 +137,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 3,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T11:52:20.922102+00:00"
+  "generated_at": "2026-08-22T12:18:58.303810+00:00"
 }
