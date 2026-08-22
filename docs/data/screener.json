@@ -1,90 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "PENDLE",
-      "name": "Pendle",
-      "coingecko_id": "pendle",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "PENDLEUSDT",
-      "price": 1.71,
-      "change_24h": 5.7,
-      "volume_zscore_10m": 13.3689674664844,
-      "volume_10m_usd": 133251.0013,
-      "volume_mean_10m_usd": 14027.397236666668,
-      "buyer_share_pct": 58.210445207363705,
-      "taker_buy_10m_usd": 77566.0011,
-      "taker_sell_10m_usd": 55685.00020000001,
-      "spot_delta_10m_usd": 21881.000899999985,
-      "price_change_10m_pct": 0.34924330616996624,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787424000000,
-          "delta_usd": -5849.8037,
-          "green": false
-        },
-        {
-          "ts": 1787424600000,
-          "delta_usd": 5998.774100000002,
-          "green": true
-        },
-        {
-          "ts": 1787425200000,
-          "delta_usd": 21881.000899999985,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 22029.971299999987,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 14.890011987220769,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T19:00:00+00:00"
-    },
-    {
-      "symbol": "AERO",
-      "name": "Aerodrome Finance",
-      "coingecko_id": "aerodrome-finance",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "AEROUSDT",
-      "price": 0.466439,
-      "change_24h": -2.5,
-      "volume_zscore_10m": 2.1263296084876875,
-      "volume_10m_usd": 24481.342959999998,
-      "volume_mean_10m_usd": 9467.206456666667,
-      "buyer_share_pct": 73.93806434383615,
-      "taker_buy_10m_usd": 18101.03111,
-      "taker_sell_10m_usd": 6380.311849999998,
-      "spot_delta_10m_usd": 11720.719260000002,
-      "price_change_10m_pct": 0.846721667390371,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787424000000,
-          "delta_usd": -2429.5883299999987,
-          "green": false
-        },
-        {
-          "ts": 1787424600000,
-          "delta_usd": 2846.071100000001,
-          "green": true
-        },
-        {
-          "ts": 1787425200000,
-          "delta_usd": 11720.719260000002,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 12137.202030000004,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.220136042871302,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T19:00:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -95,10 +10,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 0,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T19:15:37.522850+00:00"
+  "generated_at": "2026-08-22T19:37:56.486765+00:00"
 }
