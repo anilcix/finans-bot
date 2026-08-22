@@ -6,7 +6,7 @@
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 51.5,
+    "crypto": 51.6,
     "crypto_derivatives": 48,
     "equities": 40.4,
     "news": 65
@@ -33,7 +33,7 @@
         "count": 6,
         "digest": "The exchange has hired White & Case as restructuring counsel, with a detailed roadmap expected by Sept. | Bitcoin and crypto staged their strongest rally in months as Treasury intervention, regulatory moves and a historic short squeeze collided, while banks and technology companies pushed deeper into stablecoins.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "topic": "Makro / Fed / Hazine",
@@ -57,9 +57,9 @@
         "brief_summary": "Treasury buybacks are not QE, analysts said, but the move helped pull long-term yields off 19-year highs and triggered a record short squeeze in a market already leaning too bearish.",
         "summary_mode": "article_context",
         "read_mode": "trusted_feed_text",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
@@ -73,9 +73,9 @@
         "brief_summary": "Bitcoin and crypto staged their strongest rally in months as Treasury intervention, regulatory moves and a historic short squeeze collided, while banks and technology companies pushed deeper into stablecoins.",
         "summary_mode": "article_context",
         "read_mode": "trusted_feed_text",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "title": "Crypto advocates join in suing Illinois over digital asset tax",
@@ -89,9 +89,9 @@
         "brief_summary": "The Crypto Council for Innovation and the Blockchain Association added another lawsuit against the state for its recently approved 0.2% crypto tax.",
         "summary_mode": "article_context",
         "read_mode": "trusted_feed_text",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
@@ -121,9 +121,9 @@
         "brief_summary": "The exchange has hired White & Case as restructuring counsel, with a detailed roadmap expected by Sept.",
         "summary_mode": "article_context",
         "read_mode": "trusted_feed_text",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
@@ -137,9 +137,9 @@
         "brief_summary": "ZEC traded above its January 2018 peak as futures volume hit billions of dollars and a Grayscale filing showed fresh progress toward converting its Zcash Trust into a spot ETF.",
         "summary_mode": "article_context",
         "read_mode": "trusted_feed_text",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-2.0; çoklu-borsa OI 24s %-1.4; OI-ağırlıklı funding %+0.0089."
+        "data_confirmation": "BTC 24s %-1.9; çoklu-borsa OI 24s %-1.5; OI-ağırlıklı funding %+0.0089."
       },
       {
         "title": "Major Economic Indicators Latest Numbers",
@@ -183,7 +183,7 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %-2.0, ETH %-4.6.",
+    "Kriptoda spot momentum: BTC 24s %-1.9, ETH %-4.6.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.9; savunma/enflasyon hedge talebi aynı anda güçlü.",
     "Son 96 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 65/100. 10 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
@@ -383,7 +383,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-22T22:15:19.874799+00:00"
+    "generated_at": "2026-08-22T22:42:57.465836+00:00"
   },
   "buyback_news": [
     {
@@ -414,5 +414,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-22T22:11:52.135769+00:00"
+  "generated_at": "2026-08-22T22:39:30.840589+00:00"
 }
