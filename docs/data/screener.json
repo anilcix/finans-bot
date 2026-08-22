@@ -15,5 +15,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T14:39:59.992463+00:00"
+  "generated_at": "2026-08-22T14:56:43.789602+00:00"
 }
