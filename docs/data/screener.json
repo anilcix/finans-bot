@@ -1,88 +1,46 @@
 {
   "movers": [
     {
-      "symbol": "AVAX",
-      "name": "Avalanche",
-      "coingecko_id": "avalanche-2",
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coingecko_id": "midnight-3",
       "exchange": "Binance Spot",
-      "exchange_symbol": "AVAXUSDT",
-      "price": 7.57,
-      "change_24h": 0.3,
-      "volume_zscore_10m": 2.9588058269107917,
-      "volume_10m_usd": 374678.37266,
-      "volume_mean_10m_usd": 112040.26926533334,
-      "buyer_share_pct": 69.08623307032808,
-      "taker_buy_10m_usd": 258851.1738,
-      "taker_sell_10m_usd": 115827.19886,
-      "spot_delta_10m_usd": 143023.97494,
-      "price_change_10m_pct": 0.05286809410520732,
+      "exchange_symbol": "NIGHTUSDT",
+      "price": 0.02052768,
+      "change_24h": -3.4,
+      "volume_zscore_10m": 8.01576515383488,
+      "volume_10m_usd": 55607.04339,
+      "volume_mean_10m_usd": 6299.467033333333,
+      "buyer_share_pct": 76.60265483142062,
+      "taker_buy_10m_usd": 42596.471509999996,
+      "taker_sell_10m_usd": 13010.571880000003,
+      "spot_delta_10m_usd": 29585.899629999993,
+      "price_change_10m_pct": 1.1318897637795144,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787430600000,
-          "delta_usd": 3170.1490699999995,
+          "ts": 1787432400000,
+          "delta_usd": -1167.0948500000004,
+          "green": false
+        },
+        {
+          "ts": 1787433000000,
+          "delta_usd": 452.478000000001,
           "green": true
         },
         {
-          "ts": 1787431200000,
-          "delta_usd": 11026.256579999994,
-          "green": true
-        },
-        {
-          "ts": 1787431800000,
-          "delta_usd": 143023.97494,
+          "ts": 1787433600000,
+          "delta_usd": 29585.899629999993,
           "green": true
         }
       ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 157220.38059,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.9174291339436,
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 28871.282779999994,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 11.376030636976942,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T20:50:00+00:00"
-    },
-    {
-      "symbol": "FF",
-      "name": "Falcon Finance",
-      "coingecko_id": "falcon-finance-ff",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "FFUSDT",
-      "price": 0.079571,
-      "change_24h": 9.4,
-      "volume_zscore_10m": 2.639735922761878,
-      "volume_10m_usd": 79373.757691,
-      "volume_mean_10m_usd": 28054.970065933332,
-      "buyer_share_pct": 60.32086638683717,
-      "taker_buy_10m_usd": 47878.938323,
-      "taker_sell_10m_usd": 31494.819368000004,
-      "spot_delta_10m_usd": 16384.118954999998,
-      "price_change_10m_pct": -0.5248687828042886,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787430600000,
-          "delta_usd": 3473.3261410000014,
-          "green": true
-        },
-        {
-          "ts": 1787431200000,
-          "delta_usd": 8317.892788000001,
-          "green": true
-        },
-        {
-          "ts": 1787431800000,
-          "delta_usd": 16384.118954999998,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 28175.337884,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 4.721822561445594,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T20:50:00+00:00"
+      "signal_time_utc": "2026-08-22T21:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -95,10 +53,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T21:00:50.046914+00:00"
+  "generated_at": "2026-08-22T21:31:34.147443+00:00"
 }
