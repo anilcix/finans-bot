@@ -89,8 +89,8 @@
     {
       "symbol": "BZ=F",
       "label": "Brent Petrol",
-      "price": 93.87,
-      "change_pct": 3.3014196104324856
+      "price": 94.39,
+      "change_pct": 3.8736656762407793
     },
     {
       "symbol": "CL=F",
@@ -104,5 +104,5 @@
     "Hyperscaler CAPEX",
     "Central Bank Gold Buying"
   ],
-  "generated_at": "2026-08-22T03:51:06.917453+00:00"
+  "generated_at": "2026-08-22T04:22:20.853610+00:00"
 }
