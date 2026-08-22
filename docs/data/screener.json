@@ -1,130 +1,46 @@
 {
   "movers": [
     {
-      "symbol": "BFUSD",
-      "name": "BFUSD",
-      "coingecko_id": "bfusd",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "BFUSDUSDT",
-      "price": 0.999955,
-      "change_24h": 0,
-      "volume_zscore_10m": 3.683070781982274,
-      "volume_10m_usd": 179400.9383,
-      "volume_mean_10m_usd": 32024.90336333333,
-      "buyer_share_pct": 100.0,
-      "taker_buy_10m_usd": 179400.9383,
-      "taker_sell_10m_usd": 0.0,
-      "spot_delta_10m_usd": 179400.9383,
-      "price_change_10m_pct": 0.0,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787413200000,
-          "delta_usd": -3687.0,
-          "green": false
-        },
-        {
-          "ts": 1787413800000,
-          "delta_usd": 10082.0138,
-          "green": true
-        },
-        {
-          "ts": 1787414400000,
-          "delta_usd": 179400.9383,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 185795.9521,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 9.383070781982273,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:00:00+00:00"
-    },
-    {
       "symbol": "AAVE",
       "name": "Aave",
       "coingecko_id": "aave",
       "exchange": "Binance Spot",
       "exchange_symbol": "AAVEUSDT",
-      "price": 121.72,
+      "price": 123.58,
       "change_24h": 8.6,
-      "volume_zscore_10m": 5.301424858159919,
-      "volume_10m_usd": 924363.60841,
-      "volume_mean_10m_usd": 219104.02234833332,
-      "buyer_share_pct": 68.76726782476861,
-      "taker_buy_10m_usd": 635659.59827,
-      "taker_sell_10m_usd": 288704.01014,
-      "spot_delta_10m_usd": 346955.58812999993,
-      "price_change_10m_pct": 0.0,
+      "volume_zscore_10m": 2.7736508764414882,
+      "volume_10m_usd": 764642.52593,
+      "volume_mean_10m_usd": 256593.53372433333,
+      "buyer_share_pct": 75.81085285505918,
+      "taker_buy_10m_usd": 579682.0202,
+      "taker_sell_10m_usd": 184960.50572999998,
+      "spot_delta_10m_usd": 394721.51447000005,
+      "price_change_10m_pct": 0.6688963210702337,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787413200000,
-          "delta_usd": 153322.98823000002,
-          "green": true
-        },
-        {
-          "ts": 1787413800000,
-          "delta_usd": 328702.75139999995,
-          "green": true
-        },
-        {
           "ts": 1787414400000,
           "delta_usd": 346955.58812999993,
+          "green": true
+        },
+        {
+          "ts": 1787415000000,
+          "delta_usd": 235352.60263999994,
+          "green": true
+        },
+        {
+          "ts": 1787415600000,
+          "delta_usd": 394721.51447000005,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 828981.3277599999,
+      "cvd_30m_delta_usd": 977029.7052399999,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 8.22815164063678,
+      "signal_score": 6.404736161947406,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:00:00+00:00"
-    },
-    {
-      "symbol": "CAKE",
-      "name": "PancakeSwap",
-      "coingecko_id": "pancakeswap-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "CAKEUSDT",
-      "price": 1.69,
-      "change_24h": -2.4,
-      "volume_zscore_10m": 3.5586698631414144,
-      "volume_10m_usd": 80966.24391,
-      "volume_mean_10m_usd": 19851.478335333333,
-      "buyer_share_pct": 65.39440305376517,
-      "taker_buy_10m_usd": 52947.39188,
-      "taker_sell_10m_usd": 28018.852030000002,
-      "spot_delta_10m_usd": 24928.53985,
-      "price_change_10m_pct": -0.059136605558851585,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787413200000,
-          "delta_usd": -433.82683,
-          "green": false
-        },
-        {
-          "ts": 1787413800000,
-          "delta_usd": 5300.967229999998,
-          "green": true
-        },
-        {
-          "ts": 1787414400000,
-          "delta_usd": 24928.53985,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 29795.680249999998,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.798110168517932,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:00:00+00:00"
+      "signal_time_utc": "2026-08-22T16:20:00+00:00"
     }
   ],
   "window": "10m",
@@ -137,10 +53,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T16:12:10.854359+00:00"
+  "generated_at": "2026-08-22T16:33:17.888778+00:00"
 }
