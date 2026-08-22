@@ -6,7 +6,7 @@
       "coingecko_id": "just",
       "exchange": "Binance Spot",
       "exchange_symbol": "JSTUSDT",
-      "price": 0.104547,
+      "price": 0.104456,
       "change_24h": -1.0,
       "volume_zscore_10m": 2.029885066977174,
       "volume_10m_usd": 70102.936041,
@@ -48,7 +48,7 @@
       "coingecko_id": "tezos",
       "exchange": "Binance Spot",
       "exchange_symbol": "XTZUSDT",
-      "price": 0.234646,
+      "price": 0.234943,
       "change_24h": 1.6,
       "volume_zscore_10m": 2.4632124639363924,
       "volume_10m_usd": 11219.56864,
@@ -100,5 +100,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T15:29:09.205021+00:00"
+  "generated_at": "2026-08-22T15:35:53.908542+00:00"
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
   "venue": "Binance",
-  "generated_at": "2026-08-22T15:29:09.205021+00:00",
+  "generated_at": "2026-08-22T15:35:53.908542+00:00",
   "interval_minutes": 10,
   "window_hours": 24,
   "max_points": 144,
@@ -2597,21 +2597,21 @@
     },
     {
       "ts": "2026-08-22T15:40:00+00:00",
-      "spot_cvd_delta_btc": 3.76591,
-      "spot_cvd_cumulative_btc": 1048.8564200000005,
-      "perp_cvd_delta_btc": 2.2290000000000028,
-      "perp_cvd_cumulative_btc": -4919.988999999976,
-      "aggregate_oi_usd": 20207199281.76275,
-      "aggregate_oi_weighted_funding_pct": 0.009444112632945707,
-      "aggregate_liquidations_10m_usd": null,
-      "aggregate_long_liquidations_10m_usd": null,
-      "aggregate_short_liquidations_10m_usd": null,
-      "binance_oi_usd": 8193476084.306999,
+      "spot_cvd_delta_btc": 10.729190000000024,
+      "spot_cvd_cumulative_btc": 1055.8197000000005,
+      "perp_cvd_delta_btc": 56.74599999999987,
+      "perp_cvd_cumulative_btc": -4865.471999999976,
+      "aggregate_oi_usd": 20222207679.201237,
+      "aggregate_oi_weighted_funding_pct": 0.009442640848663628,
+      "aggregate_liquidations_10m_usd": 14881.2457,
+      "aggregate_long_liquidations_10m_usd": 0.0,
+      "aggregate_short_liquidations_10m_usd": 14881.2457,
+      "binance_oi_usd": 8197714362.429,
       "binance_funding_pct": 0.01,
-      "binance_long_short_ratio": 0.9885,
-      "binance_liquidations_10m_usd": null,
-      "binance_long_liquidations_10m_usd": null,
-      "binance_short_liquidations_10m_usd": null
+      "binance_long_short_ratio": 0.99,
+      "binance_liquidations_10m_usd": 14881.2457,
+      "binance_long_liquidations_10m_usd": 0.0,
+      "binance_short_liquidations_10m_usd": 14881.2457
     }
   ]
 }
