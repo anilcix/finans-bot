@@ -1,88 +1,88 @@
 {
   "movers": [
     {
-      "symbol": "FRAX",
-      "name": "Legacy Frax Dollar",
-      "coingecko_id": "frax",
+      "symbol": "BCH",
+      "name": "Bitcoin Cash",
+      "coingecko_id": "bitcoin-cash",
       "exchange": "Binance Spot",
-      "exchange_symbol": "FRAXUSDT",
-      "price": 0.990922,
-      "change_24h": 0.1,
-      "volume_zscore_10m": 3.4257136862916737,
-      "volume_10m_usd": 7974.7549500000005,
-      "volume_mean_10m_usd": 1519.0648776666667,
-      "buyer_share_pct": 100.0,
-      "taker_buy_10m_usd": 7974.7549500000005,
-      "taker_sell_10m_usd": 0.0,
-      "spot_delta_10m_usd": 7974.7549500000005,
-      "price_change_10m_pct": 0.0645161290322438,
-      "price_candle_green": true,
+      "exchange_symbol": "BCHUSDT",
+      "price": 278.22,
+      "change_24h": 5.6,
+      "volume_zscore_10m": 2.8124928997182033,
+      "volume_10m_usd": 456048.5004,
+      "volume_mean_10m_usd": 152255.49206333334,
+      "buyer_share_pct": 67.44638998488416,
+      "taker_buy_10m_usd": 307588.2501,
+      "taker_sell_10m_usd": 148460.2503,
+      "spot_delta_10m_usd": 159127.9998,
+      "price_change_10m_pct": -0.5706134094151105,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787404800000,
-          "delta_usd": -1027.32375,
-          "green": false
-        },
-        {
-          "ts": 1787405400000,
-          "delta_usd": 819.66482,
-          "green": true
-        },
-        {
           "ts": 1787406000000,
-          "delta_usd": 7974.7549500000005,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 7767.096020000001,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 9.125713686291673,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T13:40:00+00:00"
-    },
-    {
-      "symbol": "RAY",
-      "name": "Raydium",
-      "coingecko_id": "raydium",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "RAYUSDT",
-      "price": 0.746808,
-      "change_24h": 3.9,
-      "volume_zscore_10m": 2.1256694209184217,
-      "volume_10m_usd": 18520.93496,
-      "volume_mean_10m_usd": 5882.135985333333,
-      "buyer_share_pct": 91.72982047986198,
-      "taker_buy_10m_usd": 16989.22039,
-      "taker_sell_10m_usd": 1531.71457,
-      "spot_delta_10m_usd": 15457.505819999998,
-      "price_change_10m_pct": 0.7706868577609383,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787404800000,
-          "delta_usd": 105.01378999999997,
+          "delta_usd": 42630.058100000024,
           "green": true
         },
         {
-          "ts": 1787405400000,
-          "delta_usd": 938.0915699999996,
+          "ts": 1787406600000,
+          "delta_usd": 85718.12999999995,
           "green": true
         },
         {
-          "ts": 1787406000000,
-          "delta_usd": 15457.505819999998,
+          "ts": 1787407200000,
+          "delta_usd": 159127.9998,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 16500.61118,
+      "cvd_30m_delta_usd": 287476.18789999996,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 7.348651468904619,
+      "signal_score": 5.607131898206619,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T13:40:00+00:00"
+      "signal_time_utc": "2026-08-22T14:00:00+00:00"
+    },
+    {
+      "symbol": "JTO",
+      "name": "Jito",
+      "coingecko_id": "jito-governance-token",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "JTOUSDT",
+      "price": 0.613758,
+      "change_24h": 0.7,
+      "volume_zscore_10m": 2.424633801853759,
+      "volume_10m_usd": 38518.87859,
+      "volume_mean_10m_usd": 14177.274163666667,
+      "buyer_share_pct": 63.80538592933114,
+      "taker_buy_10m_usd": 24577.119140000003,
+      "taker_sell_10m_usd": 13941.759449999998,
+      "spot_delta_10m_usd": 10635.359690000005,
+      "price_change_10m_pct": -0.9039548022598987,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787406000000,
+          "delta_usd": 1277.7718700000005,
+          "green": true
+        },
+        {
+          "ts": 1787406600000,
+          "delta_usd": 2357.8209600000027,
+          "green": true
+        },
+        {
+          "ts": 1787407200000,
+          "delta_usd": 10635.359690000005,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 14270.952520000008,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 4.855172394786873,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T14:00:00+00:00"
     }
   ],
   "window": "10m",
@@ -100,5 +100,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T13:56:37.266535+00:00"
+  "generated_at": "2026-08-22T14:15:19.237282+00:00"
 }
