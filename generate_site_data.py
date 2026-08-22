@@ -6,6 +6,34 @@ from common.treasury_buyback import fetch_treasury_buybacks
 from common.coinalyze import fetch_coinalyze_btc
 from common.crypto_flow_history import update_history as update_crypto_flow_history
 
+# Güvenilir haber whitelist'i: resmi kaynaklar + büyük finans yayıncıları.
+# Google News yalnız keşif katmanıdır; news.py gerçek yayıncı URL'sini çözmeden
+# ve izin verilen domaini doğrulamadan içeriği Harmanlayıcıya almaz.
+news.GOOGLE_TRUSTED=[
+    {
+        "label":"Bitcoin",
+        "query":"Bitcoin BTC crypto Reuters CoinDesk CNBC Yahoo Finance Bloomberg",
+        "allowed":(
+            "reuters.com","coindesk.com","cnbc.com","finance.yahoo.com",
+            "yahoo.com","bloomberg.com",
+        ),
+    },
+    {
+        "label":"Makro / Fed / Hazine",
+        "query":"Federal Reserve inflation CPI payrolls GDP Treasury yields Reuters CNBC Yahoo Finance Bloomberg",
+        "allowed":(
+            "reuters.com","cnbc.com","finance.yahoo.com","yahoo.com","bloomberg.com",
+            "federalreserve.gov","bls.gov","bea.gov","home.treasury.gov","treasury.gov",
+        ),
+    },
+]
+news.SOURCE_POLICY={
+    "Bitcoin":["CoinDesk","Reuters","CNBC","Yahoo Finance","Bloomberg"],
+    "Makro":["Federal Reserve","U.S. Treasury","BLS","BEA","Reuters","CNBC","Yahoo Finance","Bloomberg"],
+    "Şant Manukyan":["İş Yatırım resmi YouTube + transcript"],
+    "X":["@realDonaldTrump","@elonmusk","@saylor — yalnız X API ile"],
+}
+
 OUTPUT_DIR=os.path.join(os.path.dirname(__file__),"docs","data")
 AGENTS={"macro":macro,"credit":credit,"crypto":crypto,"crypto_derivatives":crypto_derivatives,"options":options,"equities":equities,"hidden_pressure":hidden_pressure,"screener":screener,"news":news}
 
@@ -52,7 +80,6 @@ def main():
         except Exception as e:data={"generated_at":now,"error":str(e)}
         payloads[name]=data; _write(name,data); print("Yazıldı:",name)
 
-    # Her 15 dakikalık üretimde tamamlanmış son bucket için Spot CVD + Perp OI snapshot geçmişi.
     try:
         flow=update_crypto_flow_history(OUTPUT_DIR,payloads.get("crypto_derivatives") or {},now_dt)
         print("Yazıldı: crypto_flow_history",len(flow.get("points") or []),"nokta")
