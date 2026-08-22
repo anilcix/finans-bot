@@ -1,88 +1,88 @@
 {
   "movers": [
     {
-      "symbol": "EIGEN",
-      "name": "EigenCloud (prev. EigenLayer)",
-      "coingecko_id": "eigenlayer",
+      "symbol": "AVAX",
+      "name": "Avalanche",
+      "coingecko_id": "avalanche-2",
       "exchange": "Binance Spot",
-      "exchange_symbol": "EIGENUSDT",
-      "price": 0.215055,
-      "change_24h": 1.3,
-      "volume_zscore_10m": 2.7895739643093194,
-      "volume_10m_usd": 53609.88248,
-      "volume_mean_10m_usd": 20536.229101033332,
-      "buyer_share_pct": 64.84388057177476,
-      "taker_buy_10m_usd": 34762.72817,
-      "taker_sell_10m_usd": 18847.154309999998,
-      "spot_delta_10m_usd": 15915.573860000004,
-      "price_change_10m_pct": 0.6066262249183607,
+      "exchange_symbol": "AVAXUSDT",
+      "price": 7.57,
+      "change_24h": 0.3,
+      "volume_zscore_10m": 2.9588058269107917,
+      "volume_10m_usd": 374678.37266,
+      "volume_mean_10m_usd": 112040.26926533334,
+      "buyer_share_pct": 69.08623307032808,
+      "taker_buy_10m_usd": 258851.1738,
+      "taker_sell_10m_usd": 115827.19886,
+      "spot_delta_10m_usd": 143023.97494,
+      "price_change_10m_pct": 0.05286809410520732,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787429400000,
-          "delta_usd": 2159.014647,
+          "ts": 1787430600000,
+          "delta_usd": 3170.1490699999995,
           "green": true
         },
         {
-          "ts": 1787430000000,
-          "delta_usd": -5079.439049999998,
-          "green": false
+          "ts": 1787431200000,
+          "delta_usd": 11026.256579999994,
+          "green": true
         },
         {
-          "ts": 1787430600000,
-          "delta_usd": 15915.573860000004,
+          "ts": 1787431800000,
+          "delta_usd": 143023.97494,
           "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 12995.149457000007,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 4.623962021486795,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 157220.38059,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 5.9174291339436,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T20:30:00+00:00"
+      "signal_time_utc": "2026-08-22T20:50:00+00:00"
     },
     {
-      "symbol": "CFX",
-      "name": "Conflux",
-      "coingecko_id": "conflux-token",
+      "symbol": "FF",
+      "name": "Falcon Finance",
+      "coingecko_id": "falcon-finance-ff",
       "exchange": "Binance Spot",
-      "exchange_symbol": "CFXUSDT",
-      "price": 0.04890744,
-      "change_24h": 1.1,
-      "volume_zscore_10m": 2.2256435225690896,
-      "volume_10m_usd": 14321.20276,
-      "volume_mean_10m_usd": 5836.7706726666665,
-      "buyer_share_pct": 55.26998362252081,
-      "taker_buy_10m_usd": 7915.326419999999,
-      "taker_sell_10m_usd": 6405.876340000001,
-      "spot_delta_10m_usd": 1509.4500799999987,
-      "price_change_10m_pct": -0.5686433793663737,
+      "exchange_symbol": "FFUSDT",
+      "price": 0.079571,
+      "change_24h": 9.4,
+      "volume_zscore_10m": 2.639735922761878,
+      "volume_10m_usd": 79373.757691,
+      "volume_mean_10m_usd": 28054.970065933332,
+      "buyer_share_pct": 60.32086638683717,
+      "taker_buy_10m_usd": 47878.938323,
+      "taker_sell_10m_usd": 31494.819368000004,
+      "spot_delta_10m_usd": 16384.118954999998,
+      "price_change_10m_pct": -0.5248687828042886,
       "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787429400000,
-          "delta_usd": 1366.6542499999996,
+          "ts": 1787430600000,
+          "delta_usd": 3473.3261410000014,
           "green": true
         },
         {
-          "ts": 1787430000000,
-          "delta_usd": -268.16751,
-          "green": false
+          "ts": 1787431200000,
+          "delta_usd": 8317.892788000001,
+          "green": true
         },
         {
-          "ts": 1787430600000,
-          "delta_usd": 1509.4500799999987,
+          "ts": 1787431800000,
+          "delta_usd": 16384.118954999998,
           "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 2607.936819999998,
-      "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 3.1026418848211708,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 28175.337884,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 4.721822561445594,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T20:30:00+00:00"
+      "signal_time_utc": "2026-08-22T20:50:00+00:00"
     }
   ],
   "window": "10m",
@@ -100,5 +100,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T20:41:13.527836+00:00"
+  "generated_at": "2026-08-22T21:00:50.046914+00:00"
 }
