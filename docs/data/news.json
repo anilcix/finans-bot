@@ -23,9 +23,9 @@
           "link": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
           "resolved_url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
           "published_at": "2026-08-22T12:00:00+00:00",
-          "article_summary": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir short pozisyon sıkışması çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
-          "article_context": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir short pozisyon sıkışması çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
-          "context": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir short pozisyon sıkışması çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
+          "article_summary": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir __short pozisyon sıkışması__ çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
+          "article_context": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir __short pozisyon sıkışması__ çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
+          "context": "Hazine müdahalesi, düzenleyici hamleler ve tarihi bir __short pozisyon sıkışması__ çarpışırken, bankalar ve teknoloji şirketleri stablecoin'lere daha da yönelirken, Bitcoin ve kripto aylardır en güçlü yükselişini gerçekleştirdi.",
           "context_mode": "trusted_feed_text",
           "translation_ok": true,
           "trusted": true,
@@ -51,9 +51,9 @@
           "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
           "resolved_url": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
           "published_at": "2026-08-22T05:05:13+00:00",
-          "article_summary": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada short pozisyon sıkışması rekorunu tetiklediğini söyledi.",
-          "article_context": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada short pozisyon sıkışması rekorunu tetiklediğini söyledi.",
-          "context": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada short pozisyon sıkışması rekorunu tetiklediğini söyledi.",
+          "article_summary": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada __short pozisyon sıkışması__ rekorunu tetiklediğini söyledi.",
+          "article_context": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada __short pozisyon sıkışması__ rekorunu tetiklediğini söyledi.",
+          "context": "Analistler, ABD Hazine tahvil geri alımları'nin QE olmadığını, ancak bu hareketin uzun vadeli getirilerin 19 yılın en yüksek seviyelerinden çekilmesine yardımcı olduğunu ve zaten fazlasıyla düşüş eğiliminde olan bir piyasada __short pozisyon sıkışması__ rekorunu tetiklediğini söyledi.",
           "context_mode": "trusted_feed_text",
           "translation_ok": true,
           "trusted": true,
@@ -197,5 +197,5 @@
   },
   "errors": [],
   "method": "Trusted first-party feeds are primary. Publisher page is preferred; when blocked, only the trusted source's own RSS/press description may be summarized. Google News is trusted-domain discovery fallback only.",
-  "generated_at": "2026-08-22T17:52:46.505028+00:00"
+  "generated_at": "2026-08-22T18:15:01.655072+00:00"
 }
