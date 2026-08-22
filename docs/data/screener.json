@@ -1,46 +1,46 @@
 {
   "movers": [
     {
-      "symbol": "NIGHT",
-      "name": "Midnight",
-      "coingecko_id": "midnight-3",
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "coingecko_id": "iota",
       "exchange": "Binance Spot",
-      "exchange_symbol": "NIGHTUSDT",
-      "price": 0.02052768,
-      "change_24h": -3.4,
-      "volume_zscore_10m": 8.01576515383488,
-      "volume_10m_usd": 55607.04339,
-      "volume_mean_10m_usd": 6299.467033333333,
-      "buyer_share_pct": 76.60265483142062,
-      "taker_buy_10m_usd": 42596.471509999996,
-      "taker_sell_10m_usd": 13010.571880000003,
-      "spot_delta_10m_usd": 29585.899629999993,
-      "price_change_10m_pct": 1.1318897637795144,
+      "exchange_symbol": "IOTAUSDT",
+      "price": 0.04419467,
+      "change_24h": 7.7,
+      "volume_zscore_10m": 2.6250089209927694,
+      "volume_10m_usd": 17866.7471,
+      "volume_mean_10m_usd": 4866.77612,
+      "buyer_share_pct": 58.15072515354516,
+      "taker_buy_10m_usd": 10389.643,
+      "taker_sell_10m_usd": 7477.1041000000005,
+      "spot_delta_10m_usd": 2912.5388999999996,
+      "price_change_10m_pct": 0.0,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787432400000,
-          "delta_usd": -1167.0948500000004,
-          "green": false
-        },
-        {
-          "ts": 1787433000000,
-          "delta_usd": 452.478000000001,
+          "ts": 1787433600000,
+          "delta_usd": 1030.776100000001,
           "green": true
         },
         {
-          "ts": 1787433600000,
-          "delta_usd": 29585.899629999993,
+          "ts": 1787434200000,
+          "delta_usd": 7549.460099999998,
+          "green": true
+        },
+        {
+          "ts": 1787434800000,
+          "delta_usd": 2912.5388999999996,
           "green": true
         }
       ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 28871.282779999994,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 11.376030636976942,
+      "cvd_green_count_3": 3,
+      "cvd_green_streak": 3,
+      "cvd_30m_delta_usd": 11492.775099999999,
+      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
+      "signal_score": 4.490081436347285,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T21:20:00+00:00"
+      "signal_time_utc": "2026-08-22T21:40:00+00:00"
     }
   ],
   "window": "10m",
@@ -58,5 +58,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T21:31:34.147443+00:00"
+  "generated_at": "2026-08-22T21:52:20.685724+00:00"
 }
