@@ -1,193 +1,56 @@
 {
   "topics": [
     {
-      "label": "Makro / Fed",
-      "query": "Federal Reserve Treasury yields inflation US economy",
-      "items": [
-        {
-          "title": "Treasury Yields Rising August 2026: Investor Guide to Bond Market",
-          "source": "Intellectia AI",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rb0NmbUVuZXhGVk1nbFN0RndCenhRVzVJVVJ1dVB2bjJ3MHBHdmRQSkFocHV5RHhueEdEZUNWS3ByOWV0Z3I4ZE5WNkhlX0hXMTBTMkhtX0E3RW5QdTNhdGh6cV9nb01Zc1JtbGJrOA?oc=5",
-          "published_at": "2026-08-22T04:15:52+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-          "source": "CNBC",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zdkN2SURXc0pxNUsxbnFOazZUQ05fb2JQYWNQMTFOcVB0ZmRaXzRxNEtCV0paRVBtOGxya3lVUURPUWE1a3RQVFFsWmRGXzJGUTc0My02bTQ5czhxbHFlUzlwSkFmYU9WdzdRdWlfSzJVQzlTLVotMjAxRUlwODTSAYQBQVVfeXFMUGliQ04zRUFPR3RTcGpUYTlNd0F3al9YVVFJMFB6M3ZMVzBCS2JxVzAybG5IVHBDRG90VlVCYXNjX1Y5WWVWRU42aTFMbmdQMnVETW5ESG13d2FZejJ2MUFlanp1dFhfWkJqcTJSb3hwQlZVajB6S19uc3d4eFViNnNSa0Q1?oc=5",
-          "published_at": "2026-08-21T08:36:34+00:00",
-          "article_summary": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili getirileri Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan hazine bonosu 3 baz puanın üzerinde artışla %5,273'e yükseldi.",
-          "article_context": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Uzun vadeli ABD devlet tahvili getirileri, yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programı konusundaki tedirginliği ve yükselen ulusal borçların piyasalar üzerinde etkisini sürdürmesiyle Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan 30 yıllık ABD Hazine tahvilinin getirisi 3 baz puanın üzerinde artışla %5,273'e yükseldi. Bir hafta önce uzun vadeli tahvil %5,21 getiri sağlıyordu. Konut kredileri, otomobil kredileri ve kredi kartı borçları için temel gösterge olan 10 yıllık ABD Hazine tahvili getirisi 3 baz puandan fazla artışla %4,734'e yükseldi. Geçtiğimiz Cuma günü 10 yıllık getiri %4,63 kadar düşüktü. Kısa vadeli Federal Reserve faiz beklentilerini daha yakından takip eden daha kısa vadeli 2 yıllık Hazine bonosu getirisi 4 baz puandan fazla yükselerek %4,232'ye çıktı. Bir haftada iki yılın en düşük getirisi %4,10 civarındaydı. Bir baz puan %0,01'e veya %1'in 1/100'üne eşittir ve getiriler ile fiyatlar birbirine ters yönde hareket eder.",
-          "article_summary_original": "Concerns over the Treasury Department's debt repurchase program continue to weigh on markets. government bond yields moved higher on Friday as investor jitters over the Treasury Department's extended debt repurchase program and soaring national debt continued to hover over markets. Treasury bond, one of the targets of the buyback plan, rose more than 3 basis points to 5.273%.",
-          "article_context_original": "Concerns over the Treasury Department's debt repurchase program continue to weigh on markets. Longer-dated U.S. government bond yields moved higher on Friday as investor jitters over the Treasury Department's extended debt repurchase program and soaring national debt continued to hover over markets. The yield on the 30-year U.S. Treasury bond, one of the targets of the buyback plan, rose more than 3 basis points to 5.273%. A week ago, the long bond yielded 5.21%. The 10-year U.S. Treasury yield — the key benchmark for mortgages, auto loans and credit card debt — was up more than 3 basis points at 4.734%. Last Friday, the 10-year yielded as little as 4.63%. The shorter-dated 2-year Treasury note yield, which more closely tracks short-term Federal Reserve rate expectations, was higher by more than 4 basis points at 4.232%. A week, the two-year low yield was about 4.10%. One basis point equals 0.01%, or 1/100th of 1%, and yields and prices move inversely to one another.",
-          "translation_ok": true,
-          "context": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili getirileri Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan hazine bonosu 3 baz puanın üzerinde artışla %5,273'e yükseldi.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.cnbc.com/2026/08/21/treasury-yields-bonds-inflation-rates.html"
-        },
-        {
-          "title": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
-          "source": "Intellectia AI",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1dwNTZ4UUt5QlowTVhWc0tLS1pXSllEZmlmRmdwNHNMWi1XbDNRSXVyQlZzcHZ1U1Z1eFJnSXo0S3RBdzJFLS1RX0JwenYzbVFfRmRka0RaaDUtMnJMN1pIbnRTR2NRaXZSS3I2OWE1T0E4NldiUC1UQXo5MHlOT0QxVWgyaVU?oc=5",
-          "published_at": "2026-08-21T04:15:48+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
-          "source": "Council on Foreign Relations",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVJ6bXhzRjhidmNacEdxUTU1dTZ1X0lCZ2VITXJsbEpnQlVMX3dBNE5VdHpTRVBvalNZLUZKZ1c3X19ySVQtQWdsOVM5TW5pdW9FejFLUC1rN1J4V1hCc0ExRnV5MndzOThHS2phSVJjM2VBSkUya0ZVbm16Q1FneHJUWEZ1a2Uxb1VFcmItYmxRMUJQUGc?oc=5",
-          "published_at": "2026-08-20T16:30:05+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        }
-      ]
+      "label": "Bitcoin",
+      "query": "(Bitcoin OR BTC) (site:reuters.com OR site:coindesk.com)",
+      "items": [],
+      "source_policy": "trusted_domain + publisher_article required"
     },
     {
-      "label": "Tahvil / Likidite",
-      "query": "US Treasury buyback bond market liquidity long term yields",
-      "items": [
-        {
-          "title": "US Treasury doubles debt buybacks to support bond market as yields surge",
-          "source": "The Indian Panorama",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2VnU0N4cmhJVnRYcXFuRzkxeFcyM0RnZlZiSEdmYXRVTUVHVHpBU2k0NUVNanhFdTVzajdzSHRBWkhfOHhKbEhyanNOaEIyMkp6aXA1ODVRUV9SdndtNDg5MmpiQmp4eEFHbkpnbzhTeUU4TWdoT2VTTHNwNUZkVnFzcWtuQnRLSWlPOVFCX1B4dDRaQm11bS1RcWstQnBBSHlFQlo4SmlSRTFI?oc=5",
-          "published_at": "2026-08-22T14:02:49+00:00",
-          "article_summary": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Bu hamle, tahvil piyasasının ağır bir baskıyla karşı karşıya olduğu ve Hazine getirilerinin neredeyse 20 yılda görülmeyen seviyelere çıktığı bir dönemde geldi.",
-          "article_context": null,
-          "article_summary_original": "Science & Technology | Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as the bond market is facing heavy pressure and Treasury yields have climbed to levels not seen in nearly 20 years.",
-          "article_context_original": "Science & Technology | Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as the bond market is facing heavy pressure and Treasury yields have climbed to levels not seen in nearly 20 years. Treasury Secretary Scott Bessent is leading the department as it increases its role as a buyer in the government bond market, CNBC reported. The main aim is to support liquidity in the longer-term part of the Treasury market, where trading conditions have become difficult. Buybacks will target longer-term Treasury debt Under the new plan, Treasury will focus on government debt with maturities of 10 to 20 years and 20 to 30 years. These longer-term bonds have faced a buyers’ strike since late June, meaning investors have been less willing to buy them. The Treasury currently allows a maximum of $2 billion in each buyback operation. That amount will now be increased to at least $4 billion, meaning the size of the operations will at least double, according to the Treasury Department. The new plan will begin on September 9 and remain in place through November 4. Bond yields dropped after announcement Treasury’s announcement immediately pushed bond yields sharply lower, while US stock market futures moved higher. The benchmark 10-year Treasury yield fell 6 basis points to 4.647%. The 30-year Treasury yield dropped 9 basis points to 5.196%. One basis point is equal to 0.01 percentage point. Treasury bond prices and yields move in opposite directions, so falling yields mean bond prices are rising. Why is the Treasury doing this? Treasury said the larger buyback operations are meant to provide more liquidity in longer-dated parts of the government bond market. The department said there is still strong interest from market participants in these longer-term bonds. Treasury also pointed to the large number of high-quality offers it regularly receives during longer-term buyback operations. LONDON: Scientists have identified materials that ca",
-          "translation_ok": true,
-          "context": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Bu hamle, tahvil piyasasının ağır bir baskıyla karşı karşıya olduğu ve Hazine getirilerinin neredeyse 20 yılda görülmeyen seviyelere çıktığı bir dönemde geldi.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.theindianpanorama.news/us-treasury-doubles-debt-buybacks-to-support-bond-market-as-yields-surge/"
-        },
-        {
-          "title": "Bitcoin surged 25% from $64,000 to $78,500 after a Treasury tweak. Here’s why",
-          "source": "CoinDesk",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWlRXUE10UGhzYkN6RnFoM0ctMElubHk0SHZsMHhKd3NhRm5MUFlrb0hjLU14OUtXRUFWOTAzSGZyQVVMMXJGaXFMcFYyMWxzYjJzbURaVzRGTVducWhrRFlpR0F2UGtlbjNNYW0zMGdxYXg4UEFjZ2k5WVBpOXhSVXl0WlRvYlpwNzU2MUk2TV8tclZSNFA2QlJkdEpaX0N6MmZuS3lEMG9rMDRQWEhfQg?oc=5",
-          "published_at": "2026-08-22T05:05:13+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Dollar dips below 99 as Treasury buyback plans pressure yields and revive fiscal concerns",
-          "source": "VT Markets",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNem9IYV9jT000MzFGakZOMEk3d3RpVjNzbGRNODZDR3lWejB0YUc1anZtTUV5bnRiNEE1bWgtdjZ5Vkg5OUdTTlFjUkZNaTJSUTk5QXZ3YllEQU1RT0FjTmFkaVRlLU9DZHBOcUFFd0VFd25GZHkxYU54ai1sQXFSZkowYncyeXdaMDl1QUJZOXdubHZrZzhNYmc2VE9lQV9DMk9ELVZiNHV2V0UxN3F4OFRPTHY1SWJZY0JDSFBqNEQzVG9BbXlLMGhpU2FwQnhf?oc=5",
-          "published_at": "2026-08-22T04:15:23+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": "Dollar slips as Treasury buybacks push long yields down; Fed stays cautious ahead of Jackson Hole risks. The US dollar slid over the past week as attention shifted from geopolitics and Fed expectations to the US bond market. After Treasury secretary Scott Bessent said the Treasury would buy back larger amounts of older, less-liquid long-dated government bonds, the dollar broke below 99.00 and later moved towards 98.50 for the first time since mid-May.",
-          "article_context_original": "Dollar slips as Treasury buybacks push long yields down; Fed stays cautious ahead of Jackson Hole risks. The US dollar slid over the past week as attention shifted from geopolitics and Fed expectations to the US bond market. After Treasury secretary Scott Bessent said the Treasury would buy back larger amounts of older, less-liquid long-dated government bonds, the dollar broke below 99.00 and later moved towards 98.50 for the first time since mid-May. The plan targets ‘off-the-run’ Treasuries to bolster liquidity and manage the debt profile, rather than QE, and the initial market response saw demand for longer-dated bonds rise while yields fell, weighing on the currency. The move also resurfaced fiscal concerns, with the dollar’s reaction running through lower long-term yields and shifting risk premia, including the potential for a bear steepener if long-end yields rise on fiscal or inflation fears. Fed messaging stayed cautious: Alberto Musalem put underlying inflation at 2.5% to 3%, above the 2% goal, while the July 28–29 FOMC minutes showed most backed no change though several preferred a rise, and fed staff described the outlook as slightly weaker. CFTC data for the week to 11 August showed net speculative dollar positioning down nearly 1.1K to about 21.4K contracts, with the four-week change at +8,230 versus +9,230, and open interest near 49.5K; exposure was 43.21%, with percentiles at 66.6 and 73.9. Next week brings Jackson Hole, plus revisions to Nonfarm Payrolls, another Q2 GDP reading and PCE inflation, while the dollar’s longer-run role remains tied to the Fed’s 2% target and its policy toolkit from QE to QT; the currency still dominates over 88% of global FX turnover, equal to $6.6 trillion a day in 2022. We suggest derivative traders closely watch the $30 trillion US Treasury market as the Treasury’s new buyback program reshapes the US Dollar’s trajectory. With the Greenback slipping below the 99.00 support level toward 98.50, we believe short-term pressure on the currency will persist. This liquidity-boosting initiative has successfully pushed long-term yields down, temporarily eroding the interest rate advantage that previously supported the Dollar",
-          "translation_ok": false,
-          "context": null,
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.vtmarkets.com/en-ca/live-updates/dollar-dips-below-99-as-treasury-buyback-plans-pressure-yields-and-revive-fiscal-concerns/"
-        },
-        {
-          "title": "Bond Markets Take Center Stage As Investors Assess Sovereign Debt, Rising Yields And Surging Corporate Issuance To Fund AI",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORmJObXlzNFhHVUtNMGpBX1VxUzdSeWx0MmJrQk9RYUk1cHpablptSDdTTmFVWHNDRWhwSVN2UDBKcEx2b090QnJZbzZKbE1sUFB1MG5MOEltODRwS3g0b3ZyM1BJMWdmQlkzNFBMUUx2OXhLVjRiQ0ZTZ3RPNVVsQUtLNmc5eXRTUWFQSlJtX21WdlNrcWZaT21CM0dzSkswQWFJQWEzRzBhZmlsMFpDZm5OcEtnSnVrNDN1Rkh3UW13ek9ZQ2NXR1FwRVk1cUhmNWw0WnhRSXhvM09tMk5uQVUtaWMwajRMTlhFRTh0TV9ySGpSRzlRaDlkSzRLdmxVZTNqaG80V2hKamZoNG44?oc=5",
-          "published_at": "2026-08-22T01:02:00+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        }
-      ]
+      "label": "Makro / Fed / Hazine",
+      "query": "(Federal Reserve OR inflation OR CPI OR payrolls OR jobs OR GDP OR Treasury yields OR Treasury buyback) (site:reuters.com OR site:federalreserve.gov OR site:bls.gov OR site:bea.gov OR site:home.treasury.gov)",
+      "items": [],
+      "source_policy": "trusted_domain + publisher_article required"
     },
     {
-      "label": "Kredi",
-      "query": "high yield credit spreads corporate debt default US",
-      "items": []
-    },
-    {
-      "label": "Hisseler / AI",
-      "query": "S&P 500 Nasdaq AI semiconductors earnings stock market",
-      "items": []
-    },
-    {
-      "label": "Kripto",
-      "query": "Bitcoin Ethereum ETF crypto regulation market",
-      "items": [
-        {
-          "title": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs",
-          "source": "Cryptonews.net",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SMDZMMDJQdVNud29wVElsSDFCbnB1RVpqbXFaWG55MUZJWXZDZHMzSGhSYV80MUNSV0tEMjVzTWhjQlptbUp5RnpLQ0J6cF9PVHg1aTJUaw?oc=5",
-          "published_at": "2026-08-21T22:41:12+00:00",
-          "article_summary": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç katına bağlı olan ABD'deki ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı. Chicago Board Options Exchange'in hisse senedi borsası kolu olan CBOE BZX, altı kaldıraçlı ETF'yi listelemek için bir kural değişikliği teklifi sundu.",
-          "article_context": null,
-          "article_summary_original": "Securities and Exchange Commission (SEC) has initiated a public comment period on a proposal by CBOE BZX Exchange to list the first leveraged exchange-traded funds (ETFs) in Securities and Exchange Commission (SEC) has initiated a public comment period on a proposal by CBOE BZX Exchange to list the first leveraged exchange-traded funds (ETFs) in the United States tied to three times the daily returns of Bitcoin and Ethereum. CBOE BZX, the equities exchange arm of the Chicago Board Options Exchange, submitted a rule change proposal to list six leveraged ETFs.",
-          "article_context_original": "The U.S. Securities and Exchange Commission (SEC) has initiated a public comment period on a proposal by CBOE BZX Exchange to list the first leveraged exchange-traded funds (ETFs) in The U.S. Securities and Exchange Commission (SEC) has initiated a public comment period on a proposal by CBOE BZX Exchange to list the first leveraged exchange-traded funds (ETFs) in the United States tied to three times the daily returns of Bitcoin and Ethereum. The filing, published by the regulatory body, marks a significant step in the ongoing integration of digital assets into mainstream financial products. CBOE BZX, the equities exchange arm of the Chicago Board Options Exchange, submitted a rule change proposal to list six leveraged ETFs. These include a 3x Bitcoin ETF, a 3x Ethereum ETF, and leveraged funds for gold, silver, crude oil, and natural gas. The leveraged structure aims to deliver daily returns that are three times the performance of the underlying asset, offering traders amplified exposure to price movements. The SEC’s decision to open the proposal for public comment is a procedural requirement under the Securities Exchange Act of 1934. It allows interested parties—including investors, industry professionals, and academics—to submit feedback on whether the products meet the exchange’s listing standards and investor protection requirements. If approved, these would be the first leveraged crypto ETFs available on U.S. exchanges. While leveraged ETFs are common in traditional finance, their introduction to the crypto space could significantly alter how retail and institutional investors access digital assets. These products offer a way to gain magnified exposure without directly holding the underlying cryptocurrency, potentially increasing market liquidity and participation. However, leveraged ETFs carry heightened risk due to daily rebalancing and compounding effects, which can lead to unexpected losses over extended periods. The SEC’s scrutiny is expected to focus on these risks, as well as on the underlying market’s volatility and the ability of the fund sponsor to manage such products effectively.",
-          "translation_ok": true,
-          "context": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç katına bağlı olan ABD'deki ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı. Chicago Board Options Exchange'in hisse senedi borsası kolu olan CBOE BZX, altı kaldıraçlı ETF'yi listelemek için bir kural değişikliği teklifi sundu.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://cryptonews.net/news/market/33332478/"
-        },
-        {
-          "title": "Why Is Crypto Up Today? Bitcoin Hits $71k as Ethereum Surges Past $2,300",
-          "source": "Bitcoin Foundation",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcFFkSDhfUU5wRE0yQ0tXS0gyTXc4b0piVkd6OFVtMm9IWFdWMGxVNXVtUlgwVFYwM2dacFJTUnkySkFUUGpCYUdZMnlSSG1IX1lrQlpNTHhGelhoeUw2MmozVXo5TUpkXzRwZmVzcEFFZmVPYllSVC1oZnNjUzRwdDhvdlRac1R0MGVWOXRMaDhfZUc1ZGNwTjgtNEt3NzNobjRVMnRFS1Y2OFF0alYxTzJJOA?oc=5",
-          "published_at": "2026-08-20T11:57:06+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": "Find out why Bitcoin and Ethereum have surged today and whether we are seeing a crypto rally comeback Bitcoin has managed to push closer to the psychological $70,000 level after reclaiming $69,000. Meanwhile, Ethereum has jumped above $2,300 and is outperforming Bitcoin on a percentage basis.",
-          "article_context_original": "Find out why Bitcoin and Ethereum have surged today and whether we are seeing a crypto rally comeback Bitcoin has managed to push closer to the psychological $70,000 level after reclaiming $69,000. Meanwhile, Ethereum has jumped above $2,300 and is outperforming Bitcoin on a percentage basis. The question is now whether crypto is back indeed or just a relief rally has returned with a vengeance. Improved liquidity expectations, regulatory optimism, ETF demand and short liquidations have given the market a much-needed boost, but Bitcoin and Ethereum are still significantly below their previous cycle highs. Bitcoin price is back in focus after BTC▲$62,630.00 broke through key levels that had previously restrained the price. The rapid rise has caused bears to flee and momentum buyers to jump in. While the confluence of liquidity, sentiment, and leverage is not enough to suggest the start of a new bull market, it has made Bitcoin $70K one of the most anticipated levels in the short term. The US Treasury is doubling buybacks to $4 billion per operation for \"liquidity support.\"The dollar dumped. BTC ripped 8.7% off the lows to $69.7k.Every operation like this draws the Terminus Line closer. #OMEGA60",
-          "translation_ok": false,
-          "context": null,
-          "context_mode": "publisher_article",
-          "resolved_url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-up-today-bitcoin-hits-71k-as-ethereum-surges-past-2300/"
-        },
-        {
-          "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-          "source": "Altcoin Buzz",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5",
-          "published_at": "2026-08-19T18:40:18+00:00",
-          "article_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler ve teknik analizler sunan bağımsız bir dijital medya kuruluşu. Kripto fiyatları, Bitcoin'in 68.000 doları geri kazanması ve Ethereum'un 2.000 doları aşmasıyla yükseldi; Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserlik piyasanın yükselişini destekledi.",
-          "article_context": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler ve teknik analizler sunan bağımsız bir dijital medya kuruluşu. Kripto fiyatları, Bitcoin'in 68.000 doları geri kazanması ve Ethereum'un 2.000 doları aşmasıyla yükseldi; Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserlik piyasanın yükselişini destekledi. Kripto fiyatları, iyileşen likidite koşulları, kısa tasfiyeler, düzenleyici iyimserlik ve kurumsal ETF girişlerinin bir araya gelerek dijital varlıkları keskin bir şekilde yükseltmesiyle Çarşamba günü yükseldi. Bitcoin (BTC) 68.000 doların üzerine çıkarken, Ethereum (ETH) ABD ticareti sırasında 2.000 dolar seviyesini geri aldı. Solana (SOL), XRP, BNB, Hyperliquid (HYPE) ve Dogecoin (DOGE) de kripto pazarının toparlanmasıyla birlikte yükseliş kaydetti. Bu yükseliş, Hazine'nin geri alımlarının ABD borç piyasalarındaki likiditeye ilişkin endişeleri hafifletmesi ve kripto türev piyasalarında kaldıraçlı kısa pozisyon dalgasının tasfiye edilmesiyle gerçekleşti.",
-          "article_summary_original": "Crypto prices surge as Bitcoin reclaims $68K and Ethereum tops $2,000, boosted by Treasury buybacks, ETF inflows, short liquidations and regulatory optimism. An independent digital media outlet delivering crypto research, news, and technical analysis to a community of 600,000+ users. Crypto prices surged as Bitcoin reclaimed $68,000 and Ethereum crossed $2,000, with Treasury buybacks, ETF inflows, short liquidations and regulatory optimism supporting the market rally.",
-          "article_context_original": "Crypto prices surge as Bitcoin reclaims $68K and Ethereum tops $2,000, boosted by Treasury buybacks, ETF inflows, short liquidations and regulatory optimism. An independent digital media outlet delivering crypto research, news, and technical analysis to a community of 600,000+ users. Crypto prices surged as Bitcoin reclaimed $68,000 and Ethereum crossed $2,000, with Treasury buybacks, ETF inflows, short liquidations and regulatory optimism supporting the market rally. Crypto prices surged on Wednesday as improving liquidity conditions, short liquidations, regulatory optimism and institutional ETF inflows combined to push digital assets sharply higher. Bitcoin (BTC) climbed above $68,000, while Ethereum (ETH) reclaimed the $2,000 level during US trading. Solana (SOL), XRP, BNB, Hyperliquid (HYPE) and Dogecoin (DOGE) also advanced as the broader crypto market recovered. The rally came as Treasury buybacks eased concerns about liquidity in US debt markets, while a wave of leveraged short positions was liquidated across crypto derivatives markets.",
-          "translation_ok": true,
-          "context": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler ve teknik analizler sunan bağımsız bir dijital medya kuruluşu. Kripto fiyatları, Bitcoin'in 68.000 doları geri kazanması ve Ethereum'un 2.000 doları aşmasıyla yükseldi; Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserlik piyasanın yükselişini destekledi.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.altcoinbuzz.io/why-are-crypto-prices-surging-today"
-        }
-      ]
-    },
-    {
-      "label": "Emtia / Jeopolitik",
-      "query": "oil gold commodities geopolitics tariffs",
-      "items": []
+      "label": "Şant Manukyan",
+      "query": "İş Yatırım resmî YouTube",
+      "items": [],
+      "source_policy": "official channel + transcript required"
     }
   ],
   "recency_hours": 72,
-  "headline_count": 11,
-  "article_context_count": 6,
-  "translated_count": 4,
+  "headline_count": 0,
+  "article_context_count": 0,
+  "translated_count": 0,
   "language": "tr",
-  "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
-  "generated_at": "2026-08-22T15:15:04.949688+00:00"
+  "trusted_only": true,
+  "source_policy": {
+    "Bitcoin": [
+      "Reuters",
+      "CoinDesk"
+    ],
+    "Makro": [
+      "Federal Reserve",
+      "U.S. Treasury",
+      "BLS",
+      "BEA",
+      "Reuters"
+    ],
+    "Şant Manukyan": [
+      "İş Yatırım resmî YouTube kanalı + okunabilir transcript"
+    ],
+    "X": [
+      "@realDonaldTrump",
+      "@elonmusk",
+      "@saylor — yalnız X API erişimi varsa"
+    ]
+  },
+  "x_watch": {
+    "configured": false,
+    "status": "X_BEARER_TOKEN yok; gerçek zamanlı X izleme yapılmıyor."
+  },
+  "errors": [],
+  "method": "Trusted-source whitelist. Haber yalnız yayıncı sayfası okunabildiyse; Şant yalnız resmî İş Yatırım transcript'i okunabildiyse; X yalnız resmî API üzerinden eklenir.",
+  "generated_at": "2026-08-22T15:29:09.205021+00:00"
 }

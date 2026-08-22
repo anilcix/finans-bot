@@ -1,7 +1,7 @@
 {
-  "market_score": 55.5,
-  "stance": "Temkinli Risk-On",
-  "confidence": 75.0,
+  "market_score": 54.4,
+  "stance": "Nötr / Bekle-Gör",
+  "confidence": 72.0,
   "component_scores": {
     "macro": 52.7,
     "credit": 61,
@@ -9,7 +9,7 @@
     "crypto": 53.8,
     "crypto_derivatives": 48,
     "equities": 40.4,
-    "news": 65
+    "news": 50
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,165 +17,25 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 65,
-    "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 1 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 65/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
-    "positive_count": 4,
-    "negative_count": 1,
-    "neutral_count": 6,
-    "headline_count": 11,
-    "unique_story_count": 11,
-    "article_context_count": 6,
-    "topic_summaries": [
-      {
-        "topic": "Makro / Fed",
-        "tone": "destekleyici",
-        "count": 4,
-        "digest": "Treasury Yields Rising August 2026: Investor Guide to Bond Market | Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili…",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "topic": "Tahvil / Likidite",
-        "tone": "destekleyici",
-        "count": 4,
-        "digest": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından… | Bitcoin surged 25% from $64,000 to $78,500 after a Treasury tweak. Here’s why",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "topic": "Kripto",
-        "tone": "destekleyici",
-        "count": 3,
-        "digest": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç… | Why Is Crypto Up Today? Bitcoin Hits $71k as Ethereum Surges Past $2,300",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.9; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0094."
-      }
-    ],
-    "important_news": [
-      {
-        "title": "Dollar dips below 99 as Treasury buyback plans pressure yields and revive fiscal concerns",
-        "source": "VT Markets",
-        "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNem9IYV9jT000MzFGakZOMEk3d3RpVjNzbGRNODZDR3lWejB0YUc1anZtTUV5bnRiNEE1bWgtdjZ5Vkg5OUdTTlFjUkZNaTJSUTk5QXZ3YllEQU1RT0FjTmFkaVRlLU9DZHBOcUFFd0VFd25GZHkxYU54ai1sQXFSZkowYncyeXdaMDl1QUJZOXdubHZrZzhNYmc2VE9lQV9DMk9ELVZiNHV2V0UxN3F4OFRPTHY1SWJZY0JDSFBqNEQzVG9BbXlLMGhpU2FwQnhf?oc=5",
-        "published_at": "2026-08-22T04:15:23+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "rates",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "brief_summary": "Dollar dips below 99 as Treasury buyback plans pressure yields and revive fiscal concerns",
-        "summary_mode": "headline_only",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-        "source": "CNBC",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zdkN2SURXc0pxNUsxbnFOazZUQ05fb2JQYWNQMTFOcVB0ZmRaXzRxNEtCV0paRVBtOGxya3lVUURPUWE1a3RQVFFsWmRGXzJGUTc0My02bTQ5czhxbHFlUzlwSkFmYU9WdzdRdWlfSzJVQzlTLVotMjAxRUlwODTSAYQBQVVfeXFMUGliQ04zRUFPR3RTcGpUYTlNd0F3al9YVVFJMFB6M3ZMVzBCS2JxVzAybG5IVHBDRG90VlVCYXNjX1Y5WWVWRU42aTFMbmdQMnVETW5ESG13d2FZejJ2MUFlanp1dFhfWkJqcTJSb3hwQlZVajB6S19uc3d4eFViNnNSa0Q1?oc=5",
-        "published_at": "2026-08-21T08:36:34+00:00",
-        "topic": "Makro / Fed",
-        "theme": "rates",
-        "impact_score": 2,
-        "impact": "Destekleyici",
-        "brief_summary": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "title": "US Treasury doubles debt buybacks to support bond market as yields surge",
-        "source": "The Indian Panorama",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2VnU0N4cmhJVnRYcXFuRzkxeFcyM0RnZlZiSEdmYXRVTUVHVHpBU2k0NUVNanhFdTVzajdzSHRBWkhfOHhKbEhyanNOaEIyMkp6aXA1ODVRUV9SdndtNDg5MmpiQmp4eEFHbkpnbzhTeUU4TWdoT2VTTHNwNUZkVnFzcWtuQnRLSWlPOVFCX1B4dDRaQm11bS1RcWstQnBBSHlFQlo4SmlSRTFI?oc=5",
-        "published_at": "2026-08-22T14:02:49+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "rates",
-        "impact_score": -1,
-        "impact": "Risk artırıcı",
-        "brief_summary": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada risk artırıcı. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
-        "source": "Council on Foreign Relations",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVJ6bXhzRjhidmNacEdxUTU1dTZ1X0lCZ2VITXJsbEpnQlVMX3dBNE5VdHpTRVBvalNZLUZKZ1c3X19ySVQtQWdsOVM5TW5pdW9FejFLUC1rN1J4V1hCc0ExRnV5MndzOThHS2phSVJjM2VBSkUya0ZVbm16Q1FneHJUWEZ1a2Uxb1VFcmItYmxRMUJQUGc?oc=5",
-        "published_at": "2026-08-20T16:30:05+00:00",
-        "topic": "Makro / Fed",
-        "theme": "rates",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "What the Treasury’s Buyback Surprise Says About the Bond Market",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
-        "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-        "source": "Altcoin Buzz",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5",
-        "published_at": "2026-08-19T18:40:18+00:00",
-        "topic": "Kripto",
-        "theme": "crypto",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "Bitcoin'in 68 bin doları geri alması ve Ethereum'un 2.000 doları aşmasıyla kripto fiyatları yükseliyor; bu da Hazine geri alımları, ETF girişleri, kısa vadeli tasfiyeler ve düzenleyici iyimserliğin etkisiyle artıyor. 600.000'den fazla kullanıcıdan oluşan bir topluluğa kripto araştırmaları, haberler…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.9; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0094.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.9; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0094."
-      },
-      {
-        "title": "Bitcoin surged 25% from $64,000 to $78,500 after a Treasury tweak. Here’s why",
-        "source": "CoinDesk",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWlRXUE10UGhzYkN6RnFoM0ctMElubHk0SHZsMHhKd3NhRm5MUFlrb0hjLU14OUtXRUFWOTAzSGZyQVVMMXJGaXFMcFYyMWxzYjJzbURaVzRGTVducWhrRFlpR0F2UGtlbjNNYW0zMGdxYXg4UEFjZ2k5WVBpOXhSVXl0WlRvYlpwNzU2MUk2TV8tclZSNFA2QlJkdEpaX0N6MmZuS3lEMG9rMDRQWEhfQg?oc=5",
-        "published_at": "2026-08-22T05:05:13+00:00",
-        "topic": "Tahvil / Likidite",
-        "theme": "crypto",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Bitcoin surged 25% from $64,000 to $78,500 after a Treasury tweak. Here’s why",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %-0.9; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0094.",
-        "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %-0.9; çoklu-borsa OI 24s %-1.1; OI-ağırlıklı funding %+0.0094."
-      },
-      {
-        "title": "Treasury Yields Rising August 2026: Investor Guide to Bond Market",
-        "source": "Intellectia AI",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rb0NmbUVuZXhGVk1nbFN0RndCenhRVzVJVVJ1dVB2bjJ3MHBHdmRQSkFocHV5RHhueEdEZUNWS3ByOWV0Z3I4ZE5WNkhlX0hXMTBTMkhtX0E3RW5QdTNhdGh6cV9nb01Zc1JtbGJrOA?oc=5",
-        "published_at": "2026-08-22T04:15:52+00:00",
-        "topic": "Makro / Fed",
-        "theme": "rates",
-        "impact_score": 0,
-        "impact": "Nötr / karışık",
-        "brief_summary": "Treasury Yields Rising August 2026: Investor Guide to Bond Market",
-        "summary_mode": "headline_only",
-        "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      }
-    ],
+    "score": 50,
+    "tone": "Karışık / Nötr",
+    "summary": "Son 72 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 0 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 0,
+    "headline_count": 0,
+    "unique_story_count": 0,
+    "article_context_count": 0,
+    "topic_summaries": [],
+    "important_news": [],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
   },
   "supportive_factors": [
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
     "VIX 15.13 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "Stablecoin piyasa değeri 7 günde %+0.69; kripto içi dolar likiditesi genişliyor.",
-    "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
-    "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
-    "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
+    "Stablecoin piyasa değeri 7 günde %+0.71; kripto içi dolar likiditesi genişliyor.",
+    "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü."
   ],
   "risk_factors": [
     "Enflasyon seviyesi hâlâ makro rahatlama alanını sınırlıyor.",
@@ -194,11 +54,11 @@
     "Kriptoda spot momentum: BTC 24s %-0.9, ETH %+0.3.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.9; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 1 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 65/100. 6 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Son 72 saatte haber akışı karışık / nötr: 0 destekleyici, 0 risk artırıcı, 0 nötr/karışık benzersiz başlık. Haber skoru 50/100. Yayıncı sayfası bağlamı alınamadığı yerlerde özet başlığa dayanıyor.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
-    "action": "Kademeli ve seçici risk al; nakit tamponunu koru, güçlü rallileri kovalamaktan kaçın.",
+    "action": "Nötr kal; yeni risk eklemek için teyit bekle, mevcut pozisyonlarda kaliteyi artır.",
     "favored": [
       "Geniş endeks / kaliteli büyük şirketler: tekil yüksek-beta teknolojiye göre daha dengeli.",
       "Nakit veya kısa vadeli Hazine bonosu tamponu: yeni fırsatlar ve volatilite için opsiyonellik.",
@@ -221,15 +81,16 @@
       "Kriptoda OI 24s çok hızlı artarken CVD ters yönde ve funding çapraz-borsada yükseliyorsa kaldıraçlı riski azalt.",
       "Olumsuz haber akışı uzun vadeli faiz, kredi spreadi ve volatilite tarafından aynı anda teyit edilirse riski azalt."
     ],
-    "confidence": 75.0,
+    "confidence": 72.0,
     "disclaimer": "Bu, ajanın genel piyasa koşullarına göre ürettiği model yatırım görüşüdür; kişisel risk toleransı, nakit ihtiyacı, mali durum veya vergi durumuna göre özelleştirilmiş tavsiye değildir."
   },
   "data_quality": {
-    "score": 77,
+    "score": 73,
     "issues": [
       "Gizli Baskı ajanında veri kapsamı dar; özel akışların bir bölümü henüz yok.",
       "Opsiyon ajanında SPX dealer GEX/wall gibi ücretli metrikler eksik.",
       "Binance Futures doğrudan erişilemiyor; alternatif türev kaynakları çalıştığı için ek kalite cezası uygulanmadı.",
+      "Haber kapsamı düşük; Harmanlayıcının haber yorumuna düşük ağırlık verildi.",
       "Treasury buyback sonuç tablosunun bazı alanları otomatik çekilemeyebilir; tentative schedule ve haber teyidi ayrı tutuluyor."
     ]
   },
@@ -391,55 +252,9 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-22T15:17:07.269930+00:00"
+    "generated_at": "2026-08-22T15:32:33.772842+00:00"
   },
-  "buyback_news": [
-    {
-      "title": "US Treasury doubles debt buybacks to support bond market as yields surge",
-      "source": "The Indian Panorama",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQR2VnU0N4cmhJVnRYcXFuRzkxeFcyM0RnZlZiSEdmYXRVTUVHVHpBU2k0NUVNanhFdTVzajdzSHRBWkhfOHhKbEhyanNOaEIyMkp6aXA1ODVRUV9SdndtNDg5MmpiQmp4eEFHbkpnbzhTeUU4TWdoT2VTTHNwNUZkVnFzcWtuQnRLSWlPOVFCX1B4dDRaQm11bS1RcWstQnBBSHlFQlo4SmlSRTFI?oc=5",
-      "published_at": "2026-08-22T14:02:49+00:00",
-      "article_summary": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Bu hamle, tahvil piyasasının ağır bir baskıyla karşı karşıya olduğu ve Hazine getirilerinin neredeyse 20 yılda görülmeyen seviyelere çıktığı bir dönemde geldi.",
-      "article_context": null,
-      "article_summary_original": "Science & Technology | Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as the bond market is facing heavy pressure and Treasury yields have climbed to levels not seen in nearly 20 years.",
-      "article_context_original": "Science & Technology | Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as Washington (TIP): The US Treasury Department said on Wednesday that it will more than double the size of its government debt buybacks. The move comes as the bond market is facing heavy pressure and Treasury yields have climbed to levels not seen in nearly 20 years. Treasury Secretary Scott Bessent is leading the department as it increases its role as a buyer in the government bond market, CNBC reported. The main aim is to support liquidity in the longer-term part of the Treasury market, where trading conditions have become difficult. Buybacks will target longer-term Treasury debt Under the new plan, Treasury will focus on government debt with maturities of 10 to 20 years and 20 to 30 years. These longer-term bonds have faced a buyers’ strike since late June, meaning investors have been less willing to buy them. The Treasury currently allows a maximum of $2 billion in each buyback operation. That amount will now be increased to at least $4 billion, meaning the size of the operations will at least double, according to the Treasury Department. The new plan will begin on September 9 and remain in place through November 4. Bond yields dropped after announcement Treasury’s announcement immediately pushed bond yields sharply lower, while US stock market futures moved higher. The benchmark 10-year Treasury yield fell 6 basis points to 4.647%. The 30-year Treasury yield dropped 9 basis points to 5.196%. One basis point is equal to 0.01 percentage point. Treasury bond prices and yields move in opposite directions, so falling yields mean bond prices are rising. Why is the Treasury doing this? Treasury said the larger buyback operations are meant to provide more liquidity in longer-dated parts of the government bond market. The department said there is still strong interest from market participants in these longer-term bonds. Treasury also pointed to the large number of high-quality offers it regularly receives during longer-term buyback operations. LONDON: Scientists have identified materials that ca",
-      "translation_ok": true,
-      "context": "Bilim ve Teknoloji | Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Washington (TIP): ABD Hazine Bakanlığı Çarşamba günü yaptığı açıklamada, hükümet borç geri alımlarının boyutunu iki katından fazla artıracağını söyledi. Bu hamle, tahvil piyasasının ağır bir baskıyla karşı karşıya olduğu ve Hazine getirilerinin neredeyse 20 yılda görülmeyen seviyelere çıktığı bir dönemde geldi.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://www.theindianpanorama.news/us-treasury-doubles-debt-buybacks-to-support-bond-market-as-yields-surge/",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "Dollar dips below 99 as Treasury buyback plans pressure yields and revive fiscal concerns",
-      "source": "VT Markets",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNem9IYV9jT000MzFGakZOMEk3d3RpVjNzbGRNODZDR3lWejB0YUc1anZtTUV5bnRiNEE1bWgtdjZ5Vkg5OUdTTlFjUkZNaTJSUTk5QXZ3YllEQU1RT0FjTmFkaVRlLU9DZHBOcUFFd0VFd25GZHkxYU54ai1sQXFSZkowYncyeXdaMDl1QUJZOXdubHZrZzhNYmc2VE9lQV9DMk9ELVZiNHV2V0UxN3F4OFRPTHY1SWJZY0JDSFBqNEQzVG9BbXlLMGhpU2FwQnhf?oc=5",
-      "published_at": "2026-08-22T04:15:23+00:00",
-      "article_summary": null,
-      "article_context": null,
-      "article_summary_original": "Dollar slips as Treasury buybacks push long yields down; Fed stays cautious ahead of Jackson Hole risks. The US dollar slid over the past week as attention shifted from geopolitics and Fed expectations to the US bond market. After Treasury secretary Scott Bessent said the Treasury would buy back larger amounts of older, less-liquid long-dated government bonds, the dollar broke below 99.00 and later moved towards 98.50 for the first time since mid-May.",
-      "article_context_original": "Dollar slips as Treasury buybacks push long yields down; Fed stays cautious ahead of Jackson Hole risks. The US dollar slid over the past week as attention shifted from geopolitics and Fed expectations to the US bond market. After Treasury secretary Scott Bessent said the Treasury would buy back larger amounts of older, less-liquid long-dated government bonds, the dollar broke below 99.00 and later moved towards 98.50 for the first time since mid-May. The plan targets ‘off-the-run’ Treasuries to bolster liquidity and manage the debt profile, rather than QE, and the initial market response saw demand for longer-dated bonds rise while yields fell, weighing on the currency. The move also resurfaced fiscal concerns, with the dollar’s reaction running through lower long-term yields and shifting risk premia, including the potential for a bear steepener if long-end yields rise on fiscal or inflation fears. Fed messaging stayed cautious: Alberto Musalem put underlying inflation at 2.5% to 3%, above the 2% goal, while the July 28–29 FOMC minutes showed most backed no change though several preferred a rise, and fed staff described the outlook as slightly weaker. CFTC data for the week to 11 August showed net speculative dollar positioning down nearly 1.1K to about 21.4K contracts, with the four-week change at +8,230 versus +9,230, and open interest near 49.5K; exposure was 43.21%, with percentiles at 66.6 and 73.9. Next week brings Jackson Hole, plus revisions to Nonfarm Payrolls, another Q2 GDP reading and PCE inflation, while the dollar’s longer-run role remains tied to the Fed’s 2% target and its policy toolkit from QE to QT; the currency still dominates over 88% of global FX turnover, equal to $6.6 trillion a day in 2022. We suggest derivative traders closely watch the $30 trillion US Treasury market as the Treasury’s new buyback program reshapes the US Dollar’s trajectory. With the Greenback slipping below the 99.00 support level toward 98.50, we believe short-term pressure on the currency will persist. This liquidity-boosting initiative has successfully pushed long-term yields down, temporarily eroding the interest rate advantage that previously supported the Dollar",
-      "translation_ok": false,
-      "context": null,
-      "context_mode": "publisher_article",
-      "resolved_url": "https://www.vtmarkets.com/en-ca/live-updates/dollar-dips-below-99-as-treasury-buyback-plans-pressure-yields-and-revive-fiscal-concerns/",
-      "topic": "Tahvil / Likidite"
-    },
-    {
-      "title": "Longer-dated Treasury yields rise as Bessent's bond buyback rally fizzles out",
-      "source": "CNBC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zdkN2SURXc0pxNUsxbnFOazZUQ05fb2JQYWNQMTFOcVB0ZmRaXzRxNEtCV0paRVBtOGxya3lVUURPUWE1a3RQVFFsWmRGXzJGUTc0My02bTQ5czhxbHFlUzlwSkFmYU9WdzdRdWlfSzJVQzlTLVotMjAxRUlwODTSAYQBQVVfeXFMUGliQ04zRUFPR3RTcGpUYTlNd0F3al9YVVFJMFB6M3ZMVzBCS2JxVzAybG5IVHBDRG90VlVCYXNjX1Y5WWVWRU42aTFMbmdQMnVETW5ESG13d2FZejJ2MUFlanp1dFhfWkJqcTJSb3hwQlZVajB6S19uc3d4eFViNnNSa0Q1?oc=5",
-      "published_at": "2026-08-21T08:36:34+00:00",
-      "article_summary": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili getirileri Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan hazine bonosu 3 baz puanın üzerinde artışla %5,273'e yükseldi.",
-      "article_context": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Uzun vadeli ABD devlet tahvili getirileri, yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programı konusundaki tedirginliği ve yükselen ulusal borçların piyasalar üzerinde etkisini sürdürmesiyle Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan 30 yıllık ABD Hazine tahvilinin getirisi 3 baz puanın üzerinde artışla %5,273'e yükseldi. Bir hafta önce uzun vadeli tahvil %5,21 getiri sağlıyordu. Konut kredileri, otomobil kredileri ve kredi kartı borçları için temel gösterge olan 10 yıllık ABD Hazine tahvili getirisi 3 baz puandan fazla artışla %4,734'e yükseldi. Geçtiğimiz Cuma günü 10 yıllık getiri %4,63 kadar düşüktü. Kısa vadeli Federal Reserve faiz beklentilerini daha yakından takip eden daha kısa vadeli 2 yıllık Hazine bonosu getirisi 4 baz puandan fazla yükselerek %4,232'ye çıktı. Bir haftada iki yılın en düşük getirisi %4,10 civarındaydı. Bir baz puan %0,01'e veya %1'in 1/100'üne eşittir ve getiriler ile fiyatlar birbirine ters yönde hareket eder.",
-      "article_summary_original": "Concerns over the Treasury Department's debt repurchase program continue to weigh on markets. government bond yields moved higher on Friday as investor jitters over the Treasury Department's extended debt repurchase program and soaring national debt continued to hover over markets. Treasury bond, one of the targets of the buyback plan, rose more than 3 basis points to 5.273%.",
-      "article_context_original": "Concerns over the Treasury Department's debt repurchase program continue to weigh on markets. Longer-dated U.S. government bond yields moved higher on Friday as investor jitters over the Treasury Department's extended debt repurchase program and soaring national debt continued to hover over markets. The yield on the 30-year U.S. Treasury bond, one of the targets of the buyback plan, rose more than 3 basis points to 5.273%. A week ago, the long bond yielded 5.21%. The 10-year U.S. Treasury yield — the key benchmark for mortgages, auto loans and credit card debt — was up more than 3 basis points at 4.734%. Last Friday, the 10-year yielded as little as 4.63%. The shorter-dated 2-year Treasury note yield, which more closely tracks short-term Federal Reserve rate expectations, was higher by more than 4 basis points at 4.232%. A week, the two-year low yield was about 4.10%. One basis point equals 0.01%, or 1/100th of 1%, and yields and prices move inversely to one another.",
-      "translation_ok": true,
-      "context": "Hazine Bakanlığı'nın borç geri alım programına ilişkin endişeler piyasalar üzerinde baskı oluşturmaya devam ediyor. Yatırımcıların Hazine Bakanlığı'nın uzatılmış borç geri alım programına ilişkin endişeleri ve artan ulusal borçların piyasalar üzerinde etkisini sürdürmesi nedeniyle devlet tahvili getirileri Cuma günü yükseldi. Geri alım planının hedeflerinden biri olan hazine bonosu 3 baz puanın üzerinde artışla %5,273'e yükseldi.",
-      "context_mode": "publisher_article",
-      "resolved_url": "https://www.cnbc.com/2026/08/21/treasury-yields-bonds-inflation-rates.html",
-      "topic": "Makro / Fed"
-    }
-  ],
+  "buyback_news": [],
   "agent_status": {
     "macro": "ok",
     "credit": "ok",
@@ -452,5 +267,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-22T15:15:04.949688+00:00"
+  "generated_at": "2026-08-22T15:29:09.205021+00:00"
 }
