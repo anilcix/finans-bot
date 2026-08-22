@@ -1,5 +1,132 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "RENDER",
+      "name": "Render",
+      "coingecko_id": "render-token",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "RENDERUSDT",
+      "price": 1.45,
+      "change_24h": -1.7,
+      "volume_zscore_10m": 4.916956556236016,
+      "volume_10m_usd": 158043.49744,
+      "volume_mean_10m_usd": 24772.561086666665,
+      "buyer_share_pct": 89.18359635359889,
+      "taker_buy_10m_usd": 140948.87482,
+      "taker_sell_10m_usd": 17094.62262000001,
+      "spot_delta_10m_usd": 123854.25219999999,
+      "price_change_10m_pct": -0.6155950752393946,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787409600000,
+          "delta_usd": -5204.93086,
+          "green": false
+        },
+        {
+          "ts": 1787410200000,
+          "delta_usd": 34070.65631000002,
+          "green": true
+        },
+        {
+          "ts": 1787410800000,
+          "delta_usd": 123854.25219999999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 152719.97765000002,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 9.535316191595903,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T15:00:00+00:00"
+    },
+    {
+      "symbol": "XLM",
+      "name": "Stellar",
+      "coingecko_id": "stellar",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "XLMUSDT",
+      "price": 0.193651,
+      "change_24h": 3.2,
+      "volume_zscore_10m": 5.615872284206897,
+      "volume_10m_usd": 1094999.7043,
+      "volume_mean_10m_usd": 271231.52628666663,
+      "buyer_share_pct": 61.936393255334686,
+      "taker_buy_10m_usd": 678203.323,
+      "taker_sell_10m_usd": 416796.3813000001,
+      "spot_delta_10m_usd": 261406.94169999985,
+      "price_change_10m_pct": -1.7197774405665056,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787409600000,
+          "delta_usd": -103935.41349999997,
+          "green": false
+        },
+        {
+          "ts": 1787410200000,
+          "delta_usd": -13869.376000000018,
+          "green": false
+        },
+        {
+          "ts": 1787410800000,
+          "delta_usd": 261406.94169999985,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 1,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 143602.15219999987,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 7.159511609740365,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T15:00:00+00:00"
+    },
+    {
+      "symbol": "NIGHT",
+      "name": "Midnight",
+      "coingecko_id": "midnight-3",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "NIGHTUSDT",
+      "price": 0.02010167,
+      "change_24h": -5.5,
+      "volume_zscore_10m": 3.6672827202203195,
+      "volume_10m_usd": 58125.802279999996,
+      "volume_mean_10m_usd": 17047.753248333334,
+      "buyer_share_pct": 71.24787935056095,
+      "taker_buy_10m_usd": 41413.40148,
+      "taker_sell_10m_usd": 16712.400799999996,
+      "spot_delta_10m_usd": 24701.000680000005,
+      "price_change_10m_pct": -0.7909045971329687,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787409600000,
+          "delta_usd": 24.20843000000241,
+          "green": true
+        },
+        {
+          "ts": 1787410200000,
+          "delta_usd": -166.57754000000023,
+          "green": false
+        },
+        {
+          "ts": 1787410800000,
+          "delta_usd": 24701.000680000005,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 24558.631570000005,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.142070655276415,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T15:00:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,10 +137,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 3,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T14:56:43.789602+00:00"
+  "generated_at": "2026-08-22T15:15:04.949688+00:00"
 }
