@@ -1,88 +1,88 @@
 {
   "movers": [
     {
-      "symbol": "ETHFI",
-      "name": "Ether.fi",
-      "coingecko_id": "ether-fi",
+      "symbol": "IOTA",
+      "name": "IOTA",
+      "coingecko_id": "iota",
       "exchange": "Binance Spot",
-      "exchange_symbol": "ETHFIUSDT",
-      "price": 0.600653,
-      "change_24h": -1.4,
-      "volume_zscore_10m": 3.7745587991237204,
-      "volume_10m_usd": 119383.82608999999,
-      "volume_mean_10m_usd": 44956.791263,
-      "buyer_share_pct": 75.46112109196854,
-      "taker_buy_10m_usd": 90088.37357000001,
-      "taker_sell_10m_usd": 29295.452519999977,
-      "spot_delta_10m_usd": 60792.92105000003,
-      "price_change_10m_pct": 1.7072346179851206,
-      "price_candle_green": true,
+      "exchange_symbol": "IOTAUSDT",
+      "price": 0.04490218,
+      "change_24h": 7.9,
+      "volume_zscore_10m": 2.093568095696675,
+      "volume_10m_usd": 16064.5435,
+      "volume_mean_10m_usd": 5374.35093,
+      "buyer_share_pct": 76.73981274351182,
+      "taker_buy_10m_usd": 12327.9006,
+      "taker_sell_10m_usd": 3736.642899999999,
+      "spot_delta_10m_usd": 8591.257700000002,
+      "price_change_10m_pct": -0.8849557522123797,
+      "price_candle_green": false,
       "cvd_last3": [
         {
-          "ts": 1787415000000,
-          "delta_usd": 3285.217550000001,
+          "ts": 1787416200000,
+          "delta_usd": 2377.9248000000007,
           "green": true
         },
         {
-          "ts": 1787415600000,
-          "delta_usd": -16822.40070999999,
+          "ts": 1787416800000,
+          "delta_usd": -373.7640999999999,
           "green": false
         },
         {
-          "ts": 1787416200000,
-          "delta_usd": 60792.92105000003,
+          "ts": 1787417400000,
+          "delta_usd": 8591.257700000002,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
       "cvd_green_streak": 1,
-      "cvd_30m_delta_usd": 47255.73789000005,
+      "cvd_30m_delta_usd": 10595.418400000002,
       "cvd_note": "CVD devam teyidi henüz yok",
-      "signal_score": 6.670670908320574,
+      "signal_score": 5.117549370047857,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:30:00+00:00"
+      "signal_time_utc": "2026-08-22T16:50:00+00:00"
     },
     {
-      "symbol": "KITE",
-      "name": "Kite",
-      "coingecko_id": "kite-2",
+      "symbol": "INJ",
+      "name": "Injective",
+      "coingecko_id": "injective-protocol",
       "exchange": "Binance Spot",
-      "exchange_symbol": "KITEUSDT",
-      "price": 0.111831,
-      "change_24h": 3.5,
-      "volume_zscore_10m": 2.313082209264182,
-      "volume_10m_usd": 53090.21994,
-      "volume_mean_10m_usd": 22046.042825666667,
-      "buyer_share_pct": 73.3935276290739,
-      "taker_buy_10m_usd": 38964.785240000005,
-      "taker_sell_10m_usd": 14125.434699999998,
-      "spot_delta_10m_usd": 24839.350540000007,
-      "price_change_10m_pct": -0.6227758007117501,
-      "price_candle_green": false,
+      "exchange_symbol": "INJUSDT",
+      "price": 4.9,
+      "change_24h": -1.8,
+      "volume_zscore_10m": 2.4620941875598805,
+      "volume_10m_usd": 200307.38399,
+      "volume_mean_10m_usd": 53904.62490633334,
+      "buyer_share_pct": 55.1560473105253,
+      "taker_buy_10m_usd": 110481.63548,
+      "taker_sell_10m_usd": 89825.74851,
+      "spot_delta_10m_usd": 20655.886969999992,
+      "price_change_10m_pct": 0.16363264471261907,
+      "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787415000000,
-          "delta_usd": -237.6814400000003,
-          "green": false
-        },
-        {
-          "ts": 1787415600000,
-          "delta_usd": 1286.3798700000007,
+          "ts": 1787416200000,
+          "delta_usd": 4205.970519999995,
           "green": true
         },
         {
-          "ts": 1787416200000,
-          "delta_usd": 24839.350540000007,
+          "ts": 1787416800000,
+          "delta_usd": -337.5054399999972,
+          "green": false
+        },
+        {
+          "ts": 1787417400000,
+          "delta_usd": 20655.886969999992,
           "green": true
         }
       ],
       "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 25888.048970000007,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.352434972171572,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 24524.35204999999,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 3.327698918612411,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:30:00+00:00"
+      "signal_time_utc": "2026-08-22T16:50:00+00:00"
     }
   ],
   "window": "10m",
@@ -100,5 +100,5 @@
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T16:44:27.735778+00:00"
+  "generated_at": "2026-08-22T17:00:55.626275+00:00"
 }
