@@ -1,7 +1,7 @@
 {
   "schema_version": 4,
   "venue": "Binance",
-  "generated_at": "2026-08-22T06:22:04.302753+00:00",
+  "generated_at": "2026-08-22T07:07:21.130303+00:00",
   "interval_minutes": 10,
   "window_hours": 24,
   "max_points": 144,
@@ -18,45 +18,9 @@
   "error": null,
   "points": [
     {
-      "ts": "2026-08-21T06:40:00+00:00",
-      "spot_cvd_delta_btc": 31.787600000000054,
-      "spot_cvd_cumulative_btc": 97.02519000000022,
-      "spot_buy_btc": 135.09614000000002,
-      "spot_sell_btc": 103.30853999999997,
-      "spot_close_usd": 75704.08,
-      "binance_oi_usd": 8296496023.504799
-    },
-    {
-      "ts": "2026-08-21T06:50:00+00:00",
-      "spot_cvd_delta_btc": 132.73487000000011,
-      "spot_cvd_cumulative_btc": 229.76006000000035,
-      "spot_buy_btc": 251.4180500000001,
-      "spot_sell_btc": 118.68318,
-      "spot_close_usd": 75516.28,
-      "binance_oi_usd": 8273284445.965799
-    },
-    {
-      "ts": "2026-08-21T07:00:00+00:00",
-      "spot_cvd_delta_btc": -6.359939999999995,
-      "spot_cvd_cumulative_btc": 223.40012000000036,
-      "spot_buy_btc": 73.89764000000002,
-      "spot_sell_btc": 80.25758000000002,
-      "spot_close_usd": 75646.21,
-      "binance_oi_usd": 8303685424.993701
-    },
-    {
-      "ts": "2026-08-21T07:10:00+00:00",
-      "spot_cvd_delta_btc": 78.06540999999993,
-      "spot_cvd_cumulative_btc": 301.4655300000003,
-      "spot_buy_btc": 196.61237,
-      "spot_sell_btc": 118.54696000000007,
-      "spot_close_usd": 75868.28,
-      "binance_oi_usd": 8316705358.577
-    },
-    {
       "ts": "2026-08-21T07:20:00+00:00",
       "spot_cvd_delta_btc": 142.60282000000007,
-      "spot_cvd_cumulative_btc": 444.06835000000035,
+      "spot_cvd_cumulative_btc": 214.30829,
       "spot_buy_btc": 647.1254300000005,
       "spot_sell_btc": 504.52261000000044,
       "spot_close_usd": 76484.48,
@@ -65,7 +29,7 @@
     {
       "ts": "2026-08-21T07:30:00+00:00",
       "spot_cvd_delta_btc": 22.666739999999777,
-      "spot_cvd_cumulative_btc": 466.7350900000001,
+      "spot_cvd_cumulative_btc": 236.97502999999978,
       "spot_buy_btc": 189.39609999999988,
       "spot_sell_btc": 166.7293600000001,
       "spot_close_usd": 76410.38,
@@ -74,7 +38,7 @@
     {
       "ts": "2026-08-21T07:40:00+00:00",
       "spot_cvd_delta_btc": -126.92460999999946,
-      "spot_cvd_cumulative_btc": 339.81048000000067,
+      "spot_cvd_cumulative_btc": 110.05042000000032,
       "spot_buy_btc": 248.38135000000005,
       "spot_sell_btc": 375.3059599999995,
       "spot_close_usd": 76523.53,
@@ -83,7 +47,7 @@
     {
       "ts": "2026-08-21T07:50:00+00:00",
       "spot_cvd_delta_btc": -161.63309000000015,
-      "spot_cvd_cumulative_btc": 178.1773900000005,
+      "spot_cvd_cumulative_btc": -51.58266999999984,
       "spot_buy_btc": 229.51891999999998,
       "spot_sell_btc": 391.15201000000013,
       "spot_close_usd": 76460.01,
@@ -92,7 +56,7 @@
     {
       "ts": "2026-08-21T08:00:00+00:00",
       "spot_cvd_delta_btc": -189.7862799999998,
-      "spot_cvd_cumulative_btc": -11.608889999999292,
+      "spot_cvd_cumulative_btc": -241.36894999999964,
       "spot_buy_btc": 259.24349000000007,
       "spot_sell_btc": 449.02976999999987,
       "spot_close_usd": 76308.65,
@@ -101,7 +65,7 @@
     {
       "ts": "2026-08-21T08:10:00+00:00",
       "spot_cvd_delta_btc": 13.64142000000038,
-      "spot_cvd_cumulative_btc": 2.0325300000010884,
+      "spot_cvd_cumulative_btc": -227.72752999999926,
       "spot_buy_btc": 161.95881000000014,
       "spot_sell_btc": 148.31738999999976,
       "spot_close_usd": 76768.71,
@@ -110,7 +74,7 @@
     {
       "ts": "2026-08-21T08:20:00+00:00",
       "spot_cvd_delta_btc": 115.24965000000009,
-      "spot_cvd_cumulative_btc": 117.28218000000118,
+      "spot_cvd_cumulative_btc": -112.47787999999917,
       "spot_buy_btc": 357.55190000000005,
       "spot_sell_btc": 242.30224999999996,
       "spot_close_usd": 77170.94,
@@ -119,7 +83,7 @@
     {
       "ts": "2026-08-21T08:30:00+00:00",
       "spot_cvd_delta_btc": -7.251580000000331,
-      "spot_cvd_cumulative_btc": 110.03060000000085,
+      "spot_cvd_cumulative_btc": -119.7294599999995,
       "spot_buy_btc": 234.45551999999986,
       "spot_sell_btc": 241.7071000000002,
       "spot_close_usd": 77240.33,
@@ -128,7 +92,7 @@
     {
       "ts": "2026-08-21T08:40:00+00:00",
       "spot_cvd_delta_btc": 65.7560500000003,
-      "spot_cvd_cumulative_btc": 175.78665000000115,
+      "spot_cvd_cumulative_btc": -53.973409999999205,
       "spot_buy_btc": 312.59271000000024,
       "spot_sell_btc": 246.83665999999994,
       "spot_close_usd": 77527.14,
@@ -137,7 +101,7 @@
     {
       "ts": "2026-08-21T08:50:00+00:00",
       "spot_cvd_delta_btc": 82.70909000000051,
-      "spot_cvd_cumulative_btc": 258.49574000000166,
+      "spot_cvd_cumulative_btc": 28.73568000000131,
       "spot_buy_btc": 474.87202999999994,
       "spot_sell_btc": 392.1629399999994,
       "spot_close_usd": 77939.55,
@@ -146,7 +110,7 @@
     {
       "ts": "2026-08-21T09:00:00+00:00",
       "spot_cvd_delta_btc": 235.0096300000023,
-      "spot_cvd_cumulative_btc": 493.50537000000395,
+      "spot_cvd_cumulative_btc": 263.7453100000036,
       "spot_buy_btc": 894.3626900000006,
       "spot_sell_btc": 659.3530599999983,
       "spot_close_usd": 79258.03,
@@ -155,7 +119,7 @@
     {
       "ts": "2026-08-21T09:10:00+00:00",
       "spot_cvd_delta_btc": -169.91488000000027,
-      "spot_cvd_cumulative_btc": 323.5904900000037,
+      "spot_cvd_cumulative_btc": 93.83043000000333,
       "spot_buy_btc": 760.1560899999997,
       "spot_sell_btc": 930.07097,
       "spot_close_usd": 77833.88,
@@ -164,7 +128,7 @@
     {
       "ts": "2026-08-21T09:20:00+00:00",
       "spot_cvd_delta_btc": -2.453740000000721,
-      "spot_cvd_cumulative_btc": 321.13675000000296,
+      "spot_cvd_cumulative_btc": 91.37669000000261,
       "spot_buy_btc": 363.97814999999974,
       "spot_sell_btc": 366.43189000000046,
       "spot_close_usd": 77580.83,
@@ -173,7 +137,7 @@
     {
       "ts": "2026-08-21T09:30:00+00:00",
       "spot_cvd_delta_btc": -21.377499999999884,
-      "spot_cvd_cumulative_btc": 299.7592500000031,
+      "spot_cvd_cumulative_btc": 69.99919000000273,
       "spot_buy_btc": 196.05814000000012,
       "spot_sell_btc": 217.43564,
       "spot_close_usd": 77711.09,
@@ -182,7 +146,7 @@
     {
       "ts": "2026-08-21T09:40:00+00:00",
       "spot_cvd_delta_btc": 56.6237499999998,
-      "spot_cvd_cumulative_btc": 356.3830000000029,
+      "spot_cvd_cumulative_btc": 126.62294000000253,
       "spot_buy_btc": 223.06228999999993,
       "spot_sell_btc": 166.43854000000013,
       "spot_close_usd": 77908.01,
@@ -191,7 +155,7 @@
     {
       "ts": "2026-08-21T09:50:00+00:00",
       "spot_cvd_delta_btc": -14.573639999999784,
-      "spot_cvd_cumulative_btc": 341.8093600000031,
+      "spot_cvd_cumulative_btc": 112.04930000000275,
       "spot_buy_btc": 221.62981000000008,
       "spot_sell_btc": 236.20344999999986,
       "spot_close_usd": 78257.61,
@@ -200,7 +164,7 @@
     {
       "ts": "2026-08-21T10:00:00+00:00",
       "spot_cvd_delta_btc": -114.4510200000002,
-      "spot_cvd_cumulative_btc": 227.3583400000029,
+      "spot_cvd_cumulative_btc": -2.4017199999974537,
       "spot_buy_btc": 185.58109000000002,
       "spot_sell_btc": 300.0321100000002,
       "spot_close_usd": 77910.71,
@@ -209,7 +173,7 @@
     {
       "ts": "2026-08-21T10:10:00+00:00",
       "spot_cvd_delta_btc": 31.566890000000058,
-      "spot_cvd_cumulative_btc": 258.92523000000295,
+      "spot_cvd_cumulative_btc": 29.165170000002604,
       "spot_buy_btc": 169.98845000000003,
       "spot_sell_btc": 138.42155999999997,
       "spot_close_usd": 77790.76,
@@ -218,7 +182,7 @@
     {
       "ts": "2026-08-21T10:20:00+00:00",
       "spot_cvd_delta_btc": -14.674280000000067,
-      "spot_cvd_cumulative_btc": 244.2509500000029,
+      "spot_cvd_cumulative_btc": 14.490890000002537,
       "spot_buy_btc": 197.56175000000013,
       "spot_sell_btc": 212.2360300000002,
       "spot_close_usd": 78240.84,
@@ -227,7 +191,7 @@
     {
       "ts": "2026-08-21T10:30:00+00:00",
       "spot_cvd_delta_btc": -74.23494000000005,
-      "spot_cvd_cumulative_btc": 170.01601000000284,
+      "spot_cvd_cumulative_btc": -59.744049999997515,
       "spot_buy_btc": 142.10053000000008,
       "spot_sell_btc": 216.33547000000013,
       "spot_close_usd": 77928.54,
@@ -236,7 +200,7 @@
     {
       "ts": "2026-08-21T10:40:00+00:00",
       "spot_cvd_delta_btc": -15.209879999999998,
-      "spot_cvd_cumulative_btc": 154.80613000000284,
+      "spot_cvd_cumulative_btc": -74.95392999999751,
       "spot_buy_btc": 84.40823000000002,
       "spot_sell_btc": 99.61811000000002,
       "spot_close_usd": 77721.99,
@@ -245,7 +209,7 @@
     {
       "ts": "2026-08-21T10:50:00+00:00",
       "spot_cvd_delta_btc": -8.79065,
-      "spot_cvd_cumulative_btc": 146.01548000000284,
+      "spot_cvd_cumulative_btc": -83.74457999999751,
       "spot_buy_btc": 72.24104000000001,
       "spot_sell_btc": 81.03169000000001,
       "spot_close_usd": 77794.54,
@@ -254,7 +218,7 @@
     {
       "ts": "2026-08-21T11:00:00+00:00",
       "spot_cvd_delta_btc": -86.09764000000004,
-      "spot_cvd_cumulative_btc": 59.9178400000028,
+      "spot_cvd_cumulative_btc": -169.84221999999755,
       "spot_buy_btc": 52.07167000000001,
       "spot_sell_btc": 138.16931000000005,
       "spot_close_usd": 77810.02,
@@ -263,7 +227,7 @@
     {
       "ts": "2026-08-21T11:10:00+00:00",
       "spot_cvd_delta_btc": -11.107350000000082,
-      "spot_cvd_cumulative_btc": 48.810490000002716,
+      "spot_cvd_cumulative_btc": -180.94956999999764,
       "spot_buy_btc": 69.62046999999997,
       "spot_sell_btc": 80.72782000000005,
       "spot_close_usd": 77742.01,
@@ -272,7 +236,7 @@
     {
       "ts": "2026-08-21T11:20:00+00:00",
       "spot_cvd_delta_btc": -76.83921000000015,
-      "spot_cvd_cumulative_btc": -28.028719999997435,
+      "spot_cvd_cumulative_btc": -257.7887799999978,
       "spot_buy_btc": 115.19385,
       "spot_sell_btc": 192.03306000000015,
       "spot_close_usd": 77317.34,
@@ -281,7 +245,7 @@
     {
       "ts": "2026-08-21T11:30:00+00:00",
       "spot_cvd_delta_btc": 16.535680000000127,
-      "spot_cvd_cumulative_btc": -11.493039999997308,
+      "spot_cvd_cumulative_btc": -241.2530999999977,
       "spot_buy_btc": 180.9523800000001,
       "spot_sell_btc": 164.41669999999996,
       "spot_close_usd": 77419.01,
@@ -290,7 +254,7 @@
     {
       "ts": "2026-08-21T11:40:00+00:00",
       "spot_cvd_delta_btc": -170.48666000000037,
-      "spot_cvd_cumulative_btc": -181.97969999999768,
+      "spot_cvd_cumulative_btc": -411.73975999999806,
       "spot_buy_btc": 323.03961999999984,
       "spot_sell_btc": 493.5262800000002,
       "spot_close_usd": 76985.01,
@@ -299,7 +263,7 @@
     {
       "ts": "2026-08-21T11:50:00+00:00",
       "spot_cvd_delta_btc": -80.34506999999991,
-      "spot_cvd_cumulative_btc": -262.32476999999756,
+      "spot_cvd_cumulative_btc": -492.08482999999796,
       "spot_buy_btc": 116.78097000000002,
       "spot_sell_btc": 197.12603999999993,
       "spot_close_usd": 76698.99,
@@ -308,7 +272,7 @@
     {
       "ts": "2026-08-21T12:00:00+00:00",
       "spot_cvd_delta_btc": -77.49870999999973,
-      "spot_cvd_cumulative_btc": -339.8234799999973,
+      "spot_cvd_cumulative_btc": -569.5835399999977,
       "spot_buy_btc": 188.41228000000012,
       "spot_sell_btc": 265.91098999999986,
       "spot_close_usd": 76722.32,
@@ -317,7 +281,7 @@
     {
       "ts": "2026-08-21T12:10:00+00:00",
       "spot_cvd_delta_btc": -22.176390000000083,
-      "spot_cvd_cumulative_btc": -361.9998699999974,
+      "spot_cvd_cumulative_btc": -591.7599299999978,
       "spot_buy_btc": 275.25105999999994,
       "spot_sell_btc": 297.42745,
       "spot_close_usd": 76769.71,
@@ -326,7 +290,7 @@
     {
       "ts": "2026-08-21T12:20:00+00:00",
       "spot_cvd_delta_btc": -67.92953000000034,
-      "spot_cvd_cumulative_btc": -429.9293999999977,
+      "spot_cvd_cumulative_btc": -659.6894599999981,
       "spot_buy_btc": 223.61340000000013,
       "spot_sell_btc": 291.54293000000047,
       "spot_close_usd": 76831.24,
@@ -335,7 +299,7 @@
     {
       "ts": "2026-08-21T12:30:00+00:00",
       "spot_cvd_delta_btc": -37.30820999999969,
-      "spot_cvd_cumulative_btc": -467.2376099999974,
+      "spot_cvd_cumulative_btc": -696.9976699999978,
       "spot_buy_btc": 158.60096999999996,
       "spot_sell_btc": 195.90917999999965,
       "spot_close_usd": 76680.5,
@@ -344,7 +308,7 @@
     {
       "ts": "2026-08-21T12:40:00+00:00",
       "spot_cvd_delta_btc": 204.52191999999957,
-      "spot_cvd_cumulative_btc": -262.71568999999784,
+      "spot_cvd_cumulative_btc": -492.47574999999824,
       "spot_buy_btc": 420.72051,
       "spot_sell_btc": 216.19859000000042,
       "spot_close_usd": 77230.98,
@@ -353,7 +317,7 @@
     {
       "ts": "2026-08-21T12:50:00+00:00",
       "spot_cvd_delta_btc": 103.9041299999999,
-      "spot_cvd_cumulative_btc": -158.81155999999794,
+      "spot_cvd_cumulative_btc": -388.57161999999835,
       "spot_buy_btc": 259.39616,
       "spot_sell_btc": 155.4920300000001,
       "spot_close_usd": 77386.0,
@@ -362,7 +326,7 @@
     {
       "ts": "2026-08-21T13:00:00+00:00",
       "spot_cvd_delta_btc": -40.79801000000012,
-      "spot_cvd_cumulative_btc": -199.60956999999806,
+      "spot_cvd_cumulative_btc": -429.36962999999844,
       "spot_buy_btc": 72.61311999999994,
       "spot_sell_btc": 113.41113000000006,
       "spot_close_usd": 77223.66,
@@ -371,7 +335,7 @@
     {
       "ts": "2026-08-21T13:10:00+00:00",
       "spot_cvd_delta_btc": 1.3159100000000592,
-      "spot_cvd_cumulative_btc": -198.293659999998,
+      "spot_cvd_cumulative_btc": -428.0537199999984,
       "spot_buy_btc": 85.65606000000004,
       "spot_sell_btc": 84.34014999999998,
       "spot_close_usd": 77248.91,
@@ -380,7 +344,7 @@
     {
       "ts": "2026-08-21T13:20:00+00:00",
       "spot_cvd_delta_btc": -29.477720000000033,
-      "spot_cvd_cumulative_btc": -227.77137999999803,
+      "spot_cvd_cumulative_btc": -457.53143999999844,
       "spot_buy_btc": 143.71523000000002,
       "spot_sell_btc": 173.19295000000005,
       "spot_close_usd": 76969.69,
@@ -389,7 +353,7 @@
     {
       "ts": "2026-08-21T13:30:00+00:00",
       "spot_cvd_delta_btc": 20.194510000000435,
-      "spot_cvd_cumulative_btc": -207.5768699999976,
+      "spot_cvd_cumulative_btc": -437.336929999998,
       "spot_buy_btc": 151.24831000000012,
       "spot_sell_btc": 131.05379999999968,
       "spot_close_usd": 77083.93,
@@ -398,7 +362,7 @@
     {
       "ts": "2026-08-21T13:40:00+00:00",
       "spot_cvd_delta_btc": -34.91998000000001,
-      "spot_cvd_cumulative_btc": -242.4968499999976,
+      "spot_cvd_cumulative_btc": -472.256909999998,
       "spot_buy_btc": 258.88103000000007,
       "spot_sell_btc": 293.8010100000001,
       "spot_close_usd": 76977.37,
@@ -407,7 +371,7 @@
     {
       "ts": "2026-08-21T13:50:00+00:00",
       "spot_cvd_delta_btc": 50.75762000000009,
-      "spot_cvd_cumulative_btc": -191.73922999999752,
+      "spot_cvd_cumulative_btc": -421.4992899999979,
       "spot_buy_btc": 222.3726000000001,
       "spot_sell_btc": 171.61498,
       "spot_close_usd": 77468.0,
@@ -416,7 +380,7 @@
     {
       "ts": "2026-08-21T14:00:00+00:00",
       "spot_cvd_delta_btc": -44.67914000000013,
-      "spot_cvd_cumulative_btc": -236.41836999999765,
+      "spot_cvd_cumulative_btc": -466.17842999999806,
       "spot_buy_btc": 130.9789,
       "spot_sell_btc": 175.65804000000014,
       "spot_close_usd": 77266.87,
@@ -425,7 +389,7 @@
     {
       "ts": "2026-08-21T14:10:00+00:00",
       "spot_cvd_delta_btc": -22.175639999999987,
-      "spot_cvd_cumulative_btc": -258.59400999999764,
+      "spot_cvd_cumulative_btc": -488.35406999999805,
       "spot_buy_btc": 152.01200999999995,
       "spot_sell_btc": 174.18764999999993,
       "spot_close_usd": 76992.01,
@@ -434,7 +398,7 @@
     {
       "ts": "2026-08-21T14:20:00+00:00",
       "spot_cvd_delta_btc": -31.547029999999836,
-      "spot_cvd_cumulative_btc": -290.1410399999975,
+      "spot_cvd_cumulative_btc": -519.9010999999979,
       "spot_buy_btc": 198.0491400000002,
       "spot_sell_btc": 229.59617000000003,
       "spot_close_usd": 76666.68,
@@ -443,7 +407,7 @@
     {
       "ts": "2026-08-21T14:30:00+00:00",
       "spot_cvd_delta_btc": 46.58468000000039,
-      "spot_cvd_cumulative_btc": -243.55635999999708,
+      "spot_cvd_cumulative_btc": -473.3164199999975,
       "spot_buy_btc": 223.75581000000005,
       "spot_sell_btc": 177.17112999999966,
       "spot_close_usd": 77067.99,
@@ -452,7 +416,7 @@
     {
       "ts": "2026-08-21T14:40:00+00:00",
       "spot_cvd_delta_btc": -9.250920000000008,
-      "spot_cvd_cumulative_btc": -252.8072799999971,
+      "spot_cvd_cumulative_btc": -482.5673399999975,
       "spot_buy_btc": 114.04509000000004,
       "spot_sell_btc": 123.29601000000005,
       "spot_close_usd": 76860.97,
@@ -461,7 +425,7 @@
     {
       "ts": "2026-08-21T14:50:00+00:00",
       "spot_cvd_delta_btc": 51.05280000000005,
-      "spot_cvd_cumulative_btc": -201.75447999999705,
+      "spot_cvd_cumulative_btc": -431.51453999999745,
       "spot_buy_btc": 159.52300000000008,
       "spot_sell_btc": 108.47020000000003,
       "spot_close_usd": 77345.01,
@@ -470,7 +434,7 @@
     {
       "ts": "2026-08-21T15:00:00+00:00",
       "spot_cvd_delta_btc": -19.32414,
-      "spot_cvd_cumulative_btc": -221.07861999999704,
+      "spot_cvd_cumulative_btc": -450.83867999999745,
       "spot_buy_btc": 88.16669000000005,
       "spot_sell_btc": 107.49083000000005,
       "spot_close_usd": 77384.68,
@@ -479,7 +443,7 @@
     {
       "ts": "2026-08-21T15:10:00+00:00",
       "spot_cvd_delta_btc": 62.441849999999874,
-      "spot_cvd_cumulative_btc": -158.63676999999717,
+      "spot_cvd_cumulative_btc": -388.3968299999976,
       "spot_buy_btc": 166.2033900000001,
       "spot_sell_btc": 103.76154000000022,
       "spot_close_usd": 77696.35,
@@ -488,7 +452,7 @@
     {
       "ts": "2026-08-21T15:20:00+00:00",
       "spot_cvd_delta_btc": -9.229130000000097,
-      "spot_cvd_cumulative_btc": -167.86589999999728,
+      "spot_cvd_cumulative_btc": -397.6259599999977,
       "spot_buy_btc": 122.94172999999996,
       "spot_sell_btc": 132.17086000000006,
       "spot_close_usd": 77633.99,
@@ -497,7 +461,7 @@
     {
       "ts": "2026-08-21T15:30:00+00:00",
       "spot_cvd_delta_btc": 7.861750000000029,
-      "spot_cvd_cumulative_btc": -160.00414999999725,
+      "spot_cvd_cumulative_btc": -389.76420999999766,
       "spot_buy_btc": 90.01500000000004,
       "spot_sell_btc": 82.15325000000001,
       "spot_close_usd": 77614.36,
@@ -506,7 +470,7 @@
     {
       "ts": "2026-08-21T15:40:00+00:00",
       "spot_cvd_delta_btc": -43.91688999999994,
-      "spot_cvd_cumulative_btc": -203.9210399999972,
+      "spot_cvd_cumulative_btc": -433.6810999999976,
       "spot_buy_btc": 65.88804,
       "spot_sell_btc": 109.80492999999994,
       "spot_close_usd": 77621.99,
@@ -515,7 +479,7 @@
     {
       "ts": "2026-08-21T15:50:00+00:00",
       "spot_cvd_delta_btc": -32.192300000000046,
-      "spot_cvd_cumulative_btc": -236.11333999999724,
+      "spot_cvd_cumulative_btc": -465.8733999999977,
       "spot_buy_btc": 55.282309999999995,
       "spot_sell_btc": 87.47461000000004,
       "spot_close_usd": 77367.27,
@@ -524,7 +488,7 @@
     {
       "ts": "2026-08-21T16:00:00+00:00",
       "spot_cvd_delta_btc": -55.759890000000155,
-      "spot_cvd_cumulative_btc": -291.8732299999974,
+      "spot_cvd_cumulative_btc": -521.6332899999978,
       "spot_buy_btc": 122.45509999999999,
       "spot_sell_btc": 178.21499000000014,
       "spot_close_usd": 77221.98,
@@ -533,7 +497,7 @@
     {
       "ts": "2026-08-21T16:10:00+00:00",
       "spot_cvd_delta_btc": -24.605670000000032,
-      "spot_cvd_cumulative_btc": -316.47889999999745,
+      "spot_cvd_cumulative_btc": -546.2389599999979,
       "spot_buy_btc": 91.89886999999999,
       "spot_sell_btc": 116.50454000000002,
       "spot_close_usd": 76962.0,
@@ -542,7 +506,7 @@
     {
       "ts": "2026-08-21T16:20:00+00:00",
       "spot_cvd_delta_btc": 13.780540000000002,
-      "spot_cvd_cumulative_btc": -302.6983599999975,
+      "spot_cvd_cumulative_btc": -532.4584199999979,
       "spot_buy_btc": 127.18469000000005,
       "spot_sell_btc": 113.40415000000004,
       "spot_close_usd": 77137.2,
@@ -551,7 +515,7 @@
     {
       "ts": "2026-08-21T16:30:00+00:00",
       "spot_cvd_delta_btc": 35.56556999999998,
-      "spot_cvd_cumulative_btc": -267.1327899999975,
+      "spot_cvd_cumulative_btc": -496.8928499999979,
       "spot_buy_btc": 120.65125000000009,
       "spot_sell_btc": 85.08568000000011,
       "spot_close_usd": 77383.87,
@@ -560,7 +524,7 @@
     {
       "ts": "2026-08-21T16:40:00+00:00",
       "spot_cvd_delta_btc": 121.1883299999999,
-      "spot_cvd_cumulative_btc": -145.9444599999976,
+      "spot_cvd_cumulative_btc": -375.704519999998,
       "spot_buy_btc": 191.24848999999995,
       "spot_sell_btc": 70.06016000000005,
       "spot_close_usd": 77316.28,
@@ -569,7 +533,7 @@
     {
       "ts": "2026-08-21T16:50:00+00:00",
       "spot_cvd_delta_btc": 79.08848000000023,
-      "spot_cvd_cumulative_btc": -66.85597999999737,
+      "spot_cvd_cumulative_btc": -296.6160399999978,
       "spot_buy_btc": 164.10935000000015,
       "spot_sell_btc": 85.02086999999992,
       "spot_close_usd": 77530.19,
@@ -578,7 +542,7 @@
     {
       "ts": "2026-08-21T17:00:00+00:00",
       "spot_cvd_delta_btc": 58.51484000000005,
-      "spot_cvd_cumulative_btc": -8.341139999997324,
+      "spot_cvd_cumulative_btc": -238.10119999999773,
       "spot_buy_btc": 130.78326000000004,
       "spot_sell_btc": 72.26841999999999,
       "spot_close_usd": 77486.01,
@@ -587,7 +551,7 @@
     {
       "ts": "2026-08-21T17:10:00+00:00",
       "spot_cvd_delta_btc": 63.11397000000005,
-      "spot_cvd_cumulative_btc": 54.77283000000273,
+      "spot_cvd_cumulative_btc": -174.98722999999768,
       "spot_buy_btc": 148.20697000000007,
       "spot_sell_btc": 85.09300000000002,
       "spot_close_usd": 77617.37,
@@ -596,7 +560,7 @@
     {
       "ts": "2026-08-21T17:20:00+00:00",
       "spot_cvd_delta_btc": 11.68653999999998,
-      "spot_cvd_cumulative_btc": 66.4593700000027,
+      "spot_cvd_cumulative_btc": -163.3006899999977,
       "spot_buy_btc": 94.29744000000002,
       "spot_sell_btc": 82.61090000000004,
       "spot_close_usd": 77397.03,
@@ -605,7 +569,7 @@
     {
       "ts": "2026-08-21T17:30:00+00:00",
       "spot_cvd_delta_btc": 47.461000000000126,
-      "spot_cvd_cumulative_btc": 113.92037000000283,
+      "spot_cvd_cumulative_btc": -115.83968999999757,
       "spot_buy_btc": 142.4768400000001,
       "spot_sell_btc": 95.01583999999997,
       "spot_close_usd": 77558.64,
@@ -614,7 +578,7 @@
     {
       "ts": "2026-08-21T17:40:00+00:00",
       "spot_cvd_delta_btc": 37.051739999999825,
-      "spot_cvd_cumulative_btc": 150.97211000000266,
+      "spot_cvd_cumulative_btc": -78.78794999999775,
       "spot_buy_btc": 111.03977,
       "spot_sell_btc": 73.98803000000018,
       "spot_close_usd": 77553.99,
@@ -623,7 +587,7 @@
     {
       "ts": "2026-08-21T17:50:00+00:00",
       "spot_cvd_delta_btc": 31.976730000000146,
-      "spot_cvd_cumulative_btc": 182.9488400000028,
+      "spot_cvd_cumulative_btc": -46.811219999997604,
       "spot_buy_btc": 102.83374000000009,
       "spot_sell_btc": 70.85700999999995,
       "spot_close_usd": 77414.01,
@@ -632,7 +596,7 @@
     {
       "ts": "2026-08-21T18:00:00+00:00",
       "spot_cvd_delta_btc": -5.607520000000079,
-      "spot_cvd_cumulative_btc": 177.34132000000272,
+      "spot_cvd_cumulative_btc": -52.41873999999768,
       "spot_buy_btc": 43.65574999999998,
       "spot_sell_btc": 49.26327000000006,
       "spot_close_usd": 77392.68,
@@ -641,7 +605,7 @@
     {
       "ts": "2026-08-21T18:10:00+00:00",
       "spot_cvd_delta_btc": 44.044890000000066,
-      "spot_cvd_cumulative_btc": 221.3862100000028,
+      "spot_cvd_cumulative_btc": -8.373849999997617,
       "spot_buy_btc": 111.90213000000003,
       "spot_sell_btc": 67.85723999999996,
       "spot_close_usd": 77362.01,
@@ -650,7 +614,7 @@
     {
       "ts": "2026-08-21T18:20:00+00:00",
       "spot_cvd_delta_btc": 1.7035299999997164,
-      "spot_cvd_cumulative_btc": 223.0897400000025,
+      "spot_cvd_cumulative_btc": -6.670319999997901,
       "spot_buy_btc": 91.70288999999994,
       "spot_sell_btc": 89.99936000000022,
       "spot_close_usd": 77420.0,
@@ -659,7 +623,7 @@
     {
       "ts": "2026-08-21T18:30:00+00:00",
       "spot_cvd_delta_btc": -0.694070000000039,
-      "spot_cvd_cumulative_btc": 222.39567000000247,
+      "spot_cvd_cumulative_btc": -7.36438999999794,
       "spot_buy_btc": 55.81940999999995,
       "spot_sell_btc": 56.51347999999999,
       "spot_close_usd": 77388.0,
@@ -668,7 +632,7 @@
     {
       "ts": "2026-08-21T18:40:00+00:00",
       "spot_cvd_delta_btc": -1.5265200000000618,
-      "spot_cvd_cumulative_btc": 220.8691500000024,
+      "spot_cvd_cumulative_btc": -8.890909999998001,
       "spot_buy_btc": 93.02924000000002,
       "spot_sell_btc": 94.55576000000008,
       "spot_close_usd": 77231.28,
@@ -677,7 +641,7 @@
     {
       "ts": "2026-08-21T18:50:00+00:00",
       "spot_cvd_delta_btc": -47.09859000000006,
-      "spot_cvd_cumulative_btc": 173.77056000000235,
+      "spot_cvd_cumulative_btc": -55.98949999999806,
       "spot_buy_btc": 164.37009999999992,
       "spot_sell_btc": 211.46868999999998,
       "spot_close_usd": 76699.22,
@@ -686,7 +650,7 @@
     {
       "ts": "2026-08-21T19:00:00+00:00",
       "spot_cvd_delta_btc": 53.42771999999985,
-      "spot_cvd_cumulative_btc": 227.1982800000022,
+      "spot_cvd_cumulative_btc": -2.5617799999982083,
       "spot_buy_btc": 131.8032,
       "spot_sell_btc": 78.37548000000015,
       "spot_close_usd": 77146.0,
@@ -695,7 +659,7 @@
     {
       "ts": "2026-08-21T19:10:00+00:00",
       "spot_cvd_delta_btc": -41.87929000000014,
-      "spot_cvd_cumulative_btc": 185.31899000000206,
+      "spot_cvd_cumulative_btc": -44.44106999999835,
       "spot_buy_btc": 83.30360999999996,
       "spot_sell_btc": 125.1829000000001,
       "spot_close_usd": 77057.99,
@@ -704,7 +668,7 @@
     {
       "ts": "2026-08-21T19:20:00+00:00",
       "spot_cvd_delta_btc": 7.754219999999918,
-      "spot_cvd_cumulative_btc": 193.07321000000198,
+      "spot_cvd_cumulative_btc": -36.68684999999843,
       "spot_buy_btc": 98.73142000000001,
       "spot_sell_btc": 90.9772000000001,
       "spot_close_usd": 77111.99,
@@ -713,7 +677,7 @@
     {
       "ts": "2026-08-21T19:30:00+00:00",
       "spot_cvd_delta_btc": 45.04562000000004,
-      "spot_cvd_cumulative_btc": 238.11883000000202,
+      "spot_cvd_cumulative_btc": 8.358770000001613,
       "spot_buy_btc": 101.17158000000003,
       "spot_sell_btc": 56.12595999999999,
       "spot_close_usd": 77322.81,
@@ -722,7 +686,7 @@
     {
       "ts": "2026-08-21T19:40:00+00:00",
       "spot_cvd_delta_btc": -12.390500000000202,
-      "spot_cvd_cumulative_btc": 225.72833000000182,
+      "spot_cvd_cumulative_btc": -4.031729999998589,
       "spot_buy_btc": 82.84406000000001,
       "spot_sell_btc": 95.23456000000022,
       "spot_close_usd": 77195.35,
@@ -731,7 +695,7 @@
     {
       "ts": "2026-08-21T19:50:00+00:00",
       "spot_cvd_delta_btc": 33.71802000000008,
-      "spot_cvd_cumulative_btc": 259.44635000000187,
+      "spot_cvd_cumulative_btc": 29.68629000000149,
       "spot_buy_btc": 111.99143000000004,
       "spot_sell_btc": 78.27340999999996,
       "spot_close_usd": 77221.02,
@@ -740,7 +704,7 @@
     {
       "ts": "2026-08-21T20:00:00+00:00",
       "spot_cvd_delta_btc": 21.89689999999996,
-      "spot_cvd_cumulative_btc": 281.34325000000183,
+      "spot_cvd_cumulative_btc": 51.58319000000145,
       "spot_buy_btc": 124.69938000000002,
       "spot_sell_btc": 102.80248000000006,
       "spot_close_usd": 77028.94,
@@ -749,7 +713,7 @@
     {
       "ts": "2026-08-21T20:10:00+00:00",
       "spot_cvd_delta_btc": 32.378040000000055,
-      "spot_cvd_cumulative_btc": 313.7212900000019,
+      "spot_cvd_cumulative_btc": 83.9612300000015,
       "spot_buy_btc": 112.55130000000005,
       "spot_sell_btc": 80.17326,
       "spot_close_usd": 77123.99,
@@ -758,7 +722,7 @@
     {
       "ts": "2026-08-21T20:20:00+00:00",
       "spot_cvd_delta_btc": 40.54649999999987,
-      "spot_cvd_cumulative_btc": 354.26779000000175,
+      "spot_cvd_cumulative_btc": 124.50773000000137,
       "spot_buy_btc": 129.30280999999994,
       "spot_sell_btc": 88.75631000000007,
       "spot_close_usd": 77428.01,
@@ -767,7 +731,7 @@
     {
       "ts": "2026-08-21T20:30:00+00:00",
       "spot_cvd_delta_btc": 30.124690000000044,
-      "spot_cvd_cumulative_btc": 384.3924800000018,
+      "spot_cvd_cumulative_btc": 154.63242000000142,
       "spot_buy_btc": 86.18141,
       "spot_sell_btc": 56.056719999999956,
       "spot_close_usd": 77490.0,
@@ -776,7 +740,7 @@
     {
       "ts": "2026-08-21T20:40:00+00:00",
       "spot_cvd_delta_btc": 45.780719999999974,
-      "spot_cvd_cumulative_btc": 430.17320000000177,
+      "spot_cvd_cumulative_btc": 200.4131400000014,
       "spot_buy_btc": 100.27304000000007,
       "spot_sell_btc": 54.49232000000009,
       "spot_close_usd": 77397.42,
@@ -785,7 +749,7 @@
     {
       "ts": "2026-08-21T20:50:00+00:00",
       "spot_cvd_delta_btc": 19.923449999999903,
-      "spot_cvd_cumulative_btc": 450.09665000000166,
+      "spot_cvd_cumulative_btc": 220.3365900000013,
       "spot_buy_btc": 61.08228,
       "spot_sell_btc": 41.158830000000094,
       "spot_close_usd": 77432.0,
@@ -794,7 +758,7 @@
     {
       "ts": "2026-08-21T21:00:00+00:00",
       "spot_cvd_delta_btc": 18.15579999999997,
-      "spot_cvd_cumulative_btc": 468.25245000000166,
+      "spot_cvd_cumulative_btc": 238.49239000000128,
       "spot_buy_btc": 56.80879999999998,
       "spot_sell_btc": 38.653000000000006,
       "spot_close_usd": 77520.19,
@@ -803,7 +767,7 @@
     {
       "ts": "2026-08-21T21:10:00+00:00",
       "spot_cvd_delta_btc": -1.1704700000000656,
-      "spot_cvd_cumulative_btc": 467.0819800000016,
+      "spot_cvd_cumulative_btc": 237.32192000000123,
       "spot_buy_btc": 25.032069999999983,
       "spot_sell_btc": 26.20254000000005,
       "spot_close_usd": 77430.1,
@@ -812,7 +776,7 @@
     {
       "ts": "2026-08-21T21:20:00+00:00",
       "spot_cvd_delta_btc": 56.17889999999963,
-      "spot_cvd_cumulative_btc": 523.2608800000012,
+      "spot_cvd_cumulative_btc": 293.5008200000009,
       "spot_buy_btc": 135.59144999999987,
       "spot_sell_btc": 79.41255000000024,
       "spot_close_usd": 77712.0,
@@ -821,7 +785,7 @@
     {
       "ts": "2026-08-21T21:30:00+00:00",
       "spot_cvd_delta_btc": 124.29278000000022,
-      "spot_cvd_cumulative_btc": 647.5536600000014,
+      "spot_cvd_cumulative_btc": 417.7936000000011,
       "spot_buy_btc": 210.66121000000007,
       "spot_sell_btc": 86.36842999999985,
       "spot_close_usd": 78090.0,
@@ -830,7 +794,7 @@
     {
       "ts": "2026-08-21T21:40:00+00:00",
       "spot_cvd_delta_btc": 16.337750000000142,
-      "spot_cvd_cumulative_btc": 663.8914100000015,
+      "spot_cvd_cumulative_btc": 434.13135000000125,
       "spot_buy_btc": 169.13825000000003,
       "spot_sell_btc": 152.8004999999999,
       "spot_close_usd": 78025.82,
@@ -839,7 +803,7 @@
     {
       "ts": "2026-08-21T21:50:00+00:00",
       "spot_cvd_delta_btc": -36.47032999999982,
-      "spot_cvd_cumulative_btc": 627.4210800000017,
+      "spot_cvd_cumulative_btc": 397.66102000000143,
       "spot_buy_btc": 87.60984000000002,
       "spot_sell_btc": 124.08016999999984,
       "spot_close_usd": 78339.98,
@@ -848,7 +812,7 @@
     {
       "ts": "2026-08-21T22:00:00+00:00",
       "spot_cvd_delta_btc": 12.383710000000121,
-      "spot_cvd_cumulative_btc": 639.8047900000017,
+      "spot_cvd_cumulative_btc": 410.04473000000155,
       "spot_buy_btc": 133.73322000000002,
       "spot_sell_btc": 121.3495099999999,
       "spot_close_usd": 78505.15,
@@ -857,7 +821,7 @@
     {
       "ts": "2026-08-21T22:10:00+00:00",
       "spot_cvd_delta_btc": 29.435690000000136,
-      "spot_cvd_cumulative_btc": 669.2404800000019,
+      "spot_cvd_cumulative_btc": 439.4804200000017,
       "spot_buy_btc": 154.09913000000006,
       "spot_sell_btc": 124.66343999999992,
       "spot_close_usd": 78731.48,
@@ -866,7 +830,7 @@
     {
       "ts": "2026-08-21T22:20:00+00:00",
       "spot_cvd_delta_btc": -19.987279999999913,
-      "spot_cvd_cumulative_btc": 649.2532000000019,
+      "spot_cvd_cumulative_btc": 419.49314000000174,
       "spot_buy_btc": 78.84438000000003,
       "spot_sell_btc": 98.83165999999994,
       "spot_close_usd": 78606.64,
@@ -875,7 +839,7 @@
     {
       "ts": "2026-08-21T22:30:00+00:00",
       "spot_cvd_delta_btc": -17.169160000000034,
-      "spot_cvd_cumulative_btc": 632.0840400000019,
+      "spot_cvd_cumulative_btc": 402.3239800000017,
       "spot_buy_btc": 74.02279999999998,
       "spot_sell_btc": 91.19196000000001,
       "spot_close_usd": 78499.84,
@@ -884,7 +848,7 @@
     {
       "ts": "2026-08-21T22:40:00+00:00",
       "spot_cvd_delta_btc": 3.359229999999741,
-      "spot_cvd_cumulative_btc": 635.4432700000016,
+      "spot_cvd_cumulative_btc": 405.68321000000145,
       "spot_buy_btc": 91.69704999999998,
       "spot_sell_btc": 88.33782000000024,
       "spot_close_usd": 78455.65,
@@ -893,7 +857,7 @@
     {
       "ts": "2026-08-21T22:50:00+00:00",
       "spot_cvd_delta_btc": -18.1614200000001,
-      "spot_cvd_cumulative_btc": 617.2818500000014,
+      "spot_cvd_cumulative_btc": 387.5217900000014,
       "spot_buy_btc": 50.842549999999996,
       "spot_sell_btc": 69.0039700000001,
       "spot_close_usd": 78292.49,
@@ -902,7 +866,7 @@
     {
       "ts": "2026-08-21T23:00:00+00:00",
       "spot_cvd_delta_btc": 4.075360000000046,
-      "spot_cvd_cumulative_btc": 621.3572100000015,
+      "spot_cvd_cumulative_btc": 391.5971500000014,
       "spot_buy_btc": 52.68135000000001,
       "spot_sell_btc": 48.60598999999996,
       "spot_close_usd": 78460.14,
@@ -911,7 +875,7 @@
     {
       "ts": "2026-08-21T23:10:00+00:00",
       "spot_cvd_delta_btc": 25.711160000000092,
-      "spot_cvd_cumulative_btc": 647.0683700000016,
+      "spot_cvd_cumulative_btc": 417.3083100000015,
       "spot_buy_btc": 88.47658000000003,
       "spot_sell_btc": 62.765419999999935,
       "spot_close_usd": 78523.34,
@@ -920,7 +884,7 @@
     {
       "ts": "2026-08-21T23:20:00+00:00",
       "spot_cvd_delta_btc": 23.806469999999905,
-      "spot_cvd_cumulative_btc": 670.8748400000014,
+      "spot_cvd_cumulative_btc": 441.11478000000136,
       "spot_buy_btc": 82.89521999999997,
       "spot_sell_btc": 59.08875000000006,
       "spot_close_usd": 78640.14,
@@ -929,7 +893,7 @@
     {
       "ts": "2026-08-21T23:30:00+00:00",
       "spot_cvd_delta_btc": -43.81266000000009,
-      "spot_cvd_cumulative_btc": 627.0621800000014,
+      "spot_cvd_cumulative_btc": 397.30212000000125,
       "spot_buy_btc": 94.4038,
       "spot_sell_btc": 138.2164600000001,
       "spot_close_usd": 78409.45,
@@ -938,7 +902,7 @@
     {
       "ts": "2026-08-21T23:40:00+00:00",
       "spot_cvd_delta_btc": -11.51415,
-      "spot_cvd_cumulative_btc": 615.5480300000014,
+      "spot_cvd_cumulative_btc": 385.7879700000012,
       "spot_buy_btc": 38.16517000000002,
       "spot_sell_btc": 49.67932000000002,
       "spot_close_usd": 78229.68,
@@ -947,7 +911,7 @@
     {
       "ts": "2026-08-21T23:50:00+00:00",
       "spot_cvd_delta_btc": 1.2707200000000398,
-      "spot_cvd_cumulative_btc": 616.8187500000015,
+      "spot_cvd_cumulative_btc": 387.05869000000126,
       "spot_buy_btc": 55.00107,
       "spot_sell_btc": 53.73034999999996,
       "spot_close_usd": 78277.99,
@@ -956,7 +920,7 @@
     {
       "ts": "2026-08-22T00:00:00+00:00",
       "spot_cvd_delta_btc": 4.045299999999955,
-      "spot_cvd_cumulative_btc": 620.8640500000015,
+      "spot_cvd_cumulative_btc": 391.1039900000012,
       "spot_buy_btc": 51.60990000000001,
       "spot_sell_btc": 47.564600000000056,
       "spot_close_usd": 78338.03,
@@ -965,7 +929,7 @@
     {
       "ts": "2026-08-22T00:10:00+00:00",
       "spot_cvd_delta_btc": -21.565880000000192,
-      "spot_cvd_cumulative_btc": 599.2981700000013,
+      "spot_cvd_cumulative_btc": 369.538110000001,
       "spot_buy_btc": 103.67508,
       "spot_sell_btc": 125.24096000000019,
       "spot_close_usd": 77884.0,
@@ -974,7 +938,7 @@
     {
       "ts": "2026-08-22T00:20:00+00:00",
       "spot_cvd_delta_btc": 16.58918000000014,
-      "spot_cvd_cumulative_btc": 615.8873500000014,
+      "spot_cvd_cumulative_btc": 386.12729000000115,
       "spot_buy_btc": 66.84151000000006,
       "spot_sell_btc": 50.252329999999915,
       "spot_close_usd": 78062.19,
@@ -983,7 +947,7 @@
     {
       "ts": "2026-08-22T00:30:00+00:00",
       "spot_cvd_delta_btc": -11.044190000000071,
-      "spot_cvd_cumulative_btc": 604.8431600000014,
+      "spot_cvd_cumulative_btc": 375.0831000000011,
       "spot_buy_btc": 34.85804999999996,
       "spot_sell_btc": 45.902240000000035,
       "spot_close_usd": 77919.99,
@@ -992,7 +956,7 @@
     {
       "ts": "2026-08-22T00:40:00+00:00",
       "spot_cvd_delta_btc": 18.165970000000087,
-      "spot_cvd_cumulative_btc": 623.0091300000015,
+      "spot_cvd_cumulative_btc": 393.24907000000115,
       "spot_buy_btc": 56.709990000000026,
       "spot_sell_btc": 38.54401999999994,
       "spot_close_usd": 77938.0,
@@ -1001,7 +965,7 @@
     {
       "ts": "2026-08-22T00:50:00+00:00",
       "spot_cvd_delta_btc": -24.22398999999993,
-      "spot_cvd_cumulative_btc": 598.7851400000015,
+      "spot_cvd_cumulative_btc": 369.02508000000125,
       "spot_buy_btc": 65.11338000000003,
       "spot_sell_btc": 89.33736999999996,
       "spot_close_usd": 77825.79,
@@ -1010,7 +974,7 @@
     {
       "ts": "2026-08-22T01:00:00+00:00",
       "spot_cvd_delta_btc": 53.00799999999995,
-      "spot_cvd_cumulative_btc": 651.7931400000015,
+      "spot_cvd_cumulative_btc": 422.0330800000012,
       "spot_buy_btc": 99.31961000000004,
       "spot_sell_btc": 46.31161000000009,
       "spot_close_usd": 77953.3,
@@ -1019,7 +983,7 @@
     {
       "ts": "2026-08-22T01:10:00+00:00",
       "spot_cvd_delta_btc": 23.67729,
-      "spot_cvd_cumulative_btc": 675.4704300000014,
+      "spot_cvd_cumulative_btc": 445.71037000000115,
       "spot_buy_btc": 59.36145000000003,
       "spot_sell_btc": 35.684160000000034,
       "spot_close_usd": 78078.03,
@@ -1028,7 +992,7 @@
     {
       "ts": "2026-08-22T01:20:00+00:00",
       "spot_cvd_delta_btc": -3.3999700000000104,
-      "spot_cvd_cumulative_btc": 672.0704600000014,
+      "spot_cvd_cumulative_btc": 442.31040000000115,
       "spot_buy_btc": 37.369919999999986,
       "spot_sell_btc": 40.76989,
       "spot_close_usd": 78004.07,
@@ -1037,7 +1001,7 @@
     {
       "ts": "2026-08-22T01:30:00+00:00",
       "spot_cvd_delta_btc": 0.964859999999959,
-      "spot_cvd_cumulative_btc": 673.0353200000013,
+      "spot_cvd_cumulative_btc": 443.27526000000114,
       "spot_buy_btc": 34.759519999999995,
       "spot_sell_btc": 33.794660000000036,
       "spot_close_usd": 78016.0,
@@ -1046,7 +1010,7 @@
     {
       "ts": "2026-08-22T01:40:00+00:00",
       "spot_cvd_delta_btc": -21.73313999999999,
-      "spot_cvd_cumulative_btc": 651.3021800000013,
+      "spot_cvd_cumulative_btc": 421.54212000000115,
       "spot_buy_btc": 76.13050000000004,
       "spot_sell_btc": 97.86364000000003,
       "spot_close_usd": 78009.76,
@@ -1055,7 +1019,7 @@
     {
       "ts": "2026-08-22T01:50:00+00:00",
       "spot_cvd_delta_btc": -15.246400000000051,
-      "spot_cvd_cumulative_btc": 636.0557800000013,
+      "spot_cvd_cumulative_btc": 406.2957200000011,
       "spot_buy_btc": 29.434979999999975,
       "spot_sell_btc": 44.681380000000026,
       "spot_close_usd": 77850.0,
@@ -1064,7 +1028,7 @@
     {
       "ts": "2026-08-22T02:00:00+00:00",
       "spot_cvd_delta_btc": 0.7105099999999709,
-      "spot_cvd_cumulative_btc": 636.7662900000013,
+      "spot_cvd_cumulative_btc": 407.0062300000011,
       "spot_buy_btc": 61.91042,
       "spot_sell_btc": 61.19991000000003,
       "spot_close_usd": 77830.01,
@@ -1073,7 +1037,7 @@
     {
       "ts": "2026-08-22T02:10:00+00:00",
       "spot_cvd_delta_btc": 3.0122599999999977,
-      "spot_cvd_cumulative_btc": 639.7785500000012,
+      "spot_cvd_cumulative_btc": 410.01849000000107,
       "spot_buy_btc": 52.87686000000001,
       "spot_sell_btc": 49.86460000000001,
       "spot_close_usd": 78017.99,
@@ -1082,7 +1046,7 @@
     {
       "ts": "2026-08-22T02:20:00+00:00",
       "spot_cvd_delta_btc": 25.08740999999992,
-      "spot_cvd_cumulative_btc": 664.8659600000012,
+      "spot_cvd_cumulative_btc": 435.105900000001,
       "spot_buy_btc": 53.84307999999997,
       "spot_sell_btc": 28.755670000000052,
       "spot_close_usd": 78116.0,
@@ -1091,7 +1055,7 @@
     {
       "ts": "2026-08-22T02:30:00+00:00",
       "spot_cvd_delta_btc": -12.444719999999961,
-      "spot_cvd_cumulative_btc": 652.4212400000013,
+      "spot_cvd_cumulative_btc": 422.661180000001,
       "spot_buy_btc": 67.92607000000001,
       "spot_sell_btc": 80.37078999999997,
       "spot_close_usd": 78398.0,
@@ -1100,7 +1064,7 @@
     {
       "ts": "2026-08-22T02:40:00+00:00",
       "spot_cvd_delta_btc": 16.99221000000003,
-      "spot_cvd_cumulative_btc": 669.4134500000013,
+      "spot_cvd_cumulative_btc": 439.6533900000011,
       "spot_buy_btc": 76.73110999999994,
       "spot_sell_btc": 59.738899999999916,
       "spot_close_usd": 78411.33,
@@ -1109,7 +1073,7 @@
     {
       "ts": "2026-08-22T02:50:00+00:00",
       "spot_cvd_delta_btc": 95.57201000000006,
-      "spot_cvd_cumulative_btc": 764.9854600000014,
+      "spot_cvd_cumulative_btc": 535.2254000000012,
       "spot_buy_btc": 171.26202000000006,
       "spot_sell_btc": 75.69001,
       "spot_close_usd": 78374.0,
@@ -1118,7 +1082,7 @@
     {
       "ts": "2026-08-22T03:00:00+00:00",
       "spot_cvd_delta_btc": -3.353880000000146,
-      "spot_cvd_cumulative_btc": 761.6315800000012,
+      "spot_cvd_cumulative_btc": 531.871520000001,
       "spot_buy_btc": 122.37797000000006,
       "spot_sell_btc": 125.73185000000021,
       "spot_close_usd": 78470.0,
@@ -1127,7 +1091,7 @@
     {
       "ts": "2026-08-22T03:10:00+00:00",
       "spot_cvd_delta_btc": 49.995380000000125,
-      "spot_cvd_cumulative_btc": 811.6269600000014,
+      "spot_cvd_cumulative_btc": 581.8669000000011,
       "spot_buy_btc": 89.37394999999998,
       "spot_sell_btc": 39.378569999999854,
       "spot_close_usd": 78563.83,
@@ -1136,7 +1100,7 @@
     {
       "ts": "2026-08-22T03:20:00+00:00",
       "spot_cvd_delta_btc": 5.2451999999999686,
-      "spot_cvd_cumulative_btc": 816.8721600000014,
+      "spot_cvd_cumulative_btc": 587.1121000000011,
       "spot_buy_btc": 63.30111999999998,
       "spot_sell_btc": 58.055920000000015,
       "spot_close_usd": 78599.48,
@@ -1145,7 +1109,7 @@
     {
       "ts": "2026-08-22T03:30:00+00:00",
       "spot_cvd_delta_btc": 5.470449999999914,
-      "spot_cvd_cumulative_btc": 822.3426100000013,
+      "spot_cvd_cumulative_btc": 592.582550000001,
       "spot_buy_btc": 74.97735999999998,
       "spot_sell_btc": 69.50691000000006,
       "spot_close_usd": 78768.01,
@@ -1154,7 +1118,7 @@
     {
       "ts": "2026-08-22T03:40:00+00:00",
       "spot_cvd_delta_btc": 2.1595499999998964,
-      "spot_cvd_cumulative_btc": 824.5021600000011,
+      "spot_cvd_cumulative_btc": 594.7421000000008,
       "spot_buy_btc": 61.82738000000001,
       "spot_sell_btc": 59.667830000000116,
       "spot_close_usd": 78685.27,
@@ -1163,7 +1127,7 @@
     {
       "ts": "2026-08-22T03:50:00+00:00",
       "spot_cvd_delta_btc": -14.054920000000038,
-      "spot_cvd_cumulative_btc": 810.4472400000011,
+      "spot_cvd_cumulative_btc": 580.6871800000008,
       "spot_buy_btc": 43.72870999999999,
       "spot_sell_btc": 57.78363000000003,
       "spot_close_usd": 78555.65,
@@ -1172,7 +1136,7 @@
     {
       "ts": "2026-08-22T04:00:00+00:00",
       "spot_cvd_delta_btc": -12.876199999999983,
-      "spot_cvd_cumulative_btc": 797.5710400000012,
+      "spot_cvd_cumulative_btc": 567.8109800000009,
       "spot_buy_btc": 52.16275999999999,
       "spot_sell_btc": 65.03895999999997,
       "spot_close_usd": 78410.98,
@@ -1181,7 +1145,7 @@
     {
       "ts": "2026-08-22T04:10:00+00:00",
       "spot_cvd_delta_btc": 0.973570000000052,
-      "spot_cvd_cumulative_btc": 798.5446100000013,
+      "spot_cvd_cumulative_btc": 568.784550000001,
       "spot_buy_btc": 63.30888,
       "spot_sell_btc": 62.33530999999995,
       "spot_close_usd": 78319.66,
@@ -1190,7 +1154,7 @@
     {
       "ts": "2026-08-22T04:20:00+00:00",
       "spot_cvd_delta_btc": -11.110029999999966,
-      "spot_cvd_cumulative_btc": 787.4345800000013,
+      "spot_cvd_cumulative_btc": 557.674520000001,
       "spot_buy_btc": 44.154910000000015,
       "spot_sell_btc": 55.26493999999998,
       "spot_close_usd": 78256.0,
@@ -1199,7 +1163,7 @@
     {
       "ts": "2026-08-22T04:30:00+00:00",
       "spot_cvd_delta_btc": 18.64000999999999,
-      "spot_cvd_cumulative_btc": 806.0745900000013,
+      "spot_cvd_cumulative_btc": 576.314530000001,
       "spot_buy_btc": 58.63292000000001,
       "spot_sell_btc": 39.99291000000002,
       "spot_close_usd": 78590.42,
@@ -1208,7 +1172,7 @@
     {
       "ts": "2026-08-22T04:40:00+00:00",
       "spot_cvd_delta_btc": 8.108890000000088,
-      "spot_cvd_cumulative_btc": 814.1834800000014,
+      "spot_cvd_cumulative_btc": 584.4234200000011,
       "spot_buy_btc": 70.13651000000002,
       "spot_sell_btc": 62.02761999999993,
       "spot_close_usd": 78675.11,
@@ -1217,7 +1181,7 @@
     {
       "ts": "2026-08-22T04:50:00+00:00",
       "spot_cvd_delta_btc": 3.4002199999998197,
-      "spot_cvd_cumulative_btc": 817.5837000000013,
+      "spot_cvd_cumulative_btc": 587.823640000001,
       "spot_buy_btc": 94.60140999999999,
       "spot_sell_btc": 91.20119000000017,
       "spot_close_usd": 78574.01,
@@ -1226,7 +1190,7 @@
     {
       "ts": "2026-08-22T05:00:00+00:00",
       "spot_cvd_delta_btc": -22.43019000000001,
-      "spot_cvd_cumulative_btc": 795.1535100000012,
+      "spot_cvd_cumulative_btc": 565.3934500000009,
       "spot_buy_btc": 37.133130000000016,
       "spot_sell_btc": 59.563320000000026,
       "spot_close_usd": 78470.0,
@@ -1235,7 +1199,7 @@
     {
       "ts": "2026-08-22T05:10:00+00:00",
       "spot_cvd_delta_btc": -56.7566599999999,
-      "spot_cvd_cumulative_btc": 738.3968500000013,
+      "spot_cvd_cumulative_btc": 508.63679000000104,
       "spot_buy_btc": 123.26916999999997,
       "spot_sell_btc": 180.02582999999987,
       "spot_close_usd": 77802.0,
@@ -1244,7 +1208,7 @@
     {
       "ts": "2026-08-22T05:20:00+00:00",
       "spot_cvd_delta_btc": -249.14869999999883,
-      "spot_cvd_cumulative_btc": 489.2481500000025,
+      "spot_cvd_cumulative_btc": 259.4880900000022,
       "spot_buy_btc": 994.1790500000011,
       "spot_sell_btc": 1243.32775,
       "spot_close_usd": 76965.81,
@@ -1253,7 +1217,7 @@
     {
       "ts": "2026-08-22T05:30:00+00:00",
       "spot_cvd_delta_btc": 30.64472999999947,
-      "spot_cvd_cumulative_btc": 519.8928800000019,
+      "spot_cvd_cumulative_btc": 290.1328200000017,
       "spot_buy_btc": 266.1246799999999,
       "spot_sell_btc": 235.47995000000043,
       "spot_close_usd": 77305.15,
@@ -1262,7 +1226,7 @@
     {
       "ts": "2026-08-22T05:40:00+00:00",
       "spot_cvd_delta_btc": -14.294569999999908,
-      "spot_cvd_cumulative_btc": 505.598310000002,
+      "spot_cvd_cumulative_btc": 275.8382500000018,
       "spot_buy_btc": 203.06346000000008,
       "spot_sell_btc": 217.35802999999999,
       "spot_close_usd": 77130.64,
@@ -1271,7 +1235,7 @@
     {
       "ts": "2026-08-22T05:50:00+00:00",
       "spot_cvd_delta_btc": -27.784429999999986,
-      "spot_cvd_cumulative_btc": 477.81388000000203,
+      "spot_cvd_cumulative_btc": 248.0538200000018,
       "spot_buy_btc": 80.80175000000003,
       "spot_sell_btc": 108.58618000000001,
       "spot_close_usd": 77376.5,
@@ -1280,7 +1244,7 @@
     {
       "ts": "2026-08-22T06:00:00+00:00",
       "spot_cvd_delta_btc": -3.799649999999957,
-      "spot_cvd_cumulative_btc": 474.01423000000204,
+      "spot_cvd_cumulative_btc": 244.25417000000184,
       "spot_buy_btc": 80.16825000000007,
       "spot_sell_btc": 83.96790000000003,
       "spot_close_usd": 77380.75,
@@ -1289,7 +1253,7 @@
     {
       "ts": "2026-08-22T06:10:00+00:00",
       "spot_cvd_delta_btc": -1.8941200000000151,
-      "spot_cvd_cumulative_btc": 472.120110000002,
+      "spot_cvd_cumulative_btc": 242.36005000000182,
       "spot_buy_btc": 67.53929,
       "spot_sell_btc": 69.43341000000001,
       "spot_close_usd": 77321.16,
@@ -1298,7 +1262,7 @@
     {
       "ts": "2026-08-22T06:20:00+00:00",
       "spot_cvd_delta_btc": 22.14208999999994,
-      "spot_cvd_cumulative_btc": 494.26220000000194,
+      "spot_cvd_cumulative_btc": 264.50214000000176,
       "spot_buy_btc": 84.25307999999998,
       "spot_sell_btc": 62.110990000000044,
       "spot_close_usd": 77227.9,
@@ -1306,12 +1270,48 @@
     },
     {
       "ts": "2026-08-22T06:30:00+00:00",
-      "spot_cvd_delta_btc": 2.365850000000023,
-      "spot_cvd_cumulative_btc": 496.62805000000196,
-      "spot_buy_btc": 18.644950000000005,
-      "spot_sell_btc": 16.279099999999982,
-      "spot_close_usd": 77339.13,
-      "binance_oi_usd": 8165995918.2338
+      "spot_cvd_delta_btc": -32.29812999999975,
+      "spot_cvd_cumulative_btc": 232.204010000002,
+      "spot_buy_btc": 42.93796000000001,
+      "spot_sell_btc": 75.23608999999976,
+      "spot_close_usd": 77245.6,
+      "binance_oi_usd": 8154838324.618701
+    },
+    {
+      "ts": "2026-08-22T06:40:00+00:00",
+      "spot_cvd_delta_btc": 52.303640000000144,
+      "spot_cvd_cumulative_btc": 284.5076500000022,
+      "spot_buy_btc": 131.86403000000007,
+      "spot_sell_btc": 79.56038999999993,
+      "spot_close_usd": 77514.02,
+      "binance_oi_usd": 8168460885.816
+    },
+    {
+      "ts": "2026-08-22T06:50:00+00:00",
+      "spot_cvd_delta_btc": -13.164170000000013,
+      "spot_cvd_cumulative_btc": 271.34348000000216,
+      "spot_buy_btc": 46.46019999999998,
+      "spot_sell_btc": 59.62436999999999,
+      "spot_close_usd": 77449.0,
+      "binance_oi_usd": 8168827234.9788
+    },
+    {
+      "ts": "2026-08-22T07:00:00+00:00",
+      "spot_cvd_delta_btc": 29.996669999999824,
+      "spot_cvd_cumulative_btc": 301.340150000002,
+      "spot_buy_btc": 73.77138999999995,
+      "spot_sell_btc": 43.77472000000013,
+      "spot_close_usd": 77486.09,
+      "binance_oi_usd": 8170742822.701201
+    },
+    {
+      "ts": "2026-08-22T07:10:00+00:00",
+      "spot_cvd_delta_btc": 36.08454000000006,
+      "spot_cvd_cumulative_btc": 337.42469000000204,
+      "spot_buy_btc": 93.18056999999997,
+      "spot_sell_btc": 57.096029999999914,
+      "spot_close_usd": 77469.42,
+      "binance_oi_usd": 8157472660.9888
     }
   ]
 }

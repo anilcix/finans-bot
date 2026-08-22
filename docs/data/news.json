@@ -96,14 +96,13 @@
           "source": "khabor.com",
           "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82V0trVnNQamVDUUxkclYxVmdYZlFwNHdJdUExQi0tYXZ3VjFxX1c5czBKeUtRVm1tZ1NfZDFOZ3J4anVWVHRMOHFRR2o?oc=5",
           "published_at": "2026-08-21T19:26:53+00:00",
-          "article_summary": "Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi. İran Savaşı Sırasında Askeri Varlıkların Asya'dan Taşınması Müttefikler Arasında Endişeleri Artırıyor",
-          "article_context": "Shibbir Ahmed Washington D.C. Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi. Yardım etmek için... ABD, İran Savaşı Sırasında Askeri Varlıkları Asya'dan Taşıyor, Müttefikler Arasında Endişeleri Artırıyor Dakka, Bangladeş Telefon: +1-917-725-0067 Haber Odası Cep: +1-917-725-0067 Faks: +1-917-725-0067 E-posta: khabordotkom@gmail.com Editör E-postası: khabordotkom@gmail.com Pazarlama Departmanı: +1-917-725-0067 E-posta: marketing@khabor.com",
-          "article_summary_original": "A sharp rise in yields on long-term U.S. government bonds has triggered renewed turmoil in the countryrsquo;s debt market. Moves Military Assets From Asia Amid Iran War, Raising Concerns Among Allies",
-          "article_context_original": "Shibbir Ahmed Washington D.C. A sharp rise in yields on long-term U.S. government bonds has triggered renewed turmoil in the countryrsquo;s debt market. To help... U.S. Moves Military Assets From Asia Amid Iran War, Raising Concerns Among Allies Dhaka, Bangladesh ফোন: +1-917-725-0067 নিউজ রুম মোবাইল: +1-917-725-0067 ফ্যাক্স: +1-917-725-0067 ইমেইল: khabordotkom@gmail.com সম্পাদক ইমেইল: khabordotkom@gmail.com Marketing Department: +1-917-725-0067 E-mail: marketing@khabor.com",
-          "translation_ok": true,
-          "context": "Uzun vadeli ABD devlet tahvillerinin getirilerindeki keskin artış, ülkenin borç piyasasında yeniden çalkantıyı tetikledi. İran Savaşı Sırasında Askeri Varlıkların Asya'dan Taşınması Müttefikler Arasında Endişeleri Artırıyor",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.khabor.com/english/29436"
+          "article_summary": null,
+          "article_context": null,
+          "article_summary_original": null,
+          "article_context_original": null,
+          "translation_ok": null,
+          "context": null,
+          "context_mode": "title_only"
         },
         {
           "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
@@ -199,9 +198,9 @@
   ],
   "recency_hours": 72,
   "headline_count": 12,
-  "article_context_count": 7,
-  "translated_count": 7,
+  "article_context_count": 6,
+  "translated_count": 6,
   "language": "tr",
   "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
-  "generated_at": "2026-08-22T06:22:04.302753+00:00"
+  "generated_at": "2026-08-22T07:07:21.130303+00:00"
 }

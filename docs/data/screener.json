@@ -6,14 +6,14 @@
   "universe_source": "CoinGecko Top 200",
   "scan_meta": {
     "top200_received": 200,
-    "non_stable_universe": 189,
-    "binance_spot_matched": 103,
-    "scanned": 103,
+    "non_stable_universe": 190,
+    "binance_spot_matched": 105,
+    "scanned": 105,
     "failed": 0,
     "signal_count_before_cap": 0,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T06:22:04.302753+00:00"
+  "generated_at": "2026-08-22T07:07:21.130303+00:00"
 }
