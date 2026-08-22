@@ -17,11 +17,28 @@ function tip(text){const s=String(text??'').replace(/&/g,'&amp;').replace(/"/g,'
     const pad={l:64,r:12,t:12,b:28},pw=W-pad.l-pad.r,ph=H-pad.t-pad.b,vals=series.map(r=>Number(r[key]));let min=Math.min(...vals),max=Math.max(...vals);if(zeroLine){min=Math.min(min,0);max=Math.max(max,0)}if(min===max){const b=Math.abs(min||1)*.01;min-=b;max+=b}else if(!zeroLine){const b=(max-min)*.12;min-=b;max+=b}
     const x=i=>pad.l+(series.length===1?pw/2:pw*i/(series.length-1)),y=v=>pad.t+ph*(1-(v-min)/(max-min));c.font='9px IBM Plex Mono, monospace';for(let i=0;i<=4;i++){const yy=pad.t+ph*i/4,val=max-(max-min)*i/4;c.strokeStyle='rgba(92,138,114,.14)';c.beginPath();c.moveTo(pad.l,yy);c.lineTo(W-pad.r,yy);c.stroke();c.fillStyle='#5c8a72';c.textAlign='right';c.fillText(valueFormatter(val),pad.l-6,yy+3)}if(zeroLine&&min<0&&max>0){const yy=y(0);c.strokeStyle='rgba(255,207,92,.35)';c.beginPath();c.moveTo(pad.l,yy);c.lineTo(W-pad.r,yy);c.stroke()}c.strokeStyle='#39ff88';c.lineWidth=2;c.beginPath();series.forEach((r,i)=>{const xx=x(i),yy=y(Number(r[key]));i?c.lineTo(xx,yy):c.moveTo(xx,yy)});c.stroke();c.fillStyle='#5c8a72';c.textAlign='center';[0,.25,.5,.75,1].forEach(q=>{const i=Math.min(series.length-1,Math.round((series.length-1)*q));c.fillText(fmtTime(series[i].ts),x(i),H-8)});
   }
+
+  let flow15InjectStarted=false;
   async function inject(){
-    const content=document.getElementById('content');if(!content||document.getElementById('flow15Card'))return;let data;try{data=await(await fetch('../data/crypto_flow_history.json?t='+Date.now())).json()}catch(e){return}if(data.venue!=='Binance')return;const rows=(data.points||[]).slice(-144);if(!rows.length)return;
+    const content=document.getElementById('content');
+    if(!content||document.getElementById('flow15Card')||flow15InjectStarted)return;
+    flow15InjectStarted=true;
+    let data;
+    try{
+      data=await(await fetch('../data/crypto_flow_history.json?t='+Date.now())).json();
+    }catch(e){
+      flow15InjectStarted=false;
+      return;
+    }
+    if(data.venue!=='Binance'){flow15InjectStarted=false;return}
+    const rows=(data.points||[]).slice(-144);
+    if(!rows.length){flow15InjectStarted=false;return}
+    if(document.getElementById('flow15Card'))return;
     const spotSeries=rows.filter(r=>validNumber(r.spot_cvd_cumulative_btc)),oiSeries=rows.filter(r=>validNumber(r.binance_oi_usd));const lastSpot=spotSeries[spotSeries.length-1]||{},lastOi=oiSeries[oiSeries.length-1]||{};let oiChange=null;if(oiSeries.length>=2&&Number(oiSeries[0].binance_oi_usd)!==0)oiChange=(Number(lastOi.binance_oi_usd)/Number(oiSeries[0].binance_oi_usd)-1)*100;
     const card=document.createElement('div');card.id='flow15Card';card.className='card flow15-card';card.innerHTML=`<div class="flow15-head"><div><h2>Coinalyze · Binance 10dk Spot CVD + Perp OI</h2><div class="note">Son 24 saat · Coinalyze 5dk verileri ikişer birleştirilerek 10dk seri</div></div><div class="flow15-badge">CVD ${spotSeries.length} · OI ${oiSeries.length} nokta</div></div><div class="flow15-grid"><div class="flow15-panel"><div class="flow15-title">Binance Spot BTC CVD · Coinalyze</div><div class="flow15-value">${btcFmt(lastSpot.spot_cvd_cumulative_btc)}</div>${spotSeries.length>=2?'<canvas id="spotCvd15Canvas" class="flow15-canvas"></canvas>':'<div class="flow15-wait">Coinalyze spot CVD verisi bekleniyor.</div>'}<div class="flow15-note">Kaynak doğrudan Coinalyze Binance spot OHLCV buy/sell volume verisidir. Delta = buy volume − sell volume; seri BTC cinsinden kümülatiftir.</div></div><div class="flow15-panel"><div class="flow15-title">Binance BTC Perp OI · Coinalyze</div><div class="flow15-value">${moneyCompact(lastOi.binance_oi_usd)} ${oiChange==null?'':`<span style="font-size:11px;color:${oiChange>=0?'#39ff88':'#ff5c5c'}">${oiChange>=0?'+':''}${oiChange.toFixed(2)}%</span>`}</div>${oiSeries.length>=2?'<canvas id="oi15Canvas" class="flow15-canvas"></canvas>':'<div class="flow15-wait">Coinalyze Binance OI history verisi bekleniyor.</div>'}<div class="flow15-note">Binance BTC perpetual OI history doğrudan Coinalyze’dan alınır; 5dk OI serisinin her 10dk bucket içindeki son close değeri çizilir.</div></div></div>`;
-    content.insertBefore(card,content.firstChild);const draw=()=>{if(spotSeries.length>=2)lineChart(document.getElementById('spotCvd15Canvas'),rows,'spot_cvd_cumulative_btc',btcFmt,true);if(oiSeries.length>=2)lineChart(document.getElementById('oi15Canvas'),rows,'binance_oi_usd',moneyCompact,false)};requestAnimationFrame(draw);window.addEventListener('resize',draw,{passive:true});
+    content.insertBefore(card,content.firstChild);
+    const draw=()=>{if(spotSeries.length>=2)lineChart(document.getElementById('spotCvd15Canvas'),rows,'spot_cvd_cumulative_btc',btcFmt,true);if(oiSeries.length>=2)lineChart(document.getElementById('oi15Canvas'),rows,'binance_oi_usd',moneyCompact,false)};
+    requestAnimationFrame(draw);window.addEventListener('resize',draw,{passive:true});
   }
   const obs=new MutationObserver(()=>{const c=document.getElementById('content');if(c&&c.children.length){inject();obs.disconnect()}});obs.observe(document.documentElement,{childList:true,subtree:true});if(document.readyState!=='loading')setTimeout(inject,300);else document.addEventListener('DOMContentLoaded',()=>setTimeout(inject,300));
 })();
