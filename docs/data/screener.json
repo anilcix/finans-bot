@@ -1,46 +1,88 @@
 {
   "movers": [
     {
-      "symbol": "AAVE",
-      "name": "Aave",
-      "coingecko_id": "aave",
+      "symbol": "ETHFI",
+      "name": "Ether.fi",
+      "coingecko_id": "ether-fi",
       "exchange": "Binance Spot",
-      "exchange_symbol": "AAVEUSDT",
-      "price": 123.58,
-      "change_24h": 8.6,
-      "volume_zscore_10m": 2.7736508764414882,
-      "volume_10m_usd": 764642.52593,
-      "volume_mean_10m_usd": 256593.53372433333,
-      "buyer_share_pct": 75.81085285505918,
-      "taker_buy_10m_usd": 579682.0202,
-      "taker_sell_10m_usd": 184960.50572999998,
-      "spot_delta_10m_usd": 394721.51447000005,
-      "price_change_10m_pct": 0.6688963210702337,
+      "exchange_symbol": "ETHFIUSDT",
+      "price": 0.600653,
+      "change_24h": -1.4,
+      "volume_zscore_10m": 3.7745587991237204,
+      "volume_10m_usd": 119383.82608999999,
+      "volume_mean_10m_usd": 44956.791263,
+      "buyer_share_pct": 75.46112109196854,
+      "taker_buy_10m_usd": 90088.37357000001,
+      "taker_sell_10m_usd": 29295.452519999977,
+      "spot_delta_10m_usd": 60792.92105000003,
+      "price_change_10m_pct": 1.7072346179851206,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787414400000,
-          "delta_usd": 346955.58812999993,
-          "green": true
-        },
-        {
           "ts": 1787415000000,
-          "delta_usd": 235352.60263999994,
+          "delta_usd": 3285.217550000001,
           "green": true
         },
         {
           "ts": 1787415600000,
-          "delta_usd": 394721.51447000005,
+          "delta_usd": -16822.40070999999,
+          "green": false
+        },
+        {
+          "ts": 1787416200000,
+          "delta_usd": 60792.92105000003,
           "green": true
         }
       ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 977029.7052399999,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 6.404736161947406,
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 47255.73789000005,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 6.670670908320574,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T16:20:00+00:00"
+      "signal_time_utc": "2026-08-22T16:30:00+00:00"
+    },
+    {
+      "symbol": "KITE",
+      "name": "Kite",
+      "coingecko_id": "kite-2",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "KITEUSDT",
+      "price": 0.111831,
+      "change_24h": 3.5,
+      "volume_zscore_10m": 2.313082209264182,
+      "volume_10m_usd": 53090.21994,
+      "volume_mean_10m_usd": 22046.042825666667,
+      "buyer_share_pct": 73.3935276290739,
+      "taker_buy_10m_usd": 38964.785240000005,
+      "taker_sell_10m_usd": 14125.434699999998,
+      "spot_delta_10m_usd": 24839.350540000007,
+      "price_change_10m_pct": -0.6227758007117501,
+      "price_candle_green": false,
+      "cvd_last3": [
+        {
+          "ts": 1787415000000,
+          "delta_usd": -237.6814400000003,
+          "green": false
+        },
+        {
+          "ts": 1787415600000,
+          "delta_usd": 1286.3798700000007,
+          "green": true
+        },
+        {
+          "ts": 1787416200000,
+          "delta_usd": 24839.350540000007,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 25888.048970000007,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 5.352434972171572,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T16:30:00+00:00"
     }
   ],
   "window": "10m",
@@ -53,10 +95,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 2,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T16:33:17.888778+00:00"
+  "generated_at": "2026-08-22T16:44:27.735778+00:00"
 }
