@@ -1,5 +1,48 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "NEO",
+      "name": "NEO",
+      "coingecko_id": "neo",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "NEOUSDT",
+      "price": 2.19,
+      "change_24h": 4.6,
+      "volume_zscore_10m": 2.2542070836695034,
+      "volume_10m_usd": 17086.185680000002,
+      "volume_mean_10m_usd": 6284.985741,
+      "buyer_share_pct": 73.09339763654025,
+      "taker_buy_10m_usd": 12488.87364,
+      "taker_sell_10m_usd": 4597.3120400000025,
+      "spot_delta_10m_usd": 7891.561599999997,
+      "price_change_10m_pct": 0.7356321839080415,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787402400000,
+          "delta_usd": 9377.214259999997,
+          "green": true
+        },
+        {
+          "ts": 1787403000000,
+          "delta_usd": -3496.7790000000005,
+          "green": false
+        },
+        {
+          "ts": 1787403600000,
+          "delta_usd": 7891.561599999997,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 1,
+      "cvd_30m_delta_usd": 13771.996859999994,
+      "cvd_note": "CVD devam teyidi henüz yok",
+      "signal_score": 4.913546847323527,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T13:00:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,10 +53,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T13:04:28.360745+00:00"
+  "generated_at": "2026-08-22T13:17:03.952249+00:00"
 }
