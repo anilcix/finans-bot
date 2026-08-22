@@ -2,55 +2,193 @@
   "topics": [
     {
       "label": "Bitcoin",
-      "query": "(Bitcoin OR BTC) (site:reuters.com OR site:coindesk.com)",
-      "items": [],
-      "source_policy": "trusted_domain + publisher_article required"
+      "items": [
+        {
+          "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+          "resolved_url": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+          "published_at": "2026-08-22T15:16:41+00:00",
+          "article_summary": "Borsa, White & Case'i yeniden yapılandırma danışmanı olarak işe aldı ve ayrıntılı bir yol haritasının Eylül ayına kadar çıkması bekleniyor.",
+          "article_context": "Borsa, White & Case'i yeniden yapılandırma danışmanı olarak işe aldı ve ayrıntılı bir yol haritasının Eylül ayına kadar çıkması bekleniyor.",
+          "context": "Borsa, White & Case'i yeniden yapılandırma danışmanı olarak işe aldı ve ayrıntılı bir yol haritasının Eylül ayına kadar çıkması bekleniyor.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        },
+        {
+          "title": "Bitcoin and Ether bears get decimated amid 'squeeze-led' rally and Musk's X wants to pay creators in stablecoins: Crypto's week in 5 stories",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+          "resolved_url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+          "published_at": "2026-08-22T12:00:00+00:00",
+          "article_summary": "Bankalar ve teknoloji şirketleri stablecoin'lere yönelirken, Hazine müdahalesi, düzenleyici hamleler ve tarihi açık sıkışmanın çarpışmasıyla Bitcoin ve kripto ayların en güçlü rallisini gerçekleştirdi.",
+          "article_context": "Bankalar ve teknoloji şirketleri stablecoin'lere yönelirken, Hazine müdahalesi, düzenleyici hamleler ve tarihi açık sıkışmanın çarpışmasıyla Bitcoin ve kripto ayların en güçlü rallisini gerçekleştirdi.",
+          "context": "Bankalar ve teknoloji şirketleri stablecoin'lere yönelirken, Hazine müdahalesi, düzenleyici hamleler ve tarihi açık sıkışmanın çarpışmasıyla Bitcoin ve kripto ayların en güçlü rallisini gerçekleştirdi.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        },
+        {
+          "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+          "resolved_url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016",
+          "published_at": "2026-08-22T05:37:43+00:00",
+          "article_summary": "Vadeli işlem hacminin milyarlarca dolara ulaşması ve Grayscale başvurusunun Zcash Trust'ı spot ETF'ye dönüştürme yolunda yeni ilerleme göstermesi nedeniyle ZEC, Ocak 2018 zirvesinin üzerinde işlem gördü.",
+          "article_context": "Vadeli işlem hacminin milyarlarca dolara ulaşması ve Grayscale başvurusunun Zcash Trust'ı spot ETF'ye dönüştürme yolunda yeni ilerleme göstermesi nedeniyle ZEC, Ocak 2018 zirvesinin üzerinde işlem gördü.",
+          "context": "Vadeli işlem hacminin milyarlarca dolara ulaşması ve Grayscale başvurusunun Zcash Trust'ı spot ETF'ye dönüştürme yolunda yeni ilerleme göstermesi nedeniyle ZEC, Ocak 2018 zirvesinin üzerinde işlem gördü.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        },
+        {
+          "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
+          "resolved_url": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
+          "published_at": "2026-08-22T05:05:13+00:00",
+          "article_summary": "Treasury buybacks are not QE, analysts said, but the move helped pull long-term yields off 19-year highs and triggered a record short squeeze in a market already leaning too bearish.",
+          "article_context": "Treasury buybacks are not QE, analysts said, but the move helped pull long-term yields off 19-year highs and triggered a record short squeeze in a market already leaning too bearish.",
+          "context": "Treasury buybacks are not QE, analysts said, but the move helped pull long-term yields off 19-year highs and triggered a record short squeeze in a market already leaning too bearish.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        },
+        {
+          "title": "Crypto advocates join in suing Illinois over digital asset tax",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/policy/2026/08/21/crypto-advocates-join-in-suing-illinois-over-digital-asset-tax",
+          "resolved_url": "https://www.coindesk.com/policy/2026/08/21/crypto-advocates-join-in-suing-illinois-over-digital-asset-tax",
+          "published_at": "2026-08-21T22:10:28+00:00",
+          "article_summary": "Kripto İnovasyon Konseyi ve Blockchain Derneği, yakın zamanda onaylanan %0,2 kripto vergisi nedeniyle devlete karşı bir dava daha ekledi.",
+          "article_context": "Kripto İnovasyon Konseyi ve Blockchain Derneği, yakın zamanda onaylanan %0,2 kripto vergisi nedeniyle devlete karşı bir dava daha ekledi.",
+          "context": "Kripto İnovasyon Konseyi ve Blockchain Derneği, yakın zamanda onaylanan %0,2 kripto vergisi nedeniyle devlete karşı bir dava daha ekledi.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        },
+        {
+          "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+          "source": "CoinDesk",
+          "link": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+          "resolved_url": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+          "published_at": "2026-08-21T12:10:55+00:00",
+          "article_summary": "Üç haftalık inceleme, kullanıcılara 114 milyon dolara mal olan kusurla ilgisi olmayan sorunları ortaya çıkardı, ancak güncelleme yine de güvenliği ihlal edilmiş bir cüzdanı güvenli hale getirmiyor.",
+          "article_context": "Üç haftalık inceleme, kullanıcılara 114 milyon dolara mal olan kusurla ilgisi olmayan sorunları ortaya çıkardı, ancak güncelleme yine de güvenliği ihlal edilmiş bir cüzdanı güvenli hale getirmiyor.",
+          "context": "Üç haftalık inceleme, kullanıcılara 114 milyon dolara mal olan kusurla ilgisi olmayan sorunları ortaya çıkardı, ancak güncelleme yine de güvenliği ihlal edilmiş bir cüzdanı güvenli hale getirmiyor.",
+          "context_mode": "trusted_feed_text",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": false
+        }
+      ],
+      "source_policy": "trusted first-party feed + readable trusted publisher"
     },
     {
       "label": "Makro / Fed / Hazine",
-      "query": "(Federal Reserve OR inflation OR CPI OR payrolls OR jobs OR GDP OR Treasury yields OR Treasury buyback) (site:reuters.com OR site:federalreserve.gov OR site:bls.gov OR site:bea.gov OR site:home.treasury.gov)",
-      "items": [],
-      "source_policy": "trusted_domain + publisher_article required"
+      "items": [
+        {
+          "title": "Major Economic Indicators Latest Numbers",
+          "source": "BLS",
+          "link": "https://www.bls.gov/",
+          "resolved_url": "https://www.bls.gov/",
+          "published_at": "2026-08-21T14:01:35+00:00",
+          "article_summary": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin temel bilgi toplama kurumudur. Amerika Birleşik Devletleri hükümetinin resmi web sitesi İşte bunu nasıl anlarsınız? .gov resmi olduğu anlamına gelir.",
+          "article_context": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin temel bilgi toplama kurumudur. Amerika Birleşik Devletleri hükümetinin resmi web sitesi İşte bunu nasıl anlarsınız? .gov resmi olduğu anlamına gelir. Federal hükümetin web siteleri genellikle .gov veya .mil ile biter. Hassas bilgileri paylaşmadan önce bir federal hükümet sitesinde olduğunuzdan emin olun. https://, resmi web sitesine bağlanmanızı ve sağladığınız bilgilerin güvenli bir şekilde şifrelenip iletilmesini sağlar. Temmuz ayında işsizlik oranları 10 eyalette daha düşük, 40 eyalet ve Columbia Bölgesi'nde ise sabit kaldı. Tarım dışı bordro istihdamı 1 eyalette arttı, 1 eyalette azaldı ve 48 eyalette ve Bölgede esasen değişmedi. BLS bölgeler, eyaletler ve yerel alanlar için birçok veri türü sunar.",
+          "context": "Çalışma İstatistikleri Bürosu, çalışma ekonomisi ve istatistiklerinin geniş alanında Federal Hükümetin temel bilgi toplama kurumudur. Amerika Birleşik Devletleri hükümetinin resmi web sitesi İşte bunu nasıl anlarsınız? .gov resmi olduğu anlamına gelir.",
+          "context_mode": "publisher_article",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": true
+        },
+        {
+          "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+          "source": "Federal Reserve",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+          "resolved_url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+          "published_at": "2026-08-20T20:00:00+00:00",
+          "article_summary": "Federal Rezerv Kurulu Perşembe günü, Londra, İngiltere'deki National Westminster Bank Plc'nin, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna ait olan .govA .gov web sitesini kullanan bir resmi web sitesi temsilcisi oluşturma başvurusunu onayladığını duyurdu. Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir.",
+          "article_context": "The Federal Reserve Board on Thursday announced its approval of the application by National Westminster Bank Plc, of London, England, to establish a representa Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system. The Federal Reserve Board on Thursday announced its approval of the application by National Westminster Bank Plc, of London, England, to establish a representative office in Stamford, Connecticut. For media inquiries, please email [email protected] or call 202-452-2955.",
+          "context": "Federal Rezerv Kurulu Perşembe günü, Londra, İngiltere'deki National Westminster Bank Plc'nin, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna ait olan .govA .gov web sitesini kullanan bir resmi web sitesi temsilcisi oluşturma başvurusunu onayladığını duyurdu. Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir.",
+          "context_mode": "publisher_article",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": true
+        },
+        {
+          "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+          "source": "Federal Reserve",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+          "resolved_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+          "published_at": "2026-08-20T15:00:00+00:00",
+          "article_summary": "Federal Rezerv Kurulu Perşembe günü aşağıda listelenen yaptırım eyleminin uygulandığını duyurdu: SouthPoint Bancshares, Inc., Birmingham, Alaba Resmi web siteleri .govA .gov web sitesini kullanıyor, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna aittir. Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir.",
+          "article_context": "The Federal Reserve Board on Thursday announced the execution of the following enforcement action listed below: SouthPoint Bancshares, Inc., Birmingham, Alaba Official websites use .govA .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPSA lock (LockLocked padlock icon) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. The Federal Reserve, the central bank of the United States, provides the nation with a safe, flexible, and stable monetary and financial system. The Federal Reserve Board on Thursday announced the execution of the following enforcement action listed below: SouthPoint Bancshares, Inc., Birmingham, Alabama Written Agreement dated August 14, 2026 The Federal Reserve Board also announced the termination of the enforcement action listed below:",
+          "context": "Federal Rezerv Kurulu Perşembe günü aşağıda listelenen yaptırım eyleminin uygulandığını duyurdu: SouthPoint Bancshares, Inc., Birmingham, Alaba Resmi web siteleri .govA .gov web sitesini kullanıyor, Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna aittir. Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir.",
+          "context_mode": "publisher_article",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": true
+        },
+        {
+          "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+          "source": "Federal Reserve",
+          "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+          "resolved_url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+          "published_at": "2026-08-20T15:00:00+00:00",
+          "article_summary": "The Federal Reserve Board on Thursday announced the execution of the enforcement actions listed below: Consent prohibition against Stephanie R. Kilbert Former Official websites use .govA .gov website belongs to an official government organization in the United States.",
+          "article_context": "Federal Rezerv Kurulu Perşembe günü aşağıda listelenen yaptırım eylemlerinin uygulanacağını duyurdu: Stephanie R. Kilbert'e karşı rıza yasağı Eski Resmi web sitelerinin .govA .gov web sitesini kullanması Amerika Birleşik Devletleri'ndeki resmi bir hükümet kuruluşuna aittir. Güvenli .gov web siteleri HTTPSA kilidini (LockLocked asma kilit simgesi) kullanır veya https://, .gov web sitesine güvenli bir şekilde bağlandığınız anlamına gelir. Hassas bilgileri yalnızca resmi, güvenli web sitelerinde paylaşın. Amerika Birleşik Devletleri'nin merkez bankası olan Federal Rezerv, ülkeye güvenli, esnek ve istikrarlı bir para ve finansal sistem sağlar. Federal Rezerv Kurulu Perşembe günü aşağıda listelenen yaptırımların uygulanacağını duyurdu: Stephanie R. Kilbert'e karşı rıza yasağı Regions Bank, Birmingham, Alabama'nın eski çalışanı Müşteri fonlarının kötüye kullanılması Crystal A. Wykle'a karşı rıza yasağı United Community Bank, Greenville, Güney Carolina'nın eski çalışanı Müşteri fonlarının kötüye kullanılması",
+          "context": "The Federal Reserve Board on Thursday announced the execution of the enforcement actions listed below: Consent prohibition against Stephanie R. Kilbert Former Official websites use .govA .gov website belongs to an official government organization in the United States.",
+          "context_mode": "publisher_article",
+          "translation_ok": true,
+          "trusted": true,
+          "primary_source": true
+        }
+      ],
+      "source_policy": "trusted first-party feed + readable trusted publisher"
     },
     {
       "label": "Şant Manukyan",
-      "query": "İş Yatırım resmî YouTube",
       "items": [],
       "source_policy": "official channel + transcript required"
     }
   ],
-  "recency_hours": 72,
-  "headline_count": 0,
-  "article_context_count": 0,
-  "translated_count": 0,
+  "recency_hours": 96,
+  "headline_count": 10,
+  "article_context_count": 10,
+  "translated_count": 10,
   "language": "tr",
   "trusted_only": true,
   "source_policy": {
     "Bitcoin": [
-      "Reuters",
-      "CoinDesk"
+      "CoinDesk RSS",
+      "Reuters"
     ],
     "Makro": [
       "Federal Reserve",
-      "U.S. Treasury",
       "BLS",
       "BEA",
       "Reuters"
     ],
     "Şant Manukyan": [
-      "İş Yatırım resmî YouTube kanalı + okunabilir transcript"
+      "İş Yatırım resmi YouTube + transcript"
     ],
     "X": [
       "@realDonaldTrump",
       "@elonmusk",
-      "@saylor — yalnız X API erişimi varsa"
+      "@saylor — yalnız X API ile"
     ]
   },
   "x_watch": {
     "configured": false,
-    "status": "X_BEARER_TOKEN yok; gerçek zamanlı X izleme yapılmıyor."
+    "status": "X_BEARER_TOKEN yok; Trump/Musk/Saylor gerçek zamanlı izlenmiyor."
   },
   "errors": [],
-  "method": "Trusted-source whitelist. Haber yalnız yayıncı sayfası okunabildiyse; Şant yalnız resmî İş Yatırım transcript'i okunabildiyse; X yalnız resmî API üzerinden eklenir.",
-  "generated_at": "2026-08-22T15:35:53.908542+00:00"
+  "method": "Trusted first-party feeds are primary. Publisher page is preferred; when blocked, only the trusted source's own RSS/press description may be summarized. Google News is trusted-domain discovery fallback only.",
+  "generated_at": "2026-08-22T15:43:03.505967+00:00"
 }
