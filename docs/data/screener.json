@@ -1,88 +1,46 @@
 {
   "movers": [
     {
-      "symbol": "RLUSD",
-      "name": "Ripple USD",
-      "coingecko_id": "ripple-usd",
+      "symbol": "SKY",
+      "name": "Sky",
+      "coingecko_id": "sky",
       "exchange": "Binance Spot",
-      "exchange_symbol": "RLUSDUSDT",
-      "price": 1.0,
-      "change_24h": 0,
-      "volume_zscore_10m": 2.161226083860983,
-      "volume_10m_usd": 961532.1663,
-      "volume_mean_10m_usd": 208175.50924333333,
-      "buyer_share_pct": 99.57713192106239,
-      "taker_buy_10m_usd": 957466.1537,
-      "taker_sell_10m_usd": 4066.0126000000164,
-      "spot_delta_10m_usd": 953400.1411,
-      "price_change_10m_pct": 0.0,
+      "exchange_symbol": "SKYUSDT",
+      "price": 0.066447,
+      "change_24h": -0.3,
+      "volume_zscore_10m": 6.148421685068279,
+      "volume_10m_usd": 95357.0116,
+      "volume_mean_10m_usd": 13131.277535666666,
+      "buyer_share_pct": 84.02444116652666,
+      "taker_buy_10m_usd": 80123.19610999999,
+      "taker_sell_10m_usd": 15233.815490000008,
+      "spot_delta_10m_usd": 64889.38061999998,
+      "price_change_10m_pct": 0.5444646098003547,
       "price_candle_green": true,
       "cvd_last3": [
         {
-          "ts": 1787426400000,
-          "delta_usd": 3985.295799999998,
-          "green": true
-        },
-        {
-          "ts": 1787427000000,
-          "delta_usd": 570957.4917,
-          "green": true
-        },
-        {
           "ts": 1787427600000,
-          "delta_usd": 953400.1411,
+          "delta_usd": 1986.42378,
+          "green": true
+        },
+        {
+          "ts": 1787428200000,
+          "delta_usd": 2061.15952,
+          "green": true
+        },
+        {
+          "ts": 1787428800000,
+          "delta_usd": 64889.38061999998,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 1528342.9286,
+      "cvd_30m_delta_usd": 68936.96391999998,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 8.168939275967222,
+      "signal_score": 10.600865801720946,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T19:40:00+00:00"
-    },
-    {
-      "symbol": "LTC",
-      "name": "Litecoin",
-      "coingecko_id": "litecoin",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "LTCUSDT",
-      "price": 53.49,
-      "change_24h": 2.0,
-      "volume_zscore_10m": 2.878144490873791,
-      "volume_10m_usd": 395069.04415000003,
-      "volume_mean_10m_usd": 175235.948332,
-      "buyer_share_pct": 62.672068669088596,
-      "taker_buy_10m_usd": 247597.94264,
-      "taker_sell_10m_usd": 147471.10151000004,
-      "spot_delta_10m_usd": 100126.84112999996,
-      "price_change_10m_pct": 0.2820609251598327,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787426400000,
-          "delta_usd": 46881.44103999999,
-          "green": true
-        },
-        {
-          "ts": 1787427000000,
-          "delta_usd": 36809.69020000001,
-          "green": true
-        },
-        {
-          "ts": 1787427600000,
-          "delta_usd": 100126.84112999996,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 183817.97236999997,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 5.195351357782651,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T19:40:00+00:00"
+      "signal_time_utc": "2026-08-22T20:00:00+00:00"
     }
   ],
   "window": "10m",
@@ -95,10 +53,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 2,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T19:52:37.848034+00:00"
+  "generated_at": "2026-08-22T20:12:05.994229+00:00"
 }
