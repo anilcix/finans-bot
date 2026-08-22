@@ -5,6 +5,11 @@ from agents import macro,credit,crypto,crypto_derivatives,options,equities,hidde
 from common.treasury_buyback import fetch_treasury_buybacks
 from common.coinalyze import fetch_coinalyze_btc
 from common.crypto_flow_history import update_history as update_crypto_flow_history
+from common.finance_translate import translate_finance_tr
+
+# Haber özetlerinde genel makine çevirisi yerine finans-terimi korumalı çeviri kullan.
+# Şüpheli çeviri None döner; news.py bu durumda yanlış Türkçe yerine orijinal metni bırakır.
+news._translate_tr=translate_finance_tr
 
 # Güvenilir haber whitelist'i: resmi kaynaklar + büyük finans yayıncıları.
 # Google News yalnız keşif katmanıdır; news.py gerçek yayıncı URL'sini çözmeden
