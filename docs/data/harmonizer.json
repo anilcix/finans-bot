@@ -1,15 +1,15 @@
 {
-  "market_score": 55.7,
+  "market_score": 55.5,
   "stance": "Temkinli Risk-On",
   "confidence": 75.0,
   "component_scores": {
     "macro": 52.7,
     "credit": 61,
     "options": 78,
-    "crypto": 51.7,
+    "crypto": 51.6,
     "crypto_derivatives": 48,
     "equities": 40.4,
-    "news": 71
+    "news": 68
   },
   "plain_summary": [
     "Kısa vadede kredi spreadleri, volatilite, likidite, haber akışı ve çapraz-varlık teyitleri birlikte risk iştahını belirliyor.",
@@ -17,21 +17,21 @@
     "Tek bir veriyi veya haberi tek başına yorumlamıyoruz: politika mekanizması, finansmanı, kredi teyidi, volatilite, on-chain likidite, çapraz-borsa türev akışları ve haber bağlamı birlikte okunuyor."
   ],
   "news_analysis": {
-    "score": 71,
+    "score": 68,
     "tone": "Hafif Risk-On",
-    "summary": "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
-    "positive_count": 5,
+    "summary": "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 8 nötr/karışık benzersiz başlık. Haber skoru 68/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "positive_count": 4,
     "negative_count": 0,
-    "neutral_count": 6,
-    "headline_count": 12,
-    "unique_story_count": 11,
+    "neutral_count": 8,
+    "headline_count": 13,
+    "unique_story_count": 12,
     "article_context_count": 8,
     "topic_summaries": [
       {
         "topic": "Makro / Fed",
         "tone": "destekleyici",
         "count": 3,
-        "digest": "ABD Hazine tahvil getirileri, Hizmet PMI'ının tahminleri aşması ve ekonomik dayanıklılığın sinyalini vermesi ve Fed faiz beklentilerini etkilemesiyle toparlanmayı sürdürüyor. ABD Hazine tahvili getirileri Pazartesi günü, son Hizmetler PMI verilerinin beklenenden güçlü gelmesiyle toparlanmayı… | 30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
+        "digest": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026 | Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini…",
         "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
@@ -49,7 +49,15 @@
         "count": 4,
         "digest": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç… | Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile…",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0062."
+        "data_confirmation": "BTC 24s %+5.1; çoklu-borsa OI 24s %+3.2; OI-ağırlıklı funding %+0.0063."
+      },
+      {
+        "topic": "Emtia / Jeopolitik",
+        "tone": "karışık",
+        "count": 1,
+        "digest": "Altın fiyatları, artan ham petrol oranları ve yatırımcı duyarlılığını etkileyen jeopolitik belirsizliklerin ortasında Delhi'de 800₹ düştü. Uluslararası piyasalarda spot altın yaklaşık %1 artışla ons başına 4.361,76 dolara yükselirken, gümüş ons başına 63,33 dolardan yatay işlem gördü.",
+        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
+        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
       }
     ],
     "important_news": [
@@ -86,22 +94,6 @@
         "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
       },
       {
-        "title": "US Treasury Yields Rebound As Services PMI Beats Estimates",
-        "source": "Bitcoin World",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3hUTVRDTVFpMlZMTkJZT2NnR1FrVmpFRWF3M3JXejg1ejk0U3JZTHRKdXpNdDF4WTg5dFQ3Q3YwRHNvU01TbkdzdzNwSnZsWWxOZ1c4emg1LU9jakEtQ2ZOeXd6ODlSazRUaElkZHFUanBnb2Q5YWx6NzJRQ1VITDlPQmlxckwwLXZj?oc=5",
-        "published_at": "2026-08-21T23:00:12+00:00",
-        "topic": "Makro / Fed",
-        "theme": "rates",
-        "impact_score": 1,
-        "impact": "Destekleyici",
-        "brief_summary": "ABD Hazine tahvil getirileri, Hizmet PMI'ının tahminleri aşması ve ekonomik dayanıklılığın sinyalini vermesi ve Fed faiz beklentilerini etkilemesiyle toparlanmayı sürdürüyor. ABD Hazine tahvili getirileri Pazartesi günü, son Hizmetler PMI verilerinin beklenenden güçlü gelmesiyle toparlanmayı…",
-        "summary_mode": "article_context",
-        "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada destekleyici. Uzun vadeli faizleri aşağı çekiyorsa duration ve büyüme hisseleri için rahatlatıcı; faiz/arz baskısını artırıyorsa ters etki yaratır. Veri teyidi: Makro skor 53/100; 30Y değişim +0.08 puan.",
-        "interpretation": "Faiz, Hazine arzı/buyback ve likidite kanalı üzerinden piyasa çarpanlarını etkiler.",
-        "data_confirmation": "Makro skor 53/100; 30Y değişim +0.08 puan."
-      },
-      {
         "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
         "source": "Council on Foreign Relations",
         "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVJ6bXhzRjhidmNacEdxUTU1dTZ1X0lCZ2VITXJsbEpnQlVMX3dBNE5VdHpTRVBvalNZLUZKZ1c3X19ySVQtQWdsOVM5TW5pdW9FejFLUC1rN1J4V1hCc0ExRnV5MndzOThHS2phSVJjM2VBSkUya0ZVbm16Q1FneHJUWEZ1a2Uxb1VFcmItYmxRMUJQUGc?oc=5",
@@ -129,9 +121,9 @@
         "brief_summary": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
         "summary_mode": "headline_only",
         "read_mode": "title_only",
-        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0062.",
+        "market_effect": "Bu haber şu aşamada destekleyici. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.1; çoklu-borsa OI 24s %+3.2; OI-ağırlıklı funding %+0.0063.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0062."
+        "data_confirmation": "BTC 24s %+5.1; çoklu-borsa OI 24s %+3.2; OI-ağırlıklı funding %+0.0063."
       },
       {
         "title": "Bond Markets Take Center Stage As Investors Assess Sovereign Debt, Rising Yields And Surging Corporate Issuance To Fund AI",
@@ -161,9 +153,25 @@
         "brief_summary": "Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listelemeye yönelik teklifi üzerine kamuya açık bir yorum dönemi başlattı Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Borsası'nın, Bitcoin ve Ethereum'un günlük getirisinin üç…",
         "summary_mode": "article_context",
         "read_mode": "publisher_article",
-        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0062.",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Spot talep ve likiditeyi etkileyebilir; fiyat hareketi CVD/OI/funding tarafından teyit edilmiyorsa haber rallisinin kalıcılığına temkinli yaklaşılır. Veri teyidi: BTC 24s %+5.1; çoklu-borsa OI 24s %+3.2; OI-ağırlıklı funding %+0.0063.",
         "interpretation": "Spot talep, ETF/likidite akışı ve kaldıraç kalitesi üzerinden BTC/ETH yönünü etkiler.",
-        "data_confirmation": "BTC 24s %+5.4; çoklu-borsa OI 24s %+2.7; OI-ağırlıklı funding %+0.0062."
+        "data_confirmation": "BTC 24s %+5.1; çoklu-borsa OI 24s %+3.2; OI-ağırlıklı funding %+0.0063."
+      },
+      {
+        "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
+        "source": "khabor.com",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82V0trVnNQamVDUUxkclYxVmdYZlFwNHdJdUExQi0tYXZ3VjFxX1c5czBKeUtRVm1tZ1NfZDFOZ3J4anVWVHRMOHFRR2o?oc=5",
+        "published_at": "2026-08-21T19:26:53+00:00",
+        "topic": "Tahvil / Likidite",
+        "theme": "commodities",
+        "impact_score": 0,
+        "impact": "Nötr / karışık",
+        "brief_summary": "Treasury Bond Yield Turmoil Sparks Global Concerns",
+        "summary_mode": "headline_only",
+        "read_mode": "title_only",
+        "market_effect": "Bu haber şu aşamada tek başına yön vermeyen. Petrol-altın ve enflasyon kanalı üzerinden faiz/risk iştahını etkiler; jeopolitik şoklarda savunma talebi artabilir. Veri teyidi: Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5.",
+        "interpretation": "Petrol-altın, enflasyon ve jeopolitik risk kanalı üzerinden çapraz varlık fiyatlamasını etkiler.",
+        "data_confirmation": "Altın %+5.5; Brent Petrol %+3.3; WTI Petrol %+2.5."
       }
     ],
     "principle": "Her haberde önce 'ne oldu?' kısa özeti, sonra piyasa etkisi ve mevcut veri teyidi gösterilir. Haber tek başına pozisyon sinyali değildir."
@@ -172,7 +180,7 @@
     "GDPNow büyüme momentumu resesyon baskısını kısa vadede azaltıyor.",
     "Kredi döngüsü Expansion (Boğa); HY spread seviyesi henüz geniş tabanlı stres göstermiyor.",
     "VIX 15.13 ve vade yapısı contango; opsiyon piyasası kısa vadede panik rejiminde değil.",
-    "Stablecoin piyasa değeri 7 günde %+0.69; kripto içi dolar likiditesi genişliyor.",
+    "Stablecoin piyasa değeri 7 günde %+0.71; kripto içi dolar likiditesi genişliyor.",
     "OKX ve Hyperliquid funding pozitif ama aşırı değil; perp talebi şimdilik kontrollü.",
     "Hazine'nin uzun vadeli buyback adımı duration/dealer bilançosu tarafında kısa vadeli rahatlama yaratabilir.",
     "Haber akışı nicel verilerle birlikte hafif destekleyici yönde; tek başına sinyal olarak kullanılmıyor."
@@ -191,10 +199,10 @@
     "Petrol de güçlü; büyüme desteği kadar enflasyon/jeopolitik baskı ihtimali de izlenmeli."
   ],
   "cross_asset_read": [
-    "Kriptoda spot momentum: BTC 24s %+5.4, ETH %+7.2.",
+    "Kriptoda spot momentum: BTC 24s %+5.1, ETH %+7.1.",
     "Teknoloji içinde genişlik zayıf; bazı yüksek beta hisselerde sert satış varken endeks resmi daha sakin.",
     "Altın %+5.5; savunma/enflasyon hedge talebi aynı anda güçlü.",
-    "Son 72 saatte haber akışı hafif risk-on: 5 destekleyici, 0 risk artırıcı, 6 nötr/karışık benzersiz başlık. Haber skoru 71/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
+    "Son 72 saatte haber akışı hafif risk-on: 4 destekleyici, 0 risk artırıcı, 8 nötr/karışık benzersiz başlık. Haber skoru 68/100. 8 haberde yayıncı sayfası bağlamına erişildi; diğerleri başlık/RSS ile özetlendi.",
     "Resmi Treasury tentative buyback takviminde 18 operasyon kaydı otomatik izlendi; operasyon duyurusu takvimi supersede edebilir."
   ],
   "investment_view": {
@@ -391,7 +399,7 @@
     "note": "Tentative schedule planlamadır; preliminary/final announcement ve sonuçlar operasyon günü önceliklidir. Treasury buyback, Fed QE ile aynı mekanizma değildir.",
     "schedule_count": 18,
     "result_count": 0,
-    "generated_at": "2026-08-22T03:05:32.708143+00:00"
+    "generated_at": "2026-08-22T03:53:05.331114+00:00"
   },
   "buyback_news": [
     {
@@ -452,5 +460,5 @@
     "news": "ok"
   },
   "method": "9 uzman ajan -> normalize alt skorlar -> haber kısa özeti + piyasa etkisi -> veri kalitesi cezası -> mekanizma + on-chain + çapraz-borsa türev + çapraz-varlık yorum katmanı.",
-  "generated_at": "2026-08-22T03:03:37.077614+00:00"
+  "generated_at": "2026-08-22T03:51:06.917453+00:00"
 }
