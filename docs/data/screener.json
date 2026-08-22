@@ -1,5 +1,48 @@
 {
-  "movers": [],
+  "movers": [
+    {
+      "symbol": "FF",
+      "name": "Falcon Finance",
+      "coingecko_id": "falcon-finance-ff",
+      "exchange": "Binance Spot",
+      "exchange_symbol": "FFUSDT",
+      "price": 0.074731,
+      "change_24h": 11.0,
+      "volume_zscore_10m": 2.500305018175899,
+      "volume_10m_usd": 58672.745734000004,
+      "volume_mean_10m_usd": 18794.6320198,
+      "buyer_share_pct": 59.28316873509418,
+      "taker_buy_10m_usd": 34783.062855,
+      "taker_sell_10m_usd": 23889.682879000007,
+      "spot_delta_10m_usd": 10893.37997599999,
+      "price_change_10m_pct": 0.7542087542087517,
+      "price_candle_green": true,
+      "cvd_last3": [
+        {
+          "ts": 1787393400000,
+          "delta_usd": -865.6207250000007,
+          "green": false
+        },
+        {
+          "ts": 1787394000000,
+          "delta_usd": 360.37894299999607,
+          "green": true
+        },
+        {
+          "ts": 1787394600000,
+          "delta_usd": 10893.37997599999,
+          "green": true
+        }
+      ],
+      "cvd_green_count_3": 2,
+      "cvd_green_streak": 2,
+      "cvd_30m_delta_usd": 10388.138193999985,
+      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
+      "signal_score": 4.128621891685317,
+      "signal": "Yüksek alıcılı hacim",
+      "signal_time_utc": "2026-08-22T10:30:00+00:00"
+    }
+  ],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -10,10 +53,10 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 0,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T10:13:11.565367+00:00"
+  "generated_at": "2026-08-22T10:41:38.439562+00:00"
 }
