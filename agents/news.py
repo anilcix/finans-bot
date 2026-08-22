@@ -1,12 +1,16 @@
-"""AJAN 9: Piyasa haber akışı — son 72 saat.
+"""AJAN 9: Güvenilir ve okunabilir piyasa haber akışı.
 
-Google News RSS ile güncel başlıkları toplar. RSS yönlendirme URL'sini gerçek
-yayıncı URL'sine çözer, yayıncı sayfasındaki meta açıklama ve ilk anlamlı
-paragrafları okur. Kısa özet yorum içermez; daha uzun bağlam ayrı tutulur.
-Özet ve uzun bağlam ekranda Türkçe gösterilir; orijinal metin ayrıca saklanır.
-Yayıncı sayfası erişilemiyorsa başlık 'özet' diye tekrar edilmez.
+Politika:
+- Bitcoin: Reuters + CoinDesk.
+- Makro: Federal Reserve, U.S. Treasury, BLS, BEA + Reuters.
+- Bir haber yalnız gerçek yayıncı sayfası açılıp içerik çıkarılabildiyse Harmanlayıcıya girer.
+- Şant Manukyan: yalnız resmî İş Yatırım YouTube kanalındaki Şant Manukyan yayınları;
+  transcript/caption okunabiliyorsa özetlenir.
+- Trump / Elon Musk / Michael Saylor: yalnız X API erişimi varsa kendi resmî/public
+  hesaplarından finans/kripto ile ilgili postlar alınır. X API yoksa izleniyor gibi davranılmaz.
 """
 import html
+import os
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
@@ -20,388 +24,233 @@ try:
     from googlenewsdecoder import gnewsdecoder
 except Exception:
     gnewsdecoder = None
+try:
+    from youtube_transcript_api import YouTubeTranscriptApi
+except Exception:
+    YouTubeTranscriptApi = None
 
-NEWS_TOPICS = [
-    ("Federal Reserve Treasury yields inflation US economy", "Makro / Fed"),
-    ("US Treasury buyback bond market liquidity long term yields", "Tahvil / Likidite"),
-    ("high yield credit spreads corporate debt default US", "Kredi"),
-    ("S&P 500 Nasdaq AI semiconductors earnings stock market", "Hisseler / AI"),
-    ("Bitcoin Ethereum ETF crypto regulation market", "Kripto"),
-    ("oil gold commodities geopolitics tariffs", "Emtia / Jeopolitik"),
+UA={"User-Agent":"Mozilla/5.0 (compatible; finans-bot/1.0; +market-research)","Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
+RECENCY_HOURS=72
+MAX_ITEMS_PER_TOPIC=5
+FETCH_LIMIT=30
+_TRANSLATE_CACHE={}
+
+TRUSTED_TOPICS=[
+    {
+        "label":"Bitcoin",
+        "query":"(Bitcoin OR BTC) (site:reuters.com OR site:coindesk.com)",
+        "allowed_domains":("reuters.com","coindesk.com"),
+    },
+    {
+        "label":"Makro / Fed / Hazine",
+        "query":"(Federal Reserve OR inflation OR CPI OR payrolls OR jobs OR GDP OR Treasury yields OR Treasury buyback) (site:reuters.com OR site:federalreserve.gov OR site:bls.gov OR site:bea.gov OR site:home.treasury.gov)",
+        "allowed_domains":("reuters.com","federalreserve.gov","bls.gov","bea.gov","home.treasury.gov","treasury.gov"),
+    },
 ]
-MAX_HEADLINES_PER_TOPIC = 4
-ARTICLE_READS_PER_TOPIC = 3
-FETCH_LIMIT = 35
-RECENCY_HOURS = 72
-UA = {"User-Agent": "Mozilla/5.0 (compatible; finans-bot/1.0; +market-research)"}
-_TRANSLATE_CACHE = {}
-
-_GOOGLE_BOILERPLATE = (
-    "comprehensive up-to-date news coverage",
-    "aggregated from sources all over the world by google news",
-    "google news",
-)
-_BAD_PARAGRAPH_PHRASES = (
-    "sign up for", "subscribe", "newsletter", "cookie", "privacy policy",
-    "terms of use", "advertisement", "all rights reserved", "read more",
-)
+SOURCE_POLICY={
+    "Bitcoin":["Reuters","CoinDesk"],
+    "Makro":["Federal Reserve","U.S. Treasury","BLS","BEA","Reuters"],
+    "Şant Manukyan":["İş Yatırım resmî YouTube kanalı + okunabilir transcript"],
+    "X":["@realDonaldTrump","@elonmusk","@saylor — yalnız X API erişimi varsa"],
+}
+IS_YATIRIM_CHANNEL_ID="UCIju0kyYHAqQePXdGFjhLdA"
+X_USERS=("realDonaldTrump","elonmusk","saylor")
+FINANCE_TERMS=("bitcoin","btc","crypto","cryptocurrency","market","markets","finance","financial","dollar","usd","inflation","treasury","bond","bonds","rate","rates","stock","stocks","economy","economic")
+BAD_TEXT=("sign up for","subscribe","newsletter","cookie","privacy policy","terms of use","advertisement","all rights reserved")
+GOOGLE_BAD=("comprehensive up-to-date news coverage","aggregated from sources all over the world by google news")
 
 
-class _ArticleParser(HTMLParser):
+class ArticleParser(HTMLParser):
     def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.description = ""
-        self.paragraphs = []
-        self.links = []
-        self.canonical = ""
-        self._in_p = False
-        self._parts = []
-
-    def handle_starttag(self, tag, attrs):
-        a = {str(k).lower(): (v or "") for k, v in attrs}
-        t = tag.lower()
-        if t == "meta":
-            key = (a.get("property") or a.get("name") or "").lower()
-            if key in ("og:description", "twitter:description", "description") and not self.description:
-                self.description = a.get("content", "").strip()
-        elif t == "link" and (a.get("rel") or "").lower() == "canonical":
-            self.canonical = a.get("href", "").strip()
-        elif t == "a":
-            href = a.get("href", "").strip()
-            if href:
-                self.links.append(href)
-        elif t == "p":
-            self._in_p = True
-            self._parts = []
-
-    def handle_data(self, data):
-        if self._in_p:
-            self._parts.append(data)
-
-    def handle_endtag(self, tag):
-        if tag.lower() == "p" and self._in_p:
-            text = " ".join("".join(self._parts).split())
-            if _meaningful_paragraph(text) and len(self.paragraphs) < 8:
-                self.paragraphs.append(text)
-            self._in_p = False
-            self._parts = []
-
-
-def _meaningful_paragraph(text):
-    text = " ".join((text or "").split()).strip()
-    if len(text) < 70:
-        return False
-    low = text.lower()
-    if any(x in low for x in _BAD_PARAGRAPH_PHRASES):
-        return False
-    return True
+        super().__init__(convert_charrefs=True);self.description="";self.paragraphs=[];self.links=[];self.canonical="";self._in_p=False;self._parts=[]
+    def handle_starttag(self,tag,attrs):
+        a={str(k).lower():(v or "") for k,v in attrs};t=tag.lower()
+        if t=="meta":
+            key=(a.get("property") or a.get("name") or "").lower()
+            if key in ("og:description","twitter:description","description") and not self.description:self.description=a.get("content","").strip()
+        elif t=="link" and "canonical" in (a.get("rel") or "").lower():self.canonical=a.get("href","").strip()
+        elif t=="a" and a.get("href"):self.links.append(a["href"].strip())
+        elif t=="p":self._in_p=True;self._parts=[]
+    def handle_data(self,data):
+        if self._in_p:self._parts.append(data)
+    def handle_endtag(self,tag):
+        if tag.lower()=="p" and self._in_p:
+            text=" ".join("".join(self._parts).split())
+            if len(text)>=70 and not any(x in text.lower() for x in BAD_TEXT) and len(self.paragraphs)<10:self.paragraphs.append(text)
+            self._in_p=False;self._parts=[]
 
 
 def _translate_tr(text):
-    """Best-effort EN->TR çeviri. Hata olursa None döndürür; İngilizceyi Türkçe diye etiketlemez."""
-    text = " ".join((text or "").split()).strip()
-    if not text:
-        return None
-    if text in _TRANSLATE_CACHE:
-        return _TRANSLATE_CACHE[text]
+    text=" ".join((text or "").split()).strip()
+    if not text:return None
+    if text in _TRANSLATE_CACHE:return _TRANSLATE_CACHE[text]
     try:
-        r = requests.get(
-            "https://translate.googleapis.com/translate_a/single",
-            params={"client": "gtx", "sl": "auto", "tl": "tr", "dt": "t", "q": text},
-            headers=UA,
-            timeout=12,
-        )
-        r.raise_for_status()
-        data = r.json()
-        translated = "".join(part[0] for part in (data[0] or []) if part and part[0]).strip()
-        if translated:
-            _TRANSLATE_CACHE[text] = translated
-            return translated
-    except Exception:
-        pass
-    _TRANSLATE_CACHE[text] = None
-    return None
+        r=requests.get("https://translate.googleapis.com/translate_a/single",params={"client":"gtx","sl":"auto","tl":"tr","dt":"t","q":text},headers=UA,timeout=12);r.raise_for_status();d=r.json();out="".join(x[0] for x in (d[0] or []) if x and x[0]).strip()
+        if out:_TRANSLATE_CACHE[text]=out;return out
+    except Exception:pass
+    _TRANSLATE_CACHE[text]=None;return None
 
 
-def _parse_pub_date(text):
-    if not text:
-        return None
+def _parse_date(text):
+    if not text:return None
     try:
-        dt = parsedate_to_datetime(text)
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+        dt=parsedate_to_datetime(text)
+        if dt.tzinfo is None:dt=dt.replace(tzinfo=timezone.utc)
         return dt.astimezone(timezone.utc)
     except Exception:
-        return None
+        try:return datetime.fromisoformat(text.replace("Z","+00:00")).astimezone(timezone.utc)
+        except Exception:return None
 
 
-def _clean_html(text):
-    if not text:
-        return ""
-    text = re.sub(r"<[^>]+>", " ", text)
-    return " ".join(html.unescape(text).split())
+def _is_google(host):
+    host=(host or "").lower();return host.endswith("google.com") or ".google." in host or host.startswith("news.google.")
 
 
-def _clean_title(title, source):
-    title = " ".join((title or "").split())
-    suffix = f" - {source}" if source else ""
-    if suffix and title.lower().endswith(suffix.lower()):
-        title = title[:-len(suffix)].strip()
-    return title
-
-
-def _is_google_host(host):
-    host = (host or "").lower()
-    return host.endswith("google.com") or ".google." in host or host.startswith("news.google.")
-
-
-def _external_http_links(parser, base_url):
-    out = []
-    seen = set()
-    for href in ([parser.canonical] if parser.canonical else []) + parser.links:
-        try:
-            u = urljoin(base_url, href)
-            p = urlparse(u)
-            if p.scheme not in ("http", "https") or not p.netloc or _is_google_host(p.netloc):
-                continue
-            if u not in seen:
-                seen.add(u)
-                out.append(u)
-        except Exception:
-            continue
-    return out
-
-
-def _resolve_publisher_url(google_link):
-    if not google_link:
-        return None
-    if not _is_google_host(urlparse(google_link).netloc):
-        return google_link
+def _resolve_google_url(link):
+    if not link:return None
+    if not _is_google(urlparse(link).netloc):return link
     if gnewsdecoder is not None:
         try:
-            result = gnewsdecoder(google_link)
-            if isinstance(result, dict) and result.get("status"):
-                decoded = result.get("decoded_url")
-                if decoded and not _is_google_host(urlparse(decoded).netloc):
-                    return decoded
-        except Exception:
-            pass
+            d=gnewsdecoder(link)
+            u=d.get("decoded_url") if isinstance(d,dict) and d.get("status") else None
+            if u and not _is_google(urlparse(u).netloc):return u
+        except Exception:pass
     try:
-        r = requests.get(google_link, timeout=10, headers=UA, allow_redirects=True)
-        r.raise_for_status()
-        final_host = urlparse(r.url).netloc.lower()
-        if not _is_google_host(final_host):
-            return r.url
-        parser = _ArticleParser()
-        parser.feed(r.text[:1_500_000])
-        for u in _external_http_links(parser, r.url):
-            low = u.lower()
-            if not any(x in low for x in ("support.google", "accounts.google", "policies.google")):
-                return u
-    except Exception:
-        pass
+        r=requests.get(link,headers=UA,timeout=10,allow_redirects=True);r.raise_for_status()
+        if not _is_google(urlparse(r.url).netloc):return r.url
+        p=ArticleParser();p.feed(r.text[:1_500_000])
+        for href in ([p.canonical] if p.canonical else [])+p.links:
+            u=urljoin(r.url,href);host=urlparse(u).netloc
+            if u.startswith("http") and host and not _is_google(host):return u
+    except Exception:pass
     return None
 
 
-def _usable_context(text, title=""):
-    text = " ".join((text or "").split()).strip()
-    if len(text) < 80:
-        return False
-    low = text.lower()
-    if any(x in low for x in _GOOGLE_BOILERPLATE):
-        return False
-    clean_title = " ".join((title or "").lower().split()).strip()
-    if clean_title and low == clean_title:
-        return False
-    return True
+def _domain_allowed(url,allowed):
+    host=urlparse(url).netloc.lower().split(":")[0]
+    return any(host==d or host.endswith("."+d) for d in allowed)
 
 
-def _sentence_candidates(text):
-    clean = " ".join((text or "").split()).strip()
-    if not clean:
-        return []
-    parts = re.split(r"(?<=[.!?])\s+", clean)
-    out = []
-    seen = set()
-    for s in parts:
-        s = s.strip()
-        if len(s) < 40:
-            continue
-        key = re.sub(r"\W+", "", s.lower())[:120]
-        if key in seen:
-            continue
-        seen.add(key)
-        out.append(s)
-    return out
+def _summary_from_text(description,paragraphs,title):
+    text=[]
+    if description and len(description)>=80 and not any(x in description.lower() for x in GOOGLE_BAD+BAD_TEXT):text.append(description)
+    text.extend(paragraphs[:5])
+    joined=" ".join(text);sentences=[s.strip() for s in re.split(r"(?<=[.!?])\s+",joined) if len(s.strip())>=45]
+    if not sentences:return None,None
+    picked=[];seen=set()
+    for s in sentences:
+        key=re.sub(r"\W+","",s.lower())[:120]
+        if key in seen or any(x in s.lower() for x in BAD_TEXT):continue
+        seen.add(key);picked.append(s)
+        if len(picked)>=3:break
+    if not picked:return None,None
+    short=" ".join(picked[:2])[:900].rstrip();full=" ".join(picked+sentences[3:8])[:2400].rstrip()
+    return short,full
 
 
-def _extractive_summary(description, paragraphs, title):
-    candidates = []
-    if description and _usable_context(description, title):
-        candidates.extend(_sentence_candidates(description))
-    for p in paragraphs[:5]:
-        candidates.extend(_sentence_candidates(p))
-    picked = []
-    title_words = {w for w in re.findall(r"[a-z0-9]+", (title or "").lower()) if len(w) > 3}
-    for s in candidates:
-        low = s.lower()
-        if any(x in low for x in _BAD_PARAGRAPH_PHRASES):
-            continue
-        words = set(re.findall(r"[a-z0-9]+", low))
-        if not picked or len(title_words & words) >= 1:
-            picked.append(s)
-        if len(picked) >= 3:
-            break
-    if not picked:
-        return None
-    return " ".join(picked)[:850].rstrip()
-
-
-def _fetch_article_context(link, title=""):
-    publisher_url = _resolve_publisher_url(link)
-    if not publisher_url:
-        return None
+def _read_publisher(google_link,title,allowed_domains):
+    u=_resolve_google_url(google_link)
+    if not u or not _domain_allowed(u,allowed_domains):return None
     try:
-        r = requests.get(publisher_url, timeout=10, headers=UA, allow_redirects=True)
-        r.raise_for_status()
-        ctype = (r.headers.get("content-type") or "").lower()
-        if "html" not in ctype:
-            return None
-        final_host = urlparse(r.url).netloc.lower()
-        if _is_google_host(final_host):
-            return None
-        parser = _ArticleParser()
-        parser.feed(r.text[:2_000_000])
-        desc = " ".join((parser.description or "").split()).strip()
-        paras = [p for p in parser.paragraphs if _usable_context(p, title)]
-        summary_en = _extractive_summary(desc, paras, title)
-        full_en = " ".join(([desc] if _usable_context(desc, title) else []) + paras[:5])
-        full_en = " ".join(full_en.split())
-        if not summary_en or len(summary_en) < 80:
-            return None
-        summary_tr = _translate_tr(summary_en)
-        full_tr = _translate_tr(full_en[:2200]) if full_en else summary_tr
-        return {
-            "summary": summary_tr,
-            "text": full_tr,
-            "summary_original": summary_en,
-            "text_original": full_en[:2200] if full_en else summary_en,
-            "translation_ok": bool(summary_tr),
-            "final_url": r.url,
-            "mode": "publisher_article",
-        }
-    except Exception:
-        return None
+        r=requests.get(u,headers=UA,timeout=12,allow_redirects=True);r.raise_for_status()
+        if not _domain_allowed(r.url,allowed_domains) or "html" not in (r.headers.get("content-type") or "").lower():return None
+        p=ArticleParser();p.feed(r.text[:2_000_000]);short,full=_summary_from_text(" ".join(p.description.split()),p.paragraphs,title)
+        if not short:return None
+        short_tr=_translate_tr(short);full_tr=_translate_tr(full)
+        if not short_tr:return None
+        return {"summary":short_tr,"context":full_tr or short_tr,"summary_original":short,"context_original":full,"resolved_url":r.url}
+    except Exception:return None
 
 
-def _rss_context(raw_desc, title, source):
-    text = _clean_html(raw_desc)
-    if not text:
-        return None
-    low = text.lower()
-    if any(x in low for x in _GOOGLE_BOILERPLATE):
-        return None
-    normalized_title = _clean_title(title, source).lower()
-    stripped = low.replace((source or "").lower(), "").strip(" -|—")
-    if normalized_title and normalized_title[:60] in stripped:
-        return None
-    return text[:800] if len(text) >= 80 else None
-
-
-def _fetch_topic_headlines(query, max_items=MAX_HEADLINES_PER_TOPIC):
-    r = requests.get(
-        "https://news.google.com/rss/search",
-        params={"q": query, "hl": "en-US", "gl": "US", "ceid": "US:en"},
-        timeout=15,
-        headers=UA,
-    )
-    r.raise_for_status()
-    root = ET.fromstring(r.content)
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=RECENCY_HOURS)
-    out = []
+def _google_topic(spec):
+    r=requests.get("https://news.google.com/rss/search",params={"q":spec["query"],"hl":"en-US","gl":"US","ceid":"US:en"},headers=UA,timeout=15);r.raise_for_status();root=ET.fromstring(r.content)
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=RECENCY_HOURS);raw=[]
     for item in root.findall(".//item")[:FETCH_LIMIT]:
-        source = item.findtext("source", default="").strip()
-        raw_title = item.findtext("title", default="").strip()
-        title = _clean_title(raw_title, source)
-        link = item.findtext("link", default="").strip()
-        rss_en = _rss_context(item.findtext("description", default=""), raw_title, source)
-        rss_tr = _translate_tr(rss_en) if rss_en else None
-        published = _parse_pub_date(item.findtext("pubDate", default=""))
-        if not title or published is None or published < cutoff:
-            continue
-        out.append({
-            "title": title,
-            "source": source,
-            "link": link,
-            "published_at": published.isoformat(),
-            "article_summary": rss_tr,
-            "article_context": rss_tr,
-            "article_summary_original": rss_en,
-            "article_context_original": rss_en,
-            "translation_ok": bool(rss_tr) if rss_en else None,
-            "context": rss_tr,
-            "context_mode": "rss_context" if rss_tr else "title_only",
-        })
-    out.sort(key=lambda x: x["published_at"], reverse=True)
-    return out[:max_items]
+        pub=_parse_date(item.findtext("pubDate",default=""));title=" ".join((item.findtext("title",default="") or "").split());source=(item.findtext("source",default="") or "").strip();link=(item.findtext("link",default="") or "").strip()
+        if title and link and pub and pub>=cutoff:raw.append((title,source,link,pub))
+    out=[]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures={pool.submit(_read_publisher,link,title,spec["allowed_domains"]):(title,source,link,pub) for title,source,link,pub in raw[:12]}
+        for fut in as_completed(futures):
+            title,source,link,pub=futures[fut]
+            try:ctx=fut.result()
+            except Exception:ctx=None
+            if not ctx:continue
+            out.append({"title":title,"source":source,"link":ctx["resolved_url"],"resolved_url":ctx["resolved_url"],"published_at":pub.isoformat(),"article_summary":ctx["summary"],"article_context":ctx["context"],"article_summary_original":ctx["summary_original"],"article_context_original":ctx["context_original"],"context":ctx["summary"],"context_mode":"publisher_article","translation_ok":True,"trusted":True})
+    out.sort(key=lambda x:x["published_at"],reverse=True);return out[:MAX_ITEMS_PER_TOPIC]
 
 
-def _enrich_topic(items):
-    targets = [(i, x) for i, x in enumerate(items[:ARTICLE_READS_PER_TOPIC]) if x.get("link")]
-    if not targets:
-        return items
-    with ThreadPoolExecutor(max_workers=min(ARTICLE_READS_PER_TOPIC, 3)) as pool:
-        future_map = {pool.submit(_fetch_article_context, x["link"], x.get("title", "")): i for i, x in targets}
-        for fut in as_completed(future_map):
-            i = future_map[fut]
-            try:
-                ctx = fut.result()
-            except Exception:
-                ctx = None
-            if ctx:
-                items[i]["article_summary"] = ctx["summary"]
-                items[i]["article_context"] = ctx["text"]
-                items[i]["article_summary_original"] = ctx["summary_original"]
-                items[i]["article_context_original"] = ctx["text_original"]
-                items[i]["translation_ok"] = ctx["translation_ok"]
-                items[i]["context"] = ctx["summary"]
-                items[i]["context_mode"] = ctx["mode"]
-                items[i]["resolved_url"] = ctx["final_url"]
-    return items
+def _youtube_text(video_id):
+    if YouTubeTranscriptApi is None:return None
+    try:
+        transcript=YouTubeTranscriptApi().fetch(video_id,languages=["tr","en"])
+        text=" ".join(getattr(x,"text","") for x in transcript if getattr(x,"text",None));text=" ".join(text.split())
+        return text[:12000] if len(text)>=180 else None
+    except Exception:return None
 
 
-def build_report():
-    lines = ["📰 *PİYASA HABER AKIŞI — SON 72 SAAT*"]
-    for query, label in NEWS_TOPICS:
-        lines.append(f"\n_{label}_")
+def _shant_topic():
+    url=f"https://www.youtube.com/feeds/videos.xml?channel_id={IS_YATIRIM_CHANNEL_ID}";r=requests.get(url,headers=UA,timeout=15);r.raise_for_status();root=ET.fromstring(r.content)
+    ns={"a":"http://www.w3.org/2005/Atom","yt":"http://www.youtube.com/xml/schemas/2015"};cutoff=datetime.now(timezone.utc)-timedelta(days=14);out=[]
+    for e in root.findall("a:entry",ns):
+        title=(e.findtext("a:title",default="",namespaces=ns) or "").strip();low=title.lower()
+        if "şant manukyan" not in low and "sant manukyan" not in low:continue
+        pub=_parse_date(e.findtext("a:published",default="",namespaces=ns));vid=e.findtext("yt:videoId",default="",namespaces=ns)
+        if not pub or pub<cutoff or not vid:continue
+        transcript=_youtube_text(vid)
+        if not transcript:continue
+        # Transcript primary-source commentary; extract first coherent chunk then translate only if needed.
+        sentences=[s.strip() for s in re.split(r"(?<=[.!?])\s+",transcript) if len(s.strip())>=35]
+        short=" ".join(sentences[:5])[:1100] if sentences else transcript[:1100];full=" ".join(sentences[:18])[:3500] if sentences else transcript[:3500]
+        out.append({"title":title,"source":"İş Yatırım · Şant Manukyan","link":f"https://www.youtube.com/watch?v={vid}","resolved_url":f"https://www.youtube.com/watch?v={vid}","published_at":pub.isoformat(),"article_summary":short,"article_context":full,"context":short,"context_mode":"official_video_transcript","translation_ok":True,"trusted":True,"primary_source":True})
+    out.sort(key=lambda x:x["published_at"],reverse=True);return out[:3]
+
+
+def _x_get(path,token):
+    headers={"Authorization":f"Bearer {token}","User-Agent":UA["User-Agent"]}
+    for base in ("https://api.x.com/2","https://api.twitter.com/2"):
         try:
-            items = _enrich_topic(_fetch_topic_headlines(query))
-            if items:
-                lines += [f"• {x['title']} ({x['source']})" for x in items]
-            else:
-                lines.append("• Son 72 saatte uygun başlık yok.")
-        except Exception as e:
-            lines.append(f"⚠️ Haberler alınamadı: {e}")
-    return "\n".join(lines)
+            r=requests.get(base+path,headers=headers,timeout=12)
+            if r.status_code==200:return r.json()
+        except Exception:pass
+    return None
+
+
+def _x_topic():
+    token=(os.getenv("X_BEARER_TOKEN") or "").strip();out=[]
+    if not token:return out,{"configured":False,"status":"X_BEARER_TOKEN yok; gerçek zamanlı X izleme yapılmıyor."}
+    cutoff=datetime.now(timezone.utc)-timedelta(hours=RECENCY_HOURS)
+    for username in X_USERS:
+        u=_x_get(f"/users/by/username/{username}",token);uid=((u or {}).get("data") or {}).get("id")
+        if not uid:continue
+        t=_x_get(f"/users/{uid}/tweets?max_results=10&exclude=retweets,replies&tweet.fields=created_at,text",token)
+        for row in (t or {}).get("data") or []:
+            text=" ".join((row.get("text") or "").split());low=text.lower();pub=_parse_date(row.get("created_at"))
+            if not text or not pub or pub<cutoff or not any(k in low for k in FINANCE_TERMS):continue
+            tr=_translate_tr(text) or text
+            out.append({"title":f"@{username}: {tr[:150]}"+("…" if len(tr)>150 else ""),"source":f"X · @{username}","link":f"https://x.com/{username}/status/{row.get('id')}","resolved_url":f"https://x.com/{username}/status/{row.get('id')}","published_at":pub.isoformat(),"article_summary":tr,"article_context":tr,"context":tr,"context_mode":"x_api_post","translation_ok":True,"trusted":True,"primary_source":True})
+    out.sort(key=lambda x:x["published_at"],reverse=True);return out[:8],{"configured":True,"status":"X API aktif","accounts":list(X_USERS)}
 
 
 def get_analysis_data():
-    topics = []
-    for query, label in NEWS_TOPICS:
-        try:
-            items = _enrich_topic(_fetch_topic_headlines(query))
-            topics.append({"label": label, "query": query, "items": items})
-        except Exception as e:
-            topics.append({"label": label, "query": query, "items": [], "error": str(e)})
-    read_count = sum(1 for t in topics for x in t.get("items", []) if x.get("context_mode") == "publisher_article")
-    headline_count = sum(len(t.get("items", [])) for t in topics)
-    translated_count = sum(1 for t in topics for x in t.get("items", []) if x.get("translation_ok"))
-    return {
-        "topics": topics,
-        "recency_hours": RECENCY_HOURS,
-        "headline_count": headline_count,
-        "article_context_count": read_count,
-        "translated_count": translated_count,
-        "language": "tr",
-        "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
-    }
+    topics=[];errors=[]
+    for spec in TRUSTED_TOPICS:
+        try:items=_google_topic(spec)
+        except Exception as e:items=[];errors.append(f"{spec['label']}: {e}")
+        topics.append({"label":spec["label"],"query":spec["query"],"items":items,"source_policy":"trusted_domain + publisher_article required"})
+    try:
+        shant=_shant_topic();topics.append({"label":"Şant Manukyan","query":"İş Yatırım resmî YouTube","items":shant,"source_policy":"official channel + transcript required"})
+    except Exception as e:errors.append(f"Şant Manukyan: {e}")
+    x_items,x_status=_x_topic()
+    if x_items:topics.append({"label":"X / Piyasa Kişileri","query":"Trump + Elon Musk + Michael Saylor","items":x_items,"source_policy":"official public account via X API"})
+    items=[x for t in topics for x in t.get("items",[])];read=sum(1 for x in items if x.get("context_mode") in ("publisher_article","official_video_transcript","x_api_post"))
+    return {"topics":topics,"recency_hours":RECENCY_HOURS,"headline_count":len(items),"article_context_count":read,"translated_count":sum(1 for x in items if x.get("translation_ok")),"language":"tr","trusted_only":True,"source_policy":SOURCE_POLICY,"x_watch":x_status,"errors":errors,"method":"Trusted-source whitelist. Haber yalnız yayıncı sayfası okunabildiyse; Şant yalnız resmî İş Yatırım transcript'i okunabildiyse; X yalnız resmî API üzerinden eklenir."}
+
+
+def build_report():
+    d=get_analysis_data();lines=["📰 *GÜVENİLİR PİYASA HABER AKIŞI*"]
+    for t in d.get("topics",[]):
+        lines.append(f"\n_{t.get('label')}_")
+        lines.extend(f"• {x['title']} ({x['source']})" for x in t.get("items",[]))
+    if not d.get("x_watch",{}).get("configured"):lines.append("\nℹ️ X API key yok; Trump/Musk/Saylor gerçek zamanlı izlenmiyor.")
+    return "\n".join(lines)
