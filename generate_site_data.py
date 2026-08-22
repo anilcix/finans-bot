@@ -70,6 +70,42 @@ def _merge_coinalyze(data):
     return data
 
 
+def _decisive_market_view(center):
+    """Metodolojiyi değil, sistemin mevcut piyasa kararını kısa ve net yazar."""
+    score=float(center.get("market_score") or 50)
+    stance=str(center.get("stance") or "Nötr")
+    if score>=65:
+        verdict="Ana görüş: risk varlıklarında yükseliş yönü güçlü. Geri çekilmeler şu aşamada satış sinyalinden çok pozisyon ekleme fırsatı olarak değerlendirilebilir; yine de kaldıraç kontrollü tutulmalı."
+    elif score>=55:
+        verdict="Ana görüş: yukarı yön hâlâ avantajlı, fakat güçlü bir risk-on rejiminde değiliz. Seçici şekilde risk alınabilir; agresif kaldıraç ve yükselişi kovalamak için yeterli teyit yok."
+    elif score>=45:
+        verdict="Ana görüş: piyasa yönü kararsız. Yeni büyük risk almak yerine mevcut pozisyonları korumak ve daha net teyit beklemek daha uygun."
+    elif score>=35:
+        verdict="Ana görüş: aşağı yönlü risk belirginleşmiş durumda. Yeni risk eklemek yerine pozisyon boyutunu küçültmek ve savunmayı artırmak daha uygun."
+    else:
+        verdict="Ana görüş: güçlü risk-off rejimi. Sermaye koruma öncelikli; yüksek beta ve kaldıraçlı pozisyonlardan kaçınmak daha uygun."
+
+    support=[x for x in (center.get("supportive_factors") or []) if x]
+    risks=[x for x in (center.get("risk_factors") or []) if x]
+    why=[]
+    if support:why.append("Pozitif taraf: "+support[0])
+    if risks:why.append("Temkin nedeni: "+risks[0])
+    reason=" ".join(why) if why else f"Mevcut birleşik skor {score:.0f}/100 ve rejim {stance}."
+
+    iv=center.get("investment_view") or {}
+    add=[x for x in (iv.get("add_risk_if") or []) if x]
+    cut=[x for x in (iv.get("reduce_risk_if") or []) if x]
+    if add and cut:
+        trigger=f"Görüşü güçlendirecek teyit: {add[0]} Görüşü bozacak sinyal: {cut[0]}"
+    elif cut:
+        trigger=f"Görüşü bozacak ana sinyal: {cut[0]}"
+    elif add:
+        trigger=f"Daha güçlü risk almak için gereken ana teyit: {add[0]}"
+    else:
+        trigger="Bu görüş, kredi/volatilite ve likidite tarafında belirgin bir rejim değişimi oluşursa yeniden aşağı veya yukarı revize edilir."
+    return [verdict,reason,trigger]
+
+
 def main():
     now_dt=datetime.now(timezone.utc); now=now_dt.isoformat(); payloads={}
     for name,module in AGENTS.items():
@@ -91,7 +127,9 @@ def main():
     _write("treasury_buybacks",buyback); print("Yazıldı: treasury_buybacks")
 
     try:
-        center=harmonizer.synthesize(payloads,buyback); center["generated_at"]=now
+        center=harmonizer.synthesize(payloads,buyback)
+        center["plain_summary"]=_decisive_market_view(center)
+        center["generated_at"]=now
     except Exception as e:
         center={"generated_at":now,"error":str(e)}
     _write("harmonizer",center); print("Yazıldı: harmonizer")
