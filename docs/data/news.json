@@ -3,204 +3,45 @@
     {
       "label": "Makro / Fed",
       "query": "Federal Reserve Treasury yields inflation US economy",
-      "items": [
-        {
-          "title": "Treasury Yields Rising August 2026: Investor Guide to Bond Market",
-          "source": "Intellectia AI",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5rb0NmbUVuZXhGVk1nbFN0RndCenhRVzVJVVJ1dVB2bjJ3MHBHdmRQSkFocHV5RHhueEdEZUNWS3ByOWV0Z3I4ZE5WNkhlX0hXMTBTMkhtX0E3RW5QdTNhdGh6cV9nb01Zc1JtbGJrOA?oc=5",
-          "published_at": "2026-08-22T04:07:30+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "30-Year Treasury Yield Hits 19-Year High: What It Means for Investors in 2026",
-          "source": "Intellectia AI",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT1dwNTZ4UUt5QlowTVhWc0tLS1pXSllEZmlmRmdwNHNMWi1XbDNRSXVyQlZzcHZ1U1Z1eFJnSXo0S3RBdzJFLS1RX0JwenYzbVFfRmRka0RaaDUtMnJMN1pIbnRTR2NRaXZSS3I2OWE1T0E4NldiUC1UQXo5MHlOT0QxVWgyaVU?oc=5",
-          "published_at": "2026-08-21T04:15:48+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "What the Treasury’s Buyback Surprise Says About the Bond Market",
-          "source": "Council on Foreign Relations",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUVJ6bXhzRjhidmNacEdxUTU1dTZ1X0lCZ2VITXJsbEpnQlVMX3dBNE5VdHpTRVBvalNZLUZKZ1c3X19ySVQtQWdsOVM5TW5pdW9FejFLUC1rN1J4V1hCc0ExRnV5MndzOThHS2phSVJjM2VBSkUya0ZVbm16Q1FneHJUWEZ1a2Uxb1VFcmItYmxRMUJQUGc?oc=5",
-          "published_at": "2026-08-20T16:30:05+00:00",
-          "article_summary": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Hazine, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını operasyon başına 2 milyar dolardan 4 milyar dolara en az iki katına çıkaracağını açıklayarak yatırımcıları şaşırttı.",
-          "article_context": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Rebecca Patterson dünya çapında tanınan bir yatırımcı ve makroekonomik araştırmacıdır. Küresel olayların politika, jeopolitik, ekonomi, finans ve teknoloji genelindeki dalgalı etkilerini inceleyen haftalık bir CFR podcast'i olan The Spillover'ın ortak sunucusudur. ABD Hazinesi, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını en az ikiye katlayacağını (operasyon başına 2 milyar dolardan 4 milyar dolara) duyurarak yatırımcıları şaşırttı. Bu haber, on yıllık ve otuz yıllık ABD devlet tahvili getirilerinin bu hafta yirmi yılın en yüksek seviyesine ulaşmasının ardından geldi; birçok ABD dışı devlet tahvili getirisi de bu eğilimi yansıtıyor. Hazine'nin duyurusu hemen getirileri düşürdü ve kurum, politika değişikliğinin ABD'nin uzun vadeli tahvil piyasasına \"Hazine'nin daha fazla likidite desteği sağlama arzusunu yansıttığını\" söyledi. Hareket aynı zamanda daha temel soruların da altını çizdi: Hanehalkı, işletmeler ve devletin borç ödeme maliyetlerine yansıyan borçlanma maliyetlerini düşürmenin sürdürülebilir yolları nelerdir ve öngörülebilir gelecekte bunlardan herhangi biri makul müdür? Peki tahvil getirilerinin yapısal olarak daha yüksek seviyelerde yer alması ne kadar anlamlı?",
-          "article_summary_original": "Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Treasury surprised investors on August 19 when it announced that it would at least double the amount of longer-dated Treasury bonds that it would buy back from investors—from $2 billion to $4 billion per operation—between September 9 and November 4.",
-          "article_context_original": "Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Actions by advanced economies to limit rising government bond yields are unlikely to be durable without additional policy change or a material economic slowdown—but the first is unlikely and the second is unwanted. Rebecca Patterson is a globally recognized investor and macroeconomic researcher. She is the co-host of The Spillover, a weekly CFR podcast that examines the ripple effects of global events across policy, geopolitics, economics, finance, and technology. The U.S. Treasury surprised investors on August 19 when it announced that it would at least double the amount of longer-dated Treasury bonds that it would buy back from investors—from $2 billion to $4 billion per operation—between September 9 and November 4. The news came after ten-year and thirty-year U.S. government bond yields both hit twenty-year highs this week, with several non-U.S. government bond yields echoing the trend. Treasury’s announcement immediately pulled yields lower, with the agency saying the policy change “reflects Treasury’s desire to provide greater liquidity support” to the United States’ long-term bond market. The move also underlined more fundamental questions: What are the sustainable paths to lower borrowing costs—the kind that flow through to households, businesses, and government debt-servicing costs—and are any of them plausible in the foreseeable future? And how meaningful is it if bond yields settle at structurally higher levels?",
-          "translation_ok": true,
-          "context": "Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Gelişmiş ekonomilerin artan devlet tahvili getirilerini sınırlamaya yönelik eylemlerinin, ek politika değişikliği veya maddi bir ekonomik yavaşlama olmadan kalıcı olması pek mümkün değil; ancak ilki pek olası değil ve ikincisi istenmeyen. Hazine, 19 Ağustos'ta, 9 Eylül ile 4 Kasım arasında yatırımcılardan geri satın alacağı uzun vadeli Hazine tahvili miktarını operasyon başına 2 milyar dolardan 4 milyar dolara en az iki katına çıkaracağını açıklayarak yatırımcıları şaşırttı.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.cfr.org/articles/what-the-treasurys-buyback-surprise-says-about-the-bond-market"
-        },
-        {
-          "title": "Bessent acts to break bond market fever, head off rising borrowing costs",
-          "source": "The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEp5ODBDWGVqYUZ1eEdFS1BxODduekpEZFB0Vm9YcmFCeW9IYnV1eUNFeHpJZ3lLT0NMSk9OazBVZE1xZmJvMnlBZjNjSWpodkEtd09CdmpOT0VSQVJvZDNHRWNFQWxMU1ZxR05UOE92SXd6WTllbEhBQUotZjhVVUdZckw5UloxS1JqamtJcGNzVFVwS3hjNXdXR2VjcFJuMnlReWFIN1dLbHBldzhKWndMTTY?oc=5",
-          "published_at": "2026-08-20T02:59:28+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Federal+Reserve+Treasury+yields+inflation+US+economy&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Tahvil / Likidite",
       "query": "US Treasury buyback bond market liquidity long term yields",
-      "items": [
-        {
-          "title": "Bitcoin surged 25% from $64,000 to $78,500 after a Treasury tweak. Here’s why",
-          "source": "CoinDesk",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWlRXUE10UGhzYkN6RnFoM0ctMElubHk0SHZsMHhKd3NhRm5MUFlrb0hjLU14OUtXRUFWOTAzSGZyQVVMMXJGaXFMcFYyMWxzYjJzbURaVzRGTVducWhrRFlpR0F2UGtlbjNNYW0zMGdxYXg4UEFjZ2k5WVBpOXhSVXl0WlRvYlpwNzU2MUk2TV8tclZSNFA2QlJkdEpaX0N6MmZuS3lEMG9rMDRQWEhfQg?oc=5",
-          "published_at": "2026-08-22T05:05:13+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        },
-        {
-          "title": "Bond Markets Take Center Stage As Investors Assess Sovereign Debt, Rising Yields And Surging Corporate Issuance To Fund AI",
-          "source": "TradingView",
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxORmJObXlzNFhHVUtNMGpBX1VxUzdSeWx0MmJrQk9RYUk1cHpablptSDdTTmFVWHNDRWhwSVN2UDBKcEx2b090QnJZbzZKbE1sUFB1MG5MOEltODRwS3g0b3ZyM1BJMWdmQlkzNFBMUUx2OXhLVjRiQ0ZTZ3RPNVVsQUtLNmc5eXRTUWFQSlJtX21WdlNrcWZaT21CM0dzSkswQWFJQWEzRzBhZmlsMFpDZm5OcEtnSnVrNDN1Rkh3UW13ek9ZQ2NXR1FwRVk1cUhmNWw0WnhRSXhvM09tMk5uQVUtaWMwajRMTlhFRTh0TV9ySGpSRzlRaDlkSzRLdmxVZTNqaG80V2hKamZoNG44?oc=5",
-          "published_at": "2026-08-22T01:02:00+00:00",
-          "article_summary": "Küresel yatırımcıların yüksek ABD uzun vadeli tahvil getirilerine, genişleyen federal açıklara ve devasa kurumsal borç ihraç dalgasına yönelmesiyle birlikte sabit gelirli piyasalar bu Ağustos ayında dikkatleri üzerine çekti. Ulusal borç 40 doları aşarken ABD Hazine piyasası yakın inceleme altında kalmaya devam ediyor…",
-          "article_context": "Küresel yatırımcılar yüksek ABD uzun vadeli tahvil getirilerine, genişleyen federal açıklara ve devasa bir kurumsal borç ihraç dalgasına yönelirken, sabit gelirli piyasalar bu Ağustos ayında ilgi odağı oldu. Ulusal borç 40 doları geçerken ABD Hazine piyasası yakın inceleme altında kalmaya devam ediyor… Küresel yatırımcılar yüksek ABD uzun vadeli tahvil getirilerine, genişleyen federal açıklara ve büyük bir dalgaya yönelirken, sabit gelirli piyasalar bu Ağustos ayında dikkatleri üzerine çekti. kurumsal borç ihracıyla ilgili. Ulusal borcun 40 trilyon dolar eşiğini aşması nedeniyle ABD Hazine piyasası yakın inceleme altında olmaya devam ediyor. 30 yıllık tahvil getirilerinin en son 2007'de görülen seviyelere ulaşmasıyla birlikte Hazine Bakanlığı, ikincil piyasa likiditesini desteklemek ve oynaklığı azaltmak için geri alım operasyonları duyurdu. Devlet arzındaki bu fazlalık, piyasa duyarlılığını önemli ölçüde yeniden şekillendirdi ve ABD ekonomisi genelinde borçlanma maliyetleri için zemini yükseltirken, sermayeyi uzun vadeli tahvillere çekti. iShares 20+ Yıllık Hazine Tahvili ETF'si (TLT) Cuma günü yaklaşık %0,4 düşerek 82 dolar civarında kapandı, daha önceki kazanımlarını sildi ve 52 haftanın en düşük seviyeleri yakınında kalmayı sürdürdü. Eş zamanlı olarak ABD yüksek dereceli şirket tahvili piyasası da hacimde bir artış yaşadı ve bu, bu yılın başından bu yana en yoğun işlem dönemlerinden biri oldu. Yarı iletken üreticileri, teknoloji devleri ve uzmanlaşmış dijital altyapı operatörleri, sabit faizli finansmanı güvence altına almak için birincil tahvil piyasalarına yöneldi.",
-          "article_summary_original": "Fixed-income markets have captured the spotlight this August as global investors pivot toward elevated U.S. long-duration bond yields, widening federal deficits, and a massive wave of corporate debt issuance.The U.S. Treasury market remains under close scrutiny as the national debt crosses the $40…",
-          "article_context_original": "Fixed-income markets have captured the spotlight this August as global investors pivot toward elevated U.S. long-duration bond yields, widening federal deficits, and a massive wave of corporate debt issuance.The U.S. Treasury market remains under close scrutiny as the national debt crosses the $40… Fixed-income markets have captured the spotlight this August as global investors pivot toward elevated U.S. long-duration bond yields, widening federal deficits, and a massive wave of corporate debt issuance. The U.S. Treasury market remains under close scrutiny as the national debt crosses the $40-trillion threshold. The Treasury Department announced buyback operations to bolster secondary-market liquidity and temper volatility as 30-year bond yields hit levels last seen in 2007. This sovereign supply overhang has significantly reshaped market sentiment, drawing capital into long-term bonds while raising the floor for borrowing costs across the U.S. economy. The iShares 20+ Year Treasury Bond ETF (TLT) fell about 0.4% to close around $82 on Friday, erasing earlier gains and lingering near its 52-week lows. Simultaneously, the U.S. high-grade corporate bond market has experienced a surge in volume, marking one of its busiest stretches for deal activity since early this year. Semiconductor manufacturers, technology giants, and specialized digital infrastructure operators have descended on primary bond markets to secure fixed-rate financing.",
-          "translation_ok": true,
-          "context": "Küresel yatırımcıların yüksek ABD uzun vadeli tahvil getirilerine, genişleyen federal açıklara ve devasa kurumsal borç ihraç dalgasına yönelmesiyle birlikte sabit gelirli piyasalar bu Ağustos ayında dikkatleri üzerine çekti. Ulusal borç 40 doları aşarken ABD Hazine piyasası yakın inceleme altında kalmaya devam ediyor…",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://www.tradingview.com/news/stocktwits:35b45d67a094b:0-bond-markets-take-center-stage-as-investors-assess-sovereign-debt-rising-yields-and-surging-corporate-issuance-to-fund-ai/"
-        },
-        {
-          "title": "Dollar Falls to Three-Month Low as Treasury Buyback Plan Raises Fiscal Concerns",
-          "source": "Eurasia Business News",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbjZnSHBvcDN4UGZtdXNaRF9WSmU0NUZjazBKYkdjQ2ctRFJ0MkdVMXBPSHBVMTBEQjhUYjdEbEU3UGl6YW9wdmlQUVRqN2N5S1prVUJac3ZMXzVjaWVnSFRpbE91bm5uV0JyZEEwdzU5Qkx6VFdEcUZjRG93MDctYzlQRS05dDNkQlJMV3kzX0pzZVpsX1BOQ2VXNUIxVlRnbDcyZlVWam5Pb0N2WlRTN0VpQ3E2WkdqaEhteTZEdWE?oc=5",
-          "published_at": "2026-08-21T22:23:38+00:00",
-          "article_summary": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro karşısında üç ayın en düşük seviyesine geriledi; yatırımcıların Hazine Bakanlığı'nın tahvil geri alımını genişletip genişletmediğini sorgulamasıyla ABD dolarının 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine gerilediğine dair daha geniş sorular ortaya çıktı Programın uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltabileceği belirtiliyor.",
-          "article_context": "ABD doları, Hazine tahvili geri alımlarının mali sorunları çözmediği endişeleri nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi ve bu da ABD borçlanmasının sürdürülebilirliği hakkında daha geniş soruları gündeme getirdi… ABD doları, hazine tahvili geri alımlarının mali sorunları çözmede başarısız olduğuna dair endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi ve ABD borçlanmasının sürdürülebilirliği ve enflasyon baskıları hakkında daha geniş soruları gündeme getirdi. Yazan: John Meyer, mali işler danışmanı – Eurasia Business News, 22 Ağustos 2026. Makale No 3114 Dow Jones Menkul Kıymetler Borsası, Manhattan, New York City- Fotoğraf kaynağı: Swann Collins. Yatırımcıların Hazine Bakanlığı'nın genişletilmiş tahvil geri alım programının uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltıp azaltamayacağını sorgulamasıyla ABD doları, 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine geriledi. Daha uzun vadeli Hazine tahvillerindeki likiditeyi desteklemek için tasarlanan politika, bunun yerine ABD mali koşullarına ilişkin endişeleri yoğunlaştırdı ve tahvil piyasalarına daha müdahaleci bir yaklaşım getirdi. Euro üç ayın en yüksek seviyesi yakınında yaklaşık 1,1685 dolara yükselirken, dolar endeksi 98,82'ye yakın işlem gördü. Doların altı ana para birimine karşı ölçümünü yapan endeks, haftalık %0,8'den fazla düşüşe doğru gidiyordu.",
-          "article_summary_original": "dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. dollar fell to a three-month low against the euro on August 21 as investors questioned whether the Treasury Department’s expanded bond-buyback program could meaningfully reduce long-term borrowing costs.",
-          "article_context_original": "The U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. borrowing sustainabilit… The U.S. dollar fell to a three-month low against the euro due to concerns over Treasury bond-buybacks failing to address fiscal issues, raising broader questions about U.S. borrowing sustainability and inflation pressures. By John Meyer, consultant in financial affairs – Eurasia Business News, August 22, 2026. Article No 3114 Dow Jones Stock Exchange, Manhattan, New York City- Photo credit : Swann Collins. The U.S. dollar fell to a three-month low against the euro on August 21 as investors questioned whether the Treasury Department’s expanded bond-buyback program could meaningfully reduce long-term borrowing costs. The policy, designed to support liquidity in longer-dated Treasury securities, instead intensified concerns about U.S. fiscal conditions and a more interventionist approach to bond markets. The euro rose to approximately $1.1685, near a three-month high, while the dollar index traded close to 98.82. The index, which measures the dollar against six major currencies, was headed for a weekly decline of more than 0.8%.",
-          "translation_ok": true,
-          "context": "Dolar, Hazine tahvili geri alımlarının mali sorunları çözemediğine ilişkin endişeler nedeniyle euro karşısında üç ayın en düşük seviyesine geriledi; ABD doları hakkında daha kapsamlı soru işaretleri oluştu; Hazine tahvili geri alımlarının mali sorunları çözemediği endişeleri nedeniyle dolar euro karşısında üç ayın en düşük seviyesine geriledi; yatırımcıların Hazine Bakanlığı'nın tahvil geri alımını genişletip genişletmediğini sorgulamasıyla ABD dolarının 21 Ağustos'ta euro karşısında üç ayın en düşük seviyesine gerilediğine dair daha geniş sorular ortaya çıktı Programın uzun vadeli borçlanma maliyetlerini anlamlı bir şekilde azaltabileceği belirtiliyor.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://eurasiabusinessnews.com/2026/08/21/dollar-falls-to-three-month-low-as-treasury-buyback-plan-raises-fiscal-concerns/"
-        },
-        {
-          "title": "Treasury Bond Yield Turmoil Sparks Global Concerns",
-          "source": "khabor.com",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82V0trVnNQamVDUUxkclYxVmdYZlFwNHdJdUExQi0tYXZ3VjFxX1c5czBKeUtRVm1tZ1NfZDFOZ3J4anVWVHRMOHFRR2o?oc=5",
-          "published_at": "2026-08-21T19:26:53+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=US+Treasury+buyback+bond+market+liquidity+long+term+yields&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Kredi",
       "query": "high yield credit spreads corporate debt default US",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=high+yield+credit+spreads+corporate+debt+default+US&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Hisseler / AI",
       "query": "S&P 500 Nasdaq AI semiconductors earnings stock market",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=S%26P+500+Nasdaq+AI+semiconductors+earnings+stock+market&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Kripto",
       "query": "Bitcoin Ethereum ETF crypto regulation market",
-      "items": [
-        {
-          "title": "SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs",
-          "source": "CryptoRank",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYmxkNVBqdXdXZHJfa1kwUXd1NVhXMm5HSFNpME1DOHl2M1ZrUlZUR0I0R09IY1plYmJoWUFYeFBFWTlOUUZYdDNnVHBmQUFmb2plWGU2bzVMcEhRMVJEdUhwa1BfdG1tZjBIZG00MllFTlhEV1lBY2ZrVFNLaV9Wdl92clU?oc=5",
-          "published_at": "2026-08-21T22:44:48+00:00",
-          "article_summary": "BitcoinWorld SEC, İlk ABD İçin CBOE Teklifi Hakkında Kamu Görüşünü Açtı SEC, CBOE BZX'in ilk ABD 3x Bitcoin ve 3x Ethereum ürünleri de dahil olmak üzere altı kaldıraçlı ETF'yi listeleme teklifi hakkında kamuya açık bir yorum dönemi başlattı ve bu, daha geniş kripto ETF tekliflerine yönelik düzenleyici bir adım oldu.",
-          "article_context": "BitcoinWorld SEC, İlk ABD 3x Bitcoin ve Ethereum ETF'leri için CBOE Teklifi Hakkında Kamu Görüşünü Açtı ABD Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX'in ilk ABD 3x Bitcoin ve 3x Ethereum ürünleri de dahil olmak üzere altı kaldıraçlı ETF'yi listeleme teklifi hakkında kamuya açık bir görüş dönemi başlattı; bu, daha geniş kripto ETF tekliflerine yönelik düzenleyici bir adımdır. Onaylanırsa bu kaldıraçlı ETF'ler, Bitcoin ve Ethereum'a daha fazla maruz kalma sağlayarak benimsenmeyi ve piyasa likiditesini artırabilir, ancak günlük yeniden dengeleme, bileşik oluşturma ve dalgalanma nedeniyle artan riskler oluştururlar ve SEC, 21 günlük inceleme penceresi boyunca temkinli olmaya devam ediyor. BitcoinWorld SEC, İlk ABD 3x Bitcoin ve Ethereum ETF'leri için CBOE Teklifi Hakkında Kamu Görüşünü Açtı ABD Menkul Kıymetler ve Borsa Komisyonu (SEC), CBOE BZX Exchange'in, Bitcoin ve Ethereum'un günlük getirisinin üç katına bağlı olan ABD'deki ilk kaldıraçlı borsa yatırım fonlarını (ETF'ler) listeleme teklifi hakkında kamuya açık görüş dönemi başlattı. Düzenleyici kurum tarafından yayınlanan başvuru, dijital varlıkların ana akım finansal ürünlere devam eden entegrasyonunda önemli bir adıma işaret ediyor. Chicago Board Options Exchange'in hisse senedi borsası kolu olan CBOE BZX, altı kaldıraçlı ETF'yi listelemek için bir kural değişikliği teklifi sundu. Bunlara 3x Bitcoin ETF, 3x Ethereum ETF ve altın, gümüş, ham petrol ve doğal gaz için kaldıraçlı fonlar dahildir. Kaldıraçlı yapı, yatırımcılara fiyat hareketlerine daha fazla maruz kalma imkanı sunarak, dayanak varlığın performansının üç katı günlük getiri sağlamayı amaçlıyor. SEC'in teklifi kamuoyunun görüşüne açma kararı, 1934 tarihli Menkul Kıymetler Borsası Kanunu uyarınca prosedürel bir gerekliliktir. Bu, yatırımcılar, sektör profesyonelleri ve akademisyenler de dahil olmak üzere ilgili tarafların, ürünlerin borsanın listeleme standartlarını ve yatırımcı koruma gerekliliklerini karşılayıp karşılamadığı konusunda geri bildirimde bulunmalarına olanak tanır.",
-          "article_summary_original": "BitcoinWorld SEC Opens Public Comment on CBOE Proposal for First U.S. The SEC has opened a public comment period on CBOE BZX’s proposal to list six leveraged ETFs including the first U.S. 3x Bitcoin and 3x Ethereum products, marking a regulatory step toward broader crypto ETF offerings.",
-          "article_context_original": "BitcoinWorld SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs The U.S. Securities and Exchange Commission (SEC) has The SEC has opened a public comment period on CBOE BZX’s proposal to list six leveraged ETFs including the first U.S. 3x Bitcoin and 3x Ethereum products, marking a regulatory step toward broader crypto ETF offerings. If approved these leveraged ETFs could increase adoption and market liquidity by giving amplified exposure to Bitcoin and Ethereum, but they pose heightened risks from daily rebalancing, compounding and volatility and the SEC remains cautious during the 21-day review window. BitcoinWorld SEC Opens Public Comment on CBOE Proposal for First U.S. 3x Bitcoin and Ethereum ETFs The U.S. Securities and Exchange Commission (SEC) has initiated a public comment period on a proposal by CBOE BZX Exchange to list the first leveraged exchange-traded funds (ETFs) in the United States tied to three times the daily returns of Bitcoin and Ethereum. The filing, published by the regulatory body, marks a significant step in the ongoing integration of digital assets into mainstream financial products. CBOE BZX, the equities exchange arm of the Chicago Board Options Exchange, submitted a rule change proposal to list six leveraged ETFs. These include a 3x Bitcoin ETF, a 3x Ethereum ETF, and leveraged funds for gold, silver, crude oil, and natural gas. The leveraged structure aims to deliver daily returns that are three times the performance of the underlying asset, offering traders amplified exposure to price movements. The SEC’s decision to open the proposal for public comment is a procedural requirement under the Securities Exchange Act of 1934. It allows interested parties—including investors, industry professionals, and academics—to submit feedback on whether the products meet the exchange’s listing standards and investor protection requirements.",
-          "translation_ok": true,
-          "context": "BitcoinWorld SEC, İlk ABD İçin CBOE Teklifi Hakkında Kamu Görüşünü Açtı SEC, CBOE BZX'in ilk ABD 3x Bitcoin ve 3x Ethereum ürünleri de dahil olmak üzere altı kaldıraçlı ETF'yi listeleme teklifi hakkında kamuya açık bir yorum dönemi başlattı ve bu, daha geniş kripto ETF tekliflerine yönelik düzenleyici bir adım oldu.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://cryptorank.io/news/feed/ef76b-sec-cboe-3x-bitcoin-ethereum-etf-comment"
-        },
-        {
-          "title": "Bitcoin And Ethereum ETFs Pull $825M As Institutional Demand Returns",
-          "source": "CryptoRank",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzYwd1QwUWd3UlZqc2R4UnYxVHFGbmlUdmxoTWtSa0pGdXhOQnVXMVFtdG1RYTlKWDE0blFNTHdZTXZ6dm9zZWhZaHMxMVVfSk5BR25UQ2FZV1hDMEJCVDhSVnF3dVdUOXFJbGo4NkJ0NHhtV1dCRG83RWgxVWN0WWlhSzRzcTJSU3lta2Vn?oc=5",
-          "published_at": "2026-08-21T14:51:26+00:00",
-          "article_summary": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile BlackRock'ın ETHA'sı liderliğinde) 825,8 milyon dolarlık birleşik tek oturum girişleri için 219,5 milyon dolar ekledi. Bu düzenlenmiş ETF akışları, kurumsal talebi ve spot destekli ürünler aracılığıyla benimsenmeyi kanıtlayarak kripto rallisini güçlendiriyor ve tek oturumlu akışlar hızla tersine dönse de, Ethereum bağlantılı DeFi ve tokenize varlıklara daha geniş bir rotasyonun habercisi olabilir.",
-          "article_context": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile BlackRock'ın ETHA'sı liderliğinde) 825,8 milyon dolarlık birleşik tek oturum girişleri için 219,5 milyon dolar ekledi. Bu düzenlenmiş ETF akışları, kurumsal talebi ve spot destekli ürünler aracılığıyla benimsenmeyi kanıtlayarak kripto rallisini güçlendiriyor ve tek oturumlu akışlar hızla tersine dönse de, Ethereum bağlantılı DeFi ve tokenize varlıklara daha geniş bir rotasyonun habercisi olabilir. ABD spot Bitcoin ve Ethereum ETF'leri, tek seansta toplam 825,8 milyon dolarlık giriş elde ederek, kripto piyasalarına son fiyat yükselişiyle birlikte düzenlenmiş talebin geri döndüğüne dair başka bir güçlü sinyal verdi. Farside Investors verileri, 503 milyon dolarlık BlackRock IBIT liderliğindeki spot Bitcoin ETF'lerinin 20 Ağustos oturumunda 606,3 milyon dolar aldığını gösterdi. Spot Ethereum ETF'leri, 173,3 milyon dolarla BlackRock'un ETHA'sının liderliğinde 219,5 milyon dolar daha ekledi. Bitcoin baskın kurumsal kripto ürünü olmaya devam ediyor ancak Ethereum'un ETF girişi de daha geniş bir katılım gösterecek kadar büyüktü. Bu sadece BTC tahsis günü değildi. Bir kripto ETF talep günüydü. IBIT, 503 milyon dolarlık girişle günün Bitcoin ETF talebinin çoğunu oluşturdu. Bu, spot BTC maruziyeti için ana kurumsal ağ geçidi olma rolünü güçlendiriyor.",
-          "article_summary_original": "Bitcoin And Ethereum ETFs Pull $825M As Institutional Demand Returns - Read the full analysis. On August 20 US spot Bitcoin ETFs took in $606.3 million (led by BlackRock’s IBIT with $503 million) while spot Ethereum ETFs added $219.5 million (led by BlackRock’s ETHA with $173.3 million), for combined single-session inflows of $825.8 million. These regulated ETF flows strengthen the crypto rally by evidencing institutional demand and adoption via spot-backed products and could presage broader rotation into Ethereum-linked DeFi and tokenized assets, though single-session flows can reverse quickly.",
-          "article_context_original": "Bitcoin And Ethereum ETFs Pull $825M As Institutional Demand Returns - Read the full analysis. On August 20 US spot Bitcoin ETFs took in $606.3 million (led by BlackRock’s IBIT with $503 million) while spot Ethereum ETFs added $219.5 million (led by BlackRock’s ETHA with $173.3 million), for combined single-session inflows of $825.8 million. These regulated ETF flows strengthen the crypto rally by evidencing institutional demand and adoption via spot-backed products and could presage broader rotation into Ethereum-linked DeFi and tokenized assets, though single-session flows can reverse quickly. US spot Bitcoin and Ethereum ETFs drew a combined $825.8 million in single-session inflows, giving crypto markets another strong signal that regulated demand has returned alongside the latest price rally. Farside Investors data showed spot Bitcoin ETFs taking in $606.3 million for the August 20 session, led by BlackRock’s IBIT with $503 million. Spot Ethereum ETFs added another $219.5 million, led by BlackRock’s ETHA with $173.3 million. Bitcoin remains the dominant institutional crypto product, but Ethereum’s ETF inflow was also large enough to show broader participation. This was not only a BTC allocation day. It was a crypto ETF demand day. With $503 million in inflows, IBIT accounted for most of the day’s Bitcoin ETF demand. That reinforces its role as the main institutional gateway for spot BTC exposure.",
-          "translation_ok": true,
-          "context": "Kurumsal Talebin Geri Dönüşüyle ​​Bitcoin ve Ethereum ETF'leri 825 Milyon Dolar Çekti - Analizin tamamını okuyun. 20 Ağustos'ta ABD spot Bitcoin ETF'leri 606,3 milyon dolar (503 milyon dolar ile BlackRock'un IBIT liderliğinde) elde ederken, spot Ethereum ETF'leri (173,3 milyon dolar ile BlackRock'ın ETHA'sı liderliğinde) 825,8 milyon dolarlık birleşik tek oturum girişleri için 219,5 milyon dolar ekledi. Bu düzenlenmiş ETF akışları, kurumsal talebi ve spot destekli ürünler aracılığıyla benimsenmeyi kanıtlayarak kripto rallisini güçlendiriyor ve tek oturumlu akışlar hızla tersine dönse de, Ethereum bağlantılı DeFi ve tokenize varlıklara daha geniş bir rotasyonun habercisi olabilir.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://cryptorank.io/news/feed/a068e-bitcoin-ethereum-etfs-825m-institutional-demand"
-        },
-        {
-          "title": "Why Is Crypto Up Today? Bitcoin Hits $71k as Ethereum Surges Past $2,300",
-          "source": "Bitcoin Foundation",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcFFkSDhfUU5wRE0yQ0tXS0gyTXc4b0piVkd6OFVtMm9IWFdWMGxVNXVtUlgwVFYwM2dacFJTUnkySkFUUGpCYUdZMnlSSG1IX1lrQlpNTHhGelhoeUw2MmozVXo5TUpkXzRwZmVzcEFFZmVPYllSVC1oZnNjUzRwdDhvdlRac1R0MGVWOXRMaDhfZUc1ZGNwTjgtNEt3NzNobjRVMnRFS1Y2OFF0alYxTzJJOA?oc=5",
-          "published_at": "2026-08-20T11:57:06+00:00",
-          "article_summary": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. Bu arada Ethereum 2.300 doların üzerine çıktı ve yüzde bazında Bitcoin'den daha iyi performans gösteriyor.",
-          "article_context": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. Bu arada Ethereum 2.300 doların üzerine çıktı ve yüzde bazında Bitcoin'den daha iyi performans gösteriyor. Şimdi soru şu: Kripto gerçekten geri mi döndü yoksa sadece bir rahatlama rallisi intikamla mı geri döndü? İyileşen likidite beklentileri, düzenleyici iyimserlik, ETF talebi ve kısa vadeli tasfiyeler piyasaya çok ihtiyaç duyulan desteği sağladı ancak Bitcoin ve Ethereum hâlâ önceki döngüdeki yüksek seviyelerinin önemli ölçüde altında. Bitcoin fiyatı, 62.630,00$ değerindeki BTC'nin daha önce fiyatı kısıtlayan önemli seviyeleri aşmasının ardından yeniden ilgi odağı oldu. Hızlı yükseliş, ayıların kaçmasına ve momentum alıcılarının atlamasına neden oldu. Likidite, duyarlılık ve kaldıracın birleşimi yeni bir boğa piyasasının başlangıcını önermek için yeterli olmasa da, Bitcoin'i 70 bin doları kısa vadede en çok beklenen seviyelerden biri haline getirdi. ABD Hazinesi \"likidite desteği\" için geri alımları operasyon başına 4 milyar dolara çıkararak ikiye katlıyor. Dolar düştü. BTC, en düşük seviyelerden %8,7 kayıpla 69,7 bin dolara yükseldi. Bunun gibi her operasyon, Terminus Hattını daha da yakınlaştırıyor. #OMEGA60",
-          "article_summary_original": "Find out why Bitcoin and Ethereum have surged today and whether we are seeing a crypto rally comeback Bitcoin has managed to push closer to the psychological $70,000 level after reclaiming $69,000. Meanwhile, Ethereum has jumped above $2,300 and is outperforming Bitcoin on a percentage basis.",
-          "article_context_original": "Find out why Bitcoin and Ethereum have surged today and whether we are seeing a crypto rally comeback Bitcoin has managed to push closer to the psychological $70,000 level after reclaiming $69,000. Meanwhile, Ethereum has jumped above $2,300 and is outperforming Bitcoin on a percentage basis. The question is now whether crypto is back indeed or just a relief rally has returned with a vengeance. Improved liquidity expectations, regulatory optimism, ETF demand and short liquidations have given the market a much-needed boost, but Bitcoin and Ethereum are still significantly below their previous cycle highs. Bitcoin price is back in focus after BTC▲$62,630.00 broke through key levels that had previously restrained the price. The rapid rise has caused bears to flee and momentum buyers to jump in. While the confluence of liquidity, sentiment, and leverage is not enough to suggest the start of a new bull market, it has made Bitcoin $70K one of the most anticipated levels in the short term. The US Treasury is doubling buybacks to $4 billion per operation for \"liquidity support.\"The dollar dumped. BTC ripped 8.7% off the lows to $69.7k.Every operation like this draws the Terminus Line closer. #OMEGA60",
-          "translation_ok": true,
-          "context": "Bitcoin ve Ethereum'un bugün neden yükseldiğini ve kripto rallisinde bir geri dönüş görüp görmediğimizi öğrenin. Bitcoin, 69.000 doları geri aldıktan sonra psikolojik 70.000 dolar seviyesine yaklaşmayı başardı. Bu arada Ethereum 2.300 doların üzerine çıktı ve yüzde bazında Bitcoin'den daha iyi performans gösteriyor.",
-          "context_mode": "publisher_article",
-          "resolved_url": "https://bitcoinfoundation.org/news/analysis/why-is-crypto-up-today-bitcoin-hits-71k-as-ethereum-surges-past-2300/"
-        },
-        {
-          "title": "Why Are Crypto Prices Surging Today? Bitcoin Reclaims $68K as Liquidity and ETF Inflows Boost Market",
-          "source": "Altcoin Buzz",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WOFlDMWVqNEJ1NVBTX0U0elhES2tlUlJDb1BzdkZ1cWhjRnJMN0cyY3dDYmR3WUxZWTlpSWRpa1FDdTdjdnN2UjYtQnhVVHRiUmJjejBKYnVrNTNQRVJtSHBfWldBZUxGRHlyTkc4MA?oc=5",
-          "published_at": "2026-08-19T18:40:18+00:00",
-          "article_summary": null,
-          "article_context": null,
-          "article_summary_original": null,
-          "article_context_original": null,
-          "translation_ok": null,
-          "context": null,
-          "context_mode": "title_only"
-        }
-      ]
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Bitcoin+Ethereum+ETF+crypto+regulation+market&hl=en-US&gl=US&ceid=US%3Aen"
     },
     {
       "label": "Emtia / Jeopolitik",
       "query": "oil gold commodities geopolitics tariffs",
-      "items": []
+      "items": [],
+      "error": "503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=oil+gold+commodities+geopolitics+tariffs&hl=en-US&gl=US&ceid=US%3Aen"
     }
   ],
   "recency_hours": 72,
-  "headline_count": 12,
-  "article_context_count": 6,
-  "translated_count": 6,
+  "headline_count": 0,
+  "article_context_count": 0,
+  "translated_count": 0,
   "language": "tr",
   "method": "Google News RSS -> URL decoder -> gerçek yayıncı sayfası -> yorumsuz extractive özet -> Türkçe çeviri; uzun bağlam ayrı alan.",
-  "generated_at": "2026-08-22T08:41:38.359644+00:00"
+  "generated_at": "2026-08-22T09:04:20.391189+00:00"
 }
