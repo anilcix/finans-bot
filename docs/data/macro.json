@@ -10266,8 +10266,8 @@
       },
       {
         "date": "2026-08-22",
-        "value": 176.3235418607375,
-        "raw": 77213.65625
+        "value": 176.12289013064483,
+        "raw": 77125.7890625
       }
     ]
   },
@@ -10518,5 +10518,5 @@
     }
   ],
   "backtest_note": "Geçmiş skor bugünkü revize edilmiş FRED serileriyle yaklaşık hesaplanır; gerçek vintage/point-in-time backtest değildir.",
-  "generated_at": "2026-08-22T13:17:03.952249+00:00"
+  "generated_at": "2026-08-22T13:20:48.872956+00:00"
 }
