@@ -1,48 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "RLUSD",
-      "name": "Ripple USD",
-      "coingecko_id": "ripple-usd",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "RLUSDUSDT",
-      "price": 1.0,
-      "change_24h": 0,
-      "volume_zscore_10m": 2.9831682783675175,
-      "volume_10m_usd": 4662569.835700001,
-      "volume_mean_10m_usd": 919401.91599,
-      "buyer_share_pct": 97.543299996861,
-      "taker_buy_10m_usd": 4548024.4824,
-      "taker_sell_10m_usd": 114545.35330000054,
-      "spot_delta_10m_usd": 4433479.1291,
-      "price_change_10m_pct": 0.0,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787382600000,
-          "delta_usd": 621501.637,
-          "green": true
-        },
-        {
-          "ts": 1787383200000,
-          "delta_usd": 528218.4942,
-          "green": true
-        },
-        {
-          "ts": 1787383800000,
-          "delta_usd": 4433479.1291,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 3,
-      "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 5583199.260299999,
-      "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 8.787498278053617,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T07:30:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -53,10 +10,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T07:40:49.405881+00:00"
+  "generated_at": "2026-08-22T08:01:54.118115+00:00"
 }
