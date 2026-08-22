@@ -1,48 +1,5 @@
 {
-  "movers": [
-    {
-      "symbol": "JUP",
-      "name": "Jupiter",
-      "coingecko_id": "jupiter-exchange-solana",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "JUPUSDT",
-      "price": 0.203391,
-      "change_24h": 1.5,
-      "volume_zscore_10m": 3.231277688324859,
-      "volume_10m_usd": 86541.51019999999,
-      "volume_mean_10m_usd": 27110.993564666667,
-      "buyer_share_pct": 90.6586708374775,
-      "taker_buy_10m_usd": 78457.38287,
-      "taker_sell_10m_usd": 8084.127329999988,
-      "spot_delta_10m_usd": 70373.25554000001,
-      "price_change_10m_pct": 0.0,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787394600000,
-          "delta_usd": -986.1900199999982,
-          "green": false
-        },
-        {
-          "ts": 1787395200000,
-          "delta_usd": 1344.3319899999988,
-          "green": true
-        },
-        {
-          "ts": 1787395800000,
-          "delta_usd": 70373.25554000001,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 70731.39751000001,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 7.997144772072609,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T10:50:00+00:00"
-    }
-  ],
+  "movers": [],
   "window": "10m",
   "rule": "Top 200 → son tamamlanmış 10dk hacim Z-score >= 2.0 + taker alıcı payı >= %55 + Spot CVD delta > 0",
   "source": "Binance Spot public market-data-only API",
@@ -53,10 +10,10 @@
     "binance_spot_matched": 103,
     "scanned": 103,
     "failed": 0,
-    "signal_count_before_cap": 1,
+    "signal_count_before_cap": 0,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T11:00:19.328453+00:00"
+  "generated_at": "2026-08-22T11:30:44.834469+00:00"
 }
