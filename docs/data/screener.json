@@ -1,70 +1,23 @@
 {
   "movers": [
     {
-      "symbol": "THETA",
-      "name": "Theta Network",
-      "coingecko_id": "theta-token",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "THETAUSDT",
-      "price": 0.19089,
-      "change_24h": -0.1,
-      "volume_zscore_10m": 5.363251017669189,
-      "volume_10m_usd": 34895.31043,
-      "volume_mean_10m_usd": 6011.930790333333,
-      "buyer_share_pct": 66.09707314760233,
-      "taker_buy_10m_usd": 23064.778860000002,
-      "taker_sell_10m_usd": 11830.531569999996,
-      "spot_delta_10m_usd": 11234.247290000007,
-      "price_change_10m_pct": 0.7919746568109787,
-      "price_candle_green": true,
-      "cvd_last3": [
-        {
-          "ts": 1787436600000,
-          "delta_usd": -221.08051000000023,
-          "green": false
-        },
-        {
-          "ts": 1787437200000,
-          "delta_usd": 714.8930399999999,
-          "green": true
-        },
-        {
-          "ts": 1787437800000,
-          "delta_usd": 11234.247290000007,
-          "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 11728.059820000006,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 7.672958332429422,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T22:30:00+00:00"
-    },
-    {
       "symbol": "BTC",
       "name": "Bitcoin",
       "coingecko_id": "bitcoin",
       "exchange": "Binance Spot",
       "exchange_symbol": "BTCUSDT",
-      "price": 77005,
+      "price": 77083,
       "change_24h": -0.7,
-      "volume_zscore_10m": 3.1728571054866683,
-      "volume_10m_usd": 12856792.4503777,
-      "volume_mean_10m_usd": 4833432.32493304,
-      "buyer_share_pct": 64.64604062835309,
-      "taker_buy_10m_usd": 8311407.2709742,
-      "taker_sell_10m_usd": 4545385.179403501,
-      "spot_delta_10m_usd": 3766022.0915706996,
-      "price_change_10m_pct": -0.08593320986951536,
-      "price_candle_green": false,
+      "volume_zscore_10m": 5.5756870550456945,
+      "volume_10m_usd": 21204568.2511079,
+      "volume_mean_10m_usd": 5173473.48139049,
+      "buyer_share_pct": 58.50226802470997,
+      "taker_buy_10m_usd": 12405153.3517457,
+      "taker_sell_10m_usd": 8799414.8993622,
+      "spot_delta_10m_usd": 3605738.4523834996,
+      "price_change_10m_pct": 0.08278557548706544,
+      "price_candle_green": true,
       "cvd_last3": [
-        {
-          "ts": 1787436600000,
-          "delta_usd": -56115.79960620031,
-          "green": false
-        },
         {
           "ts": 1787437200000,
           "delta_usd": 55997.309571499005,
@@ -74,57 +27,20 @@
           "ts": 1787437800000,
           "delta_usd": 3766022.0915706996,
           "green": true
-        }
-      ],
-      "cvd_green_count_3": 2,
-      "cvd_green_streak": 2,
-      "cvd_30m_delta_usd": 3765903.6015359983,
-      "cvd_note": "✅ Spot CVD son 2×10dk mum yeşil",
-      "signal_score": 5.337461168321978,
-      "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T22:30:00+00:00"
-    },
-    {
-      "symbol": "ENA",
-      "name": "Ethena",
-      "coingecko_id": "ethena",
-      "exchange": "Binance Spot",
-      "exchange_symbol": "ENAUSDT",
-      "price": 0.159274,
-      "change_24h": 11.0,
-      "volume_zscore_10m": 2.7823004150655413,
-      "volume_10m_usd": 1242016.141193,
-      "volume_mean_10m_usd": 349613.1583618,
-      "buyer_share_pct": 57.28064733519823,
-      "taker_buy_10m_usd": 711434.885683,
-      "taker_sell_10m_usd": 530581.2555099999,
-      "spot_delta_10m_usd": 180853.63017300004,
-      "price_change_10m_pct": -1.1187072715972635,
-      "price_candle_green": false,
-      "cvd_last3": [
-        {
-          "ts": 1787436600000,
-          "delta_usd": 140432.23982399993,
-          "green": true
         },
         {
-          "ts": 1787437200000,
-          "delta_usd": 554480.331665,
-          "green": true
-        },
-        {
-          "ts": 1787437800000,
-          "delta_usd": 180853.63017300004,
+          "ts": 1787438400000,
+          "delta_usd": 3605738.4523834996,
           "green": true
         }
       ],
       "cvd_green_count_3": 3,
       "cvd_green_streak": 3,
-      "cvd_30m_delta_usd": 875766.2016619999,
+      "cvd_30m_delta_usd": 7427757.853525698,
       "cvd_note": "✅ Spot CVD son 3×10dk mum yeşil",
-      "signal_score": 4.5603651485853645,
+      "signal_score": 7.475913857516692,
       "signal": "Yüksek alıcılı hacim",
-      "signal_time_utc": "2026-08-22T22:30:00+00:00"
+      "signal_time_utc": "2026-08-22T22:40:00+00:00"
     }
   ],
   "window": "10m",
@@ -137,10 +53,10 @@
     "binance_spot_matched": 104,
     "scanned": 104,
     "failed": 0,
-    "signal_count_before_cap": 3,
+    "signal_count_before_cap": 1,
     "source_endpoint": "https://data-api.binance.vision"
   },
   "method": "5dk Binance spot klines iki mum birleştirilerek 10dk yapılır. Quote volume Z-score önceki 30 adet 10dk mumdan; Spot CVD delta taker-buy quote volume - taker-sell quote volume olarak hesaplanır.",
   "cvd_rule": "Son 3 tamamlanmış 10dk CVD mumunda art arda son 2 veya 3 pozitif delta varsa sinyal yanında teyit notu gösterilir.",
-  "generated_at": "2026-08-22T22:39:30.840589+00:00"
+  "generated_at": "2026-08-22T22:56:09.512857+00:00"
 }
